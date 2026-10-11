@@ -1,11 +1,12 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.43**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.44**. Research revisions and source/build versions below describe their original scope.
 
 Current canonical locations:
 
 - [UI catalog and October 11 follow-ups](ui/README.md).
 - [A-Life/Warfare C++ and Lua catalog](alife/README.md).
+- [Focused faction and relation contracts](factions/relations-api.md).
 - [Shared API entry template](templates/api-entry.md).
 - [Research workflow](../08-research/workflow.md) and [repository layout](../08-research/repository-layout.md).
 

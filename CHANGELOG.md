@@ -1,6 +1,13 @@
 # ADR changelog
 
-> ADR document set: **v0.1.43**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.44**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.44 — 2026-10-11 — Faction and relation foundations
+
+- Begin the faction/relations subsystem with FAC-01: configured identity, directed goodwill, five-term attitude, threshold/virtual relation paths and focused Lua contracts.
+- Distinguish object versus ID-based general-goodwill queries, personal relation presets and partial force-set compensation. Add an 18-file evidence ledger.
+- Preserve A-Life/Warfare findings and completion boundaries. Track faction persistence/reset/cleanup as the next source task; runtime stays deferred.
+- Verify source citations, repository navigation/version consistency, prior evidence/research preservation and publication. See [verification](08-research/verification-2026-10-11-v0.1.44.md).
 
 ## v0.1.43 — 2026-10-11 — A-Life/Warfare controls and final available-source audit
 

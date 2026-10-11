@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.43**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.44**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.43.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.44.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -24,6 +24,8 @@ Records retain their research revision and source baseline; those are distinct f
 - [UI architecture: Lua ↔ native XML ↔ native widgets — Part D](01-engine/ui-lua-native-integration.md)
 
 ## 02-lua-api
+
+- [Focused faction and relation Lua contracts](02-lua-api/factions/relations-api.md)
 
 - [A-Life / Warfare C++ and Lua interface catalog](02-lua-api/alife/README.md)
 - [Native class and Lua name map](02-lua-api/alife/class-map.md)
@@ -73,6 +75,8 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 04-game-systems
 
+- [Native faction identity and relations](04-game-systems/factions/native-relations.md)
+
 - [Native configuration controls](04-game-systems/alife/configuration-controls.md)
 - [Warfare policy controls](04-game-systems/warfare/policy-controls.md)
 - [A-Life / Warfare completion status](04-game-systems/alife/source-completion-status.md)
@@ -99,9 +103,12 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 08-research
 
+- [FAC-01 native faction/relation queries](08-research/investigations/2026-10-11-FAC-01-native-relations.md)
+- [Current verification — v0.1.44](08-research/verification-2026-10-11-v0.1.44.md)
+
 - [ALIFE-11 configuration investigation](08-research/investigations/2026-10-11-ALIFE-11-configuration-controls.md)
 - [WAR-003 policy-control investigation](08-research/investigations/2026-10-11-WAR-003-configuration-policy-controls.md)
-- [Current available-source audit — v0.1.43](08-research/verification-2026-10-11-v0.1.43.md)
+- [Available-source audit — v0.1.43](08-research/verification-2026-10-11-v0.1.43.md)
 
 - [ALIFE-10 synthesis record](08-research/investigations/2026-10-11-ALIFE-10-lifecycle-callback-consolidation.md)
 - [ALIFE-10 verification — v0.1.42](08-research/verification-2026-10-11-v0.1.42.md)
@@ -156,6 +163,8 @@ Records retain their research revision and source baseline; those are distinct f
 - [Capture the Zone integration](09-projects/capture-the-zone/README.md)
 
 ## evidence
+
+- [Faction and relation evidence](evidence/factions/README.md)
 
 - [A-Life source evidence](evidence/alife/README.md)
 - [Evidence manifest](evidence/manifest.md)

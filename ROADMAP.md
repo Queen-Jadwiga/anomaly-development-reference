@@ -1,6 +1,6 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.43**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.44**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source status
 
@@ -8,7 +8,7 @@ UI/PDA is development-reference ready within the documented source scope. A-Life
 
 ## Next source work
 
-The planned consolidation from available snapshots is complete. Continue effective A-Life/Warfare closure when the winning scripts and relevant configuration producers become available; see the [completion status and stopping rule](04-game-systems/alife/source-completion-status.md). Another ADR subsystem can be researched independently. Runtime verification remains deferred.
+The planned consolidation from available snapshots is complete. Continue effective A-Life/Warfare closure when the winning scripts and relevant configuration producers become available; see the [completion status and stopping rule](04-game-systems/alife/source-completion-status.md). Factions/relations is now the active independent subsystem. FAC-01 native query foundations are complete within scope; next trace relation persistence/reset and ID cleanup, then character-community mutation and action-driven updates. Supplied Warfare consumers and installed diplomacy remain later integration work. Runtime verification remains deferred.
 
 <a id="current-a-lifewarfare-remaining-scope--v0138"></a>
 
@@ -34,6 +34,18 @@ This is the current consolidated checklist for the agreed **CtZ-focused developm
 
 Effective source requirements are listed in [WAR-002a](08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md). Selected optional entity/AI internals and exhaustive unrelated API coverage are not prerequisites. Source-level stopping point: close the effective script chains, consolidate and audit, then mark this portion development-reference ready with runtime pending. No runtime test is required during the current source phase.
 
+## Factions / relations current scope
+
+- [x] FAC-01: [native identity/goodwill/attitude foundations](04-game-systems/factions/native-relations.md) and [focused Lua contracts](02-lua-api/factions/relations-api.md).
+- [ ] FAC-02: native relation serialization, reset/reload and object-ID cleanup boundaries.
+- [ ] Community mutation: client/server identity, team/group and downstream AI/strategic effects.
+- [ ] Action-driven goodwill: attack/kill/help pathways, rank/reputation contributions and callbacks.
+- [ ] Supplied Warfare consumers and effective GAMMA diplomacy/configuration/override order.
+- [ ] Practical consolidation and final bounded source audit after those investigations.
+- [ ] Runtime verification, deferred until explicitly resumed.
+
+Subsystem remains partial; configured faction indexes, numeric values and installed relations are not inferred from the native source.
+
 ## UI/PDA remaining work
 
 - [ ] Optional exhaustive binding/overload, converter, inherited emitter and build/configuration coverage beyond the scoped inventories.
@@ -42,4 +54,4 @@ Effective source requirements are listed in [WAR-002a](08-research/investigation
 
 ## Maintenance
 
-Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.43.md). Historical unchecked boxes are not the current backlog.
+Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.44.md). Historical unchecked boxes are not the current backlog.
