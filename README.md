@@ -14,6 +14,12 @@ document ownership and lifecycle rules, and keep unknowns visible rather than gu
 
 It is **not** the game mod itself, nor a replacement for the X-Ray source or official documentation.
 
+## Capture the Zone mod
+
+The [Capture the Zone (CtZ) repository](https://github.com/Queen-Jadwiga/capture-the-zone)
+contains the mod files for **Alpha 0.0.5j — Revised Fixed Bars / Advantage Marker**,
+with its original build documentation and assets.
+
 ## Recommended quick review
 
 If you only have a few minutes, start here:
