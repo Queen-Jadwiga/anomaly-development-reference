@@ -1,6 +1,6 @@
 # Simulator Lua API contracts
 
-> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
 
 [Catalog conventions](README.md). Source: `src/xrGame/alife_simulator_script.cpp`, plus native update/combat declarations in the evidence ledger. The following signatures omit the bound C++ `self` receiver and retain native ID types. `LPCSTR` denotes string input; `Fvector` denotes a vector. Colon-call notation is descriptive, not a runnable sample.
 
@@ -60,3 +60,7 @@ Definitions: simulator script lines 426–442,492–641; switch implementation i
 Restriction exports include monster-pointer + restrictor-ID add/remove helpers, and `remove_all_restrictions(id, ERestrictorTypes)`. `kill_entity` has the native monster + graph vertex + schedulable form and two helper overloads omitting schedulable/graph vertex respectively. Information exports include `has_info`, `dont_has_info`, `give_info`, `disable_info` and `iterate_info`; the helper signatures are recorded in [the declaration CSV](binding-helper-declarations-oct11.csv). These are mapped interfaces, not a completed restriction/death/info policy audit.
 
 Commented iterator-object exports remain absent from this projected registration; the active functor iteration/table methods are not interchangeable with those commented names. The source also binds the without-actor iterator's `next`/`__call` to the base iterator member pointer literally. The inventory preserves that expression without diagnosing or repairing it.
+
+## Lifecycle context
+
+Read the [lifecycle/state reference](../../04-game-systems/alife/lifecycle-state-reference.md) and [callback phases](../../04-game-systems/alife/callback-phase-reference.md) before applying these contracts across spawn, switching, load or teardown. Runtime verification remains deferred.

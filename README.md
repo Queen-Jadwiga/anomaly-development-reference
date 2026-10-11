@@ -1,11 +1,11 @@
 # Anomaly Development Reference (ADR)
 
-> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
 
 **Source-backed modding research for S.T.A.L.K.E.R. Anomaly / X-Ray Monolith / Modded Exes**
 
 > **Work in progress — independent research, not official engine documentation.**
-> Current ADR revision: **v0.1.41** (11 October 2026). Primary research source: the
+> Current ADR revision: **v0.1.42** (11 October 2026). Primary research source: the
 > **2026.10.11** X-Ray Monolith source archive. Runtime behavior in GAMMA is **not yet validated**.
 
 ## What is this?
@@ -32,15 +32,17 @@ If you only have a few minutes, start here:
 | [C-04 — XML factory return ownership](08-research/investigations/2026-10-11-C04-xml-factory-return-ownership.md) | How XML-created control pointers are owned and returned |
 | [UI construction & ownership](03-ui-pda/ui-construction-ownership.md) | Practical consequences for XML-created controls and native parent ownership |
 | [Dynamic PDA tabs](03-ui-pda/dynamic-pda-tabs-oct11.md) | New native-backed PDA tab registration and Lua integration |
+| [A-Life lifecycle/state reference](04-game-systems/alife/lifecycle-state-reference.md) | Persistent server, group and temporary client representations |
+| [A-Life callback phases](04-game-systems/alife/callback-phase-reference.md) | What each observation point establishes and what remains pending |
 | [PDA subdialog lifecycle](03-ui-pda/pda-subdialog-lifecycle-oct11.md) | Rebuild, selection, and content synchronization |
-| [Current verification report](08-research/verification-2026-10-11-v0.1.41.md) | What was checked and what was not |
+| [Current verification report](08-research/verification-2026-10-11-v0.1.42.md) | What was checked and what was not |
 | [Full research index](INDEX.md) | Every investigated area and historic records |
 
 ## Research status
 
 - **UI/PDA:** development-reference ready at source level; native ownership, XML/DXML,
   widget exports, input, fonts, scaling, rendering, and dynamic tabs investigated.
-- **A-Life / Warfare:** [identity/lifecycle](08-research/investigations/2026-10-11-ALIFE-01-identity-lifecycle.md) and [creation/release/callback ordering](08-research/investigations/2026-10-11-ALIFE-02-creation-registration-release.md) documented; [supplied Warfare policy and offline combat](08-research/investigations/2026-10-11-WAR-002b-policy-offline-combat.md) traced. [Save/load and CtZ identity reconstruction](08-research/investigations/2026-10-11-ALIFE-04-save-load-identity.md) traced. [Native offline scheduling and brains](08-research/investigations/2026-10-11-ALIFE-05-offline-scheduling-brains.md) traced. [Graph location and online realization](08-research/investigations/2026-10-11-ALIFE-06-graph-online-realization.md) traced. [Client-to-server position synchronization and offline teardown](08-research/investigations/2026-10-11-ALIFE-07-client-server-offline-teardown.md) traced. [Native switching eligibility and forced states](08-research/investigations/2026-10-11-ALIFE-08-switching-eligibility.md) traced. [C++/Lua class and interface catalog](02-lua-api/alife/README.md) added. Active GAMMA profile reconciliation remains open.
+- **A-Life / Warfare:** [identity/lifecycle](08-research/investigations/2026-10-11-ALIFE-01-identity-lifecycle.md) and [creation/release/callback ordering](08-research/investigations/2026-10-11-ALIFE-02-creation-registration-release.md) documented; [supplied Warfare policy and offline combat](08-research/investigations/2026-10-11-WAR-002b-policy-offline-combat.md) traced. [Save/load and CtZ identity reconstruction](08-research/investigations/2026-10-11-ALIFE-04-save-load-identity.md) traced. [Native offline scheduling and brains](08-research/investigations/2026-10-11-ALIFE-05-offline-scheduling-brains.md) traced. [Graph location and online realization](08-research/investigations/2026-10-11-ALIFE-06-graph-online-realization.md) traced. [Client-to-server position synchronization and offline teardown](08-research/investigations/2026-10-11-ALIFE-07-client-server-offline-teardown.md) traced. [Native switching eligibility and forced states](08-research/investigations/2026-10-11-ALIFE-08-switching-eligibility.md) traced. [C++/Lua class and interface catalog](02-lua-api/alife/README.md) added. [Lifecycle/state](04-game-systems/alife/lifecycle-state-reference.md) and [callback-phase](04-game-systems/alife/callback-phase-reference.md) references consolidate the native/bundled-source paths. Active GAMMA profile reconciliation remains open.
 - **October 11 executable in GAMMA:** candidate target; runtime compatibility and behavior
   are unverified.
 - **Source-level limits:** some exhaustive export, indirect event, configuration, and

@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.41.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.42.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -73,6 +73,9 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 04-game-systems
 
+- [A-Life lifecycle/state reference](04-game-systems/alife/lifecycle-state-reference.md)
+- [A-Life callback phases](04-game-systems/alife/callback-phase-reference.md)
+
 - [A-Life reference](04-game-systems/alife/README.md)
 - [Factions](04-game-systems/factions/README.md)
 - [Persistence](04-game-systems/persistence/README.md)
@@ -92,7 +95,10 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 08-research
 
-- [Current verification — v0.1.41](08-research/verification-2026-10-11-v0.1.41.md)
+- [ALIFE-10 synthesis record](08-research/investigations/2026-10-11-ALIFE-10-lifecycle-callback-consolidation.md)
+- [Current ALIFE-10 verification — v0.1.42](08-research/verification-2026-10-11-v0.1.42.md)
+
+- [Canonical-tree cleanup verification — v0.1.41](08-research/verification-2026-10-11-v0.1.41.md)
 
 - [Update scope — v0.1.12](08-research/2026-10-11-update-scope.md)
 - [Evidence and verification policy](08-research/evidence-policy.md)

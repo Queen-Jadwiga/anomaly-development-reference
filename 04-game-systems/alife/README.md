@@ -1,8 +1,14 @@
 # A-Life reference
 
-> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.41.** First source pass established server identity, native squad membership, selected online/offline paths, and the boundary with Lua smart assignment. Installed GAMMA behavior and runtime tests remain deferred.
+## Current practical references
+
+- [Lifecycle/state map](lifecycle-state-reference.md): representations, transitions, position and persistence boundaries.
+- [Callback phases](callback-phase-reference.md): observation/readiness contracts and API implications.
+- [ALIFE-10 synthesis and scope](../../08-research/investigations/2026-10-11-ALIFE-10-lifecycle-callback-consolidation.md).
+
+**Current revision: v0.1.42.** First source pass established server identity, native squad membership, selected online/offline paths, and the boundary with Lua smart assignment. Installed GAMMA behavior and runtime tests remain deferred.
 
 - [ALIFE-01 — Identity, squad membership and lifecycle](../../08-research/investigations/2026-10-11-ALIFE-01-identity-lifecycle.md)
 - [October 11 source evidence ledger](../../evidence/alife/source-evidence-oct11.csv)

@@ -1,6 +1,6 @@
 # C-03 — Luabind ownership transfer versus native UI AutoDelete
 
-> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
 
 **Source baseline:** `xray-monolith-2026.10.11.zip` (uploaded source). **Disposition:** source research complete for the narrowly defined comparison; runtime validation deferred. **Question:** What does `adopt<2>()` do to a Lua-owned C++ UI object, and does native `AutoDelete` provide equivalent Lua-ownership transfer? **Scope:** October 11 Luabind sources and the named UI attachment bindings only. This is not a generic lifetime guarantee for every Lua userdata or every XML-created UI control.
 

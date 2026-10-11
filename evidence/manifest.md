@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -11,6 +11,7 @@
 | ZIP142 | `warfare a-life overhaul gamma.zip`, SHA-256 `566739c68b4597ab417e98ee9e3ce11858f3d42ed29a39d7e3c39ed2d76443a8` | Earlier supplied package comparison |
 
 - [October 11 baseline record](../00-environment/source-baseline-2026-10-11.md).
+- [ALIFE-10 lifecycle/callback synthesis ledger](alife/lifecycle-callbacks-2026-10-11.csv): ENGINE1011; 47 entries, 39 source files; original ledger provenance retained.
 - [A-Life ledgers](alife/README.md).
 - [Warfare ledgers and package comparisons](warfare/README.md).
 - [New claim-ledger schema](templates/source-evidence.csv).

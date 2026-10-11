@@ -1,6 +1,13 @@
 # ADR changelog
 
-> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.42 — 2026-10-11 — A-Life lifecycle and callback reference
+
+- Add practical lifecycle/state and callback-phase pages covering persistent server/group/client representations, reconstruction, native/bundled observation order and teardown/release distinctions.
+- Add ALIFE-10 synthesis record and 47-entry source ledger over 39 files, linking the completed investigations and API contracts.
+- Mark only this consolidation task complete; effective script chains, configuration/final audit and runtime work remain open. Runtime verification stays deferred until the user resumes it.
+- Verify source hashes/ranges/symbols, unchanged prior datasets/findings, navigation/version consistency and published tree; see [verification](08-research/verification-2026-10-11-v0.1.42.md).
 
 ## v0.1.41 — 2026-10-11 — Canonical-tree cleanup and version audit
 

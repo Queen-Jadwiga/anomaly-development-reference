@@ -1,8 +1,10 @@
 # Warfare subsystem
 
-> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.41.**
+**Current revision: v0.1.42.**
+
+Use the [A-Life lifecycle/state map](../alife/lifecycle-state-reference.md) and [callback-phase reference](../alife/callback-phase-reference.md) for native/bundled representation and readiness boundaries. Effective Warfare policy and installed callback order remain separate open work.
 
 **Current evidence:** Capture the Zone is intended to extend Anomaly/GAMMA Warfare, including PDA strategy display and tracking faction control.
 

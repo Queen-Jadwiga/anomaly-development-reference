@@ -1,6 +1,6 @@
 # A-Life / Warfare C++ and Lua interface catalog
 
-> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.39 · ALIFE-09 · 11 October 2026 · source inventory and focused contracts; runtime deferred.**
 
@@ -43,3 +43,7 @@ Rebuild with Python 3 and `cpp` from a directory containing `engine-source/xray-
 ENGINE1011 archive SHA-256: `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. BETA150 archive SHA-256: `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d`. Exact upstream engine commit, executable correspondence and installed script winners remain unverified. [Package provenance](../../08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md).
 
 This closes the scoped interface-mapping pass. Effective smart/board, death/safe-release and persistence chains remain open. See [current roadmap](../../ROADMAP.md). Runtime verification remains deferred; no gameplay change or license is introduced.
+
+## Lifecycle context
+
+Read the [lifecycle/state reference](../../04-game-systems/alife/lifecycle-state-reference.md) and [callback phases](../../04-game-systems/alife/callback-phase-reference.md) before applying these contracts across spawn, switching, load or teardown. Runtime verification remains deferred.

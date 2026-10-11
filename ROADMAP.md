@@ -1,14 +1,14 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source status
 
-UI/PDA is development-reference ready within the documented source scope. A-Life/Warfare native foundations and the scoped interface catalog are complete; effective script chains and consolidation remain open. All in-game runtime verification is deferred.
+UI/PDA is development-reference ready within the documented source scope. A-Life/Warfare native foundations and the scoped interface catalog are complete; lifecycle/callback references are consolidated within their source scope. Effective script chains and remaining configuration/final audit work remain open. All in-game runtime verification is deferred.
 
 ## Next available source task
 
-Consolidate the A-Life lifecycle/state and callback-phase references, linking their API contracts and evidence while marking missing effective-script edges.
+Build a CtZ-focused configuration and policy-control reference: native scheduling/switching settings, supplied Warfare options, their producers/consumers and override boundaries. Then perform the remaining cross-reference/claim audit. Effective installed values and missing core script chains remain open.
 
 <a id="current-a-lifewarfare-remaining-scope--v0138"></a>
 
@@ -28,7 +28,8 @@ This is the current consolidated checklist for the agreed **CtZ-focused developm
 - [ ] Persistence integration: effective save/load order and storage wrappers, restoration of strategic state, CtZ reconciliation and campaign/ID safety. The native/CtZ source pass is complete within its documented boundary.
 - [x] ALIFE-09: scoped C++/Lua class map, binding inventory, focused API contracts and script declaration catalog.
 - [x] Workflow, canonical folder structure and current navigation audit.
-- [ ] Consolidation: lifecycle/state and callback phase maps linked to API contracts, configuration references and final source-claim audit. Can proceed with available sources while retaining unresolved edges.
+- [x] ALIFE-10: [lifecycle/state map](04-game-systems/alife/lifecycle-state-reference.md) and [callback observation contracts](04-game-systems/alife/callback-phase-reference.md), with linked APIs and scoped evidence.
+- [ ] Remaining consolidation: configuration/policy-control reference and final source-claim audit; retain unresolved effective-script edges.
 - [ ] Runtime checks, deferred: switching positions and callbacks, assignment versus arrival, ownership changes, online/offline deaths and cleanup, save/load/CtZ restoration and level changes. Confirm target executable/profile correspondence.
 
 Effective source requirements are listed in [WAR-002a](08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md). Selected optional entity/AI internals and exhaustive unrelated API coverage are not prerequisites. Source-level stopping point: close the effective script chains, consolidate and audit, then mark this portion development-reference ready with runtime pending. No runtime test is required during the current source phase.
@@ -41,4 +42,4 @@ Effective source requirements are listed in [WAR-002a](08-research/investigation
 
 ## Maintenance
 
-Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.41.md). Historical unchecked boxes are not the current backlog.
+Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.42.md). Historical unchecked boxes are not the current backlog.

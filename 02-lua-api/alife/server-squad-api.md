@@ -1,6 +1,6 @@
 # Server entity, squad and movement API
 
-> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
 
 [Catalog conventions](README.md). These are selected checked contracts. The complete scoped occurrence inventory, with overload expressions and evaluated guards, is in [the bindings CSV](native-lua-bindings-oct11.csv).
 
@@ -78,3 +78,7 @@ Monster helper exports `clear_smart_terrain`, `smart_terrain_task_activate` and 
 Sources: the corresponding `alife_*_script.cpp` registrars and native headers in the ledger. `actual` and `completed` are exported on movement/detail/patrol managers; detail also exports `failed`. Their meanings differ: movement-manager completion alone does not prove physical arrival or Warfare ownership. [ALIFE-05](../../08-research/investigations/2026-10-11-ALIFE-05-offline-scheduling-brains.md) explains the source implementations and task handoff.
 
 Do not infer writable graph/node fields from task accessors or complete board assignment from a movement target. The catalog maps mechanisms; effective strategic policy and in-game verification remain separate.
+
+## Lifecycle context
+
+Read the [lifecycle/state reference](../../04-game-systems/alife/lifecycle-state-reference.md) and [callback phases](../../04-game-systems/alife/callback-phase-reference.md) before applying these contracts across spawn, switching, load or teardown. Runtime verification remains deferred.
