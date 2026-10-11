@@ -176,3 +176,10 @@ Bounded source pass complete; installed overrides/configuration and runtime rema
 - [27-file source evidence ledger](04-game-systems/alife/graph-online-realization-evidence-oct11.csv).
 
 Bounded graph-to-client source pass complete. Effective profile/runtime deferred. Next: online-to-server synchronization and offline teardown.
+
+## v0.1.37 — Position synchronization and offline teardown
+
+- [ALIFE-07: sampled client updates, server state, save channel and destroy callback phases](04-game-systems/alife/client-server-offline-teardown-oct11.md).
+- [25-file hash and line evidence ledger](04-game-systems/alife/client-server-offline-evidence-oct11.csv).
+
+Bounded source task complete; effective profile and runtime deferred. Next: native switching eligibility, distance hysteresis and forced-state overrides.

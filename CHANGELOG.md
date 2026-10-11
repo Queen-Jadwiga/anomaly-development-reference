@@ -189,3 +189,9 @@ Added four narrowly evidenced UI system records (dynamic PDA tabs, DXML hooks, i
 - Added ALIFE-06 and a 27-file hash/line ledger tracing graph/member propagation, online member realization, queued client spawn, position corrections and callback readiness phases.
 - Documented supplied offline bookmark cleanup patch, commented after-spawn listener example, build-branch differences and native map position authority.
 - Updated navigation, preserving prior research and CtZ link. Effective profile and runtime remain deferred. No gameplay edits or license added.
+
+## v0.1.37 — 2026-10-11 — Client position synchronization and offline teardown
+
+- Added ALIFE-07 with a 25-file hash/line ledger, tracing sampled exports, server position/graph state, independent save packets and the absence of an explicit final-snapshot barrier in the inspected offline route.
+- Documented persistent identity, client-data clearing exceptions, queued destruction and generic/binder/bookmark callback ordering.
+- Updated navigation; preserved earlier research and CtZ link. Installed overrides and runtime remain deferred. No gameplay changes or license added.

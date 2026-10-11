@@ -231,3 +231,13 @@ See [ALIFE-05](04-game-systems/alife/offline-scheduling-brains-oct11.md). Earlie
 - [ ] Installed binders/startup overrides, build settings and all runtime testing remain deferred.
 
 See [ALIFE-06](04-game-systems/alife/graph-online-realization-oct11.md). This closes the bounded source task; earlier next-step entries are historical.
+
+## v0.1.37 — Client state return and offline teardown
+
+- [x] Trace sampled creature exports, server UPDATE_Read and separate graph synchronization.
+- [x] Distinguish M_UPDATE from M_SAVE_PACKET and explicit save preparation from ordinary offline removal.
+- [x] Trace persistent identity, client-data retention policy, deferred client destruction and native/binder/bookmark callback phases.
+- [ ] Next native source pass: switching eligibility, distance hysteresis and forced-state overrides.
+- [ ] Effective profile reconciliation and all runtime tests remain deferred.
+
+See [ALIFE-07](04-game-systems/alife/client-server-offline-teardown-oct11.md). Earlier next-step entries remain historical.
