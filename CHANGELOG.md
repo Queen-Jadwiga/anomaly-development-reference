@@ -208,3 +208,11 @@ Added four narrowly evidenced UI system records (dynamic PDA tabs, DXML hooks, i
 - Added 84 class-registration rows, 1,150 binding rows with overload expressions and two XRGAME_EXPORTS projections, 174 helper declarations and 1,372 Lua function declarations. Counts preserve source occurrences and variants rather than implying unique runtime APIs.
 - Added 73-file evidence ledger and reproducible extractor; checked source origins and byte-for-byte repeatability of all five CSVs.
 - Updated navigation and scope, correcting subsystem roadmap links that traversed above the repository root; retained prior research, CtZ link, effective-profile/build/converter qualifications and runtime deferral. No gameplay change or license added.
+
+## v0.1.40 — 2026-10-11 — Standard workflow and repository layout
+
+- Added repository-wide workflow/layout conventions, contributor/agent guidance and investigation/API/verification/evidence templates.
+- Moved 41 records/datasets/tool paths into canonical investigation, API, evidence and tooling sections; retained 22 Markdown forwarding pages and rewrote repository-relative links. CSV bytes and research conclusions are preserved.
+- Updated API/evidence gateways and stale policy, publishing, tooling and test guidance; documented snapshot hash pins without inventing upstream commits.
+- Added a repository link/anchor checker and moved the A-Life extractor to canonical outputs with explicit source/output roots.
+- Structural/generator verification is recorded in the v0.1.40 report. Effective profile and runtime remain deferred; no gameplay changes or license added.

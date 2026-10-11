@@ -1,15 +1,28 @@
-# Lua API index — pinned source extraction
+# Lua API catalogs
+
+Current canonical locations:
+
+- [UI catalog and October 11 follow-ups](ui/README.md).
+- [A-Life/Warfare C++ and Lua catalog](alife/README.md).
+- [Shared API entry template](templates/api-entry.md).
+- [Research workflow](../08-research/workflow.md) and [repository layout](../08-research/repository-layout.md).
+
+Each record declares its own baseline and scope. An inventory is not an exhaustive ABI or runtime certification. Earlier class-entry content remains historically scoped even after relocation.
+
+## Historical May 15 index — preserved
+
+### Lua API index — pinned source extraction
 
 **Target:** `6a08e0905ce34748ee2904a5e0809f8afd141137` (tag `2026.5.15`). **Scope:** UI binding subset only, *not a complete Lua API*.
 
-- [**CUIWindow**](classes/CUIWindow.md) — 22 registered entries
-- [**CUIScrollView**](classes/CUIScrollView.md) — 11 registered entries
-- [**CUIProgressBar**](classes/CUIProgressBar.md) — 16 registered entries
-- [**CUIStatic**](classes/CUIStatic.md) — 20 registered entries
-- [**CUITextWnd**](classes/CUITextWnd.md) — 15 registered entries
-- [**CUILines**](classes/CUILines.md) — 6 registered entries
+- [**CUIWindow**](ui/classes/CUIWindow.md) — 22 registered entries
+- [**CUIScrollView**](ui/classes/CUIScrollView.md) — 11 registered entries
+- [**CUIProgressBar**](ui/classes/CUIProgressBar.md) — 16 registered entries
+- [**CUIStatic**](ui/classes/CUIStatic.md) — 20 registered entries
+- [**CUITextWnd**](ui/classes/CUITextWnd.md) — 15 registered entries
+- [**CUILines**](ui/classes/CUILines.md) — 6 registered entries
 
-See [machine-readable export index](exports-ui-2026-05-15.csv).
+See [machine-readable export index](ui/exports-ui-2026-05-15.csv).
 
 ## Important caveats
 - Registration proves Lua-visible names in this source revision, not successful operation in GAMMA.
@@ -17,9 +30,9 @@ See [machine-readable export index](exports-ui-2026-05-15.csv).
 - Method argument types, ownership, object states, and overloaded semantics need declaration-level verification.
 
 ## v0.1.4 declaration audit
-- [CUIWindow](classes/CUIWindow.md): selected parameter/result signatures and child ownership.
-- [CUIScrollView](classes/CUIScrollView.md): `AddWindow` parameters and initialization warning.
-- [CUIProgressBar](classes/CUIProgressBar.md): complete listed parameter signatures and confirmed Lua binding mismatch.
+- [CUIWindow](ui/classes/CUIWindow.md): selected parameter/result signatures and child ownership.
+- [CUIScrollView](ui/classes/CUIScrollView.md): `AddWindow` parameters and initialization warning.
+- [CUIProgressBar](ui/classes/CUIProgressBar.md): complete listed parameter signatures and confirmed Lua binding mismatch.
 - [Audit and remaining gaps](signature-audit-v0.1.4.md).
 
 ## ADR v0.1.7

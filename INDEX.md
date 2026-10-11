@@ -15,7 +15,7 @@
 - [Roadmap](ROADMAP.md)
 
 - [May 15 official source baseline](00-environment/source-baseline-2026-05-15.md)
-- [CUIProgressBar research candidate](02-lua-api/classes/CUIProgressBar.md)
+- [CUIProgressBar research candidate](02-lua-api/ui/classes/CUIProgressBar.md)
 - [Source tag investigation](08-research/investigations/2026-10-09-tag-reconstruction.md)
 
 ## Source-extracted API subset (v0.1.3)
@@ -52,7 +52,7 @@
 
 ## ADR v0.1.10 Part A — Lua registration
 - [Luabind and XML bridge audit](02-lua-api/registration-architecture-part-A.md)
-- [CScriptXmlInit class](02-lua-api/classes/CScriptXmlInit.md)
+- [CScriptXmlInit class](02-lua-api/ui/classes/CScriptXmlInit.md)
 - [XML creation call flow](01-engine/lua-xml-bridge-callflow.md)
 - [INV-010: findings and unresolved searches](08-research/investigations/2026-10-09-part-A-registration-audit.md)
 
@@ -116,14 +116,14 @@
 
 ## v0.1.26 UI widget/event export inventory
 - [UI binding survey and pending event questions](03-ui-pda/ui-widget-event-inventory-oct11.md)
-- [Machine-readable binding occurrences](02-lua-api/ui-binding-inventory-oct11.csv)
+- [Machine-readable binding occurrences](02-lua-api/ui/ui-binding-inventory-oct11.csv)
 
 - [UI-06a–d source audit: bindings, events, build reachability, focus](03-ui-pda/ui06a-d-registrations-events-focus-oct11.md) — October 11 source; bounded conclusions and open subquestions.
 
 ## v0.1.28 — UI-06 source follow-ups
 - [Registration, emitters, build inclusion, dialog input](03-ui-pda/ui06-supplementary-registration-emission-build-modal-oct11.md)
-- [Scoped binding-occurrence CSV](02-lua-api/ui06-followup-scoped-def-occurrences.csv)
-- [Direct message emitter CSV](02-lua-api/ui06-followup-message-emitters.csv)
+- [Scoped binding-occurrence CSV](02-lua-api/ui/ui06-followup-scoped-def-occurrences.csv)
+- [Direct message emitter CSV](02-lua-api/ui/ui06-followup-message-emitters.csv)
 
 ## v0.1.29 — UI rendering and source-pass disposition
 - [UI fonts, textures, aspect scaling — source reference](03-ui-pda/ui-rendering-scaling-fonts-textures-oct11.md)
@@ -134,70 +134,81 @@
 
 ## v0.1.31 — A-Life/Warfare source foundation
 
-- [ALIFE-01: server identity, squad membership, online/offline lifecycle](04-game-systems/alife/identity-lifecycle-oct11.md).
-- [Source evidence locations and hashes](04-game-systems/alife/source-evidence-oct11.csv).
-- [WAR-001: CtZ integration boundary and effective-profile prerequisites](04-game-systems/warfare/ctz-integration-boundary-oct11.md).
+- [ALIFE-01: server identity, squad membership, online/offline lifecycle](08-research/investigations/2026-10-11-ALIFE-01-identity-lifecycle.md).
+- [Source evidence locations and hashes](evidence/alife/source-evidence-oct11.csv).
+- [WAR-001: CtZ integration boundary and effective-profile prerequisites](08-research/investigations/2026-10-11-WAR-001-ctz-integration-boundary.md).
 
 Runtime remains deferred. Next source work: creation/release and callback ordering; effective board/smart/Warfare implementations remain separately open.
 
 ## v0.1.32 — Native A-Life creation/release and callback phases
 
-- [ALIFE-02: creation, registration, release and callback ordering](04-game-systems/alife/creation-registration-release-oct11.md).
-- [ALIFE-02 source evidence ledger](04-game-systems/alife/creation-release-evidence-oct11.csv).
+- [ALIFE-02: creation, registration, release and callback ordering](08-research/investigations/2026-10-11-ALIFE-02-creation-registration-release.md).
+- [ALIFE-02 source evidence ledger](evidence/alife/creation-release-evidence-oct11.csv).
 
 Scoped source pass complete; runtime deferred. Next: effective smart-terrain/board assignment and Warfare policy.
 
 ## v0.1.33 — Supplied Warfare packages and policy trace
 
-- [WAR-002a: source-package comparison and effective-profile boundary](04-game-systems/warfare/source-packages-effective-profile-oct11.md).
-- [WAR-002b: assignment, ownership, callbacks and offline combat](04-game-systems/warfare/warfare-policy-offline-combat-oct11.md).
-- [16-file source evidence ledger](04-game-systems/warfare/source-evidence-war002-oct11.csv).
-- [17-script archive byte comparison](04-game-systems/warfare/archive-script-comparison-oct11.csv).
+- [WAR-002a: source-package comparison and effective-profile boundary](08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md).
+- [WAR-002b: assignment, ownership, callbacks and offline combat](08-research/investigations/2026-10-11-WAR-002b-policy-offline-combat.md).
+- [16-file source evidence ledger](evidence/warfare/source-evidence-war002-oct11.csv).
+- [17-script archive byte comparison](evidence/warfare/archive-script-comparison-oct11.csv).
 
 ALIFE-03 / WAR-002 partially investigated; installed winners and creature/board/smart internals remain open. Runtime deferred.
 
 ## v0.1.34 — Native persistence and CtZ reconstruction
 
-- [ALIFE-04: save/load phases, member reconstruction and CtZ identity](04-game-systems/alife/save-load-identity-oct11.md).
-- [15-file evidence ledger](04-game-systems/alife/save-load-evidence-oct11.csv).
+- [ALIFE-04: save/load phases, member reconstruction and CtZ identity](08-research/investigations/2026-10-11-ALIFE-04-save-load-identity.md).
+- [15-file evidence ledger](evidence/alife/save-load-evidence-oct11.csv).
 
 Bounded source pass complete. Effective serializer/profile reconciliation and runtime tests deferred. Next independent source work: native offline scheduler and squad/monster brains.
 
 ## v0.1.35 — Native offline scheduling and brains
 
-- [ALIFE-05: schedule eligibility, task ownership and graph movement](04-game-systems/alife/offline-scheduling-brains-oct11.md).
-- [21-file source evidence ledger](04-game-systems/alife/offline-scheduling-evidence-oct11.csv).
+- [ALIFE-05: schedule eligibility, task ownership and graph movement](08-research/investigations/2026-10-11-ALIFE-05-offline-scheduling-brains.md).
+- [21-file source evidence ledger](evidence/alife/offline-scheduling-evidence-oct11.csv).
 
 Bounded source pass complete; installed overrides/configuration and runtime remain deferred. Next native source work: graph location changes and online spawn realization.
 
 ## v0.1.36 — Graph location and online spawn realization
 
-- [ALIFE-06: stored/client/map positions and spawn callback phases](04-game-systems/alife/graph-online-realization-oct11.md).
-- [27-file source evidence ledger](04-game-systems/alife/graph-online-realization-evidence-oct11.csv).
+- [ALIFE-06: stored/client/map positions and spawn callback phases](08-research/investigations/2026-10-11-ALIFE-06-graph-online-realization.md).
+- [27-file source evidence ledger](evidence/alife/graph-online-realization-evidence-oct11.csv).
 
 Bounded graph-to-client source pass complete. Effective profile/runtime deferred. Next: online-to-server synchronization and offline teardown.
 
 ## v0.1.37 — Position synchronization and offline teardown
 
-- [ALIFE-07: sampled client updates, server state, save channel and destroy callback phases](04-game-systems/alife/client-server-offline-teardown-oct11.md).
-- [25-file hash and line evidence ledger](04-game-systems/alife/client-server-offline-evidence-oct11.csv).
+- [ALIFE-07: sampled client updates, server state, save channel and destroy callback phases](08-research/investigations/2026-10-11-ALIFE-07-client-server-offline-teardown.md).
+- [25-file hash and line evidence ledger](evidence/alife/client-server-offline-evidence-oct11.csv).
 
 Bounded source task complete; effective profile and runtime deferred. Next: native switching eligibility, distance hysteresis and forced-state overrides.
 
 ## v0.1.38 — Switching eligibility and remaining scope
 
-- [ALIFE-08: thresholds, permissions, member gates and supplied Lua forced-state policy](04-game-systems/alife/switching-eligibility-oct11.md).
-- [19-file source hash and line ledger](04-game-systems/alife/switching-eligibility-evidence-oct11.csv).
+- [ALIFE-08: thresholds, permissions, member gates and supplied Lua forced-state policy](08-research/investigations/2026-10-11-ALIFE-08-switching-eligibility.md).
+- [19-file source hash and line ledger](evidence/alife/switching-eligibility-evidence-oct11.csv).
 - [Consolidated remaining A-Life/Warfare scope](ROADMAP.md#current-a-lifewarfare-remaining-scope--v0138).
 
 Native switching source pass complete; effective scripts and runtime remain open.
 
 ## v0.1.39 — A-Life/Warfare C++ and Lua interfaces
 
-- [ALIFE-09: catalog scope, methodology and inventories](04-game-systems/alife/api/README.md).
-- [Native class / Lua name and ownership map](04-game-systems/alife/api/class-map.md).
-- [Simulator API contracts](04-game-systems/alife/api/simulator-api.md).
-- [Server entities, squads, tasks and movement APIs](04-game-systems/alife/api/server-squad-api.md).
-- [Supplied script interfaces and missing effective modules](04-game-systems/alife/api/script-interfaces.md).
+- [ALIFE-09: catalog scope, methodology and inventories](02-lua-api/alife/README.md).
+- [Native class / Lua name and ownership map](02-lua-api/alife/class-map.md).
+- [Simulator API contracts](02-lua-api/alife/simulator-api.md).
+- [Server entities, squads, tasks and movement APIs](02-lua-api/alife/server-squad-api.md).
+- [Supplied script interfaces and missing effective modules](02-lua-api/alife/script-interfaces.md).
 
 Scoped macro-expanded inventory and focused contracts complete; all-signature/converter resolution, other build configurations and effective installation remain separate qualifications. Runtime deferred.
+
+## v0.1.40 — Research workflow and repository structure
+
+- [Standard workflow](08-research/workflow.md) and [folder conventions](08-research/repository-layout.md).
+- [Contributing guide](CONTRIBUTING.md).
+- [Current API catalogs](02-lua-api/api-index.md).
+- [Evidence manifest](evidence/manifest.md).
+- [Path migration manifest](08-research/migrations-2026-10-11-v0.1.40.csv).
+- [Structural verification report](08-research/verification-2026-10-11-v0.1.40.md).
+
+Canonical paths and forwarding pages preserve prior research navigation. No research conclusion or runtime disposition is changed by moving a record.

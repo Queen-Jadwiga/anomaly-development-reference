@@ -1,8 +1,14 @@
 """Scoped source index; preprocess registrations, do not compile or install game code."""
 from pathlib import Path
-import re, csv, hashlib, subprocess, json
-ROOT=Path('engine-source/xray-monolith-2026.10.11')
-OUT=Path('api-docs'); OUT.mkdir(exist_ok=True)
+import re, csv, hashlib, subprocess, json, argparse
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--source-root',type=Path,default=Path('engine-source/xray-monolith-2026.10.11'))
+parser.add_argument('--warfare-root',type=Path,default=Path('warfare-source/beta150'))
+parser.add_argument('--repo-root',type=Path,default=Path(__file__).resolve().parents[1])
+options=parser.parse_args()
+ROOT=options.source_root.resolve()
+OUT=options.repo_root.resolve()/'02-lua-api/alife'; OUT.mkdir(parents=True,exist_ok=True)
+EVIDENCE=options.repo_root.resolve()/'evidence/alife'; EVIDENCE.mkdir(parents=True,exist_ok=True)
 SERVER=ROOT/'src/xrServerEntities'
 files=sorted(set(SERVER.glob('xrServer_Objects*script*.cpp')) | set(SERVER.glob('xrserver_objects*script*.cpp')))
 files = sorted(set(files) | set((ROOT/'src/xrGame').glob('alife_*_script.cpp')) | {ROOT/'src/xrGame/game_graph_script.cpp'})
@@ -100,7 +106,7 @@ def merge(rows,variant_index):
     return sorted(out,key=lambda r:(r[-2],int(r[-1]),r[0],r[1]))
 classes=merge(classes,3);bindings=merge(bindings,4)
 def write(name,columns,rows):
-    with (OUT/name).open('w') as f:
+    with ((EVIDENCE if name=='interface-evidence-oct11.csv' else OUT)/name).open('w') as f:
         w=csv.writer(f);w.writerow(columns);w.writerows(rows)
 write('native-lua-classes-oct11.csv',['lua_class','cpp_class','registered_template_arguments','evaluated_branch','source_path','source_line'],classes)
 write('native-lua-bindings-oct11.csv',['lua_owner','lua_name','binding_kind','expanded_binding_expression','evaluated_branch','source_path','source_line'],bindings)
@@ -118,7 +124,7 @@ for p in files:
 write('binding-helper-declarations-oct11.csv',['cpp_symbol','cpp_definition_signature','source_path','source_line'],declarations)
 # Lua declaration inventory. Preserve source variants; do not infer execution/startup order.
 scripts=[('ENGINE1011',ROOT,p) for p in sorted((ROOT/'gamedata/scripts').glob('*.script')) if p.name in {'sim_squad_scripted.script','bind_monster.script','callbacks_gameobject.script','aaaa_script_fixes_mp.script'}]
-war=Path('warfare-source/beta150')
+war=options.warfare_root.resolve()
 scripts += [('BETA150',war,p) for p in sorted(war.rglob('*.script'))]
 lua=[]
 for source,base,p in scripts:

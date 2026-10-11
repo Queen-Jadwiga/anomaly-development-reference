@@ -1,0 +1,42 @@
+old_path,canonical_path,compatibility
+02-lua-api/classes/CScriptXmlInit.md,02-lua-api/ui/classes/CScriptXmlInit.md,Markdown forwarding page
+02-lua-api/classes/CUILines.md,02-lua-api/ui/classes/CUILines.md,Markdown forwarding page
+02-lua-api/classes/CUIProgressBar.md,02-lua-api/ui/classes/CUIProgressBar.md,Markdown forwarding page
+02-lua-api/classes/CUIScrollView.md,02-lua-api/ui/classes/CUIScrollView.md,Markdown forwarding page
+02-lua-api/classes/CUIStatic.md,02-lua-api/ui/classes/CUIStatic.md,Markdown forwarding page
+02-lua-api/classes/CUITextWnd.md,02-lua-api/ui/classes/CUITextWnd.md,Markdown forwarding page
+02-lua-api/classes/CUIWindow.md,02-lua-api/ui/classes/CUIWindow.md,Markdown forwarding page
+02-lua-api/exports-ui-2026-05-15.csv,02-lua-api/ui/exports-ui-2026-05-15.csv,internal links updated; unchanged source dataset
+02-lua-api/ui-binding-inventory-oct11.csv,02-lua-api/ui/ui-binding-inventory-oct11.csv,internal links updated; unchanged source dataset
+02-lua-api/ui06-followup-message-emitters.csv,02-lua-api/ui/ui06-followup-message-emitters.csv,internal links updated; unchanged source dataset
+02-lua-api/ui06-followup-scoped-def-occurrences.csv,02-lua-api/ui/ui06-followup-scoped-def-occurrences.csv,internal links updated; unchanged source dataset
+04-game-systems/alife/api/README.md,02-lua-api/alife/README.md,Markdown forwarding page
+04-game-systems/alife/api/binding-helper-declarations-oct11.csv,02-lua-api/alife/binding-helper-declarations-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/alife/api/build_catalog.py,tools/build_alife_catalog.py,extractor moved and output roots updated
+04-game-systems/alife/api/class-map.md,02-lua-api/alife/class-map.md,Markdown forwarding page
+04-game-systems/alife/api/interface-evidence-oct11.csv,evidence/alife/interface-evidence-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/alife/api/native-lua-bindings-oct11.csv,02-lua-api/alife/native-lua-bindings-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/alife/api/native-lua-classes-oct11.csv,02-lua-api/alife/native-lua-classes-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/alife/api/script-interfaces-oct11.csv,02-lua-api/alife/script-interfaces-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/alife/api/script-interfaces.md,02-lua-api/alife/script-interfaces.md,Markdown forwarding page
+04-game-systems/alife/api/server-squad-api.md,02-lua-api/alife/server-squad-api.md,Markdown forwarding page
+04-game-systems/alife/api/simulator-api.md,02-lua-api/alife/simulator-api.md,Markdown forwarding page
+04-game-systems/alife/client-server-offline-evidence-oct11.csv,evidence/alife/client-server-offline-evidence-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/alife/client-server-offline-teardown-oct11.md,08-research/investigations/2026-10-11-ALIFE-07-client-server-offline-teardown.md,Markdown forwarding page
+04-game-systems/alife/creation-registration-release-oct11.md,08-research/investigations/2026-10-11-ALIFE-02-creation-registration-release.md,Markdown forwarding page
+04-game-systems/alife/creation-release-evidence-oct11.csv,evidence/alife/creation-release-evidence-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/alife/graph-online-realization-evidence-oct11.csv,evidence/alife/graph-online-realization-evidence-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/alife/graph-online-realization-oct11.md,08-research/investigations/2026-10-11-ALIFE-06-graph-online-realization.md,Markdown forwarding page
+04-game-systems/alife/identity-lifecycle-oct11.md,08-research/investigations/2026-10-11-ALIFE-01-identity-lifecycle.md,Markdown forwarding page
+04-game-systems/alife/offline-scheduling-brains-oct11.md,08-research/investigations/2026-10-11-ALIFE-05-offline-scheduling-brains.md,Markdown forwarding page
+04-game-systems/alife/offline-scheduling-evidence-oct11.csv,evidence/alife/offline-scheduling-evidence-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/alife/save-load-evidence-oct11.csv,evidence/alife/save-load-evidence-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/alife/save-load-identity-oct11.md,08-research/investigations/2026-10-11-ALIFE-04-save-load-identity.md,Markdown forwarding page
+04-game-systems/alife/source-evidence-oct11.csv,evidence/alife/source-evidence-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/alife/switching-eligibility-evidence-oct11.csv,evidence/alife/switching-eligibility-evidence-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/alife/switching-eligibility-oct11.md,08-research/investigations/2026-10-11-ALIFE-08-switching-eligibility.md,Markdown forwarding page
+04-game-systems/warfare/archive-script-comparison-oct11.csv,evidence/warfare/archive-script-comparison-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/warfare/ctz-integration-boundary-oct11.md,08-research/investigations/2026-10-11-WAR-001-ctz-integration-boundary.md,Markdown forwarding page
+04-game-systems/warfare/source-evidence-war002-oct11.csv,evidence/warfare/source-evidence-war002-oct11.csv,internal links updated; unchanged source dataset
+04-game-systems/warfare/source-packages-effective-profile-oct11.md,08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md,Markdown forwarding page
+04-game-systems/warfare/warfare-policy-offline-combat-oct11.md,08-research/investigations/2026-10-11-WAR-002b-policy-offline-combat.md,Markdown forwarding page

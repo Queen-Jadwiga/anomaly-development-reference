@@ -50,7 +50,7 @@ flowchart TD
 
 ## Evidence and navigation
 
-- [Part A: Luabind XML registration](../02-lua-api/registration-architecture-part-A.md), [CScriptXmlInit API](../02-lua-api/classes/CScriptXmlInit.md).
+- [Part A: Luabind XML registration](../02-lua-api/registration-architecture-part-A.md), [CScriptXmlInit API](../02-lua-api/ui/classes/CScriptXmlInit.md).
 - [Part B: individual CGameFont lifetime](native-font-object-lifecycle.md), [font API notes](../03-ui-pda/font-manager-and-lua-getters.md).
 - [Part C: native UI ownership](../03-ui-pda/ui-construction-ownership.md), [investigation](../08-research/investigations/2026-10-09-part-C-ui-construction.md).
 - **Pinned registration and factory:** [ScriptXMLInit.cpp](https://github.com/themrdemonized/xray-monolith/blob/6a08e0905ce34748ee2904a5e0809f8afd141137/src/xrGame/ScriptXMLInit.cpp), [UIWindow Lua bindings](https://github.com/themrdemonized/xray-monolith/blob/6a08e0905ce34748ee2904a5e0809f8afd141137/src/xrGame/ui/UIWindow_script.cpp).

@@ -3,7 +3,7 @@
 **Source-backed modding research for S.T.A.L.K.E.R. Anomaly / X-Ray Monolith / Modded Exes**
 
 > **Work in progress — independent research, not official engine documentation.**
-> Current ADR revision: **v0.1.39** (11 October 2026). Primary research source: the
+> Current ADR revision: **v0.1.40** (11 October 2026). Primary research source: the
 > **2026.10.11** X-Ray Monolith source archive. Runtime behavior in GAMMA is **not yet validated**.
 
 ## What is this?
@@ -38,11 +38,15 @@ If you only have a few minutes, start here:
 
 - **UI/PDA:** development-reference ready at source level; native ownership, XML/DXML,
   widget exports, input, fonts, scaling, rendering, and dynamic tabs investigated.
-- **A-Life / Warfare:** [identity/lifecycle](04-game-systems/alife/identity-lifecycle-oct11.md) and [creation/release/callback ordering](04-game-systems/alife/creation-registration-release-oct11.md) documented; [supplied Warfare policy and offline combat](04-game-systems/warfare/warfare-policy-offline-combat-oct11.md) traced. [Save/load and CtZ identity reconstruction](04-game-systems/alife/save-load-identity-oct11.md) traced. [Native offline scheduling and brains](04-game-systems/alife/offline-scheduling-brains-oct11.md) traced. [Graph location and online realization](04-game-systems/alife/graph-online-realization-oct11.md) traced. [Client-to-server position synchronization and offline teardown](04-game-systems/alife/client-server-offline-teardown-oct11.md) traced. [Native switching eligibility and forced states](04-game-systems/alife/switching-eligibility-oct11.md) traced. [C++/Lua class and interface catalog](04-game-systems/alife/api/README.md) added. Active GAMMA profile reconciliation remains open.
+- **A-Life / Warfare:** [identity/lifecycle](08-research/investigations/2026-10-11-ALIFE-01-identity-lifecycle.md) and [creation/release/callback ordering](08-research/investigations/2026-10-11-ALIFE-02-creation-registration-release.md) documented; [supplied Warfare policy and offline combat](08-research/investigations/2026-10-11-WAR-002b-policy-offline-combat.md) traced. [Save/load and CtZ identity reconstruction](08-research/investigations/2026-10-11-ALIFE-04-save-load-identity.md) traced. [Native offline scheduling and brains](08-research/investigations/2026-10-11-ALIFE-05-offline-scheduling-brains.md) traced. [Graph location and online realization](08-research/investigations/2026-10-11-ALIFE-06-graph-online-realization.md) traced. [Client-to-server position synchronization and offline teardown](08-research/investigations/2026-10-11-ALIFE-07-client-server-offline-teardown.md) traced. [Native switching eligibility and forced states](08-research/investigations/2026-10-11-ALIFE-08-switching-eligibility.md) traced. [C++/Lua class and interface catalog](02-lua-api/alife/README.md) added. Active GAMMA profile reconciliation remains open.
 - **October 11 executable in GAMMA:** candidate target; runtime compatibility and behavior
   are unverified.
 - **Source-level limits:** some exhaustive export, indirect event, configuration, and
   cross-addon questions remain open; see [ROADMAP.md](ROADMAP.md).
+
+## Research workflow
+
+Follow the [standard workflow](08-research/workflow.md), [folder conventions](08-research/repository-layout.md) and [contributing guide](CONTRIBUTING.md). Current APIs are organized in the [central catalog index](02-lua-api/api-index.md); research records and source ledgers have separate canonical homes.
 
 ## Evidence conventions
 
@@ -57,12 +61,12 @@ Claims should not be promoted to runtime-verified without testing.
 
 - [Full index](INDEX.md)
 - [Research roadmap and open work](ROADMAP.md)
-- [Environment and source baselines](00-environment/)
-- [Engine architecture](01-engine/)
-- [Lua API reference](02-lua-api/)
-- [UI / PDA reference](03-ui-pda/)
-- [Game systems](04-game-systems/)
-- [Research and verification](08-research/)
+- [Environment and source baselines](00-environment)
+- [Engine architecture](01-engine)
+- [Lua API reference](02-lua-api)
+- [UI / PDA reference](03-ui-pda)
+- [Game systems](04-game-systems)
+- [Research and verification](08-research)
 - [Changelog](CHANGELOG.md)
 - [Original evolving README / version history](HISTORY_README.md)
 

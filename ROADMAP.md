@@ -178,7 +178,7 @@ A-01 and A-02 remain open. Run `tools/audit_xml_lua_registrations.py` on pinned 
 - [ ] ALIFE-04: full save/load and CtZ campaign/generation identity.
 - [ ] Runtime tests: explicitly deferred by user request; no game/engine runtime executed.
 
-See [ALIFE-01](04-game-systems/alife/identity-lifecycle-oct11.md) and [WAR-001](04-game-systems/warfare/ctz-integration-boundary-oct11.md). Missing gameplay scripts do not block the next native source investigation.
+See [ALIFE-01](08-research/investigations/2026-10-11-ALIFE-01-identity-lifecycle.md) and [WAR-001](08-research/investigations/2026-10-11-WAR-001-ctz-integration-boundary.md). Missing gameplay scripts do not block the next native source investigation.
 
 ## v0.1.32 — ALIFE-02 source disposition
 
@@ -188,7 +188,7 @@ See [ALIFE-01](04-game-systems/alife/identity-lifecycle-oct11.md) and [WAR-001](
 - [ ] Full save/load and CtZ campaign/generation identity: ALIFE-04.
 - [ ] All engine runtime verification remains deferred.
 
-This closes the bounded ALIFE-02 task above, not every entity-specific creation/destruction path. See [ALIFE-02](04-game-systems/alife/creation-registration-release-oct11.md).
+This closes the bounded ALIFE-02 task above, not every entity-specific creation/destruction path. See [ALIFE-02](08-research/investigations/2026-10-11-ALIFE-02-creation-registration-release.md).
 
 ## v0.1.33 — Warfare package-source investigation
 
@@ -199,7 +199,7 @@ This closes the bounded ALIFE-02 task above, not every entity-specific creation/
 - [ ] ALIFE-04: full persistence and CtZ campaign/generation identity.
 - [ ] All engine runtime testing deferred.
 
-See [source requirements and provenance](04-game-systems/warfare/source-packages-effective-profile-oct11.md). The older user mod-list export and public default list do not prove current installed behavior.
+See [source requirements and provenance](08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md). The older user mod-list export and public default list do not prove current installed behavior.
 
 ## v0.1.34 — ALIFE-04 bounded source disposition
 
@@ -210,7 +210,7 @@ See [source requirements and provenance](04-game-systems/warfare/source-packages
 - [ ] Next independent native source pass: offline scheduling and squad/monster brain update ownership.
 - [ ] All engine runtime verification deferred.
 
-See [ALIFE-04](04-game-systems/alife/save-load-identity-oct11.md). Earlier full-persistence tasks remain historical; this increment closes only the bounded native/CtZ pass.
+See [ALIFE-04](08-research/investigations/2026-10-11-ALIFE-04-save-load-identity.md). Earlier full-persistence tasks remain historical; this increment closes only the bounded native/CtZ pass.
 
 ## v0.1.35 — ALIFE-05 source disposition
 
@@ -220,7 +220,7 @@ See [ALIFE-04](04-game-systems/alife/save-load-identity-oct11.md). Earlier full-
 - [ ] Next native source pass: graph location changes, member spawn realization and position/callback authority.
 - [ ] Effective configuration/overrides and engine runtime verification remain deferred.
 
-See [ALIFE-05](04-game-systems/alife/offline-scheduling-brains-oct11.md). Earlier next-step entries describe historical plans; this increment closes the bounded scheduler/brain pass.
+See [ALIFE-05](08-research/investigations/2026-10-11-ALIFE-05-offline-scheduling-brains.md). Earlier next-step entries describe historical plans; this increment closes the bounded scheduler/brain pass.
 
 ## v0.1.36 — ALIFE-06 source disposition
 
@@ -230,7 +230,7 @@ See [ALIFE-05](04-game-systems/alife/offline-scheduling-brains-oct11.md). Earlie
 - [ ] Next native source pass: online client-to-server synchronization and offline teardown/state retention.
 - [ ] Installed binders/startup overrides, build settings and all runtime testing remain deferred.
 
-See [ALIFE-06](04-game-systems/alife/graph-online-realization-oct11.md). This closes the bounded source task; earlier next-step entries are historical.
+See [ALIFE-06](08-research/investigations/2026-10-11-ALIFE-06-graph-online-realization.md). This closes the bounded source task; earlier next-step entries are historical.
 
 ## v0.1.37 — Client state return and offline teardown
 
@@ -240,7 +240,7 @@ See [ALIFE-06](04-game-systems/alife/graph-online-realization-oct11.md). This cl
 - [ ] Next native source pass: switching eligibility, distance hysteresis and forced-state overrides.
 - [ ] Effective profile reconciliation and all runtime tests remain deferred.
 
-See [ALIFE-07](04-game-systems/alife/client-server-offline-teardown-oct11.md). Earlier next-step entries remain historical.
+See [ALIFE-07](08-research/investigations/2026-10-11-ALIFE-07-client-server-offline-teardown.md). Earlier next-step entries remain historical.
 
 ## Current A-Life/Warfare remaining scope — v0.1.38
 
@@ -249,7 +249,7 @@ This is the current consolidated checklist for the agreed **CtZ-focused developm
 - [x] ALIFE-01/02: identity, membership, native creation/registration/release and callback boundaries.
 - [x] ALIFE-04: bounded native save/load and supplied CtZ identity reconstruction.
 - [x] ALIFE-05/06/07: scheduling/brains, graph movement, online realization, client state return and offline teardown.
-- [x] ALIFE-08: native switching permissions, distance hysteresis, attachment/group/member gates and supplied forced-status boundary. See [report](04-game-systems/alife/switching-eligibility-oct11.md).
+- [x] ALIFE-08: native switching permissions, distance hysteresis, attachment/group/member gates and supplied forced-status boundary. See [report](08-research/investigations/2026-10-11-ALIFE-08-switching-eligibility.md).
 - [x] WAR-002 package pass: supplied variants, targeting/arrival boundaries, ownership/autocapture and offline combat call sites.
 - [ ] ALIFE-03 effective smart/board layer: assignment/unassignment, reach tests, member registration, jobs and native task/restriction handoff. Requires missing core/winning scripts.
 - [ ] Effective Warfare closure: active files, module/startup replacements and callback order; relevant spawning/strategy/configuration contracts for targeting, capture and combat. Some supplied-package research can continue now; installed closure requires effective sources.
@@ -258,7 +258,7 @@ This is the current consolidated checklist for the agreed **CtZ-focused developm
 - [ ] Consolidation: CtZ-relevant Lua API contracts, lifecycle/state and callback phase maps, configuration references and source evidence/navigation audit. Can proceed with available sources while retaining explicit unresolved edges.
 - [ ] Runtime checks, deferred: switching positions and callbacks, assignment versus arrival, ownership changes, online/offline deaths and cleanup, save/load/CtZ restoration and level changes. Confirm target executable/profile correspondence.
 
-Effective source requirements are listed in [WAR-002a](04-game-systems/warfare/source-packages-effective-profile-oct11.md). Selected optional entity/AI internals and exhaustive unrelated API coverage are not prerequisites. Source-level stopping point: close the effective script chains, consolidate and audit, then mark this portion development-reference ready with runtime pending. No runtime test is required during the current source phase.
+Effective source requirements are listed in [WAR-002a](08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md). Selected optional entity/AI internals and exhaustive unrelated API coverage are not prerequisites. Source-level stopping point: close the effective script chains, consolidate and audit, then mark this portion development-reference ready with runtime pending. No runtime test is required during the current source phase.
 
 ## v0.1.39 — Interface mapping disposition
 
@@ -269,4 +269,14 @@ Effective source requirements are listed in [WAR-002a](04-game-systems/warfare/s
 - [ ] Effective script-chain closure and runtime checks remain as listed in the v0.1.38 consolidated checklist.
 - [ ] Optional expansion: resolve every scoped raw method pointer/converter/overload signature, additional build branches and registrations outside the selected units. The current focused API pages must not be described as an exhaustive engine API manual.
 
-See [ALIFE-09 catalog](04-game-systems/alife/api/README.md). This completes the interface-catalog part of consolidation within its documented scope; it does not close effective policy or runtime work.
+See [ALIFE-09 catalog](02-lua-api/alife/README.md). This completes the interface-catalog part of consolidation within its documented scope; it does not close effective policy or runtime work.
+
+## v0.1.40 — Standard workflow adopted
+
+- [x] Establish workflow, file roles, metadata/evidence templates and current API gateways.
+- [x] Align recent A-Life/Warfare investigations, UI/A-Life APIs, evidence and extractor locations; preserve Markdown forwarding paths.
+- [x] Replace stale tools/test/policy guidance with current source-versus-runtime conventions.
+- [ ] Continue lifecycle/state and callback-phase consolidation under the [standard workflow](08-research/workflow.md).
+- [ ] Effective script-chain closure and all runtime checks remain as previously scoped.
+
+See [layout conventions](08-research/repository-layout.md). Older plans and source baselines remain historical.

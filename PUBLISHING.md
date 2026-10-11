@@ -1,4 +1,11 @@
-# Publish this ADR on GitHub
+# Publish and maintain ADR on GitHub
+
+## Ongoing research increments
+
+The repository is already public. Follow the [standard workflow](08-research/workflow.md), run `python tools/check_repository.py` and relevant source/generator checks, update current navigation/changelog, commit the scoped change, then verify the published branch head and file contents/blob identities. GitHub renders Markdown directly; no engine compilation or GitHub Pages deployment is required. Runtime work remains deferred.
+
+The initial-import instructions below are retained for a fresh repository or local checkout.
+
 
 ## Option A — GitHub Desktop (no command line required)
 1. Extract the GitHub-ready ZIP to a folder.

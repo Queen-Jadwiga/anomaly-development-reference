@@ -1,3 +1,10 @@
-# Tests
+# Verification and tests
 
-No runtime tests executed for this starter scaffold.
+ADR has documentation/source checks; engine/game runtime testing remains deferred.
+
+- Run [the repository checker](../tools/check_repository.py) for local link/anchor and entry-page integrity.
+- For source increments, verify the declared baseline hashes, relevant paths/ranges/symbols and scoped interpretation.
+- For generator changes, rebuild from the declared inputs and compare outputs; consult [the A-Life catalog](../02-lua-api/alife/README.md).
+- Record results and limits with [the verification template](../08-research/templates/verification.md). Published reports are indexed in [INDEX.md](../INDEX.md).
+
+Do not describe documentation checks, preprocessing or CSV reproducibility as engine compilation or in-game verification. Eventual runtime checks require executable/profile identity, reproducible steps and observations/logs.

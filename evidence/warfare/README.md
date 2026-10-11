@@ -1,0 +1,8 @@
+# Warfare source evidence
+
+- [WAR-002 source ledger](source-evidence-war002-oct11.csv).
+- [Supplied package script byte comparison](archive-script-comparison-oct11.csv).
+- [Package provenance and effective-source limits](../../08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md).
+- [Policy/combat investigation](../../08-research/investigations/2026-10-11-WAR-002b-policy-offline-combat.md).
+
+Original schemas, hashes and scoped IDs are retained. Comparisons do not establish an installed winner. [Subsystem entry](../../04-game-systems/warfare/README.md) and [evidence policy](../../08-research/evidence-policy.md).
