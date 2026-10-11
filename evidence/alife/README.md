@@ -1,6 +1,6 @@
 # A-Life source evidence
 
-> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.43**. Research revisions and source/build versions below describe their original scope.
 
 Ledgers retain their original schemas and evidence IDs. Read them with the corresponding investigation; IDs such as E01/S01/G01 are ledger-local.
 
@@ -15,3 +15,5 @@ Ledgers retain their original schemas and evidence IDs. Read them with the corre
 - [Interface input-file hashes](interface-evidence-oct11.csv).
 
 [Subsystem entry](../../04-game-systems/alife/README.md), [API catalog](../../02-lua-api/alife/README.md), [full index](../../INDEX.md), [evidence policy](../../08-research/evidence-policy.md).
+
+- [ALIFE-11 native configuration/control ledger](configuration-controls-2026-10-11.csv): 18 entries, ledger-local IDs; read with the practical control reference.

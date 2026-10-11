@@ -1,11 +1,11 @@
 # Anomaly Development Reference (ADR)
 
-> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.43**. Research revisions and source/build versions below describe their original scope.
 
 **Source-backed modding research for S.T.A.L.K.E.R. Anomaly / X-Ray Monolith / Modded Exes**
 
 > **Work in progress — independent research, not official engine documentation.**
-> Current ADR revision: **v0.1.42** (11 October 2026). Primary research source: the
+> Current ADR revision: **v0.1.43** (11 October 2026). Primary research source: the
 > **2026.10.11** X-Ray Monolith source archive. Runtime behavior in GAMMA is **not yet validated**.
 
 ## What is this?
@@ -35,7 +35,9 @@ If you only have a few minutes, start here:
 | [A-Life lifecycle/state reference](04-game-systems/alife/lifecycle-state-reference.md) | Persistent server, group and temporary client representations |
 | [A-Life callback phases](04-game-systems/alife/callback-phase-reference.md) | What each observation point establishes and what remains pending |
 | [PDA subdialog lifecycle](03-ui-pda/pda-subdialog-lifecycle-oct11.md) | Rebuild, selection, and content synchronization |
-| [Current verification report](08-research/verification-2026-10-11-v0.1.42.md) | What was checked and what was not |
+| [A-Life / Warfare completion status](04-game-systems/alife/source-completion-status.md) | Completed source scope and missing effective chains |
+| [Native configuration controls](04-game-systems/alife/configuration-controls.md) / [Warfare policy controls](04-game-systems/warfare/policy-controls.md) | Producers, consumers, clocks and refresh boundaries |
+| [Current verification report](08-research/verification-2026-10-11-v0.1.43.md) | What was checked and what was not |
 | [Full research index](INDEX.md) | Every investigated area and historic records |
 
 ## Research status

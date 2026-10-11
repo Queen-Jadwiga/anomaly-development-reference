@@ -1,6 +1,6 @@
 # October 11 UI survey — native dynamic PDA tabs
 
-> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.43**. Research revisions and source/build versions below describe their original scope.
 
 **Version:** xray-monolith source tag `2026.10.11` only. **Evidence:** native exports and bundled Lua implementation, **not runtime-tested**.
 

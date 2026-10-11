@@ -1,6 +1,6 @@
 # Capture the Zone integration
 
-> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.43**. Research revisions and source/build versions below describe their original scope.
 
 Separate project repository contains actual mod. ADR contains engine compatibility findings, public interfaces and reproducible notes only.
 

@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.43**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -12,6 +12,8 @@
 
 - [October 11 baseline record](../00-environment/source-baseline-2026-10-11.md).
 - [ALIFE-10 lifecycle/callback synthesis ledger](alife/lifecycle-callbacks-2026-10-11.csv): ENGINE1011; 47 entries, 39 source files; original ledger provenance retained.
+- [Native configuration/control ledger](alife/configuration-controls-2026-10-11.csv): N01–N18, 18 ENGINE1011 files.
+- [Warfare configuration/control ledger](warfare/configuration-controls-2026-10-11.csv): W01–W18, nine BETA150 files with main/optional patch paths distinguished.
 - [A-Life ledgers](alife/README.md).
 - [Warfare ledgers and package comparisons](warfare/README.md).
 - [New claim-ledger schema](templates/source-evidence.csv).

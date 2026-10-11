@@ -1,6 +1,6 @@
 # Simulator Lua API contracts
 
-> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.43**. Research revisions and source/build versions below describe their original scope.
 
 [Catalog conventions](README.md). Source: `src/xrGame/alife_simulator_script.cpp`, plus native update/combat declarations in the evidence ledger. The following signatures omit the bound C++ `self` receiver and retain native ID types. `LPCSTR` denotes string input; `Fvector` denotes a vector. Colon-call notation is descriptive, not a runnable sample.
 
@@ -46,7 +46,7 @@ Definitions: simulator script lines 158–358,444–461. Source default `reg=tru
 | `switch_distance()` / `set_switch_distance(float)` | `float` / `void` | Recomputes native online/offline thresholds; active settings unverified |
 | `teleport_object(id, game_vertex, level_vertex, position)` | `void` | Native relocation entry; group propagation must follow its own contract |
 | `set_objects_per_update(u32)` | `void` | Scheduled-update batch setting |
-| `set_process_time(int)` | `void` | Native process-time input in microseconds |
+| `set_process_time(int)` | `void` | Integer input named `microseconds`; actual budget units require the [forwarding/comparison qualification](../../04-game-systems/alife/configuration-controls.md#time-and-count-limits-are-different) |
 | `force_update()` | `void` | Calls `update_scheduled(true)`; does **not** call the full switch pass in its body |
 | `get_children(object)` | Native `xr_vector<u16>&`, iterator policy | Child IDs, not ownership of new child objects |
 | `object_count()` / `max_id()` | `_OBJECT_ID` | Source-defined count/highest-ID helpers; not generation identifiers |

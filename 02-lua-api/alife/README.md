@@ -1,6 +1,6 @@
 # A-Life / Warfare C++ and Lua interface catalog
 
-> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.43**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.39 · ALIFE-09 · 11 October 2026 · source inventory and focused contracts; runtime deferred.**
 
@@ -47,3 +47,5 @@ This closes the scoped interface-mapping pass. Effective smart/board, death/safe
 ## Lifecycle context
 
 Read the [lifecycle/state reference](../../04-game-systems/alife/lifecycle-state-reference.md) and [callback phases](../../04-game-systems/alife/callback-phase-reference.md) before applying these contracts across spawn, switching, load or teardown. Runtime verification remains deferred.
+
+For producer/consumer, clock and refresh boundaries, use the [native configuration controls](../../04-game-systems/alife/configuration-controls.md) and [Warfare policy controls](../../04-game-systems/warfare/policy-controls.md).

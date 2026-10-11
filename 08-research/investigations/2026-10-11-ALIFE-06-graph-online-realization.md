@@ -1,6 +1,6 @@
 # ALIFE-06 — Graph location, online realization and spawn callbacks
 
-> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.43**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.36 · 11 October 2026 · bounded source investigation.** This follows game-graph location changes into online member spawns, distinguishes stored/client/map positions, and establishes the inspected callback phases. Effective GAMMA overrides and all runtime verification remain deferred.
 

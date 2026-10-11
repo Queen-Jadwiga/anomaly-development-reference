@@ -1,6 +1,13 @@
 # ADR changelog
 
-> ADR document set: **v0.1.42**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.43**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.43 — 2026-10-11 — A-Life/Warfare controls and final available-source audit
+
+- Add native configuration and supplied Warfare policy-control references, two investigations and two 18-entry source ledgers. Distinguish clocks, aliases, read/refresh points, optional defaults and installed values.
+- Record the literal native process-time forwarding/comparison chain as a scoped qualification; do not infer a reproduced runtime defect.
+- Complete the planned available-source consolidation and bounded consistency audit. Keep effective smart/board, startup/policy, death/release and persistence chains open. Runtime verification remains deferred.
+- Preserve earlier research and datasets; validate navigation/version consistency, ledger hashes/ranges, catalog reproduction and repository checks. See [verification](08-research/verification-2026-10-11-v0.1.43.md).
 
 ## v0.1.42 — 2026-10-11 — A-Life lifecycle and callback reference
 
