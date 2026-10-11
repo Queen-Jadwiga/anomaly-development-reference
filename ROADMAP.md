@@ -211,3 +211,13 @@ See [source requirements and provenance](04-game-systems/warfare/source-packages
 - [ ] All engine runtime verification deferred.
 
 See [ALIFE-04](04-game-systems/alife/save-load-identity-oct11.md). Earlier full-persistence tasks remain historical; this increment closes only the bounded native/CtZ pass.
+
+## v0.1.35 — ALIFE-05 source disposition
+
+- [x] Trace switch-before-schedule order, rolling count-limited traversal and eligibility versus actual membership.
+- [x] Trace individual/group brains, Lua task provider, elapsed-time game-graph movement and completion contracts.
+- [x] Distinguish native task/movement updates from supplied Warfare offline combat.
+- [ ] Next native source pass: graph location changes, member spawn realization and position/callback authority.
+- [ ] Effective configuration/overrides and engine runtime verification remain deferred.
+
+See [ALIFE-05](04-game-systems/alife/offline-scheduling-brains-oct11.md). Earlier next-step entries describe historical plans; this increment closes the bounded scheduler/brain pass.

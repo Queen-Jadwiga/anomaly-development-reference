@@ -177,3 +177,9 @@ Added four narrowly evidenced UI system records (dynamic PDA tabs, DXML hooks, i
 - Added ALIFE-04 with a 15-file hash/line ledger: save eligibility, packet serialization, native reconstruction phases, late member-pointer repair and level-change save boundary.
 - Traced supplied CtZ campaign restoration, schema labels, ownership reapplication and loss reconciliation; documented possible stale-ID reuse as a source-derived risk, not a confirmed bug.
 - Effective serialization wrappers/profile remain open. Updated navigation; retained earlier research and CtZ link. No gameplay changes, runtime tests or license added.
+
+## v0.1.35 — 2026-10-11 — Native scheduling and offline brains
+
+- Added ALIFE-05 and a 21-file hash/line ledger tracing switch/schedule order, eligibility, rolling batch updates, individual/group brain ownership and elapsed-time movement.
+- Traced virtual Lua task handoff and base-before-policy order; distinguished movement completion methods from Warfare arrival policy and native movement from Lua offline combat.
+- Updated navigation; retained earlier findings and CtZ link. Effective settings/overrides and runtime testing deferred. No gameplay changes or license added.

@@ -3,7 +3,7 @@
 **Source-backed modding research for S.T.A.L.K.E.R. Anomaly / X-Ray Monolith / Modded Exes**
 
 > **Work in progress — independent research, not official engine documentation.**
-> Current ADR revision: **v0.1.34** (11 October 2026). Primary research source: the
+> Current ADR revision: **v0.1.35** (11 October 2026). Primary research source: the
 > **2026.10.11** X-Ray Monolith source archive. Runtime behavior in GAMMA is **not yet validated**.
 
 ## What is this?
@@ -38,7 +38,7 @@ If you only have a few minutes, start here:
 
 - **UI/PDA:** development-reference ready at source level; native ownership, XML/DXML,
   widget exports, input, fonts, scaling, rendering, and dynamic tabs investigated.
-- **A-Life / Warfare:** [identity/lifecycle](04-game-systems/alife/identity-lifecycle-oct11.md) and [creation/release/callback ordering](04-game-systems/alife/creation-registration-release-oct11.md) documented; [supplied Warfare policy and offline combat](04-game-systems/warfare/warfare-policy-offline-combat-oct11.md) traced. [Save/load and CtZ identity reconstruction](04-game-systems/alife/save-load-identity-oct11.md) traced. Active GAMMA profile reconciliation remains open.
+- **A-Life / Warfare:** [identity/lifecycle](04-game-systems/alife/identity-lifecycle-oct11.md) and [creation/release/callback ordering](04-game-systems/alife/creation-registration-release-oct11.md) documented; [supplied Warfare policy and offline combat](04-game-systems/warfare/warfare-policy-offline-combat-oct11.md) traced. [Save/load and CtZ identity reconstruction](04-game-systems/alife/save-load-identity-oct11.md) traced. [Native offline scheduling and brains](04-game-systems/alife/offline-scheduling-brains-oct11.md) traced. Active GAMMA profile reconciliation remains open.
 - **October 11 executable in GAMMA:** candidate target; runtime compatibility and behavior
   are unverified.
 - **Source-level limits:** some exhaustive export, indirect event, configuration, and

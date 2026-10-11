@@ -1,6 +1,6 @@
 # Warfare subsystem
 
-**Current revision: v0.1.34.**
+**Current revision: v0.1.35.**
 
 **Current evidence:** Capture the Zone is intended to extend Anomaly/GAMMA Warfare, including PDA strategy display and tracking faction control.
 
@@ -39,3 +39,7 @@ Supplied package implementations are now inspected. Current MO2 winning files an
 ## v0.1.34 — Persistence boundary
 
 [Native save/load and CtZ campaign reconstruction](../alife/save-load-identity-oct11.md) distinguishes saved campaign records, squad packet fields and late member-pointer repair. Effective storage wrappers and ownership synchronization remain open; runtime deferred.
+
+## v0.1.35 — Movement versus combat update authority
+
+[ALIFE-05](../alife/offline-scheduling-brains-oct11.md) traces the native scheduled task/movement flow and Lua squad task handoff. Native scheduling, Lua arrival policy and the supplied offline-combat coordinator are separate mechanisms; installed overrides and runtime remain deferred.

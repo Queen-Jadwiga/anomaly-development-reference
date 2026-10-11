@@ -162,3 +162,10 @@ ALIFE-03 / WAR-002 partially investigated; installed winners and creature/board/
 - [15-file evidence ledger](04-game-systems/alife/save-load-evidence-oct11.csv).
 
 Bounded source pass complete. Effective serializer/profile reconciliation and runtime tests deferred. Next independent source work: native offline scheduler and squad/monster brains.
+
+## v0.1.35 — Native offline scheduling and brains
+
+- [ALIFE-05: schedule eligibility, task ownership and graph movement](04-game-systems/alife/offline-scheduling-brains-oct11.md).
+- [21-file source evidence ledger](04-game-systems/alife/offline-scheduling-evidence-oct11.csv).
+
+Bounded source pass complete; installed overrides/configuration and runtime remain deferred. Next native source work: graph location changes and online spawn realization.
