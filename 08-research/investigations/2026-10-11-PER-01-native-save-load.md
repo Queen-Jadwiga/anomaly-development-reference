@@ -1,6 +1,6 @@
 # PER-01 — Native save/load pipeline and Lua extension boundaries
 
-> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.52**. Research revisions and source/build versions below describe their original scope.
 
 - ID: PER-01
 - Subsystem: persistence

@@ -1,6 +1,11 @@
 # ADR changelog
 
-> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.52**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.52 — 2026-10-11 — CtZ campaign identity and reconciliation
+
+- Add PER-03 practical reference, investigation and 13-entry pinned CtZ ledger. Map version labels, targeted backfills, transition gates, numeric identity, member repair and casualty reconciliation.
+- Separate schema stamping from compatibility dispatch and timing guards from restoration success. Preserve earlier research/source bytes; runtime deferred. Next persistence consolidation/final bounded audit. See [verification](08-research/verification-2026-10-11-v0.1.52.md).
 
 ## v0.1.51 — 2026-10-11 — Supplied Lua storage contracts and effective gaps
 

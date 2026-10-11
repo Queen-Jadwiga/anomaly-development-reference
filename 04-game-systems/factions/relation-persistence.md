@@ -1,6 +1,6 @@
 # Native relation persistence, reset and ID cleanup
 
-> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.52**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-02
 - Source status: source-confirmed within the selected native paths; cleanup/serializer negative findings are scoped

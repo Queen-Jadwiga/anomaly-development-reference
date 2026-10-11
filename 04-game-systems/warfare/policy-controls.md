@@ -1,6 +1,6 @@
 # Warfare configuration and policy controls
 
-> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.52**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WAR-003
 - Source status: source-confirmed for the selected supplied-package paths; scoped negative searches

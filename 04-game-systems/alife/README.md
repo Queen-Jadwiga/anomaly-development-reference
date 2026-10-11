@@ -1,6 +1,6 @@
 # A-Life reference
 
-> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.52**. Research revisions and source/build versions below describe their original scope.
 
 Available-source consolidation is complete within scope; the full effective section remains partial. See [completion status](../alife/source-completion-status.md), [native controls](../alife/configuration-controls.md), [Warfare controls](../warfare/policy-controls.md) and the [final audit](../../08-research/verification-2026-10-11-v0.1.43.md). Runtime verification remains deferred.
 
@@ -10,7 +10,7 @@ Available-source consolidation is complete within scope; the full effective sect
 - [Callback phases](callback-phase-reference.md): observation/readiness contracts and API implications.
 - [ALIFE-10 synthesis and scope](../../08-research/investigations/2026-10-11-ALIFE-10-lifecycle-callback-consolidation.md).
 
-**Current revision: v0.1.51.** First source pass established server identity, native squad membership, selected online/offline paths, and the boundary with Lua smart assignment. Installed GAMMA behavior and runtime tests remain deferred.
+**Current revision: v0.1.52.** First source pass established server identity, native squad membership, selected online/offline paths, and the boundary with Lua smart assignment. Installed GAMMA behavior and runtime tests remain deferred.
 
 - [ALIFE-01 — Identity, squad membership and lifecycle](../../08-research/investigations/2026-10-11-ALIFE-01-identity-lifecycle.md)
 - [October 11 source evidence ledger](../../evidence/alife/source-evidence-oct11.csv)

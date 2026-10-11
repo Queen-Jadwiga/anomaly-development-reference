@@ -1,6 +1,6 @@
 # WAR-002a — Warfare source packages and effective-profile boundary
 
-> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.52**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.33 · 11 October 2026 · package-source inspection; installed-profile reconciliation pending; runtime deferred.**
 
