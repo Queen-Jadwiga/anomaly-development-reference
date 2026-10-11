@@ -1,6 +1,6 @@
 # A-Life reference
 
-**Current revision: v0.1.35.** First source pass established server identity, native squad membership, selected online/offline paths, and the boundary with Lua smart assignment. Installed GAMMA behavior and runtime tests remain deferred.
+**Current revision: v0.1.36.** First source pass established server identity, native squad membership, selected online/offline paths, and the boundary with Lua smart assignment. Installed GAMMA behavior and runtime tests remain deferred.
 
 - [ALIFE-01 — Identity, squad membership and lifecycle](identity-lifecycle-oct11.md)
 - [October 11 source evidence ledger](source-evidence-oct11.csv)
@@ -31,3 +31,10 @@ Native/CtZ pass complete within scope; effective persistence wrappers and runtim
 - [21-file source evidence ledger](offline-scheduling-evidence-oct11.csv).
 
 Bounded native pass complete; effective settings/overrides and runtime deferred. Next: graph location changes and online spawn realization.
+
+## v0.1.36 — Graph location and online realization
+
+- [ALIFE-06: graph changes, client spawn positions and callback ordering](graph-online-realization-oct11.md).
+- [27-file source evidence ledger](graph-online-realization-evidence-oct11.csv).
+
+Bounded source pass complete; installed overrides/runtime deferred. Next: client-to-server position synchronization and offline teardown.

@@ -221,3 +221,13 @@ See [ALIFE-04](04-game-systems/alife/save-load-identity-oct11.md). Earlier full-
 - [ ] Effective configuration/overrides and engine runtime verification remain deferred.
 
 See [ALIFE-05](04-game-systems/alife/offline-scheduling-brains-oct11.md). Earlier next-step entries describe historical plans; this increment closes the bounded scheduler/brain pass.
+
+## v0.1.36 — ALIFE-06 source disposition
+
+- [x] Trace discrete graph changes, member position propagation and sampled Lua location callbacks.
+- [x] Trace existing-entity online realization, queued/postponed client spawn and native/binder/after-spawn phases.
+- [x] Distinguish packet/client/map positions and supplied bookmark correction/cleanup patch.
+- [ ] Next native source pass: online client-to-server synchronization and offline teardown/state retention.
+- [ ] Installed binders/startup overrides, build settings and all runtime testing remain deferred.
+
+See [ALIFE-06](04-game-systems/alife/graph-online-realization-oct11.md). This closes the bounded source task; earlier next-step entries are historical.

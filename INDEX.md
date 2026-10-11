@@ -169,3 +169,10 @@ Bounded source pass complete. Effective serializer/profile reconciliation and ru
 - [21-file source evidence ledger](04-game-systems/alife/offline-scheduling-evidence-oct11.csv).
 
 Bounded source pass complete; installed overrides/configuration and runtime remain deferred. Next native source work: graph location changes and online spawn realization.
+
+## v0.1.36 — Graph location and online spawn realization
+
+- [ALIFE-06: stored/client/map positions and spawn callback phases](04-game-systems/alife/graph-online-realization-oct11.md).
+- [27-file source evidence ledger](04-game-systems/alife/graph-online-realization-evidence-oct11.csv).
+
+Bounded graph-to-client source pass complete. Effective profile/runtime deferred. Next: online-to-server synchronization and offline teardown.

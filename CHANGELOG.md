@@ -183,3 +183,9 @@ Added four narrowly evidenced UI system records (dynamic PDA tabs, DXML hooks, i
 - Added ALIFE-05 and a 21-file hash/line ledger tracing switch/schedule order, eligibility, rolling batch updates, individual/group brain ownership and elapsed-time movement.
 - Traced virtual Lua task handoff and base-before-policy order; distinguished movement completion methods from Warfare arrival policy and native movement from Lua offline combat.
 - Updated navigation; retained earlier findings and CtZ link. Effective settings/overrides and runtime testing deferred. No gameplay changes or license added.
+
+## v0.1.36 — 2026-10-11 — Graph location and online realization
+
+- Added ALIFE-06 and a 27-file hash/line ledger tracing graph/member propagation, online member realization, queued client spawn, position corrections and callback readiness phases.
+- Documented supplied offline bookmark cleanup patch, commented after-spawn listener example, build-branch differences and native map position authority.
+- Updated navigation, preserving prior research and CtZ link. Effective profile and runtime remain deferred. No gameplay edits or license added.
