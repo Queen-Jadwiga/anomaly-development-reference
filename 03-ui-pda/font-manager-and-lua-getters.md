@@ -1,6 +1,6 @@
 # Font manager and Lua-facing getters — interface boundary (ADR v0.1.7)
 
-> ADR document set: **v0.1.44**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.45**. Research revisions and source/build versions below describe their original scope.
 
 **Baseline:** `6a08e0905ce34748ee2904a5e0809f8afd141137`. Runtime verification is deferred.
 

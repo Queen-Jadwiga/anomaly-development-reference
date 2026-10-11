@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.44**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.45**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.45 — 2026-10-11 — Native relation persistence and cleanup
+
+- Add FAC-02 reference, investigation and 18-file ledger tracing saved character contributions, separate table caches, load phases, native unregister and owner lifetime.
+- Qualify dynamic matrix durability and one-record cleanup: no incoming-reference sweep or installed diplomacy persistence is inferred.
+- Preserve previous research/evidence; keep runtime deferred. Next source task is character-community mutation. See [verification](08-research/verification-2026-10-11-v0.1.45.md).
 
 ## v0.1.44 — 2026-10-11 — Faction and relation foundations
 

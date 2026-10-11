@@ -1,0 +1,19 @@
+evidence_id,source_id,source_path,symbol,line_ranges,file_sha256,line_count,subject
+P01,ENGINE1011,src/xrGame/relation_registry_defs.h,RELATION_DATA;PERSONAL_RELATION_MAP;COMMUNITY_RELATION_MAP,12-39,057bbede0c6081ddc470506313c838077fa578bb7e35d3c5d4e524dd7b984114,39,Record fields and numeric keys
+P02,ENGINE1011,src/xrGame/relation_registry.cpp,RELATION_DATA::load;RELATION_DATA::save;ClearRelations;clear_relation_registry,32-49;85-112;123-130;134-162;189-217,610d29ca50f29b7a5c0683548ce248eaec6be9a45da343268f7cf2ab32f8e969,255,Record serialization and local clear/wrapper disposal
+P03,ENGINE1011,src/xrGame/alife_registry_container.h,CRelationRegistry;m_character_relations,26-39,3f2eda0235979fec9e924f2d63a4b286717f065ddaf9cee8c8e61425770d7d1c,52,A-Life relation owner
+P04,ENGINE1011,src/xrGame/alife_registry_container.cpp,load;save;m_character_relations,14-40,cc81bf67c51e516b31e1005494fc04703aa7bea228bf55058bab6a42d226eb9a,40,Registry chunk serialization order
+P05,ENGINE1011,src/xrGame/alife_abstract_registry_inline.h,save;load;remove,19-35;54-65,651a44a0f2b6d70abbfa0c029585c381af8bb7b5a15ea864da881cbf1b6e1945,79,Map serialization/destruction versus explicit erase
+P06,ENGINE1011,src/xrGame/alife_registry_wrapper.h,objects_ptr;objects;local_registry,16-100,3fb118477cc21255dea855908288741db74b15e6a2f7942652d4fd2340ded5fc,100,Active A-Life routing and no-A-Life local fallback
+P07,ENGINE1011,src/xrGame/alife_registry_wrappers.h,CALifeRegistryWrapperObject;CRelationRegistryWrapper,28-64,6ee2e505fee6546894b60b1f4961aabf8babc71b58771d19e3df9d8e95d1e5ce,77,Wrapper ownership
+P08,ENGINE1011,src/xrGame/alife_storage_manager.cpp,registry().save;registry().load;can_register_objects,72-90;126-168,b928a41af14ef0a13e2a88b83f9178bc59f8b89c77bd531934ecc203c486e0a5,250,Save/load relation registry and callback phase
+P09,ENGINE1011,src/xrGame/alife_monster_abstract.cpp,on_unregister;ClearRelations,44-51,c075fb4bdfd78b02a3b88918a94a3434d26ef19c5c343b7a2d497ee89d306363,275,Monster unregister relation clear sequence
+P10,ENGINE1011,src/xrGame/alife_simulator_base2.cpp,unregister_object;on_unregister,58-83,b0c77e7a6b55ea01a2e9f3e65efc797a2db15bb643243ea233f76eb411eb9ef6,100,Unregister hook before registry removal
+P11,ENGINE1011,src/xrGame/alife_object_registry.cpp,~CALifeObjectRegistry;on_unregister,17-27,407087e029992495110879db705f94599cf1190758b046d695e8c5844382f121,154,Object registry destruction calls virtual hooks
+P12,ENGINE1011,src/xrGame/alife_simulator_base.cpp,unload;reload;m_registry_container,62-96,04c8b9d86e663939efbad7b134025eccd4594d762482cf112f0eb8cf3e0d1ce8,366,A-Life owner lifetime
+P13,ENGINE1011,src/xrGame/Level_load.cpp,Load_GameSpecific_Before;CHARACTER_COMMUNITY::Reset,24-48,2c2c840a25e3d459e3fd2e270a01530d881fda93486c91909c7c115c7e7695e9,295,Level hook clears table caches
+P14,ENGINE1011,src/xrGame/character_community.h,Reset;m_relation_table;m_sympathy_table,59-75,b5462b530dcfc61fecfc653f502bb836d28e8cc1d6274c934b9d7dd38fe7626c,76,Table cache reset without deleting identity loader
+P15,ENGINE1011,src/xrGame/ini_table_loader.h,table;clear,98-139,592ee770edbf6eb1f5c60da5dcc597216183cb96b01b68e40f721a2c274185c9,141,Lazy configuration reload after table reset
+P16,ENGINE1011,src/xrGame/xrgame_dll_detach.cpp,clear_relation_registry,114-126,66ac4a096e64242c259f30db12e6e75238e8ebd67b01a4bd4b46f48a79000e7c,137,Module teardown wrapper cleanup
+P17,ENGINE1011,src/xrServerEntities/object_loader.h,can_clear;load_data,98-112;286-320,c11f1338aa8f69cc974835079977f56621d23099536171605202f1b906e7a0cc,320,Default map load clears and accepts serialized entries
+P18,ENGINE1011,src/xrGame/character_community.cpp,set_relation;DeleteIdToIndexData,49-55;74-102,16e39242762397c966bdf73eddb3aff193d0a638ee96cb1fca8dccac66e90225,102,Directed matrix mutation and full identity/table disposal

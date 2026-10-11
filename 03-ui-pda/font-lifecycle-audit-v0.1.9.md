@@ -1,6 +1,6 @@
 # Font lifecycle — source audit v0.1.9
 
-> ADR document set: **v0.1.44**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.45**. Research revisions and source/build versions below describe their original scope.
 
 ## What is confirmed
 

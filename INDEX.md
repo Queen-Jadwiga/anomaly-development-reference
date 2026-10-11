@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.44**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.45**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.44.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.45.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -75,6 +75,8 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 04-game-systems
 
+- [Native relation persistence, reset and cleanup](04-game-systems/factions/relation-persistence.md)
+
 - [Native faction identity and relations](04-game-systems/factions/native-relations.md)
 
 - [Native configuration controls](04-game-systems/alife/configuration-controls.md)
@@ -103,8 +105,11 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 08-research
 
+- [FAC-02 relation persistence investigation](08-research/investigations/2026-10-11-FAC-02-relation-persistence.md)
+- [Current verification — v0.1.45](08-research/verification-2026-10-11-v0.1.45.md)
+
 - [FAC-01 native faction/relation queries](08-research/investigations/2026-10-11-FAC-01-native-relations.md)
-- [Current verification — v0.1.44](08-research/verification-2026-10-11-v0.1.44.md)
+- [FAC-01 verification — v0.1.44](08-research/verification-2026-10-11-v0.1.44.md)
 
 - [ALIFE-11 configuration investigation](08-research/investigations/2026-10-11-ALIFE-11-configuration-controls.md)
 - [WAR-003 policy-control investigation](08-research/investigations/2026-10-11-WAR-003-configuration-policy-controls.md)

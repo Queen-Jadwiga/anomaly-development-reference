@@ -1,6 +1,6 @@
 # Focused faction and relation Lua contracts
 
-> ADR document set: **v0.1.44**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.45**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-01-API
 - Subsystem: factions / relations
@@ -56,3 +56,5 @@ No inspected setter establishes completed AI reevaluation, a UI refresh, strateg
 ## Checks and limitations
 
 Signatures, argument order, helper bodies, receiver checks, virtual path and literal names were compared with F09–F18 and the registry definitions. Full-file hashes, line counts, cited range bounds and symbol presence were checked against the snapshot. Runtime, installed tables/scripts, all native derived overrides, converter/error behavior and exhaustive conditional export coverage remain unverified. See [FAC-01](../../08-research/investigations/2026-10-11-FAC-01-native-relations.md) and [verification](../../08-research/verification-2026-10-11-v0.1.44.md).
+
+Native persistence/reset and ID-cleanup boundaries are now traced in [FAC-02](../../04-game-systems/factions/relation-persistence.md). These findings do not certify installed diplomacy save/reapply or UI/AI refresh.
