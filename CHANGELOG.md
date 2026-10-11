@@ -158,3 +158,9 @@ Added four narrowly evidenced UI system records (dynamic PDA tabs, DXML hooks, i
 - Added WAR-001 with pinned CtZ call sites and explicit effective-GAMMA/Warfare source prerequisites.
 - Updated current revision, subsystem entry pages, index and roadmap. Preserved prior research conclusions and the CtZ link; no gameplay code or license added.
 - All engine/game runtime verification remains deferred. No claim of complete A-Life/Warfare analysis or installed-profile compatibility.
+
+## v0.1.32 — 2026-10-11 — Native A-Life creation/release and callbacks
+
+- Added ALIFE-02 and a 16-file hash/line evidence ledger, tracing direct/template/server creation, consumed pointers during manual registration, native unregistration and online/offline destroy routes.
+- Documented immediate versus bulk callback timing, generic/type-specific squad notifications, early-return asymmetry, and bundled axr priority/constraint ordering with effective-profile limits.
+- Updated landing page, index, A-Life entry page and roadmap; prior research preserved. No gameplay changes or license added; runtime verification deferred.

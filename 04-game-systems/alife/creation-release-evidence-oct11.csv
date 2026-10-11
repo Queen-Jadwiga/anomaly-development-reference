@@ -1,0 +1,17 @@
+evidence_id,source_archive,source_path,line_ranges,file_sha256,line_count,subject
+R01,xray-monolith-2026.10.11.zip,src/xrGame/alife_simulator_base.cpp,98-145;187-307,04c8b9d86e663939efbad7b134025eccd4594d762482cf112f0eb8cf3e0d1ce8,366,Native creation and release
+R02,xray-monolith-2026.10.11.zip,src/xrGame/alife_simulator_base2.cpp,23-100,b0c77e7a6b55ea01a2e9f3e65efc797a2db15bb643243ea233f76eb411eb9ef6,100,Registry and death ordering
+R03,xray-monolith-2026.10.11.zip,src/xrGame/alife_dynamic_object.cpp,29-55,da1eb56d42efc3cfe1fccbc774dae4492c74affaaee5da73c04bfe9dec83e5e5,307,Native generic callbacks
+R04,xray-monolith-2026.10.11.zip,src/xrGame/alife_simulator_script.cpp,158-234;335-357;444-462;645-700,3b665a4b7fcadb28fc1291fc71b06b1068130d44da29160c5b3e06369ae0a2f9,791,Lua overloads and consumed-pointer registration
+R05,xray-monolith-2026.10.11.zip,src/xrGame/xrServer_process_spawn.cpp,9-179,64041578895ea4fa6a7065d21259aa57976f6864069cdcb95e22050dcd2f9e7c,183,Network spawn insertion and hooks
+R06,xray-monolith-2026.10.11.zip,src/xrGame/game_sv_single.cpp,52-90,26042fed21921e11a92a909507d064150cbd3c242d492a2aae5971ad87e20ff7,367,Single-player online adoption
+R07,xray-monolith-2026.10.11.zip,src/xrGame/alife_storage_manager.cpp,136-168,b928a41af14ef0a13e2a88b83f9178bc59f8b89c77bd531934ecc203c486e0a5,250,Load registration batching
+R08,xray-monolith-2026.10.11.zip,src/xrGame/alife_update_manager.cpp,249-274,01a97c70241e17a5a6be02b167a2014c42f5a7589aead6b2ac7a2eaed0f277f9,628,New-game registration batching
+R09,xray-monolith-2026.10.11.zip,gamedata/scripts/callbacks_gameobject.script,881-899,3f99c80b18c14d24291b1b022d887f0bb8a1d96e0e7d24954272e1b143076b7d,1042,Generic Lua callback bridges
+R10,xray-monolith-2026.10.11.zip,gamedata/scripts/sim_squad_scripted.script,1006-1031,e9b637ec358a162bc5a73631613cb2339c948464e17f176dd4b47167c59a2603,1442,Bundled squad callback phases
+R11,xray-monolith-2026.10.11.zip,gamedata/scripts/axr_main.script,235-665,bc7bbbd12bc357297735d35a04fd7bfef28e91a694478984d63dcdf96d613826,727,Listener priority constraints and dispatch
+R12,xray-monolith-2026.10.11.zip,gamedata/scripts/dynamic_callbacks.lua,1-37,8cf29f142221465cefe5b641373a1bc42e623c97458cd4c4af1517c431bb1b26,37,Separate local callback set
+R13,xray-monolith-2026.10.11.zip,src/xrGame/xrServer_process_event.cpp,115-122,5e5d96631fe1045835baa7e139d8e7a961e949ac8c1d23d9b0ca88fde863494c,400,GE_DESTROY dispatch
+R14,xray-monolith-2026.10.11.zip,src/xrGame/xrServer_process_event_destroy.cpp,23-110,38af570bc17cc8245dfc19002db773c0c059b897a01d81ea50d6054e75567aa9,110,Event destruction and conditional release
+R15,xray-monolith-2026.10.11.zip,src/xrGame/xrServer_sls_clear.cpp,9-59,f233b146ce23e14b9d7af95a99cf689422de95f6323bc1cf37ecb8e2dbd740c2,103,Representation destruction
+R16,xray-monolith-2026.10.11.zip,src/xrGame/xrServer.cpp,865-882,11dc8de09721959fc2333dd573792babec17dcc2d502362501c45f2ecd413423,1310,Conditional native deletion

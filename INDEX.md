@@ -139,3 +139,10 @@
 - [WAR-001: CtZ integration boundary and effective-profile prerequisites](04-game-systems/warfare/ctz-integration-boundary-oct11.md).
 
 Runtime remains deferred. Next source work: creation/release and callback ordering; effective board/smart/Warfare implementations remain separately open.
+
+## v0.1.32 — Native A-Life creation/release and callback phases
+
+- [ALIFE-02: creation, registration, release and callback ordering](04-game-systems/alife/creation-registration-release-oct11.md).
+- [ALIFE-02 source evidence ledger](04-game-systems/alife/creation-release-evidence-oct11.csv).
+
+Scoped source pass complete; runtime deferred. Next: effective smart-terrain/board assignment and Warfare policy.

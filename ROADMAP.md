@@ -179,3 +179,13 @@ A-01 and A-02 remain open. Run `tools/audit_xml_lua_registrations.py` on pinned 
 - [ ] Runtime tests: explicitly deferred by user request; no game/engine runtime executed.
 
 See [ALIFE-01](04-game-systems/alife/identity-lifecycle-oct11.md) and [WAR-001](04-game-systems/warfare/ctz-integration-boundary-oct11.md). Missing gameplay scripts do not block the next native source investigation.
+
+## v0.1.32 — ALIFE-02 source disposition
+
+- [x] Trace inspected native section/template/server creation, delayed/manual registration, registry removal, online destroy events and offline representation removal.
+- [x] Distinguish callback readiness phases, bulk initialization timing, bundled squad callback order and axr dispatcher priority rules.
+- [ ] Effective global callback wrappers/listeners and smart-terrain/board/simulation-object policy: ALIFE-03; Warfare overrides: WAR-002.
+- [ ] Full save/load and CtZ campaign/generation identity: ALIFE-04.
+- [ ] All engine runtime verification remains deferred.
+
+This closes the bounded ALIFE-02 task above, not every entity-specific creation/destruction path. See [ALIFE-02](04-game-systems/alife/creation-registration-release-oct11.md).
