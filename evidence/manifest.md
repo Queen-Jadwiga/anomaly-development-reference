@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.53**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.54**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -49,3 +49,5 @@ The archive hashes pin the supplied bytes, not the active game profile. Existing
 | WEB-003 | https://github.com/bergemon/xray-monolith-anomaly | Alternative fork, not assumed identical |
 
 All version-sensitive engine documentation must cite an exact revision once identified.
+
+- [Inventory ownership evidence](inventory/README.md): ENGINE1011; no new baseline introduced.

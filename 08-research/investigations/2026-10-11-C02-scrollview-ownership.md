@@ -1,6 +1,6 @@
 # C-02 — CUIScrollView internal pad and child ownership
 
-> ADR document set: **v0.1.53**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.54**. Research revisions and source/build versions below describe their original scope.
 
 **Baseline:** user-supplied `xray-monolith-2026.10.11.zip`. **Status:** source research complete; runtime deferred. **Scope:** native `CUIScrollView` child handling and direct Lua exports. Does not establish general Luabind userdata lifetime or safe operations on destroyed windows.
 

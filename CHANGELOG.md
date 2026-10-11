@@ -1,6 +1,11 @@
 # ADR changelog
 
-> ADR document set: **v0.1.53**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.54**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.54 — 2026-10-11 — Inventory ownership foundation
+
+- Add ITEM-01 native server/actor/box ownership reference, focused Lua contracts, dated investigation and 20-entry ledger. Separate parent/containment/membership layers, request sequences and callback observation phases.
+- Expand roadmap to agreed general-modding first-edition scope; preserve earlier evidence/conclusions. Correct current verification label and persistence-audit target. Runtime deferred; next placement/activation. See [verification](08-research/verification-2026-10-11-v0.1.54.md).
 
 ## v0.1.53 — 2026-10-11 — Persistence consolidation and final bounded audit
 

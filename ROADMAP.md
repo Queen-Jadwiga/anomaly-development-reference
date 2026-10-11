@@ -1,6 +1,6 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.53**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.54**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source status
 
@@ -8,14 +8,14 @@ UI/PDA is development-reference ready within the documented source scope. A-Life
 
 ## Next source work
 
-The planned consolidation and bounded audits from available snapshots are complete for A-Life/Warfare and factions. Both retain effective installed-source requirements; see [A-Life/Warfare completion](04-game-systems/alife/source-completion-status.md) and [faction completion](04-game-systems/factions/source-completion-status.md). Persistence available-source work is complete within selected scope: PER-01 selected native save/load pipeline and Lua extension boundaries are complete within scope. PER-02 supplied codec/caller/gap pass is complete within scope; effective core manager/dispatch/storage remains partial. PER-03 selected CtZ campaign identity/schema/restoration/reconciliation is complete; PER-04 practical consolidation and final bounded audit are complete. Full effective installed persistence remains partial under its [completion rule](04-game-systems/persistence/source-completion-status.md). Next independent subsystem: inventory/item lifecycle and trade foundations, beginning with native ownership, containment, pickup/drop and Lua interfaces. Runtime verification remains deferred.
+The planned consolidation and bounded audits from available snapshots are complete for A-Life/Warfare and factions. Both retain effective installed-source requirements; see [A-Life/Warfare completion](04-game-systems/alife/source-completion-status.md) and [faction completion](04-game-systems/factions/source-completion-status.md). Persistence available-source work is complete within selected scope: PER-01 selected native save/load pipeline and Lua extension boundaries are complete within scope. PER-02 supplied codec/caller/gap pass is complete within scope; effective core manager/dispatch/storage remains partial. PER-03 selected CtZ campaign identity/schema/restoration/reconciliation is complete; PER-04 practical consolidation and final bounded audit are complete. Full effective installed persistence remains partial under its [completion rule](04-game-systems/persistence/source-completion-status.md). Inventory is active: ITEM-01 selected ownership/pickup/drop and focused Lua interfaces complete; placement/activation is next. Runtime verification remains deferred.
 
 <a id="current-a-lifewarfare-remaining-scope--v0138"></a>
 
 ## Current A-Life/Warfare remaining scope
 
 
-This is the current consolidated checklist for the agreed **CtZ-focused development reference**. Older plans are preserved in the [historical roadmap](08-research/history/roadmap-through-v0.1.40.md). Source readiness and runtime verification remain separate.
+This is the current consolidated checklist for the earlier **CtZ-focused development reference**, now incorporated into the broader general-modding foundation. Older plans are preserved in the [historical roadmap](08-research/history/roadmap-through-v0.1.40.md). Source readiness and runtime verification remain separate.
 
 - [x] ALIFE-01/02: identity, membership, native creation/registration/release and callback boundaries.
 - [x] ALIFE-04: bounded native save/load and supplied CtZ identity reconstruction.
@@ -65,6 +65,22 @@ Native phase/source findings do not certify arbitrary Lua table serialization, w
 - [ ] Effective addon interaction and conflict analysis when the installed profile becomes available.
 - [ ] Deferred runtime checks: ownership/GC, tabs, font initialization, assets, scaling and input behavior under the identified executable/profile.
 
+## General modding foundations
+
+The first broadly useful ADR extends beyond CtZ while remaining bounded. CtZ supplies practical examples/questions; it does not define the only completion criterion. Existing detailed scope/status qualifications remain in force.
+
+- [x] Substantial UI/PDA, A-Life/Warfare, faction and persistence available-source foundations; effective/runtime gaps remain open.
+- [ ] Inventory/item lifecycle: [ITEM-01 ownership/pickup/drop](04-game-systems/inventory/ownership-lifecycle.md) complete within scope; next placement/activation, consumption/destruction/owner cleanup, persistence/reconstruction and consolidation. NPC variants remain explicit dependencies.
+- [ ] Trade/economy: money, prices, trade eligibility/transaction flow, trader configuration and script overrides; event transfer names alone do not establish payment.
+- [ ] Actor/NPC gameplay state: health/damage/death/condition/immunity/effects and callback boundaries; extend existing casualty findings.
+- [ ] Tasks/dialogue/info state: lifecycle, conditions/actions, rewards and persistence.
+- [ ] World interaction/navigation: extend existing lookup/position/graph/restriction/smart/transition/map-marker coverage after inventorying it; do not duplicate completed A-Life findings.
+- [ ] Configuration/script integration: LTX sections/inheritance, Lua startup/loading, callback registration, patching and effective file precedence.
+- [ ] Practical architecture/debugging: compatibility/state ownership, logging/crash diagnosis, qualified examples and evidence-based test guidance.
+- [ ] Cross-system consolidation: C++/Lua maps, practical references, qualified examples and final provenance/navigation/consistency audit.
+
+Each subsystem's first-edition boundary is its main lifecycle, state owner, relevant configuration/Lua contracts, callbacks, persistence, failure behavior and cross-system dependencies, with explicit gaps. Inventory existing coverage before each new investigation. Full renderer internals, every weapon/AI variant, animation/physics internals, multiplayer and exhaustive binding/build combinations are optional later depth unless a concrete question requires them. Effective-source collection and runtime resumption remain separate; all runtime remains deferred.
+
 ## Maintenance
 
-Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.53.md). Historical unchecked boxes are not the current backlog.
+Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.54.md). Historical unchecked boxes are not the current backlog.

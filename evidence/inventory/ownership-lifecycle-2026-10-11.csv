@@ -1,0 +1,21 @@
+evidence_id,source_id,source_path,symbol,line_ranges,file_sha256,line_count,subject
+I01,ENGINE1011,src/xrGame/Inventory.cpp,CInventory::Take,129-233,02c86fd02085223e67bb95e2656150caf450dfb5c91b77c0252774cdb9495f03,1561,"Take membership, placement and callback ordering"
+I02,ENGINE1011,src/xrGame/Inventory.cpp,CInventory::DropItem,235-342,02c86fd02085223e67bb95e2656150caf450dfb5c91b77c0252774cdb9495f03,1561,Drop removes membership before callback and detaches parent later
+I03,ENGINE1011,src/xrGame/Inventory.cpp,CInventory::CanTakeItem,1304-1324,02c86fd02085223e67bb95e2656150caf450dfb5c91b77c0252774cdb9495f03,1561,Eligibility and non-actor weight gate
+I04,ENGINE1011,src/xrGame/InventoryOwner.cpp,CInventoryOwner::OnItemTake;CInventoryOwner::OnItemDrop,334-353;498-505,7abbb1405915f5b98050ad1f78b7e4234521357358d99dc1e0db7e03aceea24b,705,Native owner callback before attachment work
+I05,ENGINE1011,src/xrGame/Actor_Events.cpp,GE_TRADE_BUY;GE_OWNERSHIP_TAKE;GE_OWNERSHIP_REJECT,35-151,d63cfdbf4a49c163e930f520378c8ce026ec286677ef9102935b256c2cc6b177,378,Selected actor event consumer and reject-on-failed-take
+I06,ENGINE1011,src/xrGame/Actor.cpp,CActor::OnItemTake;CActor::OnItemDrop,2611-2645,de17006945ac03c05a1c336b7c773d16f21c6ee83fcfc7fe1cbc60fd5e174399,3128,Actor owner override ordering
+I07,ENGINE1011,src/xrGame/xrServer_process_event.cpp,GE_TRADE_BUY;Process_event_ownership;Process_event_reject,13-39;88-116,5e5d96631fe1045835baa7e139d8e7a961e949ac8c1d23d9b0ca88fde863494c,400,Server event receiver and routing
+I08,ENGINE1011,src/xrGame/xrServer_process_event_ownership.cpp,Process_event_ownership;OnTouch;ID_Parent,14-96,82c85cf099e92cbbb3a6514f2dd1ebc1b8b1963a077f1820ab5471c23a1015ba,96,"Server take guards, graph hook, parent rebuild and broadcast"
+I09,ENGINE1011,src/xrGame/xrServer_process_event_reject.cpp,Process_event_reject;OnDetach;ID_Parent,5-86,2847272445d60b02c7485145ca0c9fcc1700502faeec093a89601907cb4e72f6,86,Server rejection membership check and detach ordering
+I10,ENGINE1011,src/xrGame/game_sv_single.cpp,game_sv_Single::OnTouch;game_sv_Single::OnDetach,92-151,26042fed21921e11a92a909507d064150cbd3c242d492a2aae5971ad87e20ff7,367,Selected A-Life graph attach/detach caller boundaries
+I11,ENGINE1011,src/xrEngine/xr_object.cpp,CObject::H_SetParent,443-480,ee748291841a97f563b229d07e8f295bb4d079c62046af41c09564464ffbd88e,536,Live parent setter and before/after hooks
+I12,ENGINE1011,src/xrGame/inventory_item.cpp,OnH_B_Independent;OnH_A_Independent;net_Destroy,208-230;379-388,f206ff9bcd2ce721055d86ed0b7e9ed0f1206f8fc245ea5578ccc71f73803b6b,1556,Placement reset and cleanup assertion
+I13,ENGINE1011,src/xrGame/InventoryBox.cpp,CInventoryBox::OnEvent;eInvBoxItemTake,24-81,24d7da45a567826d43e78835110d8d1e7ce58c1973089e52ee0e9febadf5c759,162,"Box IDs, parenting and in-use actor callback"
+I14,ENGINE1011,src/xrGame/script_game_object_inventory_owner.cpp,DropItem;DropItemAndTeleport;TransferItem;TakeItem,448-474;607-678,a9e0a854da799220cfa0a816f2a48a839c1325c7118a27588e838e84660c81d3,3051,"Lua request helpers, null/error and event sequences"
+I15,ENGINE1011,src/xrGame/game_cl_base.cpp,SendPickUpEvent,435-445,5ca7b886ff7c8718d737653c7d35ec4ea916873dce86d949e43f478ced10b554,460,Unparented pickup request producer
+I16,ENGINE1011,src/xrGame/script_game_object_script3.cpp,drop_item;transfer_item;take_item;inventory_for_each,296-300,24bbffd954d03a5d97ed627c2a8df77a7f51c3ab80c37570528b58fb7c229ff5,762,Selected Lua method registrations
+I17,ENGINE1011,src/xrGame/script_game_object.h,DropItem;TransferItem;TakeItem;ForEachInventoryItems;SAFE_WRAP,441-445;1355-1412,7e11b75b3269c5cab1be786d40afeab2eb293710e2ecbc3bab7ecceb87c87450,1418,Signatures and wrapper forwarding limit
+I18,ENGINE1011,src/xrGame/script_game_object_inventory_owner.cpp,ForEachInventoryItems,233-257,a9e0a854da799220cfa0a816f2a48a839c1325c7118a27588e838e84660c81d3,3051,Available-item snapshot and true early exit
+I19,ENGINE1011,src/xrGame/Inventory.cpp,AddAvailableItems;SlotIsPersistent,1347-1418,02c86fd02085223e67bb95e2656150caf450dfb5c91b77c0252774cdb9495f03,1561,Available-item filtering differs from all-item membership
+I20,ENGINE1011,src/xrGame/script_game_object_script.cpp,on_item_take;on_item_drop;take_item_from_box,117-122,a3eb52bc8eabc6873ed926e3617456d480e41796a93c1a1706ea3facb39e38fa,199,Native callback enum exports

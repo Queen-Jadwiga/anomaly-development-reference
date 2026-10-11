@@ -1,6 +1,6 @@
 # Debugging workflow
 
-> ADR document set: **v0.1.53**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.54**. Research revisions and source/build versions below describe their original scope.
 
 1. Keep original log and timestamp privately.
 2. Extract startup banner and environment facts.

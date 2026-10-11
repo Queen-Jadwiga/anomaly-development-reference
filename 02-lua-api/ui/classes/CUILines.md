@@ -1,6 +1,6 @@
 # CUILines — declaration audit (ADR v0.1.5)
 
-> ADR document set: **v0.1.53**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.54**. Research revisions and source/build versions below describe their original scope.
 
 **Evidence level:** Source-confirmed native declarations and previously extracted Lua registrations at pinned commit; **GAMMA runtime untested.** Only methods already listed in the previous Lua registration inventory are treated as exported. Other native methods are not automatically Lua-accessible.
 
