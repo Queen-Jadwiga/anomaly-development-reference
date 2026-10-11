@@ -259,3 +259,14 @@ This is the current consolidated checklist for the agreed **CtZ-focused developm
 - [ ] Runtime checks, deferred: switching positions and callbacks, assignment versus arrival, ownership changes, online/offline deaths and cleanup, save/load/CtZ restoration and level changes. Confirm target executable/profile correspondence.
 
 Effective source requirements are listed in [WAR-002a](04-game-systems/warfare/source-packages-effective-profile-oct11.md). Selected optional entity/AI internals and exhaustive unrelated API coverage are not prerequisites. Source-level stopping point: close the effective script chains, consolidate and audit, then mark this portion development-reference ready with runtime pending. No runtime test is required during the current source phase.
+
+## v0.1.39 — Interface mapping disposition
+
+- [x] ALIFE-09: scoped C++/Lua class map and macro-expanded binding inventory for simulator, server objects, brains/movement/tasks and game graph.
+- [x] Focused simulator/server/squad API contracts and supplied script declaration catalog, including missing effective-module boundaries.
+- [x] Reproducible five-CSV extraction, source-origin checks and 73-file hash/line-count verification.
+- [ ] Next consolidation: lifecycle/state map and callback-phase reference linked to the API contracts; audit evidence and navigation.
+- [ ] Effective script-chain closure and runtime checks remain as listed in the v0.1.38 consolidated checklist.
+- [ ] Optional expansion: resolve every scoped raw method pointer/converter/overload signature, additional build branches and registrations outside the selected units. The current focused API pages must not be described as an exhaustive engine API manual.
+
+See [ALIFE-09 catalog](04-game-systems/alife/api/README.md). This completes the interface-catalog part of consolidation within its documented scope; it does not close effective policy or runtime work.

@@ -1,6 +1,6 @@
 # Warfare subsystem
 
-**Current revision: v0.1.38.**
+**Current revision: v0.1.39.**
 
 **Current evidence:** Capture the Zone is intended to extend Anomaly/GAMMA Warfare, including PDA strategy display and tracking faction control.
 
@@ -54,4 +54,8 @@ Supplied package implementations are now inspected. Current MO2 winning files an
 
 ## v0.1.38 — Forced-state policy and native switching
 
-[ALIFE-08](../alife/switching-eligibility-oct11.md) connects supplied squad forced-status policy to native permissions, threshold hysteresis and member/group gates. The bundled and Warfare status producers differ; active replacement order and option values remain unverified. See [remaining scope](../../../ROADMAP.md#current-a-lifewarfare-remaining-scope--v0138).
+[ALIFE-08](../alife/switching-eligibility-oct11.md) connects supplied squad forced-status policy to native permissions, threshold hysteresis and member/group gates. The bundled and Warfare status producers differ; active replacement order and option values remain unverified. See [remaining scope](../../ROADMAP.md#current-a-lifewarfare-remaining-scope--v0138).
+
+## v0.1.39 — Interface catalog
+
+[ALIFE-09](../alife/api/README.md) maps native/server/squad interfaces and [supplied Warfare script declarations](../alife/api/script-interfaces.md). Package/patch variants remain separate. Missing effective smart/board/creature/safe-release implementations are explicitly tracked; runtime deferred.

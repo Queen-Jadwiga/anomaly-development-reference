@@ -1,6 +1,6 @@
 # A-Life reference
 
-**Current revision: v0.1.38.** First source pass established server identity, native squad membership, selected online/offline paths, and the boundary with Lua smart assignment. Installed GAMMA behavior and runtime tests remain deferred.
+**Current revision: v0.1.39.** First source pass established server identity, native squad membership, selected online/offline paths, and the boundary with Lua smart assignment. Installed GAMMA behavior and runtime tests remain deferred.
 
 - [ALIFE-01 — Identity, squad membership and lifecycle](identity-lifecycle-oct11.md)
 - [October 11 source evidence ledger](source-evidence-oct11.csv)
@@ -51,4 +51,13 @@ Bounded source pass complete; effective profile/runtime deferred. Next: native s
 - [ALIFE-08: permission truth table, distance hysteresis, group/member gates and Lua policy](switching-eligibility-oct11.md).
 - [19-file source evidence ledger](switching-eligibility-evidence-oct11.csv).
 
-Bounded native switching pass complete. Remaining effective smart/board, death/release and persistence chains require winning scripts. Consolidation and audit can continue from available sources; runtime deferred. See [current remaining scope](../../../ROADMAP.md#current-a-lifewarfare-remaining-scope--v0138).
+Bounded native switching pass complete. Remaining effective smart/board, death/release and persistence chains require winning scripts. Consolidation and audit can continue from available sources; runtime deferred. See [current remaining scope](../../ROADMAP.md#current-a-lifewarfare-remaining-scope--v0138).
+
+## v0.1.39 — C++ and Lua interface catalog
+
+- [ALIFE-09 catalog and searchable inventories](api/README.md).
+- [Class and ownership map](api/class-map.md).
+- [Simulator API](api/simulator-api.md) and [server/squad/task/movement API](api/server-squad-api.md).
+- [Script interfaces and unresolved effective modules](api/script-interfaces.md).
+
+Scoped source mapping complete. Native-only machinery, Lua exports, virtual callbacks and script helpers are distinguished; runtime/effective profile and exhaustive signature/converter coverage remain qualified. Next: consolidate lifecycle/state and callback-phase maps from these references.

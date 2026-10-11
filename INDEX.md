@@ -191,3 +191,13 @@ Bounded source task complete; effective profile and runtime deferred. Next: nati
 - [Consolidated remaining A-Life/Warfare scope](ROADMAP.md#current-a-lifewarfare-remaining-scope--v0138).
 
 Native switching source pass complete; effective scripts and runtime remain open.
+
+## v0.1.39 — A-Life/Warfare C++ and Lua interfaces
+
+- [ALIFE-09: catalog scope, methodology and inventories](04-game-systems/alife/api/README.md).
+- [Native class / Lua name and ownership map](04-game-systems/alife/api/class-map.md).
+- [Simulator API contracts](04-game-systems/alife/api/simulator-api.md).
+- [Server entities, squads, tasks and movement APIs](04-game-systems/alife/api/server-squad-api.md).
+- [Supplied script interfaces and missing effective modules](04-game-systems/alife/api/script-interfaces.md).
+
+Scoped macro-expanded inventory and focused contracts complete; all-signature/converter resolution, other build configurations and effective installation remain separate qualifications. Runtime deferred.

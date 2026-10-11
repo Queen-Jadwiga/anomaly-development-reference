@@ -201,3 +201,10 @@ Added four narrowly evidenced UI system records (dynamic PDA tabs, DXML hooks, i
 - Added ALIFE-08 with a 19-file source ledger tracing threshold boundaries, virtual permissions, attachment/registry gates, group/member checks and selected native exceptions.
 - Compared bundled squad forced-state policy with the supplied Warfare replacement; retained active-profile and scheduling qualifications.
 - Consolidated the agreed remaining CtZ-focused A-Life/Warfare scope in the roadmap. Updated navigation; preserved prior research and CtZ link. No gameplay changes, runtime tests or license added.
+
+## v0.1.39 — 2026-10-11 — A-Life/Warfare interface catalog
+
+- Added ALIFE-09: class/ownership map, focused simulator/server/squad/task/movement contracts and supplied script interface boundaries.
+- Added 84 class-registration rows, 1,150 binding rows with overload expressions and two XRGAME_EXPORTS projections, 174 helper declarations and 1,372 Lua function declarations. Counts preserve source occurrences and variants rather than implying unique runtime APIs.
+- Added 73-file evidence ledger and reproducible extractor; checked source origins and byte-for-byte repeatability of all five CSVs.
+- Updated navigation and scope, correcting subsystem roadmap links that traversed above the repository root; retained prior research, CtZ link, effective-profile/build/converter qualifications and runtime deferral. No gameplay change or license added.

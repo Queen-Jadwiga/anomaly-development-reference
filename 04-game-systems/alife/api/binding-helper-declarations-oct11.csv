@@ -1,0 +1,175 @@
+cpp_symbol,cpp_definition_signature,source_path,source_line
+CALifeHumanBrain::script_register,void CALifeHumanBrain::script_register(lua_State* L),src/xrGame/alife_human_brain_script.cpp,15
+get_movement,CALifeMonsterMovementManager* get_movement(const CALifeMonsterBrain* brain),src/xrGame/alife_monster_brain_script.cpp,15
+CALifeMonsterBrain::script_register,void CALifeMonsterBrain::script_register(lua_State* L),src/xrGame/alife_monster_brain_script.cpp,21
+CALifeMonsterDetailPathManager::script_register,void CALifeMonsterDetailPathManager::script_register(lua_State* L),src/xrGame/alife_monster_detail_path_manager_script.cpp,16
+get_detail,CALifeMonsterDetailPathManager* get_detail(const CALifeMonsterMovementManager* self),src/xrGame/alife_monster_movement_manager_script.cpp,17
+get_patrol,CALifeMonsterPatrolPathManager* get_patrol(const CALifeMonsterMovementManager* self),src/xrGame/alife_monster_movement_manager_script.cpp,22
+CALifeMonsterMovementManager::script_register,void CALifeMonsterMovementManager::script_register(lua_State* L),src/xrGame/alife_monster_movement_manager_script.cpp,28
+CALifeMonsterPatrolPathManager__target_position,Fvector CALifeMonsterPatrolPathManager__target_position(CALifeMonsterPatrolPathManager* self),src/xrGame/alife_monster_patrol_path_manager_script.cpp,15
+CALifeMonsterPatrolPathManager::script_register,void CALifeMonsterPatrolPathManager::script_register(lua_State* L),src/xrGame/alife_monster_patrol_path_manager_script.cpp,22
+alife,CALifeSimulator* alife(),src/xrGame/alife_simulator_script.cpp,38
+alife_object,"CSE_ALifeDynamicObject* alife_object(const CALifeSimulator* self, ALife::_OBJECT_ID object_id)",src/xrGame/alife_simulator_script.cpp,43
+valid_object_id,"bool valid_object_id(const CALifeSimulator* self, ALife::_OBJECT_ID object_id)",src/xrGame/alife_simulator_script.cpp,54
+alife_object,"CSE_ALifeDynamicObject* alife_object(const CALifeSimulator* self, ALife::_OBJECT_ID id, bool no_assert)",src/xrGame/alife_simulator_script.cpp,75
+alife_story_object,"CSE_ALifeDynamicObject* alife_story_object(const CALifeSimulator* self, ALife::_STORY_ID id)",src/xrGame/alife_simulator_script.cpp,81
+generate_story_ids,"void generate_story_ids( STORY_PAIRS& result, _id_type INVALID_ID, LPCSTR section_name, LPCSTR INVALID_ID_STRING, LPCSTR invalid_id_description, LPCSTR invalid_id_redefinition, LPCSTR duplicated_id_description )",src/xrGame/alife_simulator_script.cpp,87
+kill_entity0,"void kill_entity0(CALifeSimulator* alife, CSE_ALifeMonsterAbstract* monster, const GameGraph::_GRAPH_ID& game_vertex_id)",src/xrGame/alife_simulator_script.cpp,123
+kill_entity1,"void kill_entity1(CALifeSimulator* alife, CSE_ALifeMonsterAbstract* monster)",src/xrGame/alife_simulator_script.cpp,128
+add_in_restriction,"void add_in_restriction(CALifeSimulator* alife, CSE_ALifeMonsterAbstract* monster, ALife::_OBJECT_ID id)",src/xrGame/alife_simulator_script.cpp,133
+add_out_restriction,"void add_out_restriction(CALifeSimulator* alife, CSE_ALifeMonsterAbstract* monster, ALife::_OBJECT_ID id)",src/xrGame/alife_simulator_script.cpp,138
+remove_in_restriction,"void remove_in_restriction(CALifeSimulator* alife, CSE_ALifeMonsterAbstract* monster, ALife::_OBJECT_ID id)",src/xrGame/alife_simulator_script.cpp,143
+remove_out_restriction,"void remove_out_restriction(CALifeSimulator* alife, CSE_ALifeMonsterAbstract* monster, ALife::_OBJECT_ID id)",src/xrGame/alife_simulator_script.cpp,148
+get_level_id,u32 get_level_id(CALifeSimulator* self),src/xrGame/alife_simulator_script.cpp,153
+CALifeSimulator__create,"CSE_ALifeDynamicObject* CALifeSimulator__create(CALifeSimulator* self, ALife::_SPAWN_ID spawn_id)",src/xrGame/alife_simulator_script.cpp,158
+CALifeSimulator__spawn_item,"CSE_Abstract* CALifeSimulator__spawn_item(CALifeSimulator* self, LPCSTR section, const Fvector& position, u32 level_vertex_id, GameGraph::_GRAPH_ID game_vertex_id)",src/xrGame/alife_simulator_script.cpp,172
+CALifeSimulator__spawn_item2,"CSE_Abstract* CALifeSimulator__spawn_item2(CALifeSimulator* self, LPCSTR section, const Fvector& position, u32 level_vertex_id, GameGraph::_GRAPH_ID game_vertex_id, ALife::_OBJECT_ID id_parent)",src/xrGame/alife_simulator_script.cpp,178
+CALifeSimulator__spawn_item3,"CSE_Abstract* CALifeSimulator__spawn_item3(CALifeSimulator* self, LPCSTR section, const Fvector& position, u32 level_vertex_id, GameGraph::_GRAPH_ID game_vertex_id, ALife::_OBJECT_ID id_parent, bool reg = true)",src/xrGame/alife_simulator_script.cpp,212
+CALifeSimulator__spawn_on_level2,"CSE_Abstract* CALifeSimulator__spawn_on_level2(CALifeSimulator* self, LPCSTR section, LPCSTR level_name, const Fvector& position, u32 level_vertex_id)",src/xrGame/alife_simulator_script.cpp,240
+CALifeSimulator__spawn_on_level,"CSE_Abstract* CALifeSimulator__spawn_on_level(CALifeSimulator* self, LPCSTR section, LPCSTR level_name, const Fvector& position)",src/xrGame/alife_simulator_script.cpp,274
+CALifeSimulator__spawn_ammo,"CSE_Abstract* CALifeSimulator__spawn_ammo(CALifeSimulator* self, LPCSTR section, const Fvector& position, u32 level_vertex_id, GameGraph::_GRAPH_ID game_vertex_id, ALife::_OBJECT_ID id_parent, int ammo_to_spawn)",src/xrGame/alife_simulator_script.cpp,279
+CALifeSimulator__spawn_id,"ALife::_SPAWN_ID CALifeSimulator__spawn_id(CALifeSimulator* self, ALife::_SPAWN_STORY_ID spawn_story_id)",src/xrGame/alife_simulator_script.cpp,330
+CALifeSimulator__release,"void CALifeSimulator__release(CALifeSimulator* self, CSE_Abstract* object, bool)",src/xrGame/alife_simulator_script.cpp,335
+get_level_name,"LPCSTR get_level_name(const CALifeSimulator* self, int level_id)",src/xrGame/alife_simulator_script.cpp,360
+get_actor,CSE_ALifeCreatureActor* get_actor(const CALifeSimulator* self),src/xrGame/alife_simulator_script.cpp,372
+registry,"KNOWN_INFO_VECTOR* registry(const CALifeSimulator* self, const ALife::_OBJECT_ID& id)",src/xrGame/alife_simulator_script.cpp,378
+has_info,"bool has_info(const CALifeSimulator* self, const ALife::_OBJECT_ID& id, LPCSTR info_id)",src/xrGame/alife_simulator_script.cpp,384
+dont_has_info,"bool dont_has_info(const CALifeSimulator* self, const ALife::_OBJECT_ID& id, LPCSTR info_id)",src/xrGame/alife_simulator_script.cpp,396
+AlifeGiveInfo,"void AlifeGiveInfo(const CALifeSimulator *alife, const ALife::_OBJECT_ID &id, LPCSTR info_id)",src/xrGame/alife_simulator_script.cpp,403
+AlifeRemoveInfo,"void AlifeRemoveInfo(const CALifeSimulator *alife, const ALife::_OBJECT_ID &id, LPCSTR info_id)",src/xrGame/alife_simulator_script.cpp,417
+teleport_object,"void teleport_object(CALifeSimulator* alife, ALife::_OBJECT_ID id, GameGraph::_GRAPH_ID game_vertex_id, u32 level_vertex_id, const Fvector& position)",src/xrGame/alife_simulator_script.cpp,426
+IterateInfo,"void IterateInfo(const CALifeSimulator* alife, const ALife::_OBJECT_ID& id, const ::luabind::functor<void>& functor)",src/xrGame/alife_simulator_script.cpp,432
+reprocess_spawn,"CSE_Abstract* reprocess_spawn(CALifeSimulator* self, CSE_Abstract* object)",src/xrGame/alife_simulator_script.cpp,444
+try_to_clone_object,"CSE_Abstract* try_to_clone_object(CALifeSimulator* self, CSE_Abstract* object, LPCSTR section, const Fvector& position, u32 level_vertex_id, GameGraph::_GRAPH_ID game_vertex_id, ALife::_OBJECT_ID id_parent, bool bRegister = true)",src/xrGame/alife_simulator_script.cpp,463
+set_objects_per_update,"void set_objects_per_update(CALifeSimulator* self, u32 count)",src/xrGame/alife_simulator_script.cpp,492
+set_process_time,"void set_process_time(CALifeSimulator* self, int micro)",src/xrGame/alife_simulator_script.cpp,497
+force_update,void force_update(CALifeSimulator* self),src/xrGame/alife_simulator_script.cpp,502
+CALifeSimulator__iterate_objects,"void CALifeSimulator__iterate_objects(const CALifeSimulator* self, const luabind::functor<bool>& functor)",src/xrGame/alife_simulator_script.cpp,508
+CALifeSimulator__iterate_objects_without_actor,"void CALifeSimulator__iterate_objects_without_actor(const CALifeSimulator* self, const luabind::functor<bool>& functor)",src/xrGame/alife_simulator_script.cpp,516
+CALifeSimulator__iterate_level_objects_of_clsid,"void CALifeSimulator__iterate_level_objects_of_clsid( const CALifeSimulator* self, int script_clsid_val, const luabind::functor<bool>& functor)",src/xrGame/alife_simulator_script.cpp,526
+next,CSE_ALifeDynamicObject* next(),src/xrGame/alife_simulator_script.cpp,544
+next,CSE_ALifeDynamicObject* next(),src/xrGame/alife_simulator_script.cpp,560
+alife_object_iter,alife_object_iterator alife_object_iter(const CALifeSimulator* self),src/xrGame/alife_simulator_script.cpp,574
+alife_object_without_actor_iter,alife_object_without_actor_iterator alife_object_without_actor_iter(const CALifeSimulator* self),src/xrGame/alife_simulator_script.cpp,581
+alife_max_id,ALife::_OBJECT_ID alife_max_id(const CALifeSimulator* self),src/xrGame/alife_simulator_script.cpp,588
+alife_object_count,ALife::_OBJECT_ID alife_object_count(const CALifeSimulator* self),src/xrGame/alife_simulator_script.cpp,593
+alife_object_ids,"::luabind::object alife_object_ids(const CALifeSimulator* self, const bool keytable = false, const bool withActor = false)",src/xrGame/alife_simulator_script.cpp,598
+alife_objects,"::luabind::object alife_objects(const CALifeSimulator *self, const bool keytable = false, const bool withActor = false)",src/xrGame/alife_simulator_script.cpp,618
+get_children,"xr_vector<u16>& get_children(const CALifeSimulator *self, CSE_Abstract *object)",src/xrGame/alife_simulator_script.cpp,638
+CALifeSimulator::script_register,void CALifeSimulator::script_register(lua_State* L),src/xrGame/alife_simulator_script.cpp,645
+CALifeSimulator::validate,void CALifeSimulator::validate (),src/xrGame/alife_simulator_script.cpp,765
+CALifeSmartTerrainTask::script_register,void CALifeSmartTerrainTask::script_register(lua_State* L),src/xrGame/alife_smart_terrain_task_script.cpp,15
+get_game_graph,const CGameGraph* get_game_graph(),src/xrGame/game_graph_script.cpp,16
+get_header,const CGameGraph::CHeader* get_header(const CGameGraph* self),src/xrGame/game_graph_script.cpp,21
+get_accessible1,"bool get_accessible1(const CGameGraph* self, const u32& vertex_id)",src/xrGame/game_graph_script.cpp,26
+get_accessible2,"void get_accessible2(const CGameGraph* self, const u32& vertex_id, bool value)",src/xrGame/game_graph_script.cpp,31
+CVertex__level_point,Fvector CVertex__level_point(const CGameGraph::CVertex* vertex),src/xrGame/game_graph_script.cpp,36
+CVertex__game_point,Fvector CVertex__game_point(const CGameGraph::CVertex* vertex),src/xrGame/game_graph_script.cpp,42
+get_levels,GameGraph::LEVEL_MAP const& get_levels(CGameGraph const* graph),src/xrGame/game_graph_script.cpp,48
+get_level_neighbours,"::luabind::object get_level_neighbours(lua_State* L, CGameGraph const* graph, u32 level_id)",src/xrGame/game_graph_script.cpp,56
+get_nearest_vertex,"::luabind::object get_nearest_vertex(lua_State* L, CGameGraph const* graph, LPCSTR level_name, const Fvector& position)",src/xrGame/game_graph_script.cpp,79
+CGameGraph::script_register,void CGameGraph::script_register(lua_State* L),src/xrGame/game_graph_script.cpp,95
+add_upgrade_script,"void add_upgrade_script(CSE_ALifeInventoryItem* ta, LPCSTR str)",src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,13
+has_upgrade_script,"bool has_upgrade_script(CSE_ALifeInventoryItem* ta, LPCSTR str)",src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,18
+get_condition_script,float get_condition_script(CSE_ALifeInventoryItem* item),src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,23
+set_condition_script,"void set_condition_script(CSE_ALifeInventoryItem* item, float value)",src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,29
+CSE_ALifeInventoryItem::script_register,void CSE_ALifeInventoryItem::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,43
+CSE_ALifeItem::script_register,void CSE_ALifeItem::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,55
+CSE_ALifeItemTorch::script_register,void CSE_ALifeItemTorch::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,68
+CSE_ALifeItemAmmo::script_register,void CSE_ALifeItemAmmo::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,79
+CSE_ALifeItemWeapon::script_register,void CSE_ALifeItemWeapon::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,90
+CSE_ALifeItemWeaponShotGun::script_register,void CSE_ALifeItemWeaponShotGun::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,105
+CSE_ALifeItemWeaponAutoShotGun::script_register,void CSE_ALifeItemWeaponAutoShotGun::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,116
+CSE_ALifeItemDetector::script_register,void CSE_ALifeItemDetector::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,127
+CSE_ALifeItemArtefact::script_register,void CSE_ALifeItemArtefact::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,138
+CSE_ALifeItemPDA::script_register,void CSE_ALifeItemPDA::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script2.cpp,16
+CSE_ALifeItemDocument::script_register,void CSE_ALifeItemDocument::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script2.cpp,27
+CSE_ALifeItemGrenade::script_register,void CSE_ALifeItemGrenade::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script2.cpp,38
+CSE_ALifeItemExplosive::script_register,void CSE_ALifeItemExplosive::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script2.cpp,49
+CSE_ALifeItemBolt::script_register,void CSE_ALifeItemBolt::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script2.cpp,60
+CSE_ALifeItemCustomOutfit::script_register,void CSE_ALifeItemCustomOutfit::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script2.cpp,71
+CSE_ALifeItemHelmet::script_register,void CSE_ALifeItemHelmet::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script2.cpp,82
+CSE_ALifeItemWeaponMagazined::script_register,void CSE_ALifeItemWeaponMagazined::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script2.cpp,93
+CSE_ALifeItemWeaponMagazinedWGL::script_register,void CSE_ALifeItemWeaponMagazinedWGL::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Items_script3.cpp,16
+profile_name_script,LPCSTR profile_name_script(CSE_ALifeTraderAbstract* ta),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script.cpp,17
+profile_name_set_script,"void profile_name_set_script(CSE_ALifeTraderAbstract* ta, LPCSTR str)",src/xrServerEntities/xrServer_Objects_ALife_Monsters_script.cpp,22
+set_character_name_script,"void set_character_name_script(CSE_ALifeTraderAbstract* ta, LPCSTR str)",src/xrServerEntities/xrServer_Objects_ALife_Monsters_script.cpp,27
+character_name_script,LPCSTR character_name_script(CSE_ALifeTraderAbstract* ta),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script.cpp,41
+character_name_str_script,LPCSTR character_name_str_script(CSE_ALifeTraderAbstract* ta),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script.cpp,46
+icon_name_script,LPCSTR icon_name_script(CSE_ALifeTraderAbstract* ta),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script.cpp,51
+CSE_ALifeTraderAbstract::script_register,void CSE_ALifeTraderAbstract::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script.cpp,64
+CSE_ALifeTrader::script_register,void CSE_ALifeTrader::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script.cpp,85
+CSE_ALifeCustomZone::script_register,void CSE_ALifeCustomZone::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script.cpp,97
+CSE_ALifeAnomalousZone::script_register,void CSE_ALifeAnomalousZone::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script.cpp,109
+CSE_ALifeMonsterRat::script_register,void CSE_ALifeMonsterRat::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script.cpp,123
+CSE_ALifeCreatureCrow::script_register,void CSE_ALifeCreatureCrow::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script2.cpp,16
+CSE_ALifeMonsterZombie::script_register,void CSE_ALifeMonsterZombie::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script2.cpp,27
+CSE_ALifeMonsterBase::script_register,void CSE_ALifeMonsterBase::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script2.cpp,38
+CSE_ALifeHumanStalker::script_register,void CSE_ALifeHumanStalker::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script2.cpp,50
+monster_brain,CALifeMonsterBrain* monster_brain(CSE_ALifeMonsterAbstract* monster),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,19
+human_brain,CALifeHumanBrain* human_brain(CSE_ALifeHumanAbstract* human),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,25
+clear_smart_terrain,void clear_smart_terrain(CSE_ALifeMonsterAbstract* monster),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,31
+smart_terrain_task_activate,void smart_terrain_task_activate(CSE_ALifeMonsterAbstract* monster),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,37
+smart_terrain_task_deactivate,void smart_terrain_task_deactivate(CSE_ALifeMonsterAbstract* monster),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,43
+smart_terrain_id,ALife::_OBJECT_ID smart_terrain_id(CSE_ALifeMonsterAbstract* monster),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,50
+travel_speed,float travel_speed(CSE_ALifeMonsterAbstract* self),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,56
+travel_speed2,"void travel_speed2(CSE_ALifeMonsterAbstract* self, float travel_speed)",src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,61
+current_level_travel_speed,float current_level_travel_speed(CSE_ALifeMonsterAbstract* self),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,66
+current_level_travel_speed2,"void current_level_travel_speed2(CSE_ALifeMonsterAbstract* self, float travel_speed)",src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,71
+ForceSetGoodwill,"void ForceSetGoodwill(CSE_ALifeMonsterAbstract* self, int goodwill, ALife::_OBJECT_ID pWhoToSet)",src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,76
+CSE_ALifeMonsterAbstract::script_register,void CSE_ALifeMonsterAbstract::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,84
+CSE_ALifeHumanAbstract::script_register,void CSE_ALifeHumanAbstract::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,114
+CSE_ALifePsyDogPhantom::script_register,void CSE_ALifePsyDogPhantom::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,132
+CSE_ALifeSchedulable::script_register,void CSE_ALifeSchedulable::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script.cpp,16
+CSE_ALifeGraphPoint::script_register,void CSE_ALifeGraphPoint::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script.cpp,29
+CSE_ALifeObject::script_register,void CSE_ALifeObject::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script.cpp,40
+CSE_ALifeGroupAbstract::script_register,void CSE_ALifeGroupAbstract::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script.cpp,65
+CSE_ALifeDynamicObject::script_register,void CSE_ALifeDynamicObject::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script.cpp,74
+CSE_ALifeDynamicObjectVisual::script_register,void CSE_ALifeDynamicObjectVisual::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script.cpp,85
+CSE_ALifePHSkeletonObject::script_register,void CSE_ALifePHSkeletonObject::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script.cpp,97
+CSE_ALifeSpaceRestrictor::script_register,void CSE_ALifeSpaceRestrictor::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script.cpp,109
+CSE_ALifeLevelChanger::script_register,void CSE_ALifeLevelChanger::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script.cpp,121
+CSE_ALifeInventoryBox::script_register,void CSE_ALifeInventoryBox::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script.cpp,135
+CSE_ALifeObjectProjector::script_register,void CSE_ALifeObjectProjector::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script2.cpp,16
+CSE_ALifeHelicopter::script_register,void CSE_ALifeHelicopter::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script2.cpp,36
+CSE_ALifeCar::script_register,void CSE_ALifeCar::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script2.cpp,49
+CSE_ALifeStationaryMgun::script_register,void CSE_ALifeStationaryMgun::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script2.cpp,62
+CSE_ALifeObjectBreakable::script_register,void CSE_ALifeObjectBreakable::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script2.cpp,80
+CSE_ALifeObjectClimable::script_register,void CSE_ALifeObjectClimable::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script2.cpp,91
+CSE_ALifeMountedWeapon::script_register,void CSE_ALifeMountedWeapon::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script2.cpp,103
+CSE_ALifeTeamBaseZone::script_register,void CSE_ALifeTeamBaseZone::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script2.cpp,114
+set_yaw,"void set_yaw(CSE_ALifeObjectPhysic* obj, const float yaw)",src/xrServerEntities/xrServer_Objects_ALife_script3.cpp,22
+CSE_ALifeObjectHangingLamp::script_register,void CSE_ALifeObjectHangingLamp::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script3.cpp,28
+CSE_ALifeObjectPhysic::script_register,void CSE_ALifeObjectPhysic::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script3.cpp,40
+CSE_ALifeSmartZone::script_register,void CSE_ALifeSmartZone::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_ALife_script3.cpp,53
+CSE_SmartCover::script_register,void CSE_SmartCover::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_Alife_Smartcovers_script.cpp,16
+get_section_name,LPCSTR get_section_name(const CSE_Abstract* abstract),src/xrServerEntities/xrServer_Objects_script.cpp,17
+get_name,LPCSTR get_name(const CSE_Abstract* abstract),src/xrServerEntities/xrServer_Objects_script.cpp,22
+get_spawn_ini,CScriptIniFile* get_spawn_ini(CSE_Abstract* abstract),src/xrServerEntities/xrServer_Objects_script.cpp,27
+get_visual_name,LPCSTR get_visual_name(CSE_Visual* visual),src/xrServerEntities/xrServer_Objects_script.cpp,32
+set_visual_name,"void set_visual_name(CSE_Visual* visual, LPCSTR name)",src/xrServerEntities/xrServer_Objects_script.cpp,38
+STATE_Read,virtual void STATE_Read(NET_Packet& p1),src/xrServerEntities/xrServer_Objects_script.cpp,59
+STATE_Read_static,"static void STATE_Read_static(inherited* ptr, NET_Packet* p1)",src/xrServerEntities/xrServer_Objects_script.cpp,64
+STATE_Write,virtual void STATE_Write(NET_Packet& p1),src/xrServerEntities/xrServer_Objects_script.cpp,70
+STATE_Write_static,"static void STATE_Write_static(inherited* ptr, NET_Packet* p1)",src/xrServerEntities/xrServer_Objects_script.cpp,75
+UPDATE_Read,virtual void UPDATE_Read(NET_Packet& p1),src/xrServerEntities/xrServer_Objects_script.cpp,81
+UPDATE_Read_static,"static void UPDATE_Read_static(inherited* ptr, NET_Packet* p1)",src/xrServerEntities/xrServer_Objects_script.cpp,86
+UPDATE_Write,virtual void UPDATE_Write(NET_Packet& p1),src/xrServerEntities/xrServer_Objects_script.cpp,92
+UPDATE_Write_static,"static void UPDATE_Write_static(inherited* ptr, NET_Packet* p1)",src/xrServerEntities/xrServer_Objects_script.cpp,97
+CPureServerObject::script_register,void CPureServerObject::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_script.cpp,105
+CSE_Abstract::script_register,void CSE_Abstract::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_script.cpp,122
+CSE_Shape::script_register,void CSE_Shape::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_script.cpp,145
+CSE_Visual::script_register,void CSE_Visual::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_script.cpp,154
+CSE_Motion::script_register,void CSE_Motion::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_script.cpp,166
+CSE_Spectator::script_register,void CSE_Spectator::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_script.cpp,176
+CSE_Temporary::script_register,void CSE_Temporary::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_script.cpp,187
+CSE_PHSkeleton::script_register,void CSE_PHSkeleton::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_script2.cpp,8
+CSE_AbstractVisual::script_register,void CSE_AbstractVisual::script_register(lua_State* L),src/xrServerEntities/xrServer_Objects_script2.cpp,16
+CSE_SpawnGroup::script_register,void CSE_SpawnGroup::script_register(lua_State *L),src/xrServerEntities/xrServer_Objects_script2.cpp,30
+CSE_ALifeCreatureActor::script_register,void CSE_ALifeCreatureActor::script_register(lua_State* L),src/xrServerEntities/xrserver_objects_alife_monsters_script3.cpp,16
+CSE_ALifeTorridZone::script_register,void CSE_ALifeTorridZone::script_register(lua_State* L),src/xrServerEntities/xrserver_objects_alife_monsters_script3.cpp,29
+CSE_ALifeZoneVisual::script_register,void CSE_ALifeZoneVisual::script_register(lua_State* L),src/xrServerEntities/xrserver_objects_alife_monsters_script3.cpp,41
+CSE_ALifeCreaturePhantom::script_register,void CSE_ALifeCreaturePhantom::script_register(lua_State* L),src/xrServerEntities/xrserver_objects_alife_monsters_script3.cpp,53
+CSE_ALifeCreatureAbstract__o_torso,static SRotation* CSE_ALifeCreatureAbstract__o_torso(CSE_ALifeCreatureAbstract* self),src/xrServerEntities/xrserver_objects_alife_monsters_script3.cpp,64
+CSE_ALifeCreatureAbstract::script_register,void CSE_ALifeCreatureAbstract::script_register(lua_State* L),src/xrServerEntities/xrserver_objects_alife_monsters_script3.cpp,69
+CSE_ALifeOnlineOfflineGroup::script_register,void CSE_ALifeOnlineOfflineGroup::script_register(lua_State* L),src/xrServerEntities/xrserver_objects_alife_monsters_script3.cpp,86
