@@ -241,3 +241,21 @@ See [ALIFE-06](04-game-systems/alife/graph-online-realization-oct11.md). This cl
 - [ ] Effective profile reconciliation and all runtime tests remain deferred.
 
 See [ALIFE-07](04-game-systems/alife/client-server-offline-teardown-oct11.md). Earlier next-step entries remain historical.
+
+## Current A-Life/Warfare remaining scope — v0.1.38
+
+This is the current consolidated checklist for the agreed **CtZ-focused development reference**. Older next-step entries and unchecked boxes above are historical and are superseded where later investigations close their bounded tasks. Source readiness and runtime verification remain separate.
+
+- [x] ALIFE-01/02: identity, membership, native creation/registration/release and callback boundaries.
+- [x] ALIFE-04: bounded native save/load and supplied CtZ identity reconstruction.
+- [x] ALIFE-05/06/07: scheduling/brains, graph movement, online realization, client state return and offline teardown.
+- [x] ALIFE-08: native switching permissions, distance hysteresis, attachment/group/member gates and supplied forced-status boundary. See [report](04-game-systems/alife/switching-eligibility-oct11.md).
+- [x] WAR-002 package pass: supplied variants, targeting/arrival boundaries, ownership/autocapture and offline combat call sites.
+- [ ] ALIFE-03 effective smart/board layer: assignment/unassignment, reach tests, member registration, jobs and native task/restriction handoff. Requires missing core/winning scripts.
+- [ ] Effective Warfare closure: active files, module/startup replacements and callback order; relevant spawning/strategy/configuration contracts for targeting, capture and combat. Some supplied-package research can continue now; installed closure requires effective sources.
+- [ ] Death/safe-release closure: creature overrides, casualty notification, membership cleanup and queued release; establish online/offline convergence from effective scripts.
+- [ ] Persistence integration: effective save/load order and storage wrappers, restoration of strategic state, CtZ reconciliation and campaign/ID safety. The native/CtZ source pass is complete within its documented boundary.
+- [ ] Consolidation: CtZ-relevant Lua API contracts, lifecycle/state and callback phase maps, configuration references and source evidence/navigation audit. Can proceed with available sources while retaining explicit unresolved edges.
+- [ ] Runtime checks, deferred: switching positions and callbacks, assignment versus arrival, ownership changes, online/offline deaths and cleanup, save/load/CtZ restoration and level changes. Confirm target executable/profile correspondence.
+
+Effective source requirements are listed in [WAR-002a](04-game-systems/warfare/source-packages-effective-profile-oct11.md). Selected optional entity/AI internals and exhaustive unrelated API coverage are not prerequisites. Source-level stopping point: close the effective script chains, consolidate and audit, then mark this portion development-reference ready with runtime pending. No runtime test is required during the current source phase.

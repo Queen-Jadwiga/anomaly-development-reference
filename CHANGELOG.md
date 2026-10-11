@@ -195,3 +195,9 @@ Added four narrowly evidenced UI system records (dynamic PDA tabs, DXML hooks, i
 - Added ALIFE-07 with a 25-file hash/line ledger, tracing sampled exports, server position/graph state, independent save packets and the absence of an explicit final-snapshot barrier in the inspected offline route.
 - Documented persistent identity, client-data clearing exceptions, queued destruction and generic/binder/bookmark callback ordering.
 - Updated navigation; preserved earlier research and CtZ link. Installed overrides and runtime remain deferred. No gameplay changes or license added.
+
+## v0.1.38 — 2026-10-11 — Switching eligibility and remaining scope
+
+- Added ALIFE-08 with a 19-file source ledger tracing threshold boundaries, virtual permissions, attachment/registry gates, group/member checks and selected native exceptions.
+- Compared bundled squad forced-state policy with the supplied Warfare replacement; retained active-profile and scheduling qualifications.
+- Consolidated the agreed remaining CtZ-focused A-Life/Warfare scope in the roadmap. Updated navigation; preserved prior research and CtZ link. No gameplay changes, runtime tests or license added.

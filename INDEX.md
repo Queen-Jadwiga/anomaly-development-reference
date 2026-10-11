@@ -183,3 +183,11 @@ Bounded graph-to-client source pass complete. Effective profile/runtime deferred
 - [25-file hash and line evidence ledger](04-game-systems/alife/client-server-offline-evidence-oct11.csv).
 
 Bounded source task complete; effective profile and runtime deferred. Next: native switching eligibility, distance hysteresis and forced-state overrides.
+
+## v0.1.38 — Switching eligibility and remaining scope
+
+- [ALIFE-08: thresholds, permissions, member gates and supplied Lua forced-state policy](04-game-systems/alife/switching-eligibility-oct11.md).
+- [19-file source hash and line ledger](04-game-systems/alife/switching-eligibility-evidence-oct11.csv).
+- [Consolidated remaining A-Life/Warfare scope](ROADMAP.md#current-a-lifewarfare-remaining-scope--v0138).
+
+Native switching source pass complete; effective scripts and runtime remain open.

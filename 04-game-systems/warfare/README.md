@@ -1,6 +1,6 @@
 # Warfare subsystem
 
-**Current revision: v0.1.37.**
+**Current revision: v0.1.38.**
 
 **Current evidence:** Capture the Zone is intended to extend Anomaly/GAMMA Warfare, including PDA strategy display and tracking faction control.
 
@@ -51,3 +51,7 @@ Supplied package implementations are now inspected. Current MO2 winning files an
 ## v0.1.37 — Offline state and callback boundaries
 
 [ALIFE-07](../alife/client-server-offline-teardown-oct11.md) separates imported position, graph state, saved client data and Lua bookmarks, and traces destruction callback phases while preserving A-Life identity. The ordinary inspected offline route has no explicit final client snapshot barrier. Installed overrides and runtime remain unverified.
+
+## v0.1.38 — Forced-state policy and native switching
+
+[ALIFE-08](../alife/switching-eligibility-oct11.md) connects supplied squad forced-status policy to native permissions, threshold hysteresis and member/group gates. The bundled and Warfare status producers differ; active replacement order and option values remain unverified. See [remaining scope](../../../ROADMAP.md#current-a-lifewarfare-remaining-scope--v0138).

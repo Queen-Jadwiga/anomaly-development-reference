@@ -1,6 +1,6 @@
 # A-Life reference
 
-**Current revision: v0.1.37.** First source pass established server identity, native squad membership, selected online/offline paths, and the boundary with Lua smart assignment. Installed GAMMA behavior and runtime tests remain deferred.
+**Current revision: v0.1.38.** First source pass established server identity, native squad membership, selected online/offline paths, and the boundary with Lua smart assignment. Installed GAMMA behavior and runtime tests remain deferred.
 
 - [ALIFE-01 — Identity, squad membership and lifecycle](identity-lifecycle-oct11.md)
 - [October 11 source evidence ledger](source-evidence-oct11.csv)
@@ -45,3 +45,10 @@ Bounded source pass complete; installed overrides/runtime deferred. Next: client
 - [25-file source evidence ledger](client-server-offline-evidence-oct11.csv).
 
 Bounded source pass complete; effective profile/runtime deferred. Next: native switching eligibility, distance hysteresis and forced-state overrides.
+
+## v0.1.38 — Switching eligibility and forced states
+
+- [ALIFE-08: permission truth table, distance hysteresis, group/member gates and Lua policy](switching-eligibility-oct11.md).
+- [19-file source evidence ledger](switching-eligibility-evidence-oct11.csv).
+
+Bounded native switching pass complete. Remaining effective smart/board, death/release and persistence chains require winning scripts. Consolidation and audit can continue from available sources; runtime deferred. See [current remaining scope](../../../ROADMAP.md#current-a-lifewarfare-remaining-scope--v0138).
