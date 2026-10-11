@@ -150,3 +150,11 @@ Added four narrowly evidenced UI system records (dynamic PDA tabs, DXML hooks, i
 
 ## v0.1.30 — October 11 source verification pass
 - Checked local Markdown links and sampled source citations against uploaded October 11 source. Repaired three out-of-range line links; added clear current-baseline header to README; added [verification report](08-research/verification-2026-10-11-v0.1.30.md). Historical findings retained; no runtime promotion.
+
+## v0.1.31 — 2026-10-11 — A-Life/Warfare source foundation
+
+- Added ALIFE-01 with exact local-snapshot paths/line ranges and a 15-file SHA-256 evidence ledger.
+- Distinguished server identity, native group membership, Lua smart assignment/routing, online representations, empty-group release, and member reconstruction.
+- Added WAR-001 with pinned CtZ call sites and explicit effective-GAMMA/Warfare source prerequisites.
+- Updated current revision, subsystem entry pages, index and roadmap. Preserved prior research conclusions and the CtZ link; no gameplay code or license added.
+- All engine/game runtime verification remains deferred. No claim of complete A-Life/Warfare analysis or installed-profile compatibility.

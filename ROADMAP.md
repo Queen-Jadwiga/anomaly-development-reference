@@ -167,3 +167,15 @@ A-01 and A-02 remain open. Run `tools/audit_xml_lua_registrations.py` on pinned 
 
 ## v0.1.30 verification checkpoint
 - UI source documentation checked against October 11 snapshot for citation integrity and key mechanisms; see `08-research/verification-2026-10-11-v0.1.30.md`. Runtime tests deferred. Next source focus remains A-Life/Warfare.
+
+## v0.1.31 — A-Life/Warfare first source pass
+
+- [x] ALIFE-01: native identity/membership, selected online/offline transitions, ID reservation/reuse, member reconstruction, and bundled squad-script boundaries.
+- [x] WAR-001: map inspected CtZ routing/assignment calls and distinguish missing effective-profile policy.
+- [ ] ALIFE-02: full native creation/registration/release and callback ordering.
+- [ ] ALIFE-03: effective smart-terrain, board, simulation-object and squad assignment/arrival paths.
+- [ ] WAR-002: effective Warfare patches, capture ownership and offline combat.
+- [ ] ALIFE-04: full save/load and CtZ campaign/generation identity.
+- [ ] Runtime tests: explicitly deferred by user request; no game/engine runtime executed.
+
+See [ALIFE-01](04-game-systems/alife/identity-lifecycle-oct11.md) and [WAR-001](04-game-systems/warfare/ctz-integration-boundary-oct11.md). Missing gameplay scripts do not block the next native source investigation.

@@ -131,3 +131,11 @@
 
 ## v0.1.30 — Verification
 - [October 11 source-reference verification report](08-research/verification-2026-10-11-v0.1.30.md) — bounded audit, corrected citations, remaining qualifications.
+
+## v0.1.31 — A-Life/Warfare source foundation
+
+- [ALIFE-01: server identity, squad membership, online/offline lifecycle](04-game-systems/alife/identity-lifecycle-oct11.md).
+- [Source evidence locations and hashes](04-game-systems/alife/source-evidence-oct11.csv).
+- [WAR-001: CtZ integration boundary and effective-profile prerequisites](04-game-systems/warfare/ctz-integration-boundary-oct11.md).
+
+Runtime remains deferred. Next source work: creation/release and callback ordering; effective board/smart/Warfare implementations remain separately open.

@@ -1,0 +1,16 @@
+evidence_id,source_archive,source_path,line_ranges,file_sha256,line_count,subject
+E01,xray-monolith-2026.10.11.zip,src/xrServerEntities/xrServer_Objects_script.cpp,122-134,1649253db5cc7a5b4d453fc50a46a08ff451e439baab6d8a4394ee2035051cdb,196,Server object ID and parent ID bindings
+E02,xray-monolith-2026.10.11.zip,src/xrServerEntities/xrServer_Objects_ALife_script.cpp,40-56,28628641e6eead83232748dbb63b06e3d758dfa45c59ed1cea2d1f61a7b6a9fe,144,Server online flag binding
+E03,xray-monolith-2026.10.11.zip,src/xrServerEntities/xrServer_Objects_ALife_Monsters.h,249-261;533-538,a32050d7fa43e159c16c3fac9d6f53fb67d79e23975690847bb3a5e165bc73d7,590,"Smart terrain ID, group ID, member container"
+E04,xray-monolith-2026.10.11.zip,src/xrServerEntities/xrServer_Objects_ALife_Monsters_script4.cpp,31-54;84-100,cd61142c71a93e723d5b317aabafd62a641e1ee6c6b5b2cc399bda5d6680c81d,141,Monster smart/group bindings
+E05,xray-monolith-2026.10.11.zip,src/xrServerEntities/xrserver_objects_alife_monsters_script3.cpp,86-110,57042847b1b8c62b85933f1a02bbe0beb89afb34dd84ae84307c806d6b464715,111,Group Lua bindings and build guard
+E06,xray-monolith-2026.10.11.zip,src/xrGame/alife_simulator_script.cpp,38-58;172-208;335-357;645-714,3b665a4b7fcadb28fc1291fc71b06b1068130d44da29160c5b3e06369ae0a2f9,791,"Lookup, spawn/release wrappers, simulator bindings"
+E07,xray-monolith-2026.10.11.zip,src/xrGame/alife_dynamic_object.cpp,58-91;133-184,da1eb56d42efc3cfe1fccbc774dae4492c74affaaee5da73c04bfe9dec83e5e5,307,Dynamic-object switch state and distance checks
+E08,xray-monolith-2026.10.11.zip,src/xrGame/alife_switch_manager.cpp,47-124;160-247,8b29d0cb835128aa7313b8ee3c06c601692d1334022c215ead48af15a5f00c68,247,Server spawn/destroy and switch dispatch
+E09,xray-monolith-2026.10.11.zip,src/xrGame/alife_online_offline_group.cpp,40-85;102-168;201-374,59ebeaf1a22534ce4794e6197229f0c1232c06982be30793f32c6ffaaf77fbad,421,"Membership, group switching, commander, reconstruction"
+E10,xray-monolith-2026.10.11.zip,src/xrServerEntities/xrServer_Objects_ALife_Monsters.cpp,2269-2297,60e23826a085b861df46b55175666e61c14bdf4f84d9b3481fdad67a55744349,2314,Native member ID serialization
+E11,xray-monolith-2026.10.11.zip,src/xrGame/xrServer.h,177-184,52c4a4a77c74d03d7b02bda97056ab224e4d05579f8f3c4868d595cc952954f2,327,ID allocation/free wrappers
+E12,xray-monolith-2026.10.11.zip,src/xrGame/id_generator.h,59-78;95-125,24475b357e0cac322747cd9de668d3f6a7f9aed322869f42eb49b2a1699edf80,126,Requested ID preservation and free-list reuse
+E13,xray-monolith-2026.10.11.zip,src/xrGame/xrServer.cpp,865-882,11dc8de09721959fc2333dd573792babec17dcc2d502362501c45f2ecd413423,1310,Server entity removal versus ALife-controlled lifetime
+E14,xray-monolith-2026.10.11.zip,src/xrGame/alife_smart_terrain_registry.cpp,17-36,aec7e67e32e6226ccbcba326edc3eff874b464c7e6aeb0146fd3903abcbe9230,37,Native smart-zone registry
+E15,xray-monolith-2026.10.11.zip,gamedata/scripts/sim_squad_scripted.script,33-95;480-540;588-627;677-750;925-1031;1034-1085,e9b637ec358a162bc5a73631613cb2339c948464e17f176dd4b47167c59a2603,1442,"Bundled squad fields, assignment, creation, serialization, callbacks, Warfare dependencies"
