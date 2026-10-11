@@ -1,6 +1,6 @@
 # Warfare subsystem
 
-**Current revision: v0.1.33.**
+**Current revision: v0.1.34.**
 
 **Current evidence:** Capture the Zone is intended to extend Anomaly/GAMMA Warfare, including PDA strategy display and tracking faction control.
 
@@ -35,3 +35,7 @@ The October 11 archive includes `sim_squad_scripted.script` and selected native 
 - [Archive script byte comparison](archive-script-comparison-oct11.csv).
 
 Supplied package implementations are now inspected. Current MO2 winning files and runtime function overrides remain unverified; this supersedes the earlier missing-package status without changing its historical findings. Runtime tests remain deferred.
+
+## v0.1.34 — Persistence boundary
+
+[Native save/load and CtZ campaign reconstruction](../alife/save-load-identity-oct11.md) distinguishes saved campaign records, squad packet fields and late member-pointer repair. Effective storage wrappers and ownership synchronization remain open; runtime deferred.

@@ -1,0 +1,16 @@
+evidence_id,baseline,source_path,sha256,line_ranges,line_count
+P01,October 11 uploaded engine archive,src/xrGame/alife_storage_manager.cpp,b928a41af14ef0a13e2a88b83f9178bc59f8b89c77bd531934ecc203c486e0a5,46-250,250
+P02,October 11 uploaded engine archive,src/xrGame/alife_object_registry.cpp,407087e029992495110879db705f94599cf1190758b046d695e8c5844382f121,18-154,154
+P03,October 11 uploaded engine archive,src/xrServerEntities/xrServer_Object_Base.cpp,a738bcb27df04c7e64db56826d5d09326568bbdc4bbedff26619a5db6739c6bd,209-250;292-371,491
+P04,October 11 uploaded engine archive,src/xrGame/alife_registry_container.cpp,cc81bf67c51e516b31e1005494fc04703aa7bea228bf55058bab6a42d226eb9a,14-38,40
+P05,October 11 uploaded engine archive,src/xrGame/alife_simulator_base2.cpp,b0c77e7a6b55ea01a2e9f3e65efc797a2db15bb643243ea233f76eb411eb9ef6,23-55,100
+P06,October 11 uploaded engine archive,src/xrGame/alife_group_registry.cpp,10fe2541b2edc2598206f10401966c8a4e4eaf7a0cfcdf5884d3bdc3951cd22e,46-52,52
+P07,October 11 uploaded engine archive,src/xrGame/alife_online_offline_group.cpp,59ebeaf1a22534ce4794e6197229f0c1232c06982be30793f32c6ffaaf77fbad,102-145;335-357,421
+P08,October 11 uploaded engine archive,src/xrServerEntities/xrServer_Objects_ALife_Monsters.cpp,60e23826a085b861df46b55175666e61c14bdf4f84d9b3481fdad67a55744349,2269-2297,2314
+P09,October 11 uploaded engine archive,src/xrGame/alife_switch_manager.cpp,8b29d0cb835128aa7313b8ee3c06c601692d1334022c215ead48af15a5f00c68,74-103,247
+P10,October 11 uploaded engine archive,src/xrGame/alife_simulator_base.cpp,04c8b9d86e663939efbad7b134025eccd4594d762482cf112f0eb8cf3e0d1ce8,269-307,366
+P11,October 11 uploaded engine archive,src/xrGame/id_generator.h,24475b357e0cac322747cd9de668d3f6a7f9aed322869f42eb49b2a1699edf80,59-125,126
+P12,CtZ eba6660db09353dcc42a195ae6e7e706f4762277,gamedata/scripts/ctz_campaign.script,4f2b0703f438034ac126437f88ba8a0d82463fc14c05b45e814b75cde85e1540,14-15;349-355;649-652;1377-1436;1542-1609;2602-2647;3209-3288;3430-3508,3508
+P13,October 11 uploaded engine archive,src/xrGame/alife_update_manager.cpp,01a97c70241e17a5a6be02b167a2014c42f5a7589aead6b2ac7a2eaed0f277f9,159-240,628
+P14,October 11 uploaded engine archive,gamedata/scripts/sim_squad_scripted.script,e9b637ec358a162bc5a73631613cb2339c948464e17f176dd4b47167c59a2603,899-999,1442
+P15,October 11 uploaded engine archive,src/xrGame/xrServer.cpp,11dc8de09721959fc2333dd573792babec17dcc2d502362501c45f2ecd413423,865-883,1310

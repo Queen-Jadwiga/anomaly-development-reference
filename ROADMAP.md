@@ -200,3 +200,14 @@ This closes the bounded ALIFE-02 task above, not every entity-specific creation/
 - [ ] All engine runtime testing deferred.
 
 See [source requirements and provenance](04-game-systems/warfare/source-packages-effective-profile-oct11.md). The older user mod-list export and public default list do not prove current installed behavior.
+
+## v0.1.34 — ALIFE-04 bounded source disposition
+
+- [x] Trace native save filtering, packet state, load phases and late group pointer reconstruction.
+- [x] Compare supplied CtZ state migration, detachment/member lookup, restoration and loss-accounting boundaries.
+- [x] Identify source-derived stale-ID reuse risk without asserting a reproduced bug.
+- [ ] Effective storage wrappers/serialization and installed profile reconciliation: deferred until source access returns.
+- [ ] Next independent native source pass: offline scheduling and squad/monster brain update ownership.
+- [ ] All engine runtime verification deferred.
+
+See [ALIFE-04](04-game-systems/alife/save-load-identity-oct11.md). Earlier full-persistence tasks remain historical; this increment closes only the bounded native/CtZ pass.

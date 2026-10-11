@@ -171,3 +171,9 @@ Added four narrowly evidenced UI system records (dynamic PDA tabs, DXML hooks, i
 - Added WAR-002a/b covering package/profile provenance, targeting versus arrival, owner policy, callback phases, offline combat bookkeeping and native death-chain boundaries.
 - Compared a pinned public GAMMA squad variant/default list; kept historical user-profile evidence private except for scoped, sanitized observations.
 - ALIFE-03 / WAR-002 remain partial pending effective board/smart/creature/release wrappers and profile overrides. Updated navigation; retained previous research and CtZ link. No game tests, gameplay edits or license added.
+
+## v0.1.34 — 2026-10-11 — Native save/load and CtZ identity
+
+- Added ALIFE-04 with a 15-file hash/line ledger: save eligibility, packet serialization, native reconstruction phases, late member-pointer repair and level-change save boundary.
+- Traced supplied CtZ campaign restoration, schema labels, ownership reapplication and loss reconciliation; documented possible stale-ID reuse as a source-derived risk, not a confirmed bug.
+- Effective serialization wrappers/profile remain open. Updated navigation; retained earlier research and CtZ link. No gameplay changes, runtime tests or license added.

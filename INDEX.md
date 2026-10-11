@@ -155,3 +155,10 @@ Scoped source pass complete; runtime deferred. Next: effective smart-terrain/boa
 - [17-script archive byte comparison](04-game-systems/warfare/archive-script-comparison-oct11.csv).
 
 ALIFE-03 / WAR-002 partially investigated; installed winners and creature/board/smart internals remain open. Runtime deferred.
+
+## v0.1.34 — Native persistence and CtZ reconstruction
+
+- [ALIFE-04: save/load phases, member reconstruction and CtZ identity](04-game-systems/alife/save-load-identity-oct11.md).
+- [15-file evidence ledger](04-game-systems/alife/save-load-evidence-oct11.csv).
+
+Bounded source pass complete. Effective serializer/profile reconciliation and runtime tests deferred. Next independent source work: native offline scheduler and squad/monster brains.
