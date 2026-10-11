@@ -1,5 +1,7 @@
 # Evidence manifest
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 ## Current source baselines and ledgers
 
 | Source ID | Artifact / immutable identity | Role |

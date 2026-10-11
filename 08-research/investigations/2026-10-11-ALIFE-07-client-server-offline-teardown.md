@@ -1,5 +1,7 @@
 # ALIFE-07 — Client-to-server position synchronization and offline teardown
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **ADR v0.1.37 · 11 October 2026 · bounded source investigation; runtime verification deferred.**
 
 Online creature position returns to the server through `M_UPDATE`. Offline switching consumes the server entity's stored state; the inspected ordinary transition does not explicitly request a final client update or save packet. Destroying an online representation is distinct from releasing its persistent A-Life entity.

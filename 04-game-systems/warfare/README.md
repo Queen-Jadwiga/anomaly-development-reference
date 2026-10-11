@@ -1,6 +1,8 @@
 # Warfare subsystem
 
-**Current revision: v0.1.40.**
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
+**Current revision: v0.1.41.**
 
 **Current evidence:** Capture the Zone is intended to extend Anomaly/GAMMA Warfare, including PDA strategy display and tracking faction control.
 

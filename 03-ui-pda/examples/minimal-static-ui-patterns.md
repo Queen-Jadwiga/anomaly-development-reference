@@ -1,5 +1,7 @@
 # Minimal UI patterns — reference only
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 Examples intentionally restricted to **two non-runnable call sketches** pending runtime testing. They assume valid initialized widgets and are not standalone mods.
 
 ```lua

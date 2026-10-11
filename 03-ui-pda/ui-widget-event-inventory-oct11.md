@@ -1,5 +1,7 @@
 # UI-06 — October 11 Lua widget and event binding inventory
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **Status:** Source-catalogued, runtime validation deferred. This is a lexical inventory of the scoped UI registration sources, *not* proof that all names are callable in every context.
 
 **Scope:** 16 C++ registration-related source files in `src/xrGame/ui`, plus `ui_export_script.cpp`, `ScriptXMLInit.cpp` and `UIGameCustom_script.cpp`. **Entries:** 425 extracted named `.def` occurrences.

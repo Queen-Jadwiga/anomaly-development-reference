@@ -1,5 +1,7 @@
 # B-01 — ownership of UI font manager and named font pointers
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **Baseline:** X-Ray Monolith `2026.10.11`, source archive supplied by user. **Status:** source research complete; runtime deferred. **Scope:** ownership, not entire engine initialization chronology (B-02).
 
 ## Verified ownership chain

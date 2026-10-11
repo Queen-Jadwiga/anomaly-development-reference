@@ -1,5 +1,7 @@
 # Investigation: UI Lua binding extraction
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 ## Source and scope
 - Pin: `6a08e0905ce34748ee2904a5e0809f8afd141137`.
 - [`UIWindow_script.cpp`](https://github.com/themrdemonized/xray-monolith/blob/6a08e0905ce34748ee2904a5e0809f8afd141137/src/xrGame/ui/UIWindow_script.cpp) — `CUIWindow`, `CUIScrollView`, font globals, UI events.

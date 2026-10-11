@@ -1,5 +1,7 @@
 # Verification — YYYY-MM-DD — ADR revision
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 - Target ADR commit/revision:
 - Changed scope:
 - Source baseline IDs:

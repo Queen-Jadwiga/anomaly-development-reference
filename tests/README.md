@@ -1,5 +1,7 @@
 # Verification and tests
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 ADR has documentation/source checks; engine/game runtime testing remains deferred.
 
 - Run [the repository checker](../tools/check_repository.py) for local link/anchor and entry-page integrity.
@@ -8,3 +10,7 @@ ADR has documentation/source checks; engine/game runtime testing remains deferre
 - Record results and limits with [the verification template](../08-research/templates/verification.md). Published reports are indexed in [INDEX.md](../INDEX.md).
 
 Do not describe documentation checks, preprocessing or CSV reproducibility as engine compilation or in-game verification. Eventual runtime checks require executable/profile identity, reproducible steps and observations/logs.
+
+## Documentation validator regression checks
+
+Run `python -m unittest discover -s tests -p "test_*.py"`. Checks cover the valid current tree and rejection of missing links/anchors, root escapes, stale document-set versions, obsolete forwarding pages and malformed CSV rows. These are documentation tests; engine/game runtime verification remains deferred.

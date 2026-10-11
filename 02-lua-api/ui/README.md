@@ -1,5 +1,7 @@
 # UI Lua API catalog
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 Current UI inventory and focused October 11 follow-ups are linked here. Earlier class entries retain their own historical target/status; moving a file does not promote it to the current source baseline or runtime verification.
 
 - [October 11 widget/event inventory and scope](../../03-ui-pda/ui-widget-event-inventory-oct11.md).

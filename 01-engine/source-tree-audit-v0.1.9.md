@@ -1,5 +1,7 @@
 # Historical source-tree audit — ADR v0.1.9
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **Revision:** `2026.5.15`; recorded full commit `6a08e0905ce34748ee2904a5e0809f8afd141137` (confirm locally against `git rev-parse`).
 **Coverage:** partial; NOT a repository-wide inventory.
 **Reason:** a complete Git checkout/archive could not be retrieved from this environment. Raw individual source paths were inspected using GitHub's hosted files. Do not describe this as a complete repository analysis.

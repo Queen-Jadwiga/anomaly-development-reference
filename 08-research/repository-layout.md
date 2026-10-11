@@ -1,6 +1,8 @@
 # Repository file and folder conventions
 
-**Effective from v0.1.40.** Every new record has one canonical home. Entry pages may link it; moved Markdown files may retain a short forwarding page for earlier URLs.
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
+**Effective from v0.1.40.** Every new record has one canonical home. Entry pages may link it; obsolete forwarding pages are removed after internal navigation is repaired (v0.1.41). Earlier URLs remain in Git history.
 
 | Location | Responsibility |
 | --- | --- |
@@ -28,10 +30,10 @@ New investigation/API records carry the template's explicit ID, subsystem, basel
 
 ## Historical records and this migration
 
-v0.1.40 moves the recent A-Life/Warfare question records to `08-research/investigations/`, current UI/A-Life API pages/data to `02-lua-api/ui/` and `02-lua-api/alife/`, their evidence ledgers to `evidence/alife/` and `evidence/warfare/`, and the A-Life extractor to `tools/`. Markdown forwarding pages preserve previously shared paths. CSV/tool paths are updated in current links; their canonical locations are listed in the catalogs.
+v0.1.40 moves the recent A-Life/Warfare question records to `08-research/investigations/`, current UI/A-Life API pages/data to `02-lua-api/ui/` and `02-lua-api/alife/`, their evidence ledgers to `evidence/alife/` and `evidence/warfare/`, and the A-Life extractor to `tools/`. v0.1.40 added Markdown forwarding pages; v0.1.41 removes them to keep the current tree canonical. CSV/tool paths are updated in current links; their canonical locations are listed in the catalogs.
 
 Older UI investigations already under `08-research/investigations/` stay there. Earlier UI behavioral reference pages under `03-ui-pda/` and historical audits at the API root remain valid historical exceptions. Their findings/baselines and original evidence schemas are not retrospectively rewritten. The current API index and evidence manifest identify where to start; older templates/starter descriptions are superseded by this convention.
 
 ## Link and tooling rules
 
-Use relative repository links internally, including in forwarding pages; use immutable upstream links when available and explain snapshot-only line checks. Never traverse above the repository root. Do not put generated output back into a historical forwarding directory. Generators accept explicit source/output roots and document prerequisites. Source archives, compiled executables, private profile paths and gameplay assets are not repository artifacts.
+Use relative repository links internally; use immutable upstream links when available and explain snapshot-only line checks. Never traverse above the repository root. Do not put generated output back into a historical forwarding directory. Generators accept explicit source/output roots and document prerequisites. Source archives, compiled executables, private profile paths and gameplay assets are not repository artifacts.

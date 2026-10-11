@@ -1,5 +1,7 @@
 # A-Life source evidence
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 Ledgers retain their original schemas and evidence IDs. Read them with the corresponding investigation; IDs such as E01/S01/G01 are ledger-local.
 
 - [Identity/lifecycle](source-evidence-oct11.csv).

@@ -1,5 +1,7 @@
 # Font lifecycle — source audit v0.1.9
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 ## What is confirmed
 
 1. The native `CUIXmlInit` constructor invokes `InitColorDefs`, not a demonstrated font allocation routine.

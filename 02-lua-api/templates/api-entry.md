@@ -1,5 +1,7 @@
 # API symbol
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 - ID:
 - Subsystem:
 - C++ owner and Lua owner/name:

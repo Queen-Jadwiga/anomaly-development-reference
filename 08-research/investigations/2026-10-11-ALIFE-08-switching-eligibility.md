@@ -1,5 +1,7 @@
 # ALIFE-08 — Switching eligibility, hysteresis and forced states
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **ADR v0.1.38 · 11 October 2026 · bounded source pass complete; effective profile and runtime pending.**
 
 Native switching uses two virtual permissions and two distance thresholds. Permission to enter a state is not a command to enter it immediately. Squads add member checks and Lua policy; attachment, registry membership and location synchronization bound the path before those checks.

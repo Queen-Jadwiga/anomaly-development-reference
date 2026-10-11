@@ -1,5 +1,7 @@
 # WAR-002b — Targeting, ownership and offline combat in the supplied Warfare source
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **ADR v0.1.33 · 11 October 2026 · scoped package-source findings; runtime deferred.**
 
 ## Scope

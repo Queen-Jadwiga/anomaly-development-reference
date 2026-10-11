@@ -1,5 +1,7 @@
 # UI initialization call-flow (source-confirmed subset)
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 ```mermaid
 flowchart TD
  A[Native UI construction] --> B[CUIXmlInit::InitStatic / InitTextWnd]

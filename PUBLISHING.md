@@ -1,5 +1,7 @@
 # Publish and maintain ADR on GitHub
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 ## Ongoing research increments
 
 The repository is already public. Follow the [standard workflow](08-research/workflow.md), run `python tools/check_repository.py` and relevant source/generator checks, update current navigation/changelog, commit the scoped change, then verify the published branch head and file contents/blob identities. GitHub renders Markdown directly; no engine compilation or GitHub Pages deployment is required. Runtime work remains deferred.
@@ -24,7 +26,7 @@ The initial-import instructions below are retained for a fresh repository or loc
 git init
 git branch -M main
 git add .
-git commit -m "Publish ADR v0.1.30 — source-backed UI reference"
+git commit -m "Publish ADR documentation"
 git remote add origin https://github.com/YOUR-USER/anomaly-development-reference.git
 git push -u origin main
 ```
@@ -37,4 +39,4 @@ Replace `YOUR-USER` with your GitHub account/organization. GitHub authentication
 - You do not need GitHub Pages or a build system; GitHub renders the Markdown directly.
 - Review the repo before setting it public: source notes may mention CtZ architecture or
   early research conclusions. Leave a visible work-in-progress notice.
-- This starter intentionally adds **no license**. Choose one only when you decide reuse terms.
+- This repository contains **no license**; maintenance does not add one.

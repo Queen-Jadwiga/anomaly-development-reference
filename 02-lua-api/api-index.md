@@ -1,5 +1,7 @@
 # Lua API catalogs
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 Current canonical locations:
 
 - [UI catalog and October 11 follow-ups](ui/README.md).

@@ -1,5 +1,7 @@
 # A-Life / Warfare C++ and Lua interface catalog
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **ADR v0.1.39 · ALIFE-09 · 11 October 2026 · source inventory and focused contracts; runtime deferred.**
 
 This catalog maps native classes to Lua registration names, exported methods/fields, virtual override points and supplied script declarations. It complements the lifecycle investigations; it does not establish the active GAMMA implementation merely from an export or function definition.

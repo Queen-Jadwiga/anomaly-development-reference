@@ -1,5 +1,7 @@
 # Standard ADR research workflow
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **Effective from ADR v0.1.40 · 11 October 2026.** Applies to every subsystem. Existing dated records remain historical evidence; this workflow governs new work and current navigation.
 
 ## 1. Define the investigation
@@ -30,7 +32,7 @@ Document-only work does not require unrelated engine compilation or gameplay tes
 
 ## 7. Update navigation and publish
 
-Update root/subsystem entry pages, API index, current roadmap and changelog as relevant. Change the current ADR revision once per published increment; retain historic version text. Ensure C-03/C-04, CtZ and moved-record navigation still resolve. Commit with a concrete scoped message, reject unexpected branch-head changes rather than overwriting them, and verify published contents/blob identities and branch head.
+Update root/subsystem entry pages, API index, current roadmap and changelog as relevant. Change `VERSION` once per published increment and synchronize the document-set banner in every current Markdown page; marked `08-research/history/` snapshots retain their historical labels. Preserve research revision/source/build version text. Ensure C-03/C-04, CtZ and canonical research navigation resolve. Remove obsolete forwarding files when moving records; Git history retains prior paths. Commit with a concrete scoped message, reject unexpected branch-head changes rather than overwriting them, and verify published contents/blob identities and branch head.
 
 GitHub renders the Markdown directly. The documentation build is extraction plus validation; it is not an engine build. [Publishing guidance](../PUBLISHING.md) describes initial import versus ongoing maintenance.
 

@@ -1,5 +1,7 @@
 # Evidence and verification policy
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **Current policy from ADR v0.1.40.** Use the [workflow](workflow.md) and [layout conventions](repository-layout.md).
 
 Record source and runtime status independently:

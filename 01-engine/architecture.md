@@ -1,5 +1,7 @@
 # Engine architecture — first-pass map
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **Status:** Architectural research outline; exact files and bindings pending source checkout at a pinned commit.
 
 The Anomaly distribution uses the X-Ray engine with community Modded Exes. At a high level, distinguish the native C++ runtime, scripting bindings, Lua gameplay scripts, configuration and UI layout files, and packaged assets. Runtime behavior can depend on interactions across all layers.

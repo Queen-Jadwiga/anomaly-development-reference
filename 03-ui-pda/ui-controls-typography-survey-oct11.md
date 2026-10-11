@@ -1,5 +1,7 @@
 # October 11 UI survey — Lua controls, fonts, visual resources
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **Scope:** index of confirmed export locations and targeted implications. NOT a complete enumeration of all UI exports.
 
 ## Verified

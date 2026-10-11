@@ -1,5 +1,7 @@
 # XML initializer Lua registration audit — v0.1.9
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 ## Current result
 
 **Open.** The pinned header and implementation establish native methods, not Lua exports. Since a complete local source tree was not available, absence of `CUIXmlInit` registration **cannot** be asserted.

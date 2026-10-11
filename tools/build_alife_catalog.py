@@ -107,7 +107,7 @@ def merge(rows,variant_index):
 classes=merge(classes,3);bindings=merge(bindings,4)
 def write(name,columns,rows):
     with ((EVIDENCE if name=='interface-evidence-oct11.csv' else OUT)/name).open('w') as f:
-        w=csv.writer(f);w.writerow(columns);w.writerows(rows)
+        w=csv.writer(f,lineterminator='\n');w.writerow(columns);w.writerows(rows)
 write('native-lua-classes-oct11.csv',['lua_class','cpp_class','registered_template_arguments','evaluated_branch','source_path','source_line'],classes)
 write('native-lua-bindings-oct11.csv',['lua_owner','lua_name','binding_kind','expanded_binding_expression','evaluated_branch','source_path','source_line'],bindings)
 # Function declarations are source-indexed helpers, not inferred Lua arities/default arguments.

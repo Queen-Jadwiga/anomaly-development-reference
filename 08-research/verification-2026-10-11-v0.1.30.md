@@ -1,5 +1,7 @@
 # ADR source verification — v0.1.30 (11 October 2026)
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 ## Scope and method
 
 Compared **ADR v0.1.29** with the user-supplied `xray-monolith-2026.10.11.zip` extracted source. This is a **source-reference integrity and targeted claim audit**, *not* a proof that every sentence in 95 ADR files is correct, that upstream URLs resolve externally, or that any behavior has been validated in GAMMA. No runtime tests were performed. Preserve all historical research.

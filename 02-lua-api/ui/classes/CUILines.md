@@ -1,5 +1,7 @@
 # CUILines — declaration audit (ADR v0.1.5)
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **Evidence level:** Source-confirmed native declarations and previously extracted Lua registrations at pinned commit; **GAMMA runtime untested.** Only methods already listed in the previous Lua registration inventory are treated as exported. Other native methods are not automatically Lua-accessible.
 
 Sources: [UILines.h](https://github.com/themrdemonized/xray-monolith/blob/6a08e0905ce34748ee2904a5e0809f8afd141137/src/xrGame/ui/UILines.h#L17-L70) and [Lua registration](https://github.com/themrdemonized/xray-monolith/blob/6a08e0905ce34748ee2904a5e0809f8afd141137/src/xrGame/ui/UIStatic_script.cpp).

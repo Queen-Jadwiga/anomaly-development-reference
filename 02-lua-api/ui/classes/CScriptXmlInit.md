@@ -1,5 +1,7 @@
 # CScriptXmlInit
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **Evidence:** Source-confirmed registration declaration; runtime deferred. **Engine:** `2026.5.15`.
 
 **Registration:** [`ScriptXMLInit.cpp#L337-L384`](https://github.com/themrdemonized/xray-monolith/blob/6a08e0905ce34748ee2904a5e0809f8afd141137/src/xrGame/ScriptXMLInit.cpp#L337-L384).

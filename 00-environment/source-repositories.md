@@ -1,5 +1,7 @@
 # Source repositories — SRC-001
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **Research date:** 2026-10-09. **Evidence level:** Public upstream documentation, not local executable verification.
 
 ## Primary reference

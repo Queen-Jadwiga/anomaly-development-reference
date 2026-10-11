@@ -3,7 +3,7 @@
 Run from any working directory: python tools/check_repository.py [--root PATH]
 This is a structural check, not source interpretation or game verification.
 """
-import argparse,json,re,sys,unicodedata
+import argparse,csv,json,re,sys,unicodedata
 from pathlib import Path
 from urllib.parse import unquote,urlsplit
 
@@ -54,10 +54,29 @@ def check(root):
     required=['README.md','INDEX.md','ROADMAP.md','CHANGELOG.md','CONTRIBUTING.md','AGENTS.md','08-research/workflow.md','08-research/repository-layout.md','08-research/evidence-policy.md','02-lua-api/api-index.md','02-lua-api/ui/README.md','02-lua-api/alife/README.md','08-research/templates/investigation.md','02-lua-api/templates/api-entry.md']
     for rel in required:
         if not (root/rel).is_file():errors.append('missing required entry: '+rel)
+    version_path=root/'VERSION'
+    version=version_path.read_text().strip() if version_path.is_file() else ''
+    if not re.fullmatch(r'0\.1\.\d+',version):errors.append('missing or invalid VERSION')
+    for path,text in texts.items():
+        rel=path.relative_to(root).as_posix()
+        if text.startswith('# Moved:'):errors.append('obsolete forwarding page: '+rel)
+        if '/history/' not in rel:
+            expected=f'> ADR document set: **v{version}**.'
+            if text.count(expected)!=1:errors.append('missing/inconsistent document-set version: '+rel)
+            for value in re.findall(r'Current (?:ADR )?revision:\s*\*{0,2}(v\d+\.\d+\.\d+)',text):
+                if value!='v'+version:errors.append('stale current revision: '+rel+': '+value)
+    for path in root.rglob('*'):
+        if not path.is_file() or any(x.startswith('.') for x in path.relative_to(root).parts):continue
+        if path.stat().st_size==0:errors.append('empty repository file: '+path.relative_to(root).as_posix())
+        if path.suffix=='.csv':
+            with path.open(encoding='utf-8',newline='') as stream:
+                rows=list(csv.reader(stream))
+            if not rows:errors.append('empty CSV: '+path.relative_to(root).as_posix())
+            elif any(len(row)!=len(rows[0]) for row in rows[1:]):errors.append('CSV row width mismatch: '+path.relative_to(root).as_posix())
     landing=texts.get(root/'README.md','')
     for token in ['2026-10-11-C03-luabind-adoption-autodelete.md','2026-10-11-C04-xml-factory-return-ownership.md','https://github.com/Queen-Jadwiga/capture-the-zone']:
         if token not in landing:errors.append('landing page missing navigation: '+token)
-    return {'markdown_files':len(files),'local_targets_checked':links,'anchors_checked':anchors,'errors':errors}
+    return {'version':version,'markdown_files':len(files),'local_targets_checked':links,'anchors_checked':anchors,'errors':errors}
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1]);args=parser.parse_args()

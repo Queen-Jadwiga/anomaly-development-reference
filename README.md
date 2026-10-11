@@ -1,9 +1,11 @@
 # Anomaly Development Reference (ADR)
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **Source-backed modding research for S.T.A.L.K.E.R. Anomaly / X-Ray Monolith / Modded Exes**
 
 > **Work in progress — independent research, not official engine documentation.**
-> Current ADR revision: **v0.1.40** (11 October 2026). Primary research source: the
+> Current ADR revision: **v0.1.41** (11 October 2026). Primary research source: the
 > **2026.10.11** X-Ray Monolith source archive. Runtime behavior in GAMMA is **not yet validated**.
 
 ## What is this?
@@ -31,7 +33,7 @@ If you only have a few minutes, start here:
 | [UI construction & ownership](03-ui-pda/ui-construction-ownership.md) | Practical consequences for XML-created controls and native parent ownership |
 | [Dynamic PDA tabs](03-ui-pda/dynamic-pda-tabs-oct11.md) | New native-backed PDA tab registration and Lua integration |
 | [PDA subdialog lifecycle](03-ui-pda/pda-subdialog-lifecycle-oct11.md) | Rebuild, selection, and content synchronization |
-| [Verification report](08-research/verification-2026-10-11-v0.1.30.md) | What was checked and what was not |
+| [Current verification report](08-research/verification-2026-10-11-v0.1.41.md) | What was checked and what was not |
 | [Full research index](INDEX.md) | Every investigated area and historic records |
 
 ## Research status
@@ -68,7 +70,7 @@ Claims should not be promoted to runtime-verified without testing.
 - [Game systems](04-game-systems)
 - [Research and verification](08-research)
 - [Changelog](CHANGELOG.md)
-- [Original evolving README / version history](HISTORY_README.md)
+- [Historical README snapshot](08-research/history/readme-through-v0.1.40.md)
 
 ## Publishing
 

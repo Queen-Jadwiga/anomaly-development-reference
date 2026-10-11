@@ -1,5 +1,7 @@
 # INV-003 — Map installed executable to historical source tag
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **Status:** Source release located; binary equivalence unresolved.
 
 ## Observations

@@ -1,6 +1,8 @@
 # A-Life reference
 
-**Current revision: v0.1.40.** First source pass established server identity, native squad membership, selected online/offline paths, and the boundary with Lua smart assignment. Installed GAMMA behavior and runtime tests remain deferred.
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
+**Current revision: v0.1.41.** First source pass established server identity, native squad membership, selected online/offline paths, and the boundary with Lua smart assignment. Installed GAMMA behavior and runtime tests remain deferred.
 
 - [ALIFE-01 — Identity, squad membership and lifecycle](../../08-research/investigations/2026-10-11-ALIFE-01-identity-lifecycle.md)
 - [October 11 source evidence ledger](../../evidence/alife/source-evidence-oct11.csv)

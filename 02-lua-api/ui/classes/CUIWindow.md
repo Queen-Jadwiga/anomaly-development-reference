@@ -1,5 +1,7 @@
 # CUIWindow — declaration-backed signatures (ADR v0.1.4)
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 **Target:** 2026.5.15 source commit `6a08e09`; **status:** C++ declarations + Lua registration confirmed, GAMMA runtime untested.
 
 **Evidence:** [binding registration](https://github.com/themrdemonized/xray-monolith/blob/6a08e0905ce34748ee2904a5e0809f8afd141137/src/xrGame/ui/UIWindow_script.cpp#L129-L193), [class declarations](https://github.com/themrdemonized/xray-monolith/blob/6a08e0905ce34748ee2904a5e0809f8afd141137/src/xrGame/ui/UIWindow.h#L104-L230), [attach/detach implementation](https://github.com/themrdemonized/xray-monolith/blob/6a08e0905ce34748ee2904a5e0809f8afd141137/src/xrGame/ui/UIWindow.cpp#L221-L260).

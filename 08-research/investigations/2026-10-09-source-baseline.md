@@ -1,5 +1,7 @@
 # INV-001: Establish upstream source baseline
 
+> ADR document set: **v0.1.41**. Research revisions and source/build versions below describe their original scope.
+
 - Date: 2026-10-09
 - Question: Which source represents the user's installed `MT-TEST 2026.05.15` engine?
 - Runtime observations: `xrCore` 9959; X-Ray Monolith 1.5.3; Modded Exes MT-TEST 2026.05.15.
