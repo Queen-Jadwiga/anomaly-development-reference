@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.47**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -18,6 +18,7 @@
 - [Relation persistence ledger](factions/relation-persistence-2026-10-11.csv): P01–P18, 18 ENGINE1011 files.
 - [Community mutation ledger](factions/community-mutation-2026-10-11.csv): M01–M19, 19 ENGINE1011 files.
 - [Action-goodwill ledger](factions/action-goodwill-2026-10-11.csv): A01–A20, 20 entries across 19 ENGINE1011 files.
+- [Warfare faction-consumer ledger](factions/warfare-consumers-2026-10-11.csv): R01–R20, 20 entries across nine BETA150 main files.
 - [A-Life ledgers](alife/README.md).
 - [Warfare ledgers and package comparisons](warfare/README.md).
 - [New claim-ledger schema](templates/source-evidence.csv).

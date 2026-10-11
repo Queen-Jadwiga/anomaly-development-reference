@@ -1,8 +1,8 @@
 # Warfare subsystem
 
-> ADR document set: **v0.1.47**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.47.**
+**Current revision: v0.1.48.**
 
 Use the [A-Life lifecycle/state map](../alife/lifecycle-state-reference.md) and [callback-phase reference](../alife/callback-phase-reference.md) for native/bundled representation and readiness boundaries. Effective Warfare policy and installed callback order remain separate open work.
 
@@ -69,3 +69,5 @@ Supplied package implementations are now inspected. Current MO2 winning files an
 ## v0.1.40 — Standard repository structure
 
 Current API catalogs live in [the central API section](../../02-lua-api/api-index.md); dated investigations and ledgers have separate homes. Follow the [workflow](../../08-research/workflow.md) and [layout conventions](../../08-research/repository-layout.md). Historical findings and effective-profile/runtime limits are preserved.
+
+The [FAC-05 faction/relation consumer reference](../factions/warfare-relation-consumers.md) maps selected main-package matrix, attitude, diplomacy and identity uses. Installed helper/dispatch/configuration closure remains open; faction consolidation/final audit are separate later work.

@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.47**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.47.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.48.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -79,6 +79,8 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 04-game-systems
 
+- [Supplied Warfare faction/relation consumers](04-game-systems/factions/warfare-relation-consumers.md)
+
 - [Action-driven goodwill and rank/reputation](04-game-systems/factions/action-goodwill.md)
 
 - [Character-community mutation and team/group effects](04-game-systems/factions/community-mutation.md)
@@ -113,8 +115,11 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 08-research
 
+- [FAC-05 Warfare consumer investigation](08-research/investigations/2026-10-11-FAC-05-warfare-consumers.md)
+- [Current increment verification — v0.1.48](08-research/verification-2026-10-11-v0.1.48.md)
+
 - [FAC-04 action-goodwill investigation](08-research/investigations/2026-10-11-FAC-04-action-goodwill.md)
-- [Current verification — v0.1.47](08-research/verification-2026-10-11-v0.1.47.md)
+- [FAC-04 verification — v0.1.47](08-research/verification-2026-10-11-v0.1.47.md)
 
 - [FAC-03 community mutation investigation](08-research/investigations/2026-10-11-FAC-03-community-mutation.md)
 - [FAC-03 verification — v0.1.46](08-research/verification-2026-10-11-v0.1.46.md)

@@ -1,6 +1,6 @@
 # Research investigations
 
-> ADR document set: **v0.1.47**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
 
 One canonical dated record per question, named `YYYY-MM-DD-ID-topic.md`. Use the [investigation template](../templates/investigation.md), [workflow](../workflow.md) and [evidence policy](../evidence-policy.md).
 
@@ -18,3 +18,5 @@ Earlier records retain their original format and IDs. Recent A-Life/Warfare reco
 - [FAC-03 — Character-community mutation and team/group effects](2026-10-11-FAC-03-community-mutation.md).
 
 - [FAC-04 — Action-driven goodwill and rank/reputation](2026-10-11-FAC-04-action-goodwill.md).
+
+- [FAC-05 — Supplied Warfare faction/relation consumers](2026-10-11-FAC-05-warfare-consumers.md).

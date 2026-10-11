@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.47**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.48 — 2026-10-11 — Supplied Warfare faction/relation consumers
+
+- Add FAC-05 consumer reference, investigation and 20-entry ledger over nine main-package files: helper semantics/direction, identity producers, targeting/visibility/display, diplomacy save/reapply, death/reward and contested-target boundaries.
+- Keep native attitude, community matrix, character goodwill and strategic owner models distinct. Preserve literal/commented-code caveats without editing source or asserting installed behavior.
+- Complete only the selected consumer pass. Faction consolidation and final available-source audit remain separate later actions; runtime stays deferred. See [increment verification](08-research/verification-2026-10-11-v0.1.48.md).
 
 ## v0.1.47 — 2026-10-11 — Action-driven goodwill and rank/reputation
 

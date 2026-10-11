@@ -1,8 +1,8 @@
 # Factions and relations
 
-> ADR document set: **v0.1.47**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.47.** Subsystem status: partial. Native query foundations are complete within the selected source scope; installed faction/diplomacy behavior remains unverified. Runtime verification is deferred until the user explicitly resumes it.
+**Current revision: v0.1.48.** Subsystem status: partial. Native query foundations are complete within the selected source scope; installed faction/diplomacy behavior remains unverified. Runtime verification is deferred until the user explicitly resumes it.
 
 - [Native identity, goodwill and relation resolution](native-relations.md).
 - [Focused Lua contracts](../../02-lua-api/factions/relations-api.md).
@@ -17,4 +17,6 @@ The foundation distinguishes configured community identity, directed contributio
 
 [Action-driven goodwill, rank and reputation](action-goodwill.md), [Lua value/flag contracts](../../02-lua-api/factions/action-values-api.md) and [FAC-04](../../08-research/investigations/2026-10-11-FAC-04-action-goodwill.md) are complete within scope.
 
-Next source work: supplied Warfare faction/relation consumers and effective-script boundaries, then consolidation/audit. Installed diplomacy/reward configuration/overrides remain open. See [current roadmap](../../ROADMAP.md).
+[Selected supplied Warfare faction/relation consumers](warfare-relation-consumers.md) and [FAC-05](../../08-research/investigations/2026-10-11-FAC-05-warfare-consumers.md) are complete within scope.
+
+Next: faction consolidation and final available-source audit as separate later actions. Installed diplomacy/reward configuration/overrides remain open. See [current roadmap](../../ROADMAP.md).

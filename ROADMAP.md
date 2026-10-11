@@ -1,6 +1,6 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.47**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source status
 
@@ -8,7 +8,7 @@ UI/PDA is development-reference ready within the documented source scope. A-Life
 
 ## Next source work
 
-The planned consolidation from available snapshots is complete. Continue effective A-Life/Warfare closure when the winning scripts and relevant configuration producers become available; see the [completion status and stopping rule](04-game-systems/alife/source-completion-status.md). Factions/relations is now the active independent subsystem. FAC-01 native query foundations are complete within scope; FAC-02 native persistence/reset/ID cleanup is complete within scope; FAC-03 character-community mutation is complete within scope; FAC-04 native action/rank/reputation pass is complete within scope; next trace supplied Warfare faction/relation consumers and their effective-script boundaries, then consolidate and audit. Supplied Warfare consumers and installed diplomacy remain later integration work. Runtime verification remains deferred.
+The planned consolidation from available snapshots is complete. Continue effective A-Life/Warfare closure when the winning scripts and relevant configuration producers become available; see the [completion status and stopping rule](04-game-systems/alife/source-completion-status.md). Factions/relations is now the active independent subsystem. FAC-01 native query foundations are complete within scope; FAC-02 native persistence/reset/ID cleanup is complete within scope; FAC-03 character-community mutation is complete within scope; FAC-04 native action/rank/reputation pass is complete within scope; FAC-05 selected BETA150 main-package faction/relation consumers are complete within scope; next perform consolidation and final available-source audit as separate later actions. Supplied Warfare consumers and installed diplomacy remain later integration work. Runtime verification remains deferred.
 
 <a id="current-a-lifewarfare-remaining-scope--v0138"></a>
 
@@ -40,8 +40,10 @@ Effective source requirements are listed in [WAR-002a](08-research/investigation
 - [x] FAC-02: [native relation serialization, reset/reload and object-ID cleanup boundaries](04-game-systems/factions/relation-persistence.md).
 - [x] FAC-03: [native community mutation, client/server identity and local team/group effects](04-game-systems/factions/community-mutation.md); effective strategic reassignment remains open.
 - [x] FAC-04: [selected native attack/kill/help pathways, rank/reputation contributions and callback boundaries](04-game-systems/factions/action-goodwill.md). Effective reward scripts remain open.
-- [ ] Supplied Warfare consumers and effective GAMMA diplomacy/configuration/override order.
-- [ ] Practical consolidation and final bounded source audit after those investigations.
+- [x] FAC-05: [selected supplied-main-package Warfare faction/relation consumers](04-game-systems/factions/warfare-relation-consumers.md).
+- [ ] Effective GAMMA diplomacy/configuration/helpers and startup/override order.
+- [ ] Practical faction consolidation (later separate action).
+- [ ] Final bounded available-source consistency audit (later separate action).
 - [ ] Runtime verification, deferred until explicitly resumed.
 
 Subsystem remains partial; configured faction indexes, numeric values and installed relations are not inferred from the native source.
@@ -54,4 +56,4 @@ Subsystem remains partial; configured faction indexes, numeric values and instal
 
 ## Maintenance
 
-Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.47.md). Historical unchecked boxes are not the current backlog.
+Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.48.md). Historical unchecked boxes are not the current backlog.
