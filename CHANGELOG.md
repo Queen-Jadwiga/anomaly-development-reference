@@ -153,7 +153,7 @@ Added four narrowly evidenced UI system records (dynamic PDA tabs, DXML hooks, i
 
 ## v0.1.31 — 2026-10-11 — A-Life/Warfare source foundation
 
-- Added ALIFE-01 with exact local-snapshot paths/line ranges and a 15-file SHA-256 evidence ledger.
+- Added ALIFE-01 with exact local-snapshot paths/line ranges and a 16-file SHA-256 evidence ledger.
 - Distinguished server identity, native group membership, Lua smart assignment/routing, online representations, empty-group release, and member reconstruction.
 - Added WAR-001 with pinned CtZ call sites and explicit effective-GAMMA/Warfare source prerequisites.
 - Updated current revision, subsystem entry pages, index and roadmap. Preserved prior research conclusions and the CtZ link; no gameplay code or license added.
@@ -164,3 +164,10 @@ Added four narrowly evidenced UI system records (dynamic PDA tabs, DXML hooks, i
 - Added ALIFE-02 and a 16-file hash/line evidence ledger, tracing direct/template/server creation, consumed pointers during manual registration, native unregistration and online/offline destroy routes.
 - Documented immediate versus bulk callback timing, generic/type-specific squad notifications, early-return asymmetry, and bundled axr priority/constraint ordering with effective-profile limits.
 - Updated landing page, index, A-Life entry page and roadmap; prior research preserved. No gameplay changes or license added; runtime verification deferred.
+
+## v0.1.33 — 2026-10-11 — Warfare packages, ownership and offline combat
+
+- Inspected two previously supplied Warfare archives, recorded their hashes, added a 17-script byte comparison and a 16-file source ledger.
+- Added WAR-002a/b covering package/profile provenance, targeting versus arrival, owner policy, callback phases, offline combat bookkeeping and native death-chain boundaries.
+- Compared a pinned public GAMMA squad variant/default list; kept historical user-profile evidence private except for scoped, sanitized observations.
+- ALIFE-03 / WAR-002 remain partial pending effective board/smart/creature/release wrappers and profile overrides. Updated navigation; retained previous research and CtZ link. No game tests, gameplay edits or license added.

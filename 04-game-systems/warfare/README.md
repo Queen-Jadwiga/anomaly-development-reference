@@ -1,4 +1,6 @@
-# Warfare subsystem — research WAR-001
+# Warfare subsystem
+
+**Current revision: v0.1.33.**
 
 **Current evidence:** Capture the Zone is intended to extend Anomaly/GAMMA Warfare, including PDA strategy display and tracking faction control.
 
@@ -24,3 +26,12 @@ A call graph connecting faction state -> squad/smart-terrain logic -> event sour
 - [WAR-001: CtZ call sites and missing effective-profile dependencies](ctz-integration-boundary-oct11.md).
 
 The October 11 archive includes `sim_squad_scripted.script` and selected native bindings, but does not provide the referenced board/smart/Warfare policy implementations. Faction capture and effective GAMMA override behavior remain open. In-game verification is deferred by user request.
+
+## v0.1.33 — Supplied package policy traced
+
+- [WAR-002a: two Warfare packages, pinned public GAMMA comparison and effective-profile source requirements](source-packages-effective-profile-oct11.md).
+- [WAR-002b: target/arrival distinction, ownership policy, callbacks and offline combat](warfare-policy-offline-combat-oct11.md).
+- [Source locations and hashes](source-evidence-war002-oct11.csv).
+- [Archive script byte comparison](archive-script-comparison-oct11.csv).
+
+Supplied package implementations are now inspected. Current MO2 winning files and runtime function overrides remain unverified; this supersedes the earlier missing-package status without changing its historical findings. Runtime tests remain deferred.

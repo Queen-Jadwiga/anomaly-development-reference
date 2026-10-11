@@ -146,3 +146,12 @@ Runtime remains deferred. Next source work: creation/release and callback orderi
 - [ALIFE-02 source evidence ledger](04-game-systems/alife/creation-release-evidence-oct11.csv).
 
 Scoped source pass complete; runtime deferred. Next: effective smart-terrain/board assignment and Warfare policy.
+
+## v0.1.33 — Supplied Warfare packages and policy trace
+
+- [WAR-002a: source-package comparison and effective-profile boundary](04-game-systems/warfare/source-packages-effective-profile-oct11.md).
+- [WAR-002b: assignment, ownership, callbacks and offline combat](04-game-systems/warfare/warfare-policy-offline-combat-oct11.md).
+- [16-file source evidence ledger](04-game-systems/warfare/source-evidence-war002-oct11.csv).
+- [17-script archive byte comparison](04-game-systems/warfare/archive-script-comparison-oct11.csv).
+
+ALIFE-03 / WAR-002 partially investigated; installed winners and creature/board/smart internals remain open. Runtime deferred.

@@ -189,3 +189,14 @@ See [ALIFE-01](04-game-systems/alife/identity-lifecycle-oct11.md) and [WAR-001](
 - [ ] All engine runtime verification remains deferred.
 
 This closes the bounded ALIFE-02 task above, not every entity-specific creation/destruction path. See [ALIFE-02](04-game-systems/alife/creation-registration-release-oct11.md).
+
+## v0.1.33 — Warfare package-source investigation
+
+- [x] Retrieve and hash the two supplied Warfare packages; distinguish main, GAMMA-patch and pinned public GAMMA references.
+- [x] Trace package squad targeting/arrival, owner eligibility/retention policy, offline combat death calls and relevant callback phases.
+- [x] Establish native creature death versus simulator group-notification boundary; preserve missing-override qualification.
+- [ ] ALIFE-03 / WAR-002 effective-profile closure: winning core files, board/smart reach/jobs, creature overrides, safe-release scheduling and monkey-patch order.
+- [ ] ALIFE-04: full persistence and CtZ campaign/generation identity.
+- [ ] All engine runtime testing deferred.
+
+See [source requirements and provenance](04-game-systems/warfare/source-packages-effective-profile-oct11.md). The older user mod-list export and public default list do not prove current installed behavior.

@@ -1,0 +1,17 @@
+evidence_id,source_id,source_path,line_ranges,sha256,line_count,subject
+W01,ZIP142,meta.ini,1-27,9e7126a081bcb6d513f19f929cf7749b5c63418a17a5c4b8147a92969320e667,27,Archive label
+W02,ZIP142,Installation_Instructions+Changelog.txt,1-48,8ade3aac78c8ea3c7acd7ae389da7f0f560ab5ff0f7d3ec1e952b1ef9db9d7bd,89,Version and installation notes
+W03,BETA150,Installation_Instructions+Changelog.txt,1-48,7727dd4d9e5a8ab3f6dc92624a417fa1a6920922021309e44836824fa3354fcf,90,Version and installation notes
+W04,BETA150,fomod/ModuleConfig.xml,6-42,ef2245f16a8cd22604fc45c0d605ada6d54c46610e08ec1e28c8f88c9f12c796,128,Main versus GAMMA patch choices
+W05,BETA150,Warfare Alife Overhaul - Main/gamedata/scripts/warfare.script,123-177;186-222;917-940;1084-1098,159bf5daa6938ff6d20790405a7657dd5a92ef8507404d7f54c5a16bc939905b,1098,Persistence and callback setup
+W06,BETA150,Warfare Alife Overhaul - Main/gamedata/scripts/sim_squad_warfare.script,70-166;198-238;316-333;913-965,dfa5b8df7569f6d9a02137f9c14247dcbb3d580df563a74f11b11b0747aaac45,1001,Registration targeting arrival and cache removal
+W07,BETA150,Warfare Alife Overhaul - Main/gamedata/scripts/smart_terrain_warfare.script,368-456;502-741;743-799;4387-4424;4474-4630,1923142cf03c97510a1e6ff42aae20377e3e5d82dd36cf6cd42d4ee4dbe280ff,5390,Owner selection and autocapture
+W08,BETA150,Warfare Alife Overhaul - Main/gamedata/scripts/sim_offline_combat.script,28-49;105-367;374-619;622-670;724-778,d896f8e8c2195080987330ac91c3c9aab1f884e60019063216f5946395140945,778,Offline combat policy and on_death calls
+W09,BETA150,Warfare Alife Overhaul - Main/gamedata/scripts/warfare_options.script,224-229;255-304,28177d7195177a1fc528059bed65c80bf04960a0418460ae1ad5e1d6c2bf1615,304,Override declaration and online-status policy
+W10,BETA150,Patches/GAMMA Warfare Patch/gamedata/scripts/sim_squad_scripted.script,219-243;265-274;413-540;1014-1043,3f5809f9a1a93fb27350d930c63555595b389b543f6a96508ee1e47f82b17fa4,1452,Squad dispatch and lifecycle
+W11,BETA150,Warfare Alife Overhaul - Main/gamedata/scripts/sim_squad_scripted.script,265-274;413-540;1014-1043,2f3c45745aa8d8aa1372f5784f904f0cb13e00cab06f1f0de428ea3f244b70ee,1452,Main squad variant
+W12,ENGINE1011,src/xrServerEntities/xrServer_Objects_ALife_Monsters.cpp,1065-1073,60e23826a085b861df46b55175666e61c14bdf4f84d9b3481fdad67a55744349,2314,Native creature death state
+W13,ENGINE1011,src/xrGame/alife_simulator_base2.cpp,84-100,b0c77e7a6b55ea01a2e9f3e65efc797a2db15bb643243ea233f76eb411eb9ef6,100,Simulator death plus group notification
+W14,ENGINE1011,src/xrGame/game_sv_single.cpp,338-347,26042fed21921e11a92a909507d064150cbd3c242d492a2aae5971ad87e20ff7,367,Server death entry point
+W15,ENGINE1011,src/xrServerEntities/xrServer_script_macroses.h,108-121;297-310,cd2475cf313da75cf75fc529a3c00877b3f0949c65856bc5d236bf5e383d2c70,553,Creature on_death wrapper and export guard
+W16,ZIP142,gamedata/scripts/smart_terrain_warfare.script,290-379;387-442;3965-4120,787b6e54e07ca8ff5d4dc8f4c20c1289abf31e4a7f5fb349ace38d8aaf554490,4910,Older smart policy and autocapture variant
