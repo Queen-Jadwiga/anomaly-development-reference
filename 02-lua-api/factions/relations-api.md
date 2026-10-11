@@ -1,6 +1,6 @@
 # Focused faction and relation Lua contracts
 
-> ADR document set: **v0.1.45**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.46**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-01-API
 - Subsystem: factions / relations
@@ -51,7 +51,7 @@ The selected enum registration names friend, neutral, enemy and dummy. The base 
 
 These scalar/value interfaces do not transfer ownership or create entities. Live object arguments require valid current representations; pointers are not durable campaign identities. Module ID calls avoid client-object arguments but do not validate campaign identity or guarantee safe out-of-range conversion. Apply the [A-Life identity/lifetime boundary](../../04-game-systems/alife/lifecycle-state-reference.md).
 
-No inspected setter establishes completed AI reevaluation, a UI refresh, strategic ownership, a shared script callback or save durability. Mutation/persistence integration and action-driven changes are future source work. `set_character_community` is present in the selected registration but deliberately outside this focused contract table until its downstream identity/team/AI chain is traced. No gameplay change is proposed.
+No inspected setter establishes completed AI reevaluation, a UI refresh, strategic ownership, a shared script callback or save durability. Mutation/persistence integration and action-driven changes are future source work. `set_character_community` is outside this FAC-01 table; its downstream identity/team/AI chain is now traced in [FAC-03 contracts](community-mutation-api.md). No gameplay change is proposed.
 
 ## Checks and limitations
 

@@ -1,6 +1,6 @@
 # UI-01 — Dynamic PDA tab and subdialog lifecycle (2026-10-11 source)
 
-> ADR document set: **v0.1.45**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.46**. Research revisions and source/build versions below describe their original scope.
 
 **Status:** Source-level findings established for stock October 11 engine + bundled registry. **Not a GAMMA runtime or multi-addon compatibility validation.**
 

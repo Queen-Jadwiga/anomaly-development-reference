@@ -1,6 +1,6 @@
 # XML initializer Lua-registration search — v0.1.8
 
-> ADR document set: **v0.1.45**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.46**. Research revisions and source/build versions below describe their original scope.
 
 **Baseline:** `6a08e0905ce34748ee2904a5e0809f8afd141137` / MT-TEST 2026.05.15 candidate. **Runtime:** deferred.
 

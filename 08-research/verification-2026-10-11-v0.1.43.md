@@ -1,6 +1,6 @@
 # Available-source consolidation audit — ADR v0.1.43
 
-> ADR document set: **v0.1.45**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.46**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: ALIFE-11 / WAR-003 controls, bounded A-Life/Warfare consistency review and repository integrity

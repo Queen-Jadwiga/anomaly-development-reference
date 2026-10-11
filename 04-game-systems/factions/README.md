@@ -1,8 +1,8 @@
 # Factions and relations
 
-> ADR document set: **v0.1.45**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.46**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.45.** Subsystem status: partial. Native query foundations are complete within the selected source scope; installed faction/diplomacy behavior remains unverified. Runtime verification is deferred until the user explicitly resumes it.
+**Current revision: v0.1.46.** Subsystem status: partial. Native query foundations are complete within the selected source scope; installed faction/diplomacy behavior remains unverified. Runtime verification is deferred until the user explicitly resumes it.
 
 - [Native identity, goodwill and relation resolution](native-relations.md).
 - [Focused Lua contracts](../../02-lua-api/factions/relations-api.md).
@@ -13,4 +13,6 @@ The foundation distinguishes configured community identity, directed contributio
 
 [Native relation persistence/reset/ID cleanup](relation-persistence.md) and [FAC-02](../../08-research/investigations/2026-10-11-FAC-02-relation-persistence.md) are complete within scope.
 
-Next source work: community mutation and action-driven goodwill updates; then supplied Warfare consumers and effective diplomacy configuration/overrides. See [current roadmap](../../ROADMAP.md).
+[Native community mutation and team/group effects](community-mutation.md), [focused APIs](../../02-lua-api/factions/community-mutation-api.md) and [FAC-03](../../08-research/investigations/2026-10-11-FAC-03-community-mutation.md) are complete within scope.
+
+Next source work: action-driven goodwill updates; then supplied Warfare consumers and effective diplomacy configuration/overrides. See [current roadmap](../../ROADMAP.md).

@@ -1,6 +1,6 @@
 # CUIWindow — declaration-backed signatures (ADR v0.1.4)
 
-> ADR document set: **v0.1.45**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.46**. Research revisions and source/build versions below describe their original scope.
 
 **Target:** 2026.5.15 source commit `6a08e09`; **status:** C++ declarations + Lua registration confirmed, GAMMA runtime untested.
 

@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.45**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.46**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.46 — 2026-10-11 — Community mutation and team/group effects
+
+- Add FAC-03 reference, focused API contracts, investigation and 19-file ledger for client/server community identity, two-stage tuple migration, shared AI state and selected packet/hydration paths.
+- Distinguish team-only mutation, partial/early-return phases, later server tuple receipt, actor Discord display and unresolved strategic reassignment.
+- Preserve previous findings/evidence; runtime remains deferred. Next is action-driven goodwill and rank/reputation contributions. See [verification](08-research/verification-2026-10-11-v0.1.46.md).
 
 ## v0.1.45 — 2026-10-11 — Native relation persistence and cleanup
 

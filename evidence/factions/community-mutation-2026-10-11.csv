@@ -1,0 +1,20 @@
+evidence_id,source_id,source_path,symbol,line_ranges,file_sha256,line_count,subject
+M01,ENGINE1011,src/xrGame/script_game_object_inventory_owner.cpp,SetCharacterCommunity;CharacterCommunity,1045-1079,a9e0a854da799220cfa0a816f2a48a839c1325c7118a27588e838e84660c81d3,3051,Lua mutation order and receiver checks
+M02,ENGINE1011,src/xrGame/InventoryOwner.cpp,SetCommunity;CharacterInfo().Init,124-135;432-453,7abbb1405915f5b98050ad1f78b7e4234521357358d99dc1e0db7e03aceea24b,705,Client/server community bridge and early returns
+M03,ENGINE1011,src/xrServerEntities/character_info.cpp,Init;SetCommunity;m_Sympathy,79-82;153-161;190-194,58af123d8e5b43ccfa0e73aec7c80a36175d94d4e09253255e66432a53e26cb5,232,"Client hydration, community index and sympathy reset"
+M04,ENGINE1011,src/xrGame/Entity.cpp,ChangeTeam;on_before_change_team;on_after_change_team,199-224;378-407,539dcd10af01f6980b05e1fa8d77ede7ab8bdc5b20014c7ff807c79620ca6963,443,Spawn tuple and hierarchy migration
+M05,ENGINE1011,src/xrGame/group_hierarchy_holder.cpp,register_member;unregister_member;register_in_agent_manager,46-168,bc5435ed97d0258c572de4eefabec7ab574fe2ac5eb38f4a91f2b19f5800e231,168,"Membership, shared senses and agent lifetime"
+M06,ENGINE1011,src/xrGame/ai/stalker/ai_stalker.cpp,net_Export;net_Import;on_before_change_team;on_after_change_team,870-898;919-943;1506-1517,7cfea7cee35b6ae12366ae351d42cba2ffbcdf88052e77e8c7612932986c26df,1794,Tuple packets and combat registration preservation
+M07,ENGINE1011,src/xrGame/ai/monsters/basemonster/base_monster.cpp,ChangeTeam,545-565,d66a27bebdcfbda48e4baa52a32e00ee453bc51c5eb0670e6f67386dda112c70,1158,Base-monster squad migration
+M08,ENGINE1011,src/xrGame/script_game_object3.cpp,ChangeTeam,146-154,899d14faa13cbbba9a08d7e5de6f97403a2ce79a6f4b7f50a0c0b64642a7cce2,2782,Separate team-only Lua wrapper
+M09,ENGINE1011,src/xrGame/script_game_object_script3.cpp,SetCharacterCommunity;CharacterCommunity,369-370,24bbffd954d03a5d97ed627c2a8df77a7f51c3ab80c37570528b58fb7c229ff5,762,Lua community registration
+M10,ENGINE1011,src/xrGame/script_game_object_script2.cpp,ChangeTeam,126-129,cef083f263fc01e206d4ee3be0e2911038258323de846b4ec821c58d37d539ae,471,Lua tuple registration and typed binding
+M11,ENGINE1011,src/xrServerEntities/xrServer_Objects_ALife_Monsters.cpp,m_community_index;STATE_Write;UPDATE_Read;CommunityName,189-212;271-280;554-564;1073-1094;1118-1154,60e23826a085b861df46b55175666e61c14bdf4f84d9b3481fdad67a55744349,2314,Trader identity and creature tuple serialization
+M12,ENGINE1011,src/xrServerEntities/xrServer_Objects_ALife_Monsters_script.cpp,CommunityName,64-72,0e5eec1e8aebf1d5feedc4d3c8e03ac97c937e00b77ff973935141d39904887c,133,Guarded server community getter
+M13,ENGINE1011,src/xrGame/Actor.cpp,RPC_UpdateFaction;discord_gameinfo,1421-1437,de17006945ac03c05a1c336b7c773d16f21c6ee83fcfc7fe1cbc60fd5e174399,3128,Actor display side effect and script-derived faction
+M14,ENGINE1011,src/xrGame/character_community.cpp,set;team;InitIdToIndex;sympathy,32-55;87-94,16e39242762397c966bdf73eddb3aff193d0a638ee96cb1fca8dccac66e90225,102,Configured ID/index/team and sympathy
+M15,ENGINE1011,src/xrGame/ini_id_loader.h,GetById;IdToIndex,83-87;124-139,03902711ab85242c0304e324ce0c3cf78bdd6417014c74832c39bb8a81925262,179,Community validation boundary
+M16,ENGINE1011,src/xrGame/script_game_object.h,SetCharacterCommunity;ChangeTeam,313;497;507,7e11b75b3269c5cab1be786d40afeab2eb293710e2ecbc3bab7ecceb87c87450,1418,Exact setter signatures
+M17,ENGINE1011,src/xrGame/xrServer_process_update.cpp,Process_update;UPDATE_Read,7-54,0ba9db6f2820d0e3b3f0cc6ea8db74c28b6305c17ba8deafedc363f5ee9a0b1c,95,Packet receipt applies server fields
+M18,ENGINE1011,src/xrGame/Entity.h,id_Team;g_Team;g_Squad;g_Group,40-46;102-104,c24fbe9e17e8eac42fc84b82f17e59dc1b295b5c15779efe9887efb0b9dcc82a,144,Native tuple integer fields
+M19,ENGINE1011,src/xrGame/CustomMonster.cpp,net_Export;net_Import,271-312,f65c6cbcc672d2dd2eb45222223bfe0e3f1e28bc5df987e5e6d514ad907f9201,1453,General monster tuple update path
