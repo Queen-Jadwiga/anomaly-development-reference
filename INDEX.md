@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.46**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.47**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.46.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.47.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -24,6 +24,8 @@ Records retain their research revision and source baseline; those are distinct f
 - [UI architecture: Lua ↔ native XML ↔ native widgets — Part D](01-engine/ui-lua-native-integration.md)
 
 ## 02-lua-api
+
+- [Rank/reputation and action-flag contracts](02-lua-api/factions/action-values-api.md)
 
 - [Community mutation and live team APIs](02-lua-api/factions/community-mutation-api.md)
 
@@ -77,6 +79,8 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 04-game-systems
 
+- [Action-driven goodwill and rank/reputation](04-game-systems/factions/action-goodwill.md)
+
 - [Character-community mutation and team/group effects](04-game-systems/factions/community-mutation.md)
 
 - [Native relation persistence, reset and cleanup](04-game-systems/factions/relation-persistence.md)
@@ -109,8 +113,11 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 08-research
 
+- [FAC-04 action-goodwill investigation](08-research/investigations/2026-10-11-FAC-04-action-goodwill.md)
+- [Current verification — v0.1.47](08-research/verification-2026-10-11-v0.1.47.md)
+
 - [FAC-03 community mutation investigation](08-research/investigations/2026-10-11-FAC-03-community-mutation.md)
-- [Current verification — v0.1.46](08-research/verification-2026-10-11-v0.1.46.md)
+- [FAC-03 verification — v0.1.46](08-research/verification-2026-10-11-v0.1.46.md)
 
 - [FAC-02 relation persistence investigation](08-research/investigations/2026-10-11-FAC-02-relation-persistence.md)
 - [FAC-02 verification — v0.1.45](08-research/verification-2026-10-11-v0.1.45.md)

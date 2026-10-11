@@ -1,6 +1,6 @@
 # ADR verification — v0.1.41
 
-> ADR document set: **v0.1.46**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.47**. Research revisions and source/build versions below describe their original scope.
 
 **Date:** 11 October 2026. **Starting commit:** `5d069de0957ba1000bb7637043476dc52503c031` (v0.1.40). **Scope:** canonical-tree cleanup, version semantics, documentation integrity and reproducibility. All engine/game runtime testing remains deferred.
 

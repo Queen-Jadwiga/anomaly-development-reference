@@ -1,11 +1,11 @@
 # Anomaly Development Reference (ADR)
 
-> ADR document set: **v0.1.46**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.47**. Research revisions and source/build versions below describe their original scope.
 
 **Source-backed modding research for S.T.A.L.K.E.R. Anomaly / X-Ray Monolith / Modded Exes**
 
 > **Work in progress — independent research, not official engine documentation.**
-> Current ADR revision: **v0.1.46** (11 October 2026). Primary research source: the
+> Current ADR revision: **v0.1.47** (11 October 2026). Primary research source: the
 > **2026.10.11** X-Ray Monolith source archive. Runtime behavior in GAMMA is **not yet validated**.
 
 ## What is this?
@@ -38,7 +38,7 @@ If you only have a few minutes, start here:
 | [A-Life / Warfare completion status](04-game-systems/alife/source-completion-status.md) | Completed source scope and missing effective chains |
 | [Native configuration controls](04-game-systems/alife/configuration-controls.md) / [Warfare policy controls](04-game-systems/warfare/policy-controls.md) | Producers, consumers, clocks and refresh boundaries |
 | [Native faction identity and relations](04-game-systems/factions/native-relations.md) | Community identity, goodwill direction and final attitude |
-| [Current verification report](08-research/verification-2026-10-11-v0.1.46.md) | What was checked and what was not |
+| [Current verification report](08-research/verification-2026-10-11-v0.1.47.md) | What was checked and what was not |
 | [Full research index](INDEX.md) | Every investigated area and historic records |
 
 ## Research status
@@ -46,7 +46,7 @@ If you only have a few minutes, start here:
 - **UI/PDA:** development-reference ready at source level; native ownership, XML/DXML,
   widget exports, input, fonts, scaling, rendering, and dynamic tabs investigated.
 - **A-Life / Warfare:** [identity/lifecycle](08-research/investigations/2026-10-11-ALIFE-01-identity-lifecycle.md) and [creation/release/callback ordering](08-research/investigations/2026-10-11-ALIFE-02-creation-registration-release.md) documented; [supplied Warfare policy and offline combat](08-research/investigations/2026-10-11-WAR-002b-policy-offline-combat.md) traced. [Save/load and CtZ identity reconstruction](08-research/investigations/2026-10-11-ALIFE-04-save-load-identity.md) traced. [Native offline scheduling and brains](08-research/investigations/2026-10-11-ALIFE-05-offline-scheduling-brains.md) traced. [Graph location and online realization](08-research/investigations/2026-10-11-ALIFE-06-graph-online-realization.md) traced. [Client-to-server position synchronization and offline teardown](08-research/investigations/2026-10-11-ALIFE-07-client-server-offline-teardown.md) traced. [Native switching eligibility and forced states](08-research/investigations/2026-10-11-ALIFE-08-switching-eligibility.md) traced. [C++/Lua class and interface catalog](02-lua-api/alife/README.md) added. [Lifecycle/state](04-game-systems/alife/lifecycle-state-reference.md) and [callback-phase](04-game-systems/alife/callback-phase-reference.md) references consolidate the native/bundled-source paths. Active GAMMA profile reconciliation remains open.
-- **Factions / relations:** [native query foundations](04-game-systems/factions/native-relations.md) and [focused Lua contracts](02-lua-api/factions/relations-api.md) documented; [native persistence/reset/cleanup](04-game-systems/factions/relation-persistence.md) traced; [community mutation and local team/group effects](04-game-systems/factions/community-mutation.md) traced; action-driven changes and installed diplomacy remain subsequent work.
+- **Factions / relations:** [native query foundations](04-game-systems/factions/native-relations.md) and [focused Lua contracts](02-lua-api/factions/relations-api.md) documented; [native persistence/reset/cleanup](04-game-systems/factions/relation-persistence.md) traced; [community mutation and local team/group effects](04-game-systems/factions/community-mutation.md) traced; [native action-driven goodwill/rank/reputation](04-game-systems/factions/action-goodwill.md) traced; supplied Warfare relation consumers and installed diplomacy remain subsequent work.
 - **October 11 executable in GAMMA:** candidate target; runtime compatibility and behavior
   are unverified.
 - **Source-level limits:** some exhaustive export, indirect event, configuration, and

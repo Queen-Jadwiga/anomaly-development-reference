@@ -1,6 +1,6 @@
 # A-Life lifecycle and state reference
 
-> ADR document set: **v0.1.46**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.47**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ALIFE-10 — lifecycle reference
 - Subsystem: A-Life / Warfare integration

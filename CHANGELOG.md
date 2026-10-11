@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.46**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.47**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.47 — 2026-10-11 — Action-driven goodwill and rank/reputation
+
+- Add FAC-04 reference, focused value/flag API, investigation and 20-entry source ledger over 19 files. Trace native Hit/Die gates, fight memory/throttle/help, contribution nesting and rank/reputation tables/setters.
+- Preserve actual code distinctions: current kill relation, different attack/kill goodwill exclusions, independent reputation/rank gates and zero kill flag mask. No universal offline award or installed numeric value inferred.
+- Preserve earlier research/evidence; runtime stays deferred. Next is supplied Warfare relation consumers and bounded consolidation/audit. See [verification](08-research/verification-2026-10-11-v0.1.47.md).
 
 ## v0.1.46 — 2026-10-11 — Community mutation and team/group effects
 
