@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.50.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.51.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -24,6 +24,8 @@ Records retain their research revision and source baseline; those are distinct f
 - [UI architecture: Lua ↔ native XML ↔ native widgets — Part D](01-engine/ui-lua-native-integration.md)
 
 ## 02-lua-api
+
+- [Supplied codec and Lua storage caller contracts](02-lua-api/persistence/lua-storage-api.md)
 
 - [Native persistence extension contracts](02-lua-api/persistence/native-extension-contracts.md)
 
@@ -81,6 +83,8 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 04-game-systems
 
+- [Supplied Lua storage contracts and effective gaps](04-game-systems/persistence/lua-storage-contracts.md)
+
 - [Native save/load pipeline](04-game-systems/persistence/native-save-load-pipeline.md)
 
 - [Faction practical development reference](04-game-systems/factions/development-reference.md)
@@ -122,8 +126,11 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 08-research
 
+- [PER-02 Lua storage investigation](08-research/investigations/2026-10-11-PER-02-lua-storage.md)
+- [Current verification — v0.1.51](08-research/verification-2026-10-11-v0.1.51.md)
+
 - [PER-01 native save/load investigation](08-research/investigations/2026-10-11-PER-01-native-save-load.md)
-- [Current verification — v0.1.50](08-research/verification-2026-10-11-v0.1.50.md)
+- [PER-01 verification — v0.1.50](08-research/verification-2026-10-11-v0.1.50.md)
 
 - [FAC-06 consolidation and final source audit](08-research/investigations/2026-10-11-FAC-06-faction-consolidation.md)
 - [Final faction verification — v0.1.49](08-research/verification-2026-10-11-v0.1.49.md)

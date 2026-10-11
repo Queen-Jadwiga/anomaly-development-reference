@@ -1,6 +1,6 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source status
 
@@ -8,7 +8,7 @@ UI/PDA is development-reference ready within the documented source scope. A-Life
 
 ## Next source work
 
-The planned consolidation and bounded audits from available snapshots are complete for A-Life/Warfare and factions. Both retain effective installed-source requirements; see [A-Life/Warfare completion](04-game-systems/alife/source-completion-status.md) and [faction completion](04-game-systems/factions/source-completion-status.md). Persistence is now active: PER-01 selected native save/load pipeline and Lua extension boundaries are complete within scope. Next investigate supplied Lua storage helpers and effective-profile gaps. Runtime verification remains deferred.
+The planned consolidation and bounded audits from available snapshots are complete for A-Life/Warfare and factions. Both retain effective installed-source requirements; see [A-Life/Warfare completion](04-game-systems/alife/source-completion-status.md) and [faction completion](04-game-systems/factions/source-completion-status.md). Persistence is now active: PER-01 selected native save/load pipeline and Lua extension boundaries are complete within scope. PER-02 supplied codec/caller/gap pass is complete within scope; effective core manager/dispatch/storage remains partial. Next investigate CtZ campaign identity/schema/restoration/reconciliation from pinned source. Runtime verification remains deferred.
 
 <a id="current-a-lifewarfare-remaining-scope--v0138"></a>
 
@@ -43,7 +43,7 @@ Effective source requirements are listed in [WAR-002a](08-research/investigation
 - [x] FAC-05: [selected supplied-main-package Warfare faction/relation consumers](04-game-systems/factions/warfare-relation-consumers.md).
 - [ ] Effective GAMMA diplomacy/configuration/helpers and startup/override order.
 - [x] FAC-06: [practical faction consolidation](04-game-systems/factions/development-reference.md).
-- [x] FAC-06: [final bounded available-source consistency audit](08-research/verification-2026-10-11-v0.1.50.md).
+- [x] FAC-06: [final bounded available-source consistency audit](08-research/verification-2026-10-11-v0.1.51.md).
 - [ ] Runtime verification, deferred until explicitly resumed.
 
 Planned available-source work is complete within scope. Full effective integration remains partial under the [faction completion rule](04-game-systems/factions/source-completion-status.md); configured faction indexes, active numeric values and installed relations are not inferred.
@@ -51,8 +51,8 @@ Planned available-source work is complete within scope. Full effective integrati
 ## Persistence current scope
 
 - [x] PER-01: [selected native save/load architecture and Lua extension phases](04-game-systems/persistence/native-save-load-pipeline.md).
-- [ ] PER-02: supplied Lua storage helper contracts, formats/limits, producers/consumers and missing effective implementations.
-- [ ] CtZ campaign safety: identity/fingerprint, ID reuse, schema/version changes, restoration and reconciliation; build on ALIFE-04.
+- [x] PER-02: [supplied codec/caller contracts, formats/limits and effective-profile gaps](04-game-systems/persistence/lua-storage-contracts.md). Core installed implementations remain required.
+- [ ] PER-03 CtZ campaign safety: identity/fingerprint, ID reuse, schema/version changes, restoration and reconciliation; build on ALIFE-04.
 - [ ] Practical persistence reference and bounded final available-source audit.
 - [ ] Effective installed dispatcher/storage/binders/configuration and executable correspondence.
 - [ ] Runtime verification, deferred until explicitly resumed.
@@ -67,4 +67,4 @@ Native phase/source findings do not certify arbitrary Lua table serialization, w
 
 ## Maintenance
 
-Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.50.md). Historical unchecked boxes are not the current backlog.
+Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.51.md). Historical unchecked boxes are not the current backlog.

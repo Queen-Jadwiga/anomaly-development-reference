@@ -1,6 +1,6 @@
 # FAC-01 source and repository verification — v0.1.44
 
-> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: native faction identity/query foundations and selected Lua contracts

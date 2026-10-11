@@ -1,6 +1,6 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
 
 Current canonical locations:
 
@@ -10,6 +10,7 @@ Current canonical locations:
 - [Community mutation and live team contracts](factions/community-mutation-api.md).
 - [Rank/reputation and action-flag contracts](factions/action-values-api.md).
 - [Native persistence extension contracts](persistence/native-extension-contracts.md).
+- [Supplied Lua codec/storage caller contracts](persistence/lua-storage-api.md).
 - [Shared API entry template](templates/api-entry.md).
 - [Research workflow](../08-research/workflow.md) and [repository layout](../08-research/repository-layout.md).
 

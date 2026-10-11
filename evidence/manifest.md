@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -20,6 +20,7 @@
 - [Action-goodwill ledger](factions/action-goodwill-2026-10-11.csv): A01–A20, 20 entries across 19 ENGINE1011 files.
 - [Warfare faction-consumer ledger](factions/warfare-consumers-2026-10-11.csv): R01–R20, 20 entries across nine BETA150 main files.
 - [Native persistence pipeline ledger](persistence/native-pipeline-2026-10-11.csv): S01–S24, ENGINE1011 selected request/storage/binder/packet paths.
+- [Lua storage contract ledger](persistence/lua-storage-2026-10-11.csv): L01–L13, ENGINE1011 codec/binder, BETA150 main consumers and CTZ005J callbacks. CTZ005J pins Alpha 0.0.5j commit `eba6660db09353dcc42a195ae6e7e706f4762277`; source blob correspondence checked, installed copy unknown.
 - [A-Life ledgers](alife/README.md).
 - [Warfare ledgers and package comparisons](warfare/README.md).
 - [New claim-ledger schema](templates/source-evidence.csv).

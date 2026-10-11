@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.51 — 2026-10-11 — Supplied Lua storage contracts and effective gaps
+
+- Add PER-02 reference, focused codec/caller API, investigation and 13-entry ledger over ten files. Trace Marshal mechanics, binder/pstor branches, shared callback namespace aliasing/consumption and helper call shapes.
+- Record bounded absence of core manager/global storage definitions; do not invent files, schemas, defaults, durability or installed dispatch from consumers. CtZ campaign callback source matches its pinned commit.
+- Preserve earlier research/evidence and defer runtime. Next is CtZ campaign identity/schema/reconciliation. See [verification](08-research/verification-2026-10-11-v0.1.51.md).
 
 ## v0.1.50 — 2026-10-11 — Native persistence pipeline and Lua extension phases
 

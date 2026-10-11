@@ -1,6 +1,6 @@
 # ALIFE-04 — Native persistence and CtZ identity reconstruction
 
-> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.34 · 11 October 2026 · bounded source investigation.** Native save/load ordering and the supplied CtZ persistence/reconciliation code are traced below. Effective GAMMA serialization wrappers, installed overrides and all engine runtime verification remain deferred.
 

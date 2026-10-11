@@ -1,6 +1,6 @@
 # Native/XML-to-Lua registration and widget construction — Part A
 
-> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.51**. Research revisions and source/build versions below describe their original scope.
 
 ```mermaid
 flowchart TD
