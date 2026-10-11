@@ -1,6 +1,6 @@
 # A-Life / Warfare source completion and remaining work
 
-> ADR document set: **v0.1.52**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.53**. Research revisions and source/build versions below describe their original scope.
 
 **As of 11 October 2026:** the planned consolidation using currently available sources is complete within scope. The complete CtZ-focused A-Life/Warfare section remains **partial**, because effective installed script chains are missing. Runtime status is **untested** and remains deferred until the user resumes verification.
 

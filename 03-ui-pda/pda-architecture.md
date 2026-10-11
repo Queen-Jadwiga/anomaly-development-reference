@@ -1,6 +1,6 @@
 # PDA architecture — investigation PDA-001
 
-> ADR document set: **v0.1.52**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.53**. Research revisions and source/build versions below describe their original scope.
 
 **Current state:** Source research is underway. No assertion yet that a new PDA tab can be registered using only the May 2026 Lua API.
 

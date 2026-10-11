@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.52**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.53**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.52.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.53.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -127,7 +127,7 @@ Records retain their research revision and source baseline; those are distinct f
 ## 08-research
 
 - [PER-02 Lua storage investigation](08-research/investigations/2026-10-11-PER-02-lua-storage.md)
-- [Current verification — v0.1.51](08-research/verification-2026-10-11-v0.1.52.md)
+- [Current verification — v0.1.51](08-research/verification-2026-10-11-v0.1.53.md)
 
 - [PER-01 native save/load investigation](08-research/investigations/2026-10-11-PER-01-native-save-load.md)
 - [PER-01 verification — v0.1.50](08-research/verification-2026-10-11-v0.1.50.md)
@@ -237,3 +237,7 @@ Records retain their research revision and source baseline; those are distinct f
 
 - [CtZ campaign identity/schema/reconciliation](04-game-systems/persistence/ctz-campaign-safety.md).
 - [PER-03 investigation](08-research/investigations/2026-10-11-PER-03-ctz-campaign-safety.md).
+
+- [Persistence development reference](04-game-systems/persistence/development-reference.md).
+- [Persistence source completion](04-game-systems/persistence/source-completion-status.md).
+- [PER-04 consolidation/audit](08-research/investigations/2026-10-11-PER-04-persistence-consolidation.md).

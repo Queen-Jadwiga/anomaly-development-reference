@@ -1,6 +1,11 @@
 # ADR changelog
 
-> ADR document set: **v0.1.52**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.53**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.53 — 2026-10-11 — Persistence consolidation and final bounded audit
+
+- Add PER-04 practical persistence reference, completion rule and synthesis record using unchanged PER-01–03 ledgers. Separate data owners, phases, schema/identity and failure/reconciliation contracts.
+- Complete planned available-source persistence work; effective installed persistence remains partial and runtime deferred. Correct current faction-audit navigation and stale forwarding wording; preserve research/history/datasets. See [audit](08-research/verification-2026-10-11-v0.1.53.md).
 
 ## v0.1.52 — 2026-10-11 — CtZ campaign identity and reconciliation
 
