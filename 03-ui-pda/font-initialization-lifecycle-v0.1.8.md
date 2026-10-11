@@ -1,6 +1,6 @@
 # Native font initialization lifecycle — v0.1.8 evidence boundary
 
-> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
 
 **Baseline:** May 15, 2026 source at `6a08e0905ce34748ee2904a5e0809f8afd141137`. **Runtime:** deferred.
 

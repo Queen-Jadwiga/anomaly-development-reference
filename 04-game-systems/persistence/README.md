@@ -1,5 +1,14 @@
 # Persistence
 
-> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
 
-Pending.
+**Current revision: v0.1.50.** Subsystem status: partial. The selected native A-Life pipeline and Lua extension boundaries are documented; installed storage/schema behavior and runtime remain unverified. Runtime verification is deferred until explicitly resumed by the user.
+
+- [Native save/load pipeline](native-save-load-pipeline.md).
+- [Native Lua extension contracts](../../02-lua-api/persistence/native-extension-contracts.md).
+- [PER-01 investigation](../../08-research/investigations/2026-10-11-PER-01-native-save-load.md).
+- [Source evidence](../../evidence/persistence/README.md).
+
+Existing [ALIFE-04](../../08-research/investigations/2026-10-11-ALIFE-04-save-load-identity.md), [A-Life callbacks](../alife/callback-phase-reference.md) and [FAC-02](../factions/relation-persistence.md) remain the detailed identity/member/relations foundations.
+
+Next: supplied Lua storage contracts/effective gaps; CtZ campaign safety and restoration/reconciliation; practical persistence consolidation and final available-source audit. See [roadmap](../../ROADMAP.md).

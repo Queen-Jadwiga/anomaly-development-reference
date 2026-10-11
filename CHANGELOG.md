@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.50 — 2026-10-11 — Native persistence pipeline and Lua extension phases
+
+- Begin PER-01 with request versus reconstruction, live update/custom save data, compressed .scop framing/chunks, serializer order, registration/member repair and selected quick-load boundaries.
+- Add focused native-to-Lua/binder contracts and 24-entry ledger; distinguish hook names, build flags, relevance/exception behavior, validation scope and missing effective storage.
+- Preserve prior A-Life/faction research and evidence. Persistence remains partial; runtime stays deferred. Next is supplied Lua storage contracts/effective gaps. See [verification](08-research/verification-2026-10-11-v0.1.50.md).
 
 ## v0.1.49 — 2026-10-11 — Faction consolidation and final available-source audit
 

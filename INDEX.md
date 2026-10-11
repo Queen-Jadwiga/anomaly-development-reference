@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.49.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.50.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -24,6 +24,8 @@ Records retain their research revision and source baseline; those are distinct f
 - [UI architecture: Lua ↔ native XML ↔ native widgets — Part D](01-engine/ui-lua-native-integration.md)
 
 ## 02-lua-api
+
+- [Native persistence extension contracts](02-lua-api/persistence/native-extension-contracts.md)
 
 - [Rank/reputation and action-flag contracts](02-lua-api/factions/action-values-api.md)
 
@@ -79,6 +81,8 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 04-game-systems
 
+- [Native save/load pipeline](04-game-systems/persistence/native-save-load-pipeline.md)
+
 - [Faction practical development reference](04-game-systems/factions/development-reference.md)
 - [Faction source completion and remaining work](04-game-systems/factions/source-completion-status.md)
 
@@ -118,8 +122,11 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 08-research
 
+- [PER-01 native save/load investigation](08-research/investigations/2026-10-11-PER-01-native-save-load.md)
+- [Current verification — v0.1.50](08-research/verification-2026-10-11-v0.1.50.md)
+
 - [FAC-06 consolidation and final source audit](08-research/investigations/2026-10-11-FAC-06-faction-consolidation.md)
-- [Current verification — v0.1.49](08-research/verification-2026-10-11-v0.1.49.md)
+- [Final faction verification — v0.1.49](08-research/verification-2026-10-11-v0.1.49.md)
 
 - [FAC-05 Warfare consumer investigation](08-research/investigations/2026-10-11-FAC-05-warfare-consumers.md)
 - [FAC-05 increment verification — v0.1.48](08-research/verification-2026-10-11-v0.1.48.md)
@@ -193,6 +200,8 @@ Records retain their research revision and source baseline; those are distinct f
 - [Capture the Zone integration](09-projects/capture-the-zone/README.md)
 
 ## evidence
+
+- [Persistence evidence](evidence/persistence/README.md)
 
 - [Faction and relation evidence](evidence/factions/README.md)
 

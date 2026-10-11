@@ -1,6 +1,6 @@
 # Research investigations
 
-> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
 
 One canonical dated record per question, named `YYYY-MM-DD-ID-topic.md`. Use the [investigation template](../templates/investigation.md), [workflow](../workflow.md) and [evidence policy](../evidence-policy.md).
 
@@ -22,3 +22,5 @@ Earlier records retain their original format and IDs. Recent A-Life/Warfare reco
 - [FAC-05 — Supplied Warfare faction/relation consumers](2026-10-11-FAC-05-warfare-consumers.md).
 
 - [FAC-06 — Faction consolidation and final available-source audit](2026-10-11-FAC-06-faction-consolidation.md).
+
+- [PER-01 — Native save/load pipeline and Lua extension boundaries](2026-10-11-PER-01-native-save-load.md).

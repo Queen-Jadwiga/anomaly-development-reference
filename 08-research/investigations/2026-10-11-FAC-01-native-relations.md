@@ -1,6 +1,6 @@
 # FAC-01 — Native faction identity and relation queries
 
-> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-01
 - Subsystem: factions / relations

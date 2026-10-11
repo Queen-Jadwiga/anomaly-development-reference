@@ -1,0 +1,25 @@
+evidence_id,source_id,source_path,symbol,line_ranges,file_sha256,line_count,subject
+S01,ENGINE1011,src/xrGame/alife_storage_manager.cpp,prepare_objects_for_save;CALifeStorageManager_before_save;CALifeStorageManager_load;groups().on_after_game_load,47-168;170-233;235-250,b928a41af14ef0a13e2a88b83f9178bc59f8b89c77bd531934ecc203c486e0a5,250,"Save/load pipeline, envelope and extension phases"
+S02,ENGINE1011,src/xrGame/alife_simulator_header.cpp,save;load;ALIFE_VERSION,16-38,4be07c0302d842ab4ed61a76950fa93529028583677b3ec9b34d75bb18b851de,38,Inner header version/chunk checks
+S03,ENGINE1011,src/xrServerEntities/alife_space.h,ALIFE_VERSION;SAVE_EXTENSION;REGISTRY_CHUNK_DATA,14-21,cf64bb5fd483495c8058a0525091b7de04457c4e64435e8a8311e2a624218638,214,Native .scop and chunk constants
+S04,ENGINE1011,src/xrGame/saved_game_wrapper.cpp,valid_saved_game;source_count;OBJECT_CHUNK_DATA,37-50;100-146,451648654f6160ae058e08041f6178c8080c19f64283dbac7f4d57c6d636bb0c,245,Outer validity predicate versus metadata/decompression
+S05,ENGINE1011,src/xrGame/xrServer.cpp,M_SAVE_GAME;M_LOAD_GAME;M_SAVE_PACKET,589-620,11dc8de09721959fc2333dd573792babec17dcc2d502362501c45f2ecd413423,1310,Server message routing
+S06,ENGINE1011,src/xrGame/game_sv_single.cpp,save_game;load_game;restart_simulator,242-257;348-367,26042fed21921e11a92a909507d064150cbd3c242d492a2aae5971ad87e20ff7,367,Single-player delegation and simulator replacement
+S07,ENGINE1011,src/xrGame/Level_network.cpp,ClientSend;Objects_net_Save;ClientSave;Send,179-309,daf6c4937a5a9f0e152e38ec5c2492e045fdc2628f703e517c92251ee6964aec,653,Live update/save packets and direct-send branch
+S08,ENGINE1011,src/xrGame/xrServer_process_update.cpp,Process_save;UPDATE_Read;E->load,7-95,0ba9db6f2820d0e3b3f0cc6ea8db74c28b6305c17ba8deafedc363f5ee9a0b1c,95,Different update/save packet consumers
+S09,ENGINE1011,src/xrGame/alife_object_registry.cpp,save;get_object;Spawn_Write;Spawn_Read;can_save,29-154,407087e029992495110879db705f94599cf1190758b046d695e8c5844382f121,154,Filtered packet serialization and reconstruction
+S10,ENGINE1011,src/xrGame/alife_registry_container.cpp,m_character_relations;load;save,14-40,cc81bf67c51e516b31e1005494fc04703aa7bea228bf55058bab6a42d226eb9a,40,Auxiliary registry field order
+S11,ENGINE1011,src/xrGame/alife_time_manager.cpp,save;load;GAME_TIME_CHUNK_DATA,34-52,591deeb686dca78518395c290b4f7d6a84d3b48f517129c4f9beaa45103e5f44,52,Time chunk contents
+S12,ENGINE1011,src/xrGame/alife_spawn_registry.cpp,save;load;guid,42-64;93-119,4eb770ad909b839a2e2eb19a00ab249f5df3d3677949a3030e0a59c1dbae67b6,331,Spawn metadata/updates and external spawn dependency
+S13,ENGINE1011,src/xrGame/alife_group_registry.cpp,on_after_game_load,46-52,10fe2541b2edc2598206f10401966c8a4e4eaf7a0cfcdf5884d3bdc3951cd22e,52,Late group repair dispatch
+S14,ENGINE1011,src/xrGame/alife_online_offline_group.cpp,on_after_game_load;register_member,335-357,59ebeaf1a22534ce4794e6197229f0c1232c06982be30793f32c6ffaaf77fbad,421,Member pointer reconstruction
+S15,ENGINE1011,src/xrGame/GameObject.cpp,client_data;net_Load;CScriptBinder::save;net_SaveRelevant,386-412;483-535;1095-1098,86372e7276f1027dc3ad0deef38f30043fb9c59a76a8946be9f1df496cd53075,1416,Binder data load/save versus client realization phase
+S16,ENGINE1011,src/xrGame/script_binder.cpp,save;load;net_SaveRelevant;clear,216-260,15ee88fab3355f17da675eb798d12f2eb9bacfa3b5b35c793bfb76084116b319,276,Bound callback guards/exception fallback
+S17,ENGINE1011,src/xrGame/script_binder_object_script.cpp,object_binder;net_save_relevant,22-36,8a77f5c526c4d837d8845b835c4190bf57fd344e3cb671038cacb9e41b7ea2b4,38,Lua binder virtual registration
+S18,ENGINE1011,src/xrGame/script_binder_object_wrapper.cpp,save;load;net_SaveRelevant;call_member,93-121,6ee35662a0e0e43739da9b7294ee22d30630edf4e4183ba4bc48a51cc1c65f45,132,Binder virtual Lua forwarding
+S19,ENGINE1011,src/xrGame/script_binder_object.cpp,save;load;net_SaveRelevant,50-66,3533d6ba120ad667b25bfed2e344cdf74db649e0649855047a1543d54270c6e0,70,Default empty serializer and false relevance
+S20,ENGINE1011,src/build_config_defines.h,ENGINE_LUA_ALIFE_STORAGE_MANAGER_CALLBACKS,10,677576631effd244bec2ce7902aeaecbd1027d6849136909587bbebd9f8c120b,85,Supplied snapshot enables named-hook macro
+S21,ENGINE1011,src/xrServerEntities/xrServer_Object_Base.cpp,client_data;CSE_Abstract::load,226-234;323-338;375-395,a738bcb27df04c7e64db56826d5d09326568bbdc4bbedff26619a5db6739c6bd,491,Opaque live custom-data retention and saved packet transport
+S22,ENGINE1011,src/xrGame/Level_network_messages.cpp,M_LOAD_GAME;Game:QuickLoad;MakeReconnect,307-337,55934eda19d60ba63e7f39ef0da1093c80b1981b1cc5b7de432f811fc466fc3a,513,Selected client load/reconnect decision
+S23,ENGINE1011,src/xrGame/GamePersistent.cpp,eQuickLoad;restart_simulator,874-902,ea327b84b85ec8e41efe4bf505a76262fe5cfc89db58bb334ecac210657dde97,1104,Quick-load event replaces server simulator after client removal
+S24,ENGINE1011,src/xrGame/alife_update_manager.cpp,load_game;m_server_command_line,312-332,01a97c70241e17a5a6be02b167a2014c42f5a7589aead6b2ac7a2eaed0f277f9,628,Load request edits options rather than reading save payload

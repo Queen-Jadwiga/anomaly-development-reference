@@ -1,6 +1,6 @@
 # A-Life callback phases and observation contracts
 
-> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.50**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ALIFE-10 — callback reference
 - Subsystem: A-Life / Warfare integration
