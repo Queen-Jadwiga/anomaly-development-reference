@@ -1,6 +1,6 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
 
 Current canonical locations:
 
@@ -47,3 +47,5 @@ See [machine-readable export index](ui/exports-ui-2026-05-15.csv).
 ## Architecture cross-reference
 
 [End-to-end UI/Lua-native integration](../01-engine/ui-lua-native-integration.md).
+
+For cross-layer selection, see the [faction development reference](../04-game-systems/factions/development-reference.md).

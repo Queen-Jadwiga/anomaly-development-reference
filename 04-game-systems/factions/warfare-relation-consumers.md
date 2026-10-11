@@ -1,6 +1,6 @@
 # Supplied Warfare faction and relation consumers
 
-> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-05
 - Source status: source-confirmed within selected BETA150 main-package paths
@@ -9,7 +9,7 @@
 
 Baseline BETA150 archive SHA-256 `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d`. This pass uses the **main package** script paths, not an assumed installation combining optional GAMMA patches, ZIP142 or public sources. R01–R20 refer to the [consumer ledger](../../evidence/factions/warfare-consumers-2026-10-11.csv). Installed winners, settings, helpers and callback order remain unknown; [package provenance](../../08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md).
 
-This is the consumer investigation only. Faction consolidation and final cross-reference/claim audit remain separate later tasks. Routine checks of this increment do not complete them.
+This page retains the FAC-05 consumer investigation scope. The later [FAC-06 consolidation and final available-source audit](development-reference.md) now complete those separate tasks; installed integration remains open.
 
 ## Identity inputs are separate
 
@@ -78,4 +78,4 @@ Finally, ignored-squad identity handling contains a commented trader conversion 
 
 FAC-05 completes selected BETA150 main-package helper/consumer traces. It does not exhaust every quest/dialog/menu predicate or optional package variant. Winning `game_relations`, globals/true-community mappings, storage, reward helpers, board/smart/creature overrides, applied configuration and startup/replacement order are still needed for installed closure.
 
-The next actions remain **faction consolidation and final available-source audit, separately**, as requested. No gameplay changes, script fixes or runtime tests occurred.
+The later [FAC-06 completion status](source-completion-status.md) records the completed consolidation/audit and remaining effective-source requirements. No gameplay changes, script fixes or runtime tests occurred.

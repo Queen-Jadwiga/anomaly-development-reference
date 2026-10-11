@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.49 — 2026-10-11 — Faction consolidation and final available-source audit
+
+- Add FAC-06 practical development reference, completion/status rule and synthesis record using the five original faction ledgers.
+- Complete the planned available-source faction consolidation and bounded consistency audit; keep effective identity/diplomacy, storage/dispatch, death/rewards and strategic/CtZ integration open.
+- Preserve prior investigation conclusions/evidence and align current navigation/status. Runtime verification remains deferred. See [audit](08-research/verification-2026-10-11-v0.1.49.md).
 
 ## v0.1.48 — 2026-10-11 — Supplied Warfare faction/relation consumers
 

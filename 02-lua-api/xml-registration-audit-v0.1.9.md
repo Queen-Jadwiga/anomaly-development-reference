@@ -1,6 +1,6 @@
 # XML initializer Lua registration audit — v0.1.9
 
-> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
 
 ## Current result
 

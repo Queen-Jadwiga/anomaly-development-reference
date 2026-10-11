@@ -1,6 +1,6 @@
 # Native faction identity, goodwill and relation resolution
 
-> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-01
 - Source status: source-confirmed within selected native definitions and Lua registrations
@@ -70,6 +70,6 @@ Configuration loading/caching and relation writes do not prove installed script 
 
 For a display, label what is being queried: community matrix, faction goodwill toward a character, three-term server aggregate, full character attitude or virtual live-object relation. A faction icon, smart owner or hostile squad is not independent proof of all those values. Use the [API table](../../02-lua-api/factions/relations-api.md) to avoid interchanging similarly named getters.
 
-FAC-01 completes the native identity/query foundation within scope. Next: native relation persistence/reset/ID cleanup, character community mutation and action-driven goodwill updates; then trace supplied Warfare relation consumers and effective diplomacy overrides as sources allow. Installed relation values and runtime verification remain open.
+FAC-01 completes the native identity/query foundation within scope. Those native and selected supplied-package follow-ups are now complete within scope; [FAC-06](development-reference.md) consolidates them. Effective diplomacy integration remains open under the [completion rule](source-completion-status.md). Installed relation values and runtime verification remain open.
 
 Follow-up: [FAC-02 persistence, reset and ID cleanup](relation-persistence.md) closes the bounded native storage question; effective diplomacy persistence remains open.

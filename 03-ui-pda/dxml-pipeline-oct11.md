@@ -1,6 +1,6 @@
 # October 11 UI survey — DXML pipeline and patch scoping
 
-> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
 
 **Baseline:** `2026.10.11`, bundled gamedata. This is a script-side system, not a general guarantee that every loaded XML goes through it.
 

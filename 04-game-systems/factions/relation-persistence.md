@@ -1,6 +1,6 @@
 # Native relation persistence, reset and ID cleanup
 
-> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-02
 - Source status: source-confirmed within the selected native paths; cleanup/serializer negative findings are scoped
@@ -66,4 +66,4 @@ A-Life unload deletes the object registry first, whose destructor invokes every 
 
 Track separately which state must persist: personal/community goodwill records, dynamic faction matrix, strategic owners or CtZ records. Record who saves/restores it and the phase relative to native restoration/table reset. Reacquire ID-backed state with campaign/lifetime context rather than treating a stored number as permanent identity. These are source-derived design implications, not gameplay changes.
 
-FAC-02 completes this bounded native persistence/cleanup pass. Effective diplomacy serializers, overrides and runtime behavior remain open. Next: character-community mutation, including client/server identity and team/group changes, then action-driven goodwill updates.
+FAC-02 completes this bounded native persistence/cleanup pass. Effective diplomacy serializers, overrides and runtime behavior remain open. Later [community mutation](community-mutation.md), [action updates](action-goodwill.md) and [FAC-06 consolidation](development-reference.md) are complete within scope. [Effective integration](source-completion-status.md) remains open.

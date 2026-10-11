@@ -1,6 +1,6 @@
 # Character-community mutation and team/group effects
 
-> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-03
 - Source status: source-confirmed within selected native setters, registrations and packet consumers
@@ -69,4 +69,4 @@ The inspected setter chain does not clear personal/community goodwill, change th
 
 When designing a later faction-changing feature, specify whether it changes character community, a live hierarchy tuple, server identity, strategic squad membership or campaign ownership. Identify effective policy for each additional layer and its observation phase. Reacquire objects across online/offline lifetime boundaries; do not treat these client methods as offline server APIs. No gameplay implementation or runtime-tested conversion recipe is provided.
 
-FAC-03 closes this selected native mutation chain. Full effective faction switching, disguise/true-community policy, strategic reassignment and update/save timing remain open. Next source investigation: action-driven goodwill, including attack/kill/help paths and rank/reputation contributions.
+FAC-03 closes this selected native mutation chain. Full effective faction switching, disguise/true-community policy, strategic reassignment and update/save timing remain open. Later [action-driven goodwill/rank/reputation](action-goodwill.md) and [FAC-06 consolidation](development-reference.md) are complete within scope; [effective integration](source-completion-status.md) remains open.

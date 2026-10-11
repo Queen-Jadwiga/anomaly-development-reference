@@ -1,6 +1,6 @@
 # Action-driven goodwill, rank and reputation
 
-> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-04
 - Source status: source-confirmed within selected native action/caller paths
@@ -65,4 +65,4 @@ The selected native death callback follows Action and inherited Die, whereas an 
 
 Supplied offline combat calls server creature death methods and separate script bookkeeping, as documented in [WAR-002b](../../08-research/investigations/2026-10-11-WAR-002b-policy-offline-combat.md). Those calls do not establish traversal through live `CEntityAlive::Hit/Die` or automatic native rewards. Effective `game_relations`, creature overrides and global dispatch are required before unifying online/offline awards or deduplicating CtZ casualty history. No gameplay changes are proposed.
 
-FAC-04 closes this bounded native action/rank/reputation pass. Next: map supplied Warfare faction/relation consumers and their script boundaries, then consolidate and audit the available faction reference. Effective diplomacy/true-community policy, installed settings and runtime remain open.
+FAC-04 closes this bounded native action/rank/reputation pass. Later [supplied Warfare consumers](warfare-relation-consumers.md) and [FAC-06 consolidation/audit](development-reference.md) are complete within scope. Effective diplomacy/true-community policy, installed settings and runtime remain open.

@@ -1,6 +1,6 @@
 # ALIFE-02 — Native creation, registration, release and callback ordering
 
-> ADR document set: **v0.1.48**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.49**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.32 · 11 October 2026 · targeted source research complete; engine runtime verification deferred.**
 
