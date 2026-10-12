@@ -1,6 +1,6 @@
 # Live condition property and change contracts
 
-> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
 
 - ID: GAME-01-API
 - Subsystem: actor/NPC gameplay state

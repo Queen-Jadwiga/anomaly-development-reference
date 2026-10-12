@@ -1,8 +1,8 @@
 # Inventory and item lifecycle
 
-> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.73.** Selected available-source first-edition work is complete within scope. Full effective installed integration remains partial; runtime untested and deferred.
+**Current revision: v0.1.74.** Selected available-source first-edition work is complete within scope. Full effective installed integration remains partial; runtime untested and deferred.
 
 Start with the [practical development reference](development-reference.md) and [completion status/remaining evidence](source-completion-status.md).
 

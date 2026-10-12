@@ -1,6 +1,6 @@
 # WORLD-04 — Supplied consumers consolidation and bounded audit
 
-> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-04
 - Subsystem: world interaction/navigation

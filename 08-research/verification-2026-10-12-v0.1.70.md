@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.70
 
-> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.70, based on main `6ab1f93634f54ccc40dfe3fe33b716114a62157e`
 - Scope: WORLD-01 existing-coverage inventory and bounded next-source plan

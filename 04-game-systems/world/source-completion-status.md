@@ -1,6 +1,6 @@
 # World interaction/navigation completion status
 
-> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
 
 **As of 12 October 2026:** WORLD-01–04 planned available-source inventory/traces/consumers/consolidation and bounded audit are **complete within selected scope**. Effective installed integration remains **partial**; independent runtime is **untested/deferred**. [Central guide](development-reference.md), [audit](../../08-research/verification-2026-10-12-v0.1.73.md).
 

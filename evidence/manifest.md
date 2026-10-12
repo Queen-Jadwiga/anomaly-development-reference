@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -81,3 +81,5 @@ All version-sensitive engine documentation must cite an exact revision once iden
 [World interaction/transition/marker ledger](world/interaction-transition-markers-2026-10-12.csv): U01–U16, T01–T13, M01–M19, ENGINE1011; selected use/touch/travel/ordinary-marker lifecycle and one bundled relay, not full installed consumers.
 
 [World supplied-consumer ledger and scope/comparison records](world/README.md): WORLD-04, ENGINE1011/BETA150 main/ZIP142; selected callers, configuration requests, focused native restriction extensions and bounded inventory/comparison. No new source artifact or installed winner is introduced.
+
+[Configuration/script-integration coverage ledger](configuration/README.md): CONFIG-01, 18 existing-documentation rows at ADR v0.1.73 immutable main commit. Inherited source/runtime confidence; no new native contract or source artifact.

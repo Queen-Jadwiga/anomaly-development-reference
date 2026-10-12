@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.74 — 2026-10-12 — Configuration/script integration coverage inventory
+
+- CONFIG-01 inventories 18 selected existing documentation boundaries with immutable hashes/section ranges, preserves source/runtime confidence and identifies missing shared LTX/INI/DLTX, native loading/startup/callback and option/patch contracts.
+- Add standard configuration entry/guide/status pages and bounded CONFIG-02–04 plan; reuse canonical domain/UI/persistence evidence. Inventory complete within scope, subsystem partial. Runtime deferred; no CtZ gameplay or third-party source/assets changes.
+- Next CONFIG-02 LTX/INI and selected DLTX contracts. [Verification](08-research/verification-2026-10-12-v0.1.74.md).
 
 ## v0.1.73 — 2026-10-12 — World consumers consolidation and bounded audit
 
