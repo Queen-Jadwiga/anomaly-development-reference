@@ -1,0 +1,26 @@
+[
+  {
+    "source_scope": "ENGINE1011-gamedata",
+    "file_count": 161,
+    "path_sha256_manifest_digest": "f460240f0a160b9bc7c5c3e69d1da120ada804d2cec2ed3ff5233b0c8ce9d4f9",
+    "core_manager_matches": [],
+    "items_trade_profile_matches": [],
+    "limit": "Extracted supplied package only; not an installed profile or upstream repository inventory."
+  },
+  {
+    "source_scope": "BETA150",
+    "file_count": 62,
+    "path_sha256_manifest_digest": "226e375b40eade2bf454df3ff817e3ca7b8bac7c12b201fcb45c2ec8b45ffd0b",
+    "core_manager_matches": [],
+    "items_trade_profile_matches": [],
+    "limit": "Extracted supplied package only; not an installed profile or upstream repository inventory."
+  },
+  {
+    "source_scope": "ZIP142",
+    "file_count": 34,
+    "path_sha256_manifest_digest": "96bc68875546a405688a1fa024d75e6764f6369d33a5d184ad43ac73615a9a14",
+    "core_manager_matches": [],
+    "items_trade_profile_matches": [],
+    "limit": "Extracted supplied package only; not an installed profile or upstream repository inventory."
+  }
+]

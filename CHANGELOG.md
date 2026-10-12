@@ -1,6 +1,13 @@
 # ADR changelog
 
-> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.61 — 2026-10-12 — Trader configuration and supply consumers
+
+- Add ECO-02 source reference, policy/supply APIs, 21-entry ledger and scoped missing-input inventory.
+- Trace explicit/default factor policy, constructor friend/enemy field discrepancy, destructive randomized supplies and spawn receipt limits; native deficit pricing remains disabled.
+- Trace supplied timestamp/nearby refresh, Warfare profile/economy options and NPC trade consumers, keeping installed order, stock/gates/discount definitions and runtime unresolved.
+- Next economy consolidation/audit. No CtZ/game/source changes. See [verification](08-research/verification-2026-10-12-v0.1.61.md).
 
 ## v0.1.60 — 2026-10-12 — Confidence-scoped runtime feedback and property catalog correction
 

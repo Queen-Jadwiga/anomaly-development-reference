@@ -1,6 +1,6 @@
 # October 11 UI survey — native dynamic PDA tabs
 
-> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
 
 **Inspected baseline:** supplied `2026.10.11` source snapshot; the October label is not the feature’s introduction/minimum supported version. **Evidence:** native/bundled source plus separately scoped external runtime observations; no independent ADR game test.
 

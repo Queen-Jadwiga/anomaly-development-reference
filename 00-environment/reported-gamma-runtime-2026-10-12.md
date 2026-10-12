@@ -1,6 +1,6 @@
 # ENV-RT01 — External GAMMA runtime report
 
-> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
 
 - Report received/reviewed: 2026-10-12
 - Reporter: GitHub `devinhorowitz`; [issues 1–4](https://github.com/Queen-Jadwiga/anomaly-development-reference/issues)

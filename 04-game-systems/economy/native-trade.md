@@ -1,6 +1,6 @@
 # Native money, pricing and trade flow
 
-> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ECO-01
 - Subsystem: trade/economy
@@ -86,3 +86,7 @@ Negative money meets mixed signed/unsigned comparison; source deduction delta co
 ## Scope and next work
 
 ECO-01 selected native money/pricing/UI accounting foundation complete within scope. Effective get_buy_discount/get_sell_discount, trader configuration/action/supply refresh, NPC economy, restoration convergence and numeric/reentrant failure behavior remain open. Next ECO-02: native trader configuration/supply contracts plus supplied Lua consumers and missing effective definitions, then practical consolidation/audit. Runtime remains deferred. [Roadmap](../../ROADMAP.md).
+
+## ECO-02 follow-up — 2026-10-12
+
+[Trader configuration and supply consumers](trader-configuration.md) closes the selected parsing/binding/supply and supplied-script pass. Effective price discounts, stock tables, unlock rules, NPC paths beyond the selected patch and runtime remain open. The original ECO-01 scope and dated disposition above are preserved.

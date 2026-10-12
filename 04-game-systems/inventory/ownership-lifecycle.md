@@ -1,6 +1,6 @@
 # Inventory ownership, containment and pickup/drop
 
-> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-01
 - Research revision: v0.1.54

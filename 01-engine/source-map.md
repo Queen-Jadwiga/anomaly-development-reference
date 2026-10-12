@@ -1,6 +1,6 @@
 # Source code map — work in progress
 
-> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
 
 **Important:** No exact 2026-05-15 source commit has yet been pinned. The paths below are navigation targets, not verified file-location assertions.
 

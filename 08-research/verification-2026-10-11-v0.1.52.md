@@ -1,6 +1,6 @@
 # PER-03 increment verification — v0.1.52
 
-> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: selected CtZ campaign identity/schema/restoration/reconciliation source paths

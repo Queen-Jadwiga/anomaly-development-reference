@@ -1,6 +1,6 @@
 # Supplied Lua codec and storage caller contracts
 
-> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
 
 - ID: PER-02-API
 - Subsystem: persistence
