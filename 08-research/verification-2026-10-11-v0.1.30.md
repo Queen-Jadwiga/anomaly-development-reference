@@ -1,6 +1,6 @@
 # ADR source verification — v0.1.30 (11 October 2026)
 
-> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
 
 ## Scope and method
 

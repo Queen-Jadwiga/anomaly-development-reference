@@ -1,6 +1,6 @@
 # UI-06 supplementary audit — registration, emitters, builds, modal routing
 
-> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
 
 **Baseline:** uploaded source `xray-monolith-2026.10.11.zip`. **Version:** ADR 0.1.28. **Status:** four bounded source findings; global completeness remains unproven. **Runtime:** not tested.
 

@@ -1,6 +1,6 @@
 # FAC-04 source and repository verification — v0.1.47
 
-> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: selected native action-driven goodwill, rank/reputation contributions and Lua value/flag contracts

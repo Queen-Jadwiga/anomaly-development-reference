@@ -1,6 +1,6 @@
 # Open questions — consolidated review after Parts A–D
 
-> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
 
 **Snapshot:** ADR v0.1.10 Part D, 2026-10-09. **Historical snapshot; see October 11 amendments for current statuses.** Runtime work postponed by user. Prior individual investigation files remain authoritative for context.
 

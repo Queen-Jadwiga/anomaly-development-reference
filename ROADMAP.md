@@ -1,6 +1,6 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source status
 
@@ -8,7 +8,7 @@ UI/PDA is development-reference ready within the documented source scope. A-Life
 
 ## Next source work
 
-The planned consolidation and bounded audits from available snapshots are complete for A-Life/Warfare and factions. Both retain effective installed-source requirements; see [A-Life/Warfare completion](04-game-systems/alife/source-completion-status.md) and [faction completion](04-game-systems/factions/source-completion-status.md). Persistence available-source work is complete within selected scope: PER-01 selected native save/load pipeline and Lua extension boundaries are complete within scope. PER-02 supplied codec/caller/gap pass is complete within scope; effective core manager/dispatch/storage remains partial. PER-03 selected CtZ campaign identity/schema/restoration/reconciliation is complete; PER-04 practical consolidation and final bounded audit are complete. Full effective installed persistence remains partial under its [completion rule](04-game-systems/persistence/source-completion-status.md). Inventory ITEM-01–04 selected foundations and ITEM-05 practical consolidation/bounded audit are complete within available-source scope. [Effective inventory integration](04-game-systems/inventory/source-completion-status.md) remains partial. Next available-source subsystem: trade/economy, starting with existing-coverage inventory and selected money/pricing/transaction/configuration contracts. Runtime verification remains deferred.
+The planned consolidation and bounded audits from available snapshots are complete for A-Life/Warfare and factions. Both retain effective installed-source requirements; see [A-Life/Warfare completion](04-game-systems/alife/source-completion-status.md) and [faction completion](04-game-systems/factions/source-completion-status.md). Persistence available-source work is complete within selected scope: PER-01 selected native save/load pipeline and Lua extension boundaries are complete within scope. PER-02 supplied codec/caller/gap pass is complete within scope; effective core manager/dispatch/storage remains partial. PER-03 selected CtZ campaign identity/schema/restoration/reconciliation is complete; PER-04 practical consolidation and final bounded audit are complete. Full effective installed persistence remains partial under its [completion rule](04-game-systems/persistence/source-completion-status.md). Inventory ITEM-01–04 selected foundations and ITEM-05 practical consolidation/bounded audit are complete within available-source scope. [Effective inventory integration](04-game-systems/inventory/source-completion-status.md) remains partial. Trade/economy is active: ECO-01 selected native money/pricing/actor-menu transaction and Lua money/cost foundations complete; next native trader configuration/supply and supplied Lua consumer/effective-definition gaps, then consolidation/audit. Runtime verification remains deferred.
 
 <a id="current-a-lifewarfare-remaining-scope--v0138"></a>
 
@@ -71,7 +71,7 @@ The first broadly useful ADR extends beyond CtZ while remaining bounded. CtZ sup
 
 - [x] Substantial UI/PDA, A-Life/Warfare, faction and persistence available-source foundations; effective/runtime gaps remain open.
 - [x] Selected inventory/item lifecycle available-source foundation: [ownership](04-game-systems/inventory/ownership-lifecycle.md), [placement/activation](04-game-systems/inventory/placement-activation.md), [consumption/removal](04-game-systems/inventory/consumption-destruction.md), [persistence/reconstruction](04-game-systems/inventory/persistence-reconstruction.md) and [consolidation/audit](04-game-systems/inventory/development-reference.md) complete within scope; [effective integration](04-game-systems/inventory/source-completion-status.md) remains partial.
-- [ ] Trade/economy: money, prices, trade eligibility/transaction flow, trader configuration and script overrides; event transfer names alone do not establish payment.
+- [ ] Trade/economy: [ECO-01 native money/pricing/selected UI trade](04-game-systems/economy/native-trade.md) complete within scope; next configuration/supply and supplied-script/effective-gap pass, then consolidation/audit. Native accounting and item-event acceptance remain separate; runtime deferred.
 - [ ] Actor/NPC gameplay state: health/damage/death/condition/immunity/effects and callback boundaries; extend existing casualty findings.
 - [ ] Tasks/dialogue/info state: lifecycle, conditions/actions, rewards and persistence.
 - [ ] World interaction/navigation: extend existing lookup/position/graph/restriction/smart/transition/map-marker coverage after inventorying it; do not duplicate completed A-Life findings.
@@ -83,4 +83,4 @@ Each subsystem's first-edition boundary is its main lifecycle, state owner, rele
 
 ## Maintenance
 
-Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.58.md). Historical unchecked boxes are not the current backlog.
+Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.59.md). Historical unchecked boxes are not the current backlog.

@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.58.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.59.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -132,7 +132,7 @@ Records retain their research revision and source baseline; those are distinct f
 ## 08-research
 
 - [PER-02 Lua storage investigation](08-research/investigations/2026-10-11-PER-02-lua-storage.md)
-- [Current verification — v0.1.56](08-research/verification-2026-10-11-v0.1.58.md)
+- [Current verification — v0.1.56](08-research/verification-2026-10-11-v0.1.59.md)
 
 - [PER-01 native save/load investigation](08-research/investigations/2026-10-11-PER-01-native-save-load.md)
 - [PER-01 verification — v0.1.50](08-research/verification-2026-10-11-v0.1.50.md)
@@ -261,3 +261,5 @@ Records retain their research revision and source baseline; those are distinct f
 - [Item persistence/reconstruction](04-game-systems/inventory/persistence-reconstruction.md), [ITEM-04](08-research/investigations/2026-10-11-ITEM-04-persistence-reconstruction.md), [ledger](evidence/inventory/persistence-reconstruction-2026-10-11.csv).
 
 - [Inventory development reference](04-game-systems/inventory/development-reference.md), [completion status](04-game-systems/inventory/source-completion-status.md), [ITEM-05](08-research/investigations/2026-10-11-ITEM-05-inventory-consolidation.md).
+
+- [Trade/economy](04-game-systems/economy/README.md), [native trade](04-game-systems/economy/native-trade.md), [money/cost APIs](02-lua-api/economy/money-cost-api.md), [ECO-01](08-research/investigations/2026-10-11-ECO-01-native-trade.md).

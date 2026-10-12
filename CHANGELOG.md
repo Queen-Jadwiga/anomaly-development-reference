@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.59 — 2026-10-11 — Native trade and economy foundation
+
+- Add ECO-01 native money/pricing/selected actor-menu transaction reference, focused Lua money/cost API and 23-entry evidence ledger.
+- Separate live/server balances, cost/quote, UI preflight/per-item accounting and callback/completion; qualify money-transfer sign/conversion hazards as source findings, with runtime untested.
+- Next native trader configuration/supply and supplied Lua consumer/effective gaps. See [verification](08-research/verification-2026-10-11-v0.1.59.md).
 
 ## v0.1.58 — 2026-10-11 — Inventory consolidation and bounded audit
 

@@ -1,6 +1,6 @@
 # ALIFE-10 — Lifecycle and callback reference consolidation
 
-> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ALIFE-10
 - Subsystem: A-Life / Warfare integration
