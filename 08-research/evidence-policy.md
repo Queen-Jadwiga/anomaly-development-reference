@@ -1,6 +1,6 @@
 # Evidence and verification policy
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 **Current policy from ADR v0.1.40.** Use the [workflow](workflow.md) and [layout conventions](repository-layout.md).
 
@@ -57,3 +57,9 @@ source_path: null
 evidence: []
 last_checked: 2026-10-09
 ```
+
+## External runtime observations
+
+Record observer/provenance separately from the runtime status axis. A colleague’s issue can be **observed (external report)** now without waiting for an independent ADR test. Preserve the reported build/setup, issue URL/review timestamp/body hash, observed success/failure/repetition and missing raw artifacts. Label inferred mechanisms separately. Never promote a version label to a binary hash or a scoped workaround to universal safety.
+
+Independent reproduction may later strengthen or contradict the report; retain the original record and amend the disposition. Resolving documentation intake/catalog corrections can close the corresponding issue while related crash mechanisms remain open. [REV-01 example](investigations/2026-10-12-REV-01-external-runtime-issues.md).

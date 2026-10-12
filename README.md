@@ -1,12 +1,16 @@
 # Anomaly Development Reference (ADR)
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 **Source-backed modding research for S.T.A.L.K.E.R. Anomaly / X-Ray Monolith / Modded Exes**
 
 > **Work in progress — independent research, not official engine documentation.**
-> Current ADR revision: **v0.1.59** (11 October 2026). Primary research source: the
-> **2026.10.11** X-Ray Monolith source archive. Runtime behavior in GAMMA is **not yet validated**.
+> Current ADR revision: **v0.1.60** (12 October 2026). Primary research source: the
+> **2026.10.11** X-Ray Monolith source archive. Independent target-installation testing remains pending; selected **external runtime observations** are documented with build limits.
+
+## Current runtime feedback
+
+[REV-01](08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md) incorporates colleague reports without equating them to universal engine verification. UI quickload teardown and live-tab registration during loading remain open hazards. The confirmed property-catalog omission and build-history/dispatcher clarifications are corrected.
 
 ## What is this?
 
@@ -40,7 +44,7 @@ If you only have a few minutes, start here:
 | [Native faction identity and relations](04-game-systems/factions/native-relations.md) | Community identity, goodwill direction and final attitude |
 | [Faction development reference](04-game-systems/factions/development-reference.md) | Practical query, mutation, storage and event boundaries |
 | [Native save/load pipeline](04-game-systems/persistence/native-save-load-pipeline.md) | File framing, reconstruction and Lua extension phases |
-| [Current verification report](08-research/verification-2026-10-11-v0.1.59.md) | What was checked and what was not |
+| [Current verification report](08-research/verification-2026-10-12-v0.1.60.md) | What was checked and what was not |
 | [Full research index](INDEX.md) | Every investigated area and historic records |
 
 ## Research status

@@ -1,6 +1,6 @@
 # A-Life callback phases and observation contracts
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ALIFE-10 — callback reference
 - Subsystem: A-Life / Warfare integration
@@ -102,3 +102,9 @@ This orders listeners **inside one dispatch**. It cannot move a registration obs
 ## Deferred boundaries
 
 Effective board/smart readiness, Lua load/save dispatch, creature casualty/safe-release chains, startup monkey-patch order, active build flags and actual update/event timing remain open. Death and capture callbacks require those effective paths before receiving a unified completion contract. No gameplay edits or runtime tests are part of this reference. The [ALIFE-10 synthesis record](../../08-research/investigations/2026-10-11-ALIFE-10-lifecycle-callback-consolidation.md) records scope and verification; the [roadmap](../../ROADMAP.md) tracks remaining work.
+
+## Build boundary — September versus October dispatcher
+
+The PRE/NORMAL/POST/dependency model described above belongs to the inspected ENGINE1011 bundled dispatcher. At upstream September commit `9b491ffbfe5d529e817ceffed70214d0f03f62c5`, `axr_main.callback_set(name, listener)` assigns monotonically increasing indices and `make_callback` dispatches sorted by them; that inspected implementation has no tier ordering. Do not generalize either dispatcher to every older/newer installed profile.
+
+[Issue #4](https://github.com/Queen-Jadwiga/anomaly-development-reference/issues/4) additionally reports an installed `RegisterScriptCallback(name, func)` wrapper. Its exact winning file was not supplied; the pinned comparison verifies `callback_set`, not an unseen global wrapper. Always inspect the effective dispatcher/wrapper before depending on priorities, dependencies or extra registration arguments. [S04 and build scope](../../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md#feature-history-and-build-scope).

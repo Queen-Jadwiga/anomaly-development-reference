@@ -1,6 +1,13 @@
 # ADR changelog
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.60 — 2026-10-12 — Confidence-scoped runtime feedback and property catalog correction
+
+- Add REV-01 external issue review, reported GAMMA baseline, source comparisons and ten attributed runtime observations; keep independently untested/inferred mechanisms explicit.
+- Correct `.property` extraction/source-origin checks; regenerate one missing condition row (1,151 total), preserving all earlier rows and other generated inventories.
+- Clarify July dynamic-tab availability, September/October callback differences, LuaJIT 2.0.4 and qualified UI teardown/load-readiness guidance. Record XML/clock/save-header corroboration without claiming universal safety.
+- Resolve catalog/documentation issues #3/#4 after publication; leave crash investigations #1/#2 open. No CtZ/engine change or independent game test. See [verification](08-research/verification-2026-10-12-v0.1.60.md).
 
 ## v0.1.59 — 2026-10-11 — Native trade and economy foundation
 

@@ -1,6 +1,6 @@
 # PER-01 increment verification — v0.1.50
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: selected native single-player A-Life save/load architecture and Lua extension phases

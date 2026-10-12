@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.59.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.60.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -263,3 +263,10 @@ Records retain their research revision and source baseline; those are distinct f
 - [Inventory development reference](04-game-systems/inventory/development-reference.md), [completion status](04-game-systems/inventory/source-completion-status.md), [ITEM-05](08-research/investigations/2026-10-11-ITEM-05-inventory-consolidation.md).
 
 - [Trade/economy](04-game-systems/economy/README.md), [native trade](04-game-systems/economy/native-trade.md), [money/cost APIs](02-lua-api/economy/money-cost-api.md), [ECO-01](08-research/investigations/2026-10-11-ECO-01-native-trade.md).
+
+## 2026-10-12 external runtime review
+
+- [ENV-RT01 reported GAMMA baseline](00-environment/reported-gamma-runtime-2026-10-12.md).
+- [REV-01 confidence/disposition review](08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md).
+- [Source comparison](evidence/runtime/issue-review-source-2026-10-12.csv) and [external observations](evidence/runtime/reported-observations-2026-10-12.csv).
+- [v0.1.60 verification](08-research/verification-2026-10-12-v0.1.60.md).

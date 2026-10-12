@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -55,3 +55,9 @@ All version-sensitive engine documentation must cite an exact revision once iden
 [Inventory persistence/reconstruction ledger](inventory/persistence-reconstruction-2026-10-11.csv): ENGINE1011, R01–R15; selected item/owner serialization and reconstruction.
 
 [Native trade/economy ledger](economy/native-trade-2026-10-11.csv): ENGINE1011, E01–E23; money/pricing/selected UI accounting and Lua contracts.
+
+## External runtime review — REV-01
+
+- [Source comparison ledger](runtime/issue-review-source-2026-10-12.csv): ENGINE1011 property/LuaJIT checks and immutable UPSTREAM0912 registry/dispatcher/native-binding files.
+- [Reported observations](runtime/reported-observations-2026-10-12.csv): ten external observations with issue/reporter/timestamp/body-hash provenance, reported setup and limits.
+- [Environment record](../00-environment/reported-gamma-runtime-2026-10-12.md) and [review/disposition](../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md). No raw third-party source, logs or private profile assets are redistributed.

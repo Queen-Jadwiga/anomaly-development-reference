@@ -104,6 +104,7 @@ GameGraph__CVertex,level_id,method,&CVertex::level_id,both evaluated branches,sr
 GameGraph__CVertex,level_vertex_id,method,&CVertex::level_vertex_id,both evaluated branches,src/xrGame/game_graph_script.cpp,119
 cse_alife_inventory_item,has_upgrade,method,&has_upgrade,both evaluated branches,src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,49
 cse_alife_inventory_item,add_upgrade,method,&add_upgrade,both evaluated branches,src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,50
+cse_alife_inventory_item,condition,property,"&get_condition_script, &set_condition_script",both evaluated branches,src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,51
 cse_alife_item,<constructor>,constructor,constructor<LPCSTR>(),both evaluated branches,src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,58
 cse_alife_item,FillProps,virtual_method,"&CSE_ALifeItem::FillProps, &CWrapperAbstractItem<CSE_ALifeItem>::FillProps_static",!XRGAME_EXPORTS,src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,58
 cse_alife_item,STATE_Read,virtual_method,"&CSE_ALifeItem::STATE_Read, &CWrapperAbstractItem<CSE_ALifeItem>::STATE_Read_static",both evaluated branches,src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp,58

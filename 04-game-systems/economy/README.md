@@ -1,8 +1,8 @@
 # Trade and economy
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.59.** Subsystem partial; runtime untested and deferred.
+**Current revision: v0.1.60.** Subsystem partial; runtime untested and deferred.
 
 - [Native money, pricing and selected UI trade flow](native-trade.md).
 - [Focused Lua money/base-cost contracts](../../02-lua-api/economy/money-cost-api.md).

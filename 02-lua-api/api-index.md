@@ -1,6 +1,6 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 Current canonical locations:
 

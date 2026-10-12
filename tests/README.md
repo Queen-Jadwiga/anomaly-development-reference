@@ -1,6 +1,6 @@
 # Verification and tests
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 ADR has documentation/source checks; engine/game runtime testing remains deferred.
 
@@ -14,3 +14,7 @@ Do not describe documentation checks, preprocessing or CSV reproducibility as en
 ## Documentation validator regression checks
 
 Run `python -m unittest discover -s tests -p "test_*.py"`. Checks cover the valid current tree and rejection of missing links/anchors, root escapes, stale document-set versions, obsolete forwarding pages and malformed CSV rows. These are documentation tests; engine/game runtime verification remains deferred.
+
+## Property extractor regression checks
+
+`test_binding_patterns.py` checks that accessor-backed properties are recognized alongside methods/fields, that property-only source origins pass validation, and that prior binding categories remain distinct. Full generator reproduction additionally checks the actual condition property and preserves all earlier rows. These are source-tool tests, not game tests. Selected externally reported runtime observations are tracked separately in [REV-01](../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md).

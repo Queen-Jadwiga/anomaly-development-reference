@@ -1,6 +1,7 @@
 """Scoped source index; preprocess registrations, do not compile or install game code."""
 from pathlib import Path
 import re, csv, hashlib, subprocess, json, argparse
+from binding_patterns import BINDING_PATTERN, binding_kind, valid_binding_origin
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--source-root',type=Path,default=Path('engine-source/xray-monolith-2026.10.11'))
 parser.add_argument('--warfare-root',type=Path,default=Path('warfare-source/beta150'))
@@ -77,7 +78,7 @@ for p in files:
                 location=locations[offset+m.start()]
                 classes.append([name,params[0],compact(body[a+1:b]),'XRGAME_EXPORTS' if game else '!XRGAME_EXPORTS',*location])
                 events.append((m.start(),'class',name))
-            for m in re.finditer(r'(?<!\w)(\.def(?:_readonly|_readwrite)?|(?<!\.)\bdef)\s*\(',body):
+            for m in BINDING_PATTERN.finditer(body):
                 start=body.index('(',m.start()); stop=balanced(body,start)
                 vals=split_args(body[start+1:stop]);kind=m.group(1)
                 if vals and re.fullmatch(r'"[^"]+"',vals[0]):
@@ -92,7 +93,7 @@ for p in files:
                 form,name,expression=value
                 actual_owner='<global>' if form=='def' else owner
                 assert actual_owner,(rel,name)
-                category={'constructor':'constructor','.def_readonly':'readonly_field','.def_readwrite':'writable_field','def':'global_function'}.get(form,'virtual_method' if '_static' in expression else 'method')
+                category=binding_kind(form,expression)
                 file,line=locations[offset+pos]
                 assert file==rel,(file,rel)
                 bindings.append([actual_owner,name,category,expression,'XRGAME_EXPORTS' if game else '!XRGAME_EXPORTS',file,line])
@@ -150,7 +151,7 @@ for row in classes:
     assert 'class_' in line,(row,line)
 for row in bindings:
     line=(ROOT/row[-2]).read_text().splitlines()[int(row[-1])-1]
-    assert 'def' in line or 'luabind_class_' in line,(row,line)
+    assert valid_binding_origin(line),(row,line)
 for source,path,line,symbol,*_ in lua:
     base=ROOT if source=='ENGINE1011' else war
     actual=(base/path).read_bytes().decode('utf-8',errors='replace').splitlines()[int(line)-1]

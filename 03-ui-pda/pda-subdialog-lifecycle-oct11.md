@@ -1,6 +1,6 @@
 # UI-01 — Dynamic PDA tab and subdialog lifecycle (2026-10-11 source)
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 **Status:** Source-level findings established for stock October 11 engine + bundled registry. **Not a GAMMA runtime or multi-addon compatibility validation.**
 
@@ -32,3 +32,9 @@
 - **UI-02 (runtime):** tab selection/restore, reordering, reskins and multiple simultaneous PDA mods under the installed GAMMA mod stack.
 
 **Conclusion:** Native PDA switching and bundled registry forwarding are source-backed; seamless cross-mod restoration is **not established**.
+
+## External runtime amendment — 2026-10-12
+
+The October scope above remains an inspected-source scope. Dynamic tabs existed by July 31; September exports support the registry. [Issue #2](https://github.com/Queen-Jadwiga/anomaly-development-reference/issues/2) reports startup/load registration crashing with MAC’s full strip while a later keypress worked. Do not accept the bundled “any time” comment or `level.present()` as complete UI readiness. Keep loading-only, strip-only and combined-interaction explanations open; no general eight-tab incompatibility was established.
+
+A returned Lua window, native parent attachment, dialog-holder registration and HUD render registration are different lifetime edges. [Issue #1](https://github.com/Queen-Jadwiga/anomaly-development-reference/issues/1) concerns shown/HUD windows; it does not directly certify or reject a PDA-attached page. Audit teardown for the actual registration path. [Scoped findings and open investigations](../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md).

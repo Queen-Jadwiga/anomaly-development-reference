@@ -1,6 +1,6 @@
 # Native save/load pipeline and Lua extension boundaries
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 - ID: PER-01
 - Source status: source-confirmed within selected single-player A-Life paths
@@ -84,3 +84,9 @@ Live reconstruction reloads/reinitializes the binder before passing nonempty ser
 For persistent CtZ data, identify which explicit serializer owns each field, its identity/schema and the phase at which dependencies are restored. Neither arbitrary Lua tables nor runtime callbacks automatically enter the native file. Save names are path inputs, not a demonstrated campaign fingerprint. Native auxiliary relation storage and dynamic script matrix reapplication remain different domains. [Faction reference](../factions/development-reference.md).
 
 PER-01 completes this selected native pipeline/extension map. Next: supplied Lua storage helper contracts and active-profile gaps, then CtZ campaign identity/reconciliation, practical consolidation and final available-source audit. Runtime remains deferred; no gameplay or save files are modified.
+
+## External load-clock and framing observations
+
+[Issue #4](https://github.com/Queen-Jadwiga/anomaly-development-reference/issues/4) reports that `game.get_game_time()` inside the installed `load_state` callback still returned the configured `alife.ltx` start date rather than the save’s date. This is consistent with the early native load/time-chunk boundary, but it does not establish the exact effective addon-dispatch connection. Deserialize campaign data separately from clock-dependent accounting/reconciliation; establish saved-clock readiness later through the installed path, not the callback’s name alone.
+
+The report’s `.scop` header also matches sentinel `0xffffffff`, version `0x0006` and uncompressed size. This is external corroboration of selected framing, not full-save integrity or compatibility. [R08/R09 and missing artifacts](../../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md#corroborating-observations).

@@ -1,6 +1,6 @@
 # SRC-002 — October 11, 2026 Modded Exes source and runtime candidate
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 **New preferred source baseline (from 2026-10-11 onward):** user-supplied `xray-monolith-2026.10.11.zip`.
 
@@ -20,3 +20,9 @@
 
 ## Research version policy
 For each API result, state the evidence version, source path and line range, registration path where applicable, and whether runtime behavior has been tested. Previous May 15 findings remain historical and may need reconciliation; they are not silently revalidated by changing the source baseline.
+
+## Runtime and feature-version qualification — 2026-10-12
+
+ENGINE1011’s bundled `src/3rd party/luajit-2/src/luajit.h:33–35` declares LuaJIT **2.0.4**, not 2.1. This source header does not identify every user binary; the [external runtime report](reported-gamma-runtime-2026-10-12.md) separately reports the same executable version. Do not use `pairs` iteration order from Lua 5.4/another LuaJIT version as a portable order contract; sort explicitly where order is part of a mod’s design.
+
+October-labeled ADR pages identify their inspected source scope, not feature introduction. Dynamic tabs shipped July 31 and exist in September; the September callback dispatcher differs from October. [REV-01 source/runtime comparison](../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md).

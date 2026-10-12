@@ -1,6 +1,6 @@
 # UI-04 — Native XML interception and DXML lifecycle (2026.10.11)
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 **Baseline:** User-supplied `xray-monolith-2026.10.11.zip`. **Status:** source research complete for the traced `CXml::Load` → DXML path; integration and runtime validation pending. This analysis does **not** establish that every XML load in the game invokes `CXml::Load`.
 
@@ -34,3 +34,9 @@
 - Discovery: [gamedata/scripts/dxml_core.script:116–160](https://github.com/themrdemonized/xray-monolith/blob/2026.10.11/gamedata/scripts/dxml_core.script#L116-L160)
 - Modification/cache: [gamedata/scripts/dxml_core.script:961–1012](https://github.com/themrdemonized/xray-monolith/blob/2026.10.11/gamedata/scripts/dxml_core.script#L961-L1012)
 - Separate helper: [gamedata/scripts/dxml_core.script:1016–1049](https://github.com/themrdemonized/xray-monolith/blob/2026.10.11/gamedata/scripts/dxml_core.script#L1016-L1049)
+
+## External probe observation — 2026-10-12
+
+[Issue #4](https://github.com/Queen-Jadwiga/anomaly-development-reference/issues/4) reports DXML editing text files during startup/font setup: a unique control retained the edited text, while a duplicate ID in a later distinct file replaced the earlier edited value. Separately, MO exposed only the winning copy of each same-named file. These are separate layers—virtual-filesystem shadowing, per-file editing, then cross-file duplicate replacement—not a general claim that DXML overrides every later resource.
+
+This supports the selected source trace on the reported September-era installation; it does not close all UI-05 cache, localization, reader or competing-hook scenarios. [R05/R06 and provenance](../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md#corroborating-observations).

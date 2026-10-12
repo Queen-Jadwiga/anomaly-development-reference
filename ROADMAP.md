@@ -1,10 +1,19 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source status
 
-UI/PDA is development-reference ready within the documented source scope. A-Life/Warfare native foundations and the scoped interface catalog are complete; lifecycle/callback references are consolidated within their source scope. Native configuration and supplied-package policy controls are consolidated, and the bounded final consistency audit is complete. Effective script chains remain open. All in-game runtime verification is deferred.
+UI/PDA is development-reference ready within the documented source scope. A-Life/Warfare native foundations and the scoped interface catalog are complete; lifecycle/callback references are consolidated within their source scope. Native configuration and supplied-package policy controls are consolidated, and the bounded final consistency audit is complete. Effective script chains remain open. Independent in-game verification remains deferred; [selected external observations](08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md) are recorded separately.
+
+## Runtime feedback priorities — 2026-10-12
+
+- [ ] Issue #1: isolate shown-dialog/HUD/PDA teardown, native aliases and quickload; obtain exact executable/profile and raw logs/probe.
+- [ ] Issue #2: isolate registration during loading with/without MAC/full strip; establish an actual post-load readiness phase, not a fixed-delay guarantee.
+- [x] Issue #3: fix `.property` extraction and regenerate condition property while preserving existing catalog rows.
+- [x] Issue #4: record scoped external string/clock/header observations, source LuaJIT 2.0.4 and September/October callback differences.
+
+Documentation intake does not close the two crash investigations or independently certify the user’s install. [Confidence/disposition](08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md). CtZ UI timing/lifetime review belongs in its separate project; no mod change is included here.
 
 ## Next source work
 

@@ -1,6 +1,6 @@
 # Server entity, squad and movement API
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 [Catalog conventions](README.md). These are selected checked contracts. The complete scoped occurrence inventory, with overload expressions and evaluated guards, is in [the bindings CSV](native-lua-bindings-oct11.csv).
 
@@ -82,3 +82,9 @@ Do not infer writable graph/node fields from task accessors or complete board as
 ## Lifecycle context
 
 Read the [lifecycle/state reference](../../04-game-systems/alife/lifecycle-state-reference.md) and [callback phases](../../04-game-systems/alife/callback-phase-reference.md) before applying these contracts across spawn, switching, load or teardown. Runtime verification remains deferred.
+
+## Server inventory item accessor property
+
+The scoped catalog now includes `cse_alife_inventory_item.condition`, registered with `get_condition_script` and `set_condition_script` at ENGINE1011 `src/xrServerEntities/xrServer_Objects_ALife_Items_script.cpp:22–39,43–52`. This is property access (`server_item.condition`), not a `condition()` method. Apply only to a correctly typed exported server item; the registered class/base map governs inherited exposure.
+
+The getter reads `m_fCondition`. The setter logs and returns for ordinary values below 0 or above 1, otherwise writes the field. Do not infer finite-number rejection, quantization guarantees or effective runtime synchronization from this guard. [S01 and catalog correction](../../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md#catalog-correction).

@@ -1,6 +1,6 @@
 # Rank, reputation and action-flag Lua contracts
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-04-API
 - Subsystem: factions / relations

@@ -1,6 +1,6 @@
 # A-Life / Warfare C++ and Lua interface catalog
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.39 · ALIFE-09 · 11 October 2026 · source inventory and focused contracts; runtime deferred.**
 
@@ -18,7 +18,7 @@ This catalog maps native classes to Lua registration names, exported methods/fie
 | Artifact | Contents |
 | --- | --- |
 | [Native/Lua classes CSV](native-lua-classes-oct11.csv) | 84 registration rows with native template arguments, Lua names, evaluated branch and origin line |
-| [Bindings CSV](native-lua-bindings-oct11.csv) | 1,150 registration rows: methods, virtual methods, fields, constructors and global functions; overloads preserved |
+| [Bindings CSV](native-lua-bindings-oct11.csv) | 1,151 registration rows: methods, virtual methods, fields, accessor-backed properties, constructors and global functions; overloads preserved |
 | [Binding helper declarations CSV](binding-helper-declarations-oct11.csv) | 174 source definition signatures, including the C++ receiver parameter where present |
 | [Script interfaces CSV](script-interfaces-oct11.csv) | 1,372 function declarations from selected bundled scripts and the BETA150 main/patch sources; variants retained |
 | [Evidence ledger](../../evidence/alife/interface-evidence-oct11.csv) | SHA-256 and line count for 73 input files |
@@ -26,13 +26,17 @@ This catalog maps native classes to Lua registration names, exported methods/fie
 
 Counts are **rows**, not unique callable methods or promises that every row exists in one executable. Repeated virtual registrations across classes and mutually exclusive branch results are retained. Inherited availability is obtained from the registered bases; the CSV does not duplicate every inherited method on every descendant.
 
+## Property correction — 2026-10-12
+
+Issue [#3](https://github.com/Queen-Jadwiga/anomaly-development-reference/issues/3) identified a real omission: `.property(...)` was not extracted. The corrected catalog adds `cse_alife_inventory_item.condition`, preserving its getter/setter expression and origin at `xrServer_Objects_ALife_Items_script.cpp:51`. `binding_kind=property` denotes accessor-driven field syntax, not a method arity or universal setter policy. The other 1,150 original binding rows remain unchanged. See the [review](../../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md). An absent row is not proof of API absence beyond the declared extraction coverage.
+
 ## Method and limits
 
 The inventory processes 21 registration translation units: the seven `alife_*_script.cpp` files and `game_graph_script.cpp` under `src/xrGame`, plus 13 server-object registration files matching `xrServer_Objects*script*.cpp` / `xrserver_objects*script*.cpp` under `src/xrServerEntities`. Shared `xrServer_script_macroses.h` and `script_export_macroses.h` are expanded with the C preprocessor.
 
 Two source projections are evaluated: `XRGAME_EXPORTS` defined and undefined, with other macros undefined. Includes are suppressed while preserving original line positions. This is a preprocessing audit, **not compilation, linkage or exhaustive build-configuration verification**. `DEBUG`, other optional macros and registrations elsewhere can change coverage. Commented-out registrations are excluded. Macro-expanded rows cite the registration invocation line; their binding expression comes from the shared macro definitions. These headers are separately hashed.
 
-The class CSV records the literal expanded template arguments, including wrappers and bases. This is the **registered Lua inheritance**, which can omit native C++ bases. The bindings CSV preserves exact binding expressions, explicit casts and policies. A raw method pointer without a cast is not automatically an exact Lua signature: resolve its declaration and converter policy before using it. The focused pages supply selected checked contracts; the helper CSV is a source declaration index, not a fully resolved overload/conversion catalog for all 1,150 rows. C++ default arguments do not automatically establish optional Lua arguments.
+The class CSV records the literal expanded template arguments, including wrappers and bases. This is the **registered Lua inheritance**, which can omit native C++ bases. The bindings CSV preserves exact binding expressions, explicit casts and policies. A raw method pointer without a cast is not automatically an exact Lua signature: resolve its declaration and converter policy before using it. The focused pages supply selected checked contracts; the helper CSV is a source declaration index, not a fully resolved overload/conversion catalog for all 1,151 rows. C++ default arguments do not automatically establish optional Lua arguments.
 
 Lua rows inventory named `function` declarations, including colon receivers and dotted monkey-patch assignments. Anonymous assigned functions, generated callbacks, local closures and arbitrary writable script fields are outside that extraction. Long block comments are excluded. Script bytes are hashed unchanged; non-UTF-8 prose is decoded with replacement for declaration scanning, whose symbols are ASCII. Declaration presence does not prove module loading or replacement order.
 

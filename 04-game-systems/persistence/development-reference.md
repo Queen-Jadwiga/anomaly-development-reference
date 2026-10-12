@@ -1,6 +1,6 @@
 # Persistence development reference
 
-> ADR document set: **v0.1.59**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.60**. Research revisions and source/build versions below describe their original scope.
 
 **Research revision: v0.1.53.** Selected native, supplied Lua and CtZ persistence research is consolidated for development use within its source boundaries. Effective installed persistence remains partial; runtime is untested and deferred until explicitly resumed by the user. [Completion rule](source-completion-status.md), [PER-04 record](../../08-research/investigations/2026-10-11-PER-04-persistence-consolidation.md), [audit](../../08-research/verification-2026-10-11-v0.1.53.md).
 
@@ -55,3 +55,7 @@ For a future runtime report, record executable/build, winning files/settings, ca
 Obtain the actual winning manager/global/dispatcher definitions, binders and addon replacements with their dependencies and configuration provenance. Trace root construction/reset, native hook to emitter/listeners to encoding/file write, type/default/schema/version contracts, errors, companion coordination, cleanup and restore order. Then reconcile those findings with the native and CtZ references. [Source completion requirements](source-completion-status.md), [profile collection requirements](../../08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md).
 
 PER-01–04 finish the planned available-source persistence work. Missing effective sources and runtime remain separate open work. Another subsystem can proceed independently without promoting these boundaries to verified installed behavior. [Roadmap](../../ROADMAP.md).
+
+## External runtime support for early clock caution
+
+The reported September-era GAMMA `load_state` clock observation supports keeping clock-dependent reconciliation separate from deserialization. The winning dispatcher and safe completion gate remain unverified. [External report and scope](../../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md#corroborating-observations).
