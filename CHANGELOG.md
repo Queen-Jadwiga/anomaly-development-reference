@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.65**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.66 — 2026-10-12 — Gameplay state consolidation and bounded audit
+
+- Add GAME-04 practical development reference, source-completion rule and bounded semantic audit over all 61 preserved gameplay evidence entries.
+- Consolidate field/delta/authority, damage/effect/return, callback/cleanup and server/live/custom restoration boundaries; retain medicine/helper/compiler and effective integration limits.
+- Selected available-source gameplay-state work complete within scope. Next tasks/dialogue/info state; runtime deferred. See [verification](08-research/verification-2026-10-12-v0.1.66.md).
 
 ## v0.1.65 — 2026-10-12 — Derived death and condition restoration
 

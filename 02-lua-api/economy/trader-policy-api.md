@@ -1,6 +1,6 @@
 # Trader policy and supplies Lua contracts
 
-> ADR document set: **v0.1.65**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ECO-02-API
 - Subsystem: trade/economy

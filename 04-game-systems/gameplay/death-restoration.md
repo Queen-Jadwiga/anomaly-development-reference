@@ -1,6 +1,6 @@
 # Derived death and condition restoration
 
-> ADR document set: **v0.1.65**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
 
 - ID: GAME-03
 - Subsystem: actor/NPC gameplay state
@@ -52,7 +52,7 @@ Selected stalker net_Export writes current live health and remote net_Import set
 
 ## What client condition data retains
 
-Base condition custom data stores an alive marker, then power/radiation/morale/psy health and wound count/records only when the marker is alive. Health is omitted from this body; the selected server spawn/update channel supplies it separately, omission from this one serializer is not evidence that whole-save health is lost. Its loader invalidates time and reconstructs fields/wounds in the alive branch. A dead marker does not itself overwrite health or clear every prior field. R11/R13/R14.
+Base condition custom data stores an alive marker, then power/radiation/morale/psy health and wound count/records only when the marker is alive. Health is omitted from this body; the selected server spawn/update channel supplies it separately. Omission from this one serializer is not evidence that whole-save health is lost. Its loader invalidates time and reconstructs fields/wounds in the alive branch. A dead marker does not itself overwrite health or clear every prior field. R11/R13/R14.
 
 CEntityAlive save/load forwards to inherited state then conditions(), dispatching the actual derived condition object. CActor's save/load likewise forwards its inherited chain before inventory/actor custom fields, while its condition factory constructs CActorCondition. Thus actor medicine and booster data are reachable through virtual condition serialization rather than requiring a direct CActor::save call to ActorCondition::save. R02/R09/R10/R12.
 

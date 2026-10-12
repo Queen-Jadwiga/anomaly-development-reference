@@ -1,6 +1,6 @@
 # Native XML UI initialization (ADR v0.1.6)
 
-> ADR document set: **v0.1.65**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
 
 **Evidence:** historical [`CUIXmlInit.cpp`](https://github.com/themrdemonized/xray-monolith/blob/6a08e0905ce34748ee2904a5e0809f8afd141137/src/xrGame/ui/UIXmlInit.cpp) and [`CUIXmlInit.h`](https://github.com/themrdemonized/xray-monolith/blob/6a08e0905ce34748ee2904a5e0809f8afd141137/src/xrGame/ui/UIXmlInit.h). These describe native initialization; **do not infer all methods are callable from Lua.**
 

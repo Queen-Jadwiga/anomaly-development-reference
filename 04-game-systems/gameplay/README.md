@@ -1,16 +1,13 @@
 # Actor and NPC gameplay state
 
-> ADR document set: **v0.1.65**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.65.** Subsystem partial; runtime untested and deferred.
+**Current revision: v0.1.66.** Selected available-source foundation and consolidation/audit complete within scope. Effective installed integration partial; runtime untested and deferred.
 
-- [Native health and condition hit processing](native-condition.md).
-- [Live condition Lua contracts](../../02-lua-api/gameplay/condition-api.md).
-- [GAME-01 investigation](../../08-research/investigations/2026-10-12-GAME-01-native-condition.md).
-- [Evidence](../../evidence/gameplay/README.md).
+- [Practical development reference](development-reference.md).
+- [Source completion and remaining work](source-completion-status.md).
+- [Native health and condition hits](native-condition.md), [actor survival/boosters/equipment](actor-effects-equipment.md), [derived death/restoration](death-restoration.md).
+- [Condition APIs](../../02-lua-api/gameplay/condition-api.md), [actor effect APIs](../../02-lua-api/gameplay/actor-effects-api.md).
+- [GAME-04 consolidation](../../08-research/investigations/2026-10-12-GAME-04-gameplay-consolidation.md), [audit](../../08-research/verification-2026-10-12-v0.1.66.md), [evidence](../../evidence/gameplay/README.md).
 
-Existing faction attack/kill actions, A-Life/Warfare casualty phases and inventory consumption remain separate linked contracts. Actor-specific survival/boosters/equipment is complete within GAME-02 scope. Next derived death/condition persistence/effective consumers; consolidation follows. [Roadmap](../../ROADMAP.md).
-
-[GAME-02 actor effects and equipment](actor-effects-equipment.md) and [Lua subset](../../02-lua-api/gameplay/actor-effects-api.md) complete within selected scope. Next derived death/server-client condition restoration and effective consumers, then consolidation/audit.
-
-[GAME-03 derived death/condition restoration](death-restoration.md) now closes the selected native/server/supplied pass. Next practical consolidation/audit; effective-source and runtime gaps remain open.
+Live state, pending changes, server state and strategic casualties remain separate. Medicine/helper/restore gaps are explicit in completion status. Next general foundation: tasks/dialogue/info state. [Roadmap](../../ROADMAP.md).

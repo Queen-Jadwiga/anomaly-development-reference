@@ -1,6 +1,6 @@
 # UI-06 — October 11 Lua widget and event binding inventory
 
-> ADR document set: **v0.1.65**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
 
 **Status:** Source-catalogued, runtime validation deferred. This is a lexical inventory of the scoped UI registration sources, *not* proof that all names are callable in every context.
 
