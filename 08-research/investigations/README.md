@@ -1,6 +1,6 @@
 # Research investigations
 
-> ADR document set: **v0.1.64**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.65**. Research revisions and source/build versions below describe their original scope.
 
 One canonical dated record per question, named `YYYY-MM-DD-ID-topic.md`. Use the [investigation template](../templates/investigation.md), [workflow](../workflow.md) and [evidence policy](../evidence-policy.md).
 
@@ -50,3 +50,5 @@ Earlier records retain their original format and IDs. Recent A-Life/Warfare reco
 - [GAME-01 — native condition fields and live hit phases](2026-10-12-GAME-01-native-condition.md).
 
 - [GAME-02 — actor survival effects and equipment mitigation](2026-10-12-GAME-02-actor-effects.md).
+
+- [GAME-03 — derived death and condition reconstruction](2026-10-12-GAME-03-death-restoration.md).

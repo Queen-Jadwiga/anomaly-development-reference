@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.64**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.65**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.65 — 2026-10-12 — Derived death and condition restoration
+
+- Add GAME-03 reference/investigation and 19-entry death/restoration ledger.
+- Trace derived cleanup around eDeath, server on_death/kill differences, STATE/UPDATE health, custom condition serialization and pre/post-binder health writes.
+- Keep medicine/booster/reset/effective-profile and runtime questions open; next gameplay-state consolidation/audit. No CtZ changes. See [verification](08-research/verification-2026-10-12-v0.1.65.md).
 
 ## v0.1.64 — 2026-10-12 — Actor survival boosters and equipment
 
