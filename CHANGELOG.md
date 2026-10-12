@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.63**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.63 — 2026-10-12 — Native condition and live hit foundation
+
+- Add GAME-01 reference/API/investigation and 21-entry condition evidence ledger.
+- Distinguish direct health fields, pending deltas, time/harm gates, immunity coefficients, mutable hit stages and death requests/callbacks; link existing casualty/consumption findings.
+- Keep actor/equipment/booster, derived death/persistence, effective profile and runtime work open. No CtZ/gameplay/source changes. See [verification](08-research/verification-2026-10-12-v0.1.63.md).
 
 ## v0.1.62 — 2026-10-12 — Economy consolidation and bounded audit
 

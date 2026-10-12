@@ -1,6 +1,6 @@
 # ALIFE-01 — Server identity, squad membership and online/offline lifecycle
 
-> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.63**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.31 · 11 October 2026 · source research complete within this first-pass scope; runtime deferred.**
 

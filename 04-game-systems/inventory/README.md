@@ -1,8 +1,8 @@
 # Inventory and item lifecycle
 
-> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.63**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.62.** Selected available-source first-edition work is complete within scope. Full effective installed integration remains partial; runtime untested and deferred.
+**Current revision: v0.1.63.** Selected available-source first-edition work is complete within scope. Full effective installed integration remains partial; runtime untested and deferred.
 
 Start with the [practical development reference](development-reference.md) and [completion status/remaining evidence](source-completion-status.md).
 
@@ -14,4 +14,4 @@ Start with the [practical development reference](development-reference.md) and [
 | Persistence/reconstruction | [Persistence](persistence-reconstruction.md) | [General persistence contracts](../../02-lua-api/persistence/native-extension-contracts.md) | [ITEM-04](../../08-research/investigations/2026-10-11-ITEM-04-persistence-reconstruction.md) |
 | Consolidation/bounded audit | [Development reference](development-reference.md) | Existing contracts above | [ITEM-05](../../08-research/investigations/2026-10-11-ITEM-05-inventory-consolidation.md) |
 
-[Evidence ledgers](../../evidence/inventory/README.md); [current audit](../../08-research/verification-2026-10-12-v0.1.62.md). Snapshot findings do not establish installed NPC behavior or runtime compatibility. Next general subsystem: trade/economy. [Roadmap](../../ROADMAP.md).
+[Evidence ledgers](../../evidence/inventory/README.md); [current audit](../../08-research/verification-2026-10-12-v0.1.63.md). Snapshot findings do not establish installed NPC behavior or runtime compatibility. Next general subsystem: trade/economy. [Roadmap](../../ROADMAP.md).

@@ -1,6 +1,6 @@
 # INV-006 — XML font and scrollview native initialization
 
-> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.63**. Research revisions and source/build versions below describe their original scope.
 
 **Date:** 2026-10-09  
 **Source pin:** `6a08e0905ce34748ee2904a5e0809f8afd141137`  

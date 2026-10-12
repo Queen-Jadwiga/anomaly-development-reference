@@ -1,6 +1,6 @@
 # Inventory and item lifecycle development reference
 
-> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.63**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-05
 - Subsystem: inventory/item lifecycle

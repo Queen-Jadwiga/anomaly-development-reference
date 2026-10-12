@@ -1,6 +1,6 @@
 # Research investigations
 
-> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.63**. Research revisions and source/build versions below describe their original scope.
 
 One canonical dated record per question, named `YYYY-MM-DD-ID-topic.md`. Use the [investigation template](../templates/investigation.md), [workflow](../workflow.md) and [evidence policy](../evidence-policy.md).
 
@@ -46,3 +46,5 @@ Earlier records retain their original format and IDs. Recent A-Life/Warfare reco
 - [ECO-02 — trader configuration and supplied economy consumers](2026-10-12-ECO-02-trader-configuration.md).
 
 - [ECO-03 — economy consolidation and bounded audit](2026-10-12-ECO-03-economy-consolidation.md).
+
+- [GAME-01 — native condition fields and live hit phases](2026-10-12-GAME-01-native-condition.md).

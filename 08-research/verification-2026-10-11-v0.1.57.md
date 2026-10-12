@@ -1,6 +1,6 @@
 # ITEM-04 increment verification — v0.1.57
 
-> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.63**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: selected item persistence/reconstruction
