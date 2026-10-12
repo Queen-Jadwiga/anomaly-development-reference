@@ -1,6 +1,6 @@
 # ITEM-02 — Placement and active-item transitions
 
-> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.56**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-02
 - Subsystem: inventory

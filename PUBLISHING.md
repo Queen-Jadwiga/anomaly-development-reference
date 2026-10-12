@@ -1,6 +1,6 @@
 # Publish and maintain ADR on GitHub
 
-> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.56**. Research revisions and source/build versions below describe their original scope.
 
 ## Ongoing research increments
 

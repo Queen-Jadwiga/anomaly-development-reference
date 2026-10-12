@@ -1,6 +1,6 @@
 # ALIFE-10 verification — 11 October 2026 — ADR v0.1.42
 
-> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.56**. Research revisions and source/build versions below describe their original scope.
 
 - Target ADR starting commit: `c52f86ff59f2eaea64a71482cc82bb1b90cfcb40` (v0.1.41)
 - Changed scope: lifecycle/state and callback reference, synthesis record/ledger, current navigation and document-set version

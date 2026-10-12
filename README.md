@@ -1,11 +1,11 @@
 # Anomaly Development Reference (ADR)
 
-> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.56**. Research revisions and source/build versions below describe their original scope.
 
 **Source-backed modding research for S.T.A.L.K.E.R. Anomaly / X-Ray Monolith / Modded Exes**
 
 > **Work in progress — independent research, not official engine documentation.**
-> Current ADR revision: **v0.1.55** (11 October 2026). Primary research source: the
+> Current ADR revision: **v0.1.56** (11 October 2026). Primary research source: the
 > **2026.10.11** X-Ray Monolith source archive. Runtime behavior in GAMMA is **not yet validated**.
 
 ## What is this?
@@ -40,7 +40,7 @@ If you only have a few minutes, start here:
 | [Native faction identity and relations](04-game-systems/factions/native-relations.md) | Community identity, goodwill direction and final attitude |
 | [Faction development reference](04-game-systems/factions/development-reference.md) | Practical query, mutation, storage and event boundaries |
 | [Native save/load pipeline](04-game-systems/persistence/native-save-load-pipeline.md) | File framing, reconstruction and Lua extension phases |
-| [Current verification report](08-research/verification-2026-10-11-v0.1.55.md) | What was checked and what was not |
+| [Current verification report](08-research/verification-2026-10-11-v0.1.56.md) | What was checked and what was not |
 | [Full research index](INDEX.md) | Every investigated area and historic records |
 
 ## Research status

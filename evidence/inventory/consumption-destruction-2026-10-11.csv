@@ -1,0 +1,19 @@
+evidence_id,source_id,source_path,symbol,line_ranges,file_sha256,line_count,subject
+D01,ENGINE1011,src/xrGame/Inventory.cpp,CInventory::Eat;CInventory::ClientEat,1106-1180,02c86fd02085223e67bb95e2656150caf450dfb5c91b77c0252774cdb9495f03,1561,"Consume versus request, effects before false and drop marking"
+D02,ENGINE1011,src/xrGame/eatable_item.cpp,CEatableItem::Load;UseBy;Useful;OnH_A_Independent;OnH_B_Independent,44-57;92-173,354c9ef024ff870035df6edf2a641d1ab08e1381912462b558347779bc8ecba3,190,Uses/config/effects and exhausted-item detach behavior
+D03,ENGINE1011,src/xrGame/eatable_item.h,m_iRemainingUses;Empty;CanDelete;SetRemainingUses,21-26;43-50,634029d8b2bd3851489287db54697395da64f9f405d71adbb6b57085a9750c89,53,u8 uses and removal predicates
+D04,ENGINE1011,src/xrGame/Inventory.cpp,UpdateDropTasks;UpdateDropItem,886-930,02c86fd02085223e67bb95e2656150caf450dfb5c91b77c0252774cdb9495f03,1561,Manual drop flags and deferred reject producer
+D05,ENGINE1011,src/xrGame/Actor_Events.cpp,CInventory__eat;GEG_PLAYER_ITEM_EAT,186-217;252-263,d63cfdbf4a49c163e930f520378c8ce026ec286677ef9102935b256c2cc6b177,378,Actor request guards and required named gate
+D06,ENGINE1011,src/xrGame/GameObject.cpp,DestroyObject;GE_DESTROY;CGameObject_NetDestroy,241-263;1063-1076;114-168,86372e7276f1027dc3ad0deef38f30043fb9c59a76a8946be9f1df496cd53075,1416,"Request, destroy flag and teardown hooks"
+D07,ENGINE1011,src/xrGame/xrServer_process_event_destroy.cpp,Process_event_destroy;Process_event_reject;entity_Destroy,24-110,38af570bc17cc8245dfc19002db773c0c059b897a01d81ea50d6054e75567aa9,110,Recursive server child removal and packed reject before destroy
+D08,ENGINE1011,src/xrEngine/xr_object.cpp,setDestroy;register_object_to_destroy,483-504,ee748291841a97f563b229d07e8f295bb4d079c62046af41c09564464ffbd88e,536,Destroy flag queues live object removal
+D09,ENGINE1011,src/xrEngine/xr_object_list.cpp,net_Relcase;net_Destroy;Destroy,276-314,b19e693733ae3b276ce1b579b1f89ab294d260ff9e69d7cc3f05ac537ef9317c,627,Queued reference release then teardown/free stage
+D10,ENGINE1011,src/xrGame/Inventory.cpp,CInventory::Clear,114-127,02c86fd02085223e67bb95e2656150caf450dfb5c91b77c0252774cdb9495f03,1561,Container/pointer reset distinct from per-item drop
+D11,ENGINE1011,src/xrGame/InventoryOwner.cpp,net_Destroy;sell_useless_items,169-175;596-623,7abbb1405915f5b98050ad1f78b7e4234521357358d99dc1e0db7e03aceea24b,705,Owner clear and selective destruction requests
+D12,ENGINE1011,src/xrGame/inventory_item.cpp,CInventoryItem::net_Destroy,379-388,f206ff9bcd2ce721055d86ed0b7e9ed0f1206f8fc245ea5578ccc71f73803b6b,1556,Inventory membership cleanup assertion
+D13,ENGINE1011,src/xrGame/script_game_object.cpp,CScriptGameObject::eat,1076-1103,b585b1896e5d30d5be0c5cf8b68e27f58b90850e8548f71d7d66fb28066dadee,1740,Lua direct native consumption wrapper
+D14,ENGINE1011,src/xrGame/script_game_object3.cpp,CScriptGameObject::DestroyObject,2653-2656,899d14faa13cbbba9a08d7e5de6f97403a2ce79a6f4b7f50a0c0b64642a7cce2,2782,Lua destruction wrapper
+D15,ENGINE1011,src/xrGame/script_game_object_script2.cpp,eat,335,cef083f263fc01e206d4ee3be0e2911038258323de846b4ec821c58d37d539ae,471,Lua eat registration
+D16,ENGINE1011,src/xrGame/script_game_object_script3.cpp,destroy_object,546,24bbffd954d03a5d97ed627c2a8df77a7f51c3ab80c37570528b58fb7c229ff5,762,Lua destroy registration
+D17,ENGINE1011,src/xrGame/eatable_item_script.cpp,Empty;CanDelete;GetRemainingUses;SetRemainingUses,8-25,8bb2097a75f83b060431a2a199c77daafa0f697c0e02b3c95489df7b9ebbe4f8,25,Eatable class exports
+D18,ENGINE1011,src/xrGame/script_game_object_script.cpp,use_object,104,a3eb52bc8eabc6873ed926e3617456d480e41796a93c1a1706ea3facb39e38fa,199,Native consumption callback enum

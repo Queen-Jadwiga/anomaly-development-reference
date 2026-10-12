@@ -1,6 +1,6 @@
 # Faction and relation development reference
 
-> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.56**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-06
 - Source status: consolidated source-confirmed findings within FAC-01–05 scope

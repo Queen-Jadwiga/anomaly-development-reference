@@ -1,6 +1,6 @@
 # UI-06a through UI-06d — Native UI export, dispatch, and focus audit
 
-> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.56**. Research revisions and source/build versions below describe their original scope.
 
 **Source baseline:** provided `xray-monolith-2026.10.11.zip` extracted source. **Status:** targeted source findings verified; enumerated wider exhaustiveness questions remain open. No runtime verification.
 

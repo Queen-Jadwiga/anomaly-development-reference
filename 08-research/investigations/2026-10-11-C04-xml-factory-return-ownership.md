@@ -1,6 +1,6 @@
 # C-04 — Lua return ownership of CScriptXmlInit-created UI controls
 
-> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.56**. Research revisions and source/build versions below describe their original scope.
 
 **Baseline:** Uploaded X-Ray Monolith source archive `2026.10.11`. **Status:** Source research complete for the ordinary pointer-return paths; runtime validation deferred. **Question:** When `CScriptXmlInit` allocates a native control and returns its pointer to Lua, what owns it and when may it be destroyed?
 

@@ -1,6 +1,6 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.56**. Research revisions and source/build versions below describe their original scope.
 
 Current canonical locations:
 
@@ -55,3 +55,5 @@ For cross-layer selection, see the [faction development reference](../04-game-sy
 - [Inventory ownership APIs](inventory/ownership-api.md).
 
 [Inventory placement APIs](inventory/placement-api.md).
+
+[Consumption/destruction APIs](inventory/consumption-api.md).

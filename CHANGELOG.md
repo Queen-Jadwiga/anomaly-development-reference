@@ -1,6 +1,11 @@
 # ADR changelog
 
-> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.56**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.56 — 2026-10-11 — Item consumption and cleanup
+
+- Add ITEM-03 reference/API/investigation and 18-entry ledger: use effects versus deferred drop, destroy request/server/client stages, owner clear/selective removal.
+- Preserve literal use-counter and post-effect return caveats, prior research/evidence and deferred runtime. Next item persistence/reconstruction. See [verification](08-research/verification-2026-10-11-v0.1.56.md).
 
 ## v0.1.55 — 2026-10-11 — Item placement and activation
 
