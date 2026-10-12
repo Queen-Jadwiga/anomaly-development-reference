@@ -1,32 +1,41 @@
 # World interaction/navigation development reference
 
-> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-01-GUIDE
 - Subsystem: world interaction/navigation
-- Reference revision: v0.1.72 selected spatial and interaction/transition/marker synthesis
-- Source status: selected source-confirmed WORLD-02/03 contracts plus linked existing findings and scoped documentation inventory
+- Reference revision: v0.1.73 consolidation; detailed original scopes retained
+- Source status: selected native/supplied contracts consolidated and bounded audit complete
 - Runtime status: untested; deferred
-- Baseline: ADR v0.1.69 inventory plus ENGINE1011 WORLD-02/03; original supplied-package and installed-profile limits retained
+- Baselines: ENGINE1011, BETA150 main and ZIP142; [manifest](../../evidence/manifest.md)
 - Last reviewed: 2026-10-12
 
-The [coverage inventory](coverage-inventory.md) is the starting point. WORLD-01 inventory and WORLD-02/03 selected contracts are complete within their scopes; the world subsystem remains **partial**. Use [spatial behavior](spatial-queries-relocation.md) and [focused API contracts](../../02-lua-api/world/spatial-api.md) for the new traced limits; examples/runtime remain untested.
+WORLD-01 coverage inventory, WORLD-02 spatial contracts, WORLD-03 interaction/travel/marker lifecycle and WORLD-04 supplied consumers/consolidation/audit complete the planned available-source pass **within selected scope**. Effective installed integration remains **partial**. [Completion status](source-completion-status.md), [audit](../../08-research/verification-2026-10-12-v0.1.73.md).
 
-## Choose the authority and operation
+## Choose the state owner and operation
 
-| Development question | Existing guidance | Remaining distinction |
+| Concern | Established distinction | Canonical evidence |
 | --- | --- | --- |
-| Which object and position should I query? | [A-Life lifecycle/state](../alife/lifecycle-state-reference.md), [lookup catalog](../../02-lua-api/alife/simulator-api.md) | Server identity, live client availability, sampled coordinates and display interpolation differ; selected live query implementation is now traced in WORLD-02. |
-| Has a squad arrived? | [Offline brains/movement](../../08-research/investigations/2026-10-11-ALIFE-05-offline-scheduling-brains.md) | Movement/detail completion, smart reach and strategic capture differ. Effective board/jobs remain missing. |
-| What does relocation update? | [Selected position helpers](../../08-research/investigations/2026-10-11-ALIFE-06-graph-online-realization.md), [server/squad catalog](../../02-lua-api/alife/server-squad-api.md) | Requested point, representative graph point, member propagation and live transform are separate; actor/simulator routes now have separate WORLD-02 contracts. |
-| Is a route usable? | [Task/movement controls](../../02-lua-api/alife/server-squad-api.md) | WORLD-02 traces selected restriction/patrol checks; permissive branches and accepted requests still do not establish successful movement. |
-| Does a marker show the authoritative position? | [Map position authority](../../08-research/investigations/2026-10-11-ALIFE-06-graph-online-realization.md) | WORLD-03 traces marker add/query/remove/lifetime/visibility/storage separately from position authority. |
-| Can use/touch or a level changer change state? | [Inventory](../inventory/development-reference.md), [tasks](../tasks/development-reference.md), [persistence](../persistence/development-reference.md) | WORLD-03 traces selected native use/touch/transition routes; effective consumers still require reconciliation. |
+| Lookup/location | Server identity, live client wrapper, level/game vertex and patrol index differ; geometric nearest is not route eligibility | [Spatial behavior](spatial-queries-relocation.md), [API](../../02-lua-api/world/spatial-api.md); [A-Life lifetime](../alife/lifecycle-state-reference.md) |
+| Relocation/arrival | Simulator graph relocation, actor/NPC transform, member/cache writes and requested destination have separate effects | Spatial P11–P20; [supplied relocation](supplied-consumers.md), S01/S02/S05; existing A-Life movement/arrival |
+| Restrictions | Per-client lists, defaults, server dynamic IDs and live restrictor-type updates are different owners | Spatial P21–P30; supplied C06–C10; [extension API](../../02-lua-api/world/consumer-extension-api.md) |
+| Use/touch | Void use callbacks, forced-use bool, pickup veto, sampled zone membership and shape intersection differ | [Interaction behavior](interaction-transitions-markers.md), [API](../../02-lua-api/world/interaction-api.md), U-ledger; supplied C01–C05/S11 |
+| Actor travel | Contact/dialog/send/accepted save/broadcast/restart versus loaded destination readiness | Interaction T-ledger; [persistence](../persistence/development-reference.md) and A-Life callbacks |
+| Markers | Manager identity/entries, script icon bookkeeping, actual/drawn state, notifications and stored fields differ | Interaction M-ledger; supplied S03/S06/S07/S12/S13 |
 
-For new logic, identify the representation, location namespace and phase before choosing a helper. Reacquire live references across spawn/load/teardown under existing lifetime rules. Treat a movement request, eligible vertex, registered marker and completed action as separate observations until their connecting callers are traced. These are source-derived review questions, not runtime guarantees.
+Evidence IDs are local to their ledgers: [world evidence directory](../../evidence/world/README.md). The [coverage inventory](coverage-inventory.md) retains earlier document pins and reuse boundaries; A-Life graph/offline/realization findings remain canonical rather than copied into new claims.
 
-## Continue research
+## Development review questions
 
-WORLD-02 [selected spatial/contracts pass](spatial-queries-relocation.md) is complete within scope. WORLD-03 [selected interaction/transition/marker pass](interaction-transitions-markers.md) is also complete within scope. Next WORLD-04 covers supplied consumers, consolidation and audit. [Scope and gaps](source-completion-status.md), [inventory](coverage-inventory.md), [roadmap](../../ROADMAP.md).
+1. Identify the representation, campaign/lifecycle identity and coordinate namespace before lookup or mutation. Reacquire live references after spawn/load/teardown; an ID or path-existence test is not full receiver/point readiness.
+2. Trace what a request actually writes: graph registry, transform/physics, destination, member bookmarks, restriction defaults or Lua cache. State changes can precede a later path update; no universal atomic relocation or arrival guarantee is established.
+3. Locate the actual callback owner and caller return: use callback, forced-use/UI, pickup veto, native contact versus Lua zone-table predicate, manager-added versus queued removal notification. Repeated/missing/mutating callbacks need their own winning dispatcher evidence.
+4. Keep actor travel separate from simulator teleport and squad graph notifications. Check silent versus dialog gate, destination producer, optional hook, save/restart and post-load readiness. An enabled flag or true acceptance result is insufficient arrival proof.
+5. Track marker object/type, Lua icon fields and rendering policy separately. Compare numeric 0/1 explicitly. Duplicate append, first-match removal, XML defaults, loaded markers and deferred notice/deletion can disagree with script bookkeeping.
+6. Find the serializer/restore caller for every field. Server restriction IDs, marker registry fields, native squad state, comments/local caches and current configuration do not autosave one another. Inspect reconstruction/rebinding before claiming UI state restoration.
 
-[WORLD-03 API contracts](../../02-lua-api/world/interaction-api.md): use/zone/type gates, travel-control limits, marker query and notification phases.
+These are source-derived review questions, not tested runtime recipes. The supplied source highlights cross-method bookkeeping and literal option-path mismatches; neither is diagnosed as an installed bug or modified as part of ADR work.
+
+## Completion and next boundary
+
+Collect the [effective inputs](source-completion-status.md) and reconcile winning binders/smart/jobs/zone/travel/marker/configuration/dispatcher/storage chains. Runtime resumes separately with identified executable/profile and observations. The next general ADR foundation is **configuration/script integration**, beginning by inventorying existing registration/loading/callback/option coverage. [Roadmap](../../ROADMAP.md).

@@ -1,6 +1,6 @@
 # Spatial queries relocation and selected restriction/patrol contracts
 
-> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-02
 - Subsystem: world interaction/navigation
@@ -63,3 +63,7 @@ The server creature serializer explicitly saves dynamic in/out ID lists and read
 Graph vertices, live wrappers and patrol paths are owner-held references, not new persistent entities. Retention across level unload/spawn/teardown needs existing lifecycle rules. SAFE_WRAP is diagnostic forwarding: the selected definition optionally logs/calls the error path, then forwards the member call; its name does not certify stale-pointer recovery, rollback or optional arguments. P09/P10: `script_game_object.h:1323–1412`.
 
 WORLD-02 selected native/contracts pass is complete within this scope. Graph mutation masks, relocation and restriction changes still require the winning callers/configuration/planner/binder and identified executable to establish installed effects. Engine compilation and runtime remain deferred. WORLD-03 next covers use/touch, actor level transitions and marker lifecycle; broader supplied-consumer reconciliation and consolidation remain WORLD-04. [Status](source-completion-status.md), [audit](../../08-research/verification-2026-10-12-v0.1.71.md).
+
+## Current navigation after WORLD-04
+
+The original research scope and findings above are retained. [Supplied consumers](supplied-consumers.md), [central guide](development-reference.md), [completion status](source-completion-status.md) and [v0.1.73 bounded audit](../../08-research/verification-2026-10-12-v0.1.73.md) record the completed available-source pass and remaining effective/runtime requirements.

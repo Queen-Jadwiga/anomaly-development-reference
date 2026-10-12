@@ -1,6 +1,6 @@
 # Subsystem entry point map
 
-> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
 
 This map identifies the ten currently researched behavior subsystems. Each has a README for browsing, a development reference for practical synthesis and links, and a source-completion status for readiness, missing effective inputs and runtime limits. These are different roles; adding a guide does not mark research complete.
 
@@ -14,11 +14,11 @@ This map identifies the ten currently researched behavior subsystems. Each has a
 | Inventory | [README](../04-game-systems/inventory/README.md) | [Development reference](../04-game-systems/inventory/development-reference.md) | [Completion status](../04-game-systems/inventory/source-completion-status.md) | ITEM-05 and v0.1.58 audit |
 | Trade/economy | [README](../04-game-systems/economy/README.md) | [Development reference](../04-game-systems/economy/development-reference.md) | [Completion status](../04-game-systems/economy/source-completion-status.md) | ECO-03 and v0.1.62 audit |
 | Tasks/dialogue/info | [README](../04-game-systems/tasks/README.md) | [Development reference](../04-game-systems/tasks/development-reference.md) | [Completion status](../04-game-systems/tasks/source-completion-status.md) | TASK-01–03 consolidation and v0.1.69 audit; effective integration partial |
-| World interaction/navigation | [README](../04-game-systems/world/README.md) | [Development reference](../04-game-systems/world/development-reference.md) | [Completion status](../04-game-systems/world/source-completion-status.md) | WORLD-01 inventory and WORLD-02/03 selected contracts; WORLD-04 pending; v0.1.72 verification |
+| World interaction/navigation | [README](../04-game-systems/world/README.md) | [Development reference](../04-game-systems/world/development-reference.md) | [Completion status](../04-game-systems/world/source-completion-status.md) | WORLD-01–04 available-source consolidation and v0.1.73 bounded audit; effective integration partial |
 | Gameplay state | [README](../04-game-systems/gameplay/README.md) | [Development reference](../04-game-systems/gameplay/development-reference.md) | [Completion status](../04-game-systems/gameplay/source-completion-status.md) | GAME-04 and v0.1.66 audit |
 
 UI/PDA retains its established 03-ui-pda location; A-Life and Warfare retain distinct guides while their combined closure requirements remain authoritative in A-Life completion status. Detailed pages, API catalogs, dated investigations, evidence and historical snapshots stay in their canonical homes.
 
-Environment, cross-system engine architecture, mod architecture, debugging, examples and project records are other document categories. They do not require artificial subsystem completion pages merely to match filenames. World interaction/navigation uses that pattern for its inventory and selected spatial contracts; it remains partial.
+Environment, cross-system engine architecture, mod architecture, debugging, examples and project records are other document categories. They do not require artificial subsystem completion pages merely to match filenames. World interaction/navigation uses that pattern for its completed selected available-source pass; effective installed integration remains partial.
 
 Use [layout rules](repository-layout.md), [workflow](workflow.md), [full index](../INDEX.md) and [current roadmap](../ROADMAP.md). This map is navigation, not an exhaustive engine subsystem inventory.

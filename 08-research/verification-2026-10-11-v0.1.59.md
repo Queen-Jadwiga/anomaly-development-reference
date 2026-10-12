@@ -1,6 +1,6 @@
 # ECO-01 increment verification — v0.1.59
 
-> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: selected native money/pricing/actor-menu trade and Lua money/cost

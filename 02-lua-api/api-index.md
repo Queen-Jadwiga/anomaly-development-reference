@@ -1,6 +1,6 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
 
 Current canonical locations:
 
@@ -73,3 +73,5 @@ Inventory contracts are consolidated in the [development reference](../04-game-s
 - [Selected world spatial/restriction/patrol contracts](world/spatial-api.md): WORLD-02; source-confirmed within scope, effective/runtime limits retained.
 
 - [Selected world use/zone/changer/marker APIs](world/interaction-api.md): WORLD-03; effective/runtime gaps retained.
+
+- [WORLD-04 selected dynamic restriction consumer extensions](world/consumer-extension-api.md); [world consolidation](../04-game-systems/world/development-reference.md).

@@ -1,6 +1,6 @@
 # Persistence source evidence
 
-> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
 
 - [PER-01 native pipeline ledger](native-pipeline-2026-10-11.csv): S01–S24, ENGINE1011 source paths/hashes/ranges; IDs are ledger-local.
 - [Reference](../../04-game-systems/persistence/native-save-load-pipeline.md), [extension contracts](../../02-lua-api/persistence/native-extension-contracts.md), [investigation](../../08-research/investigations/2026-10-11-PER-01-native-save-load.md).

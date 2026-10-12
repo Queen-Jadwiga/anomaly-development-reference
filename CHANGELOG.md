@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.73 — 2026-10-12 — World consumers consolidation and bounded audit
+
+- WORLD-04 traces selected supplied relocation/patrol/use/zone/marker/configuration/polling callers, additional native live-restriction exports, package scope/comparisons and effective gaps. Preserve variant/dispatcher, marker-cache and literal option-path limits.
+- Consolidate practical world state-owner and request/return/restore guidance; audit WORLD-02–04 source evidence and existing WORLD-01 inventory/preservation/navigation. Planned available-source pass complete within scope; installed integration partial and runtime deferred.
+- Next configuration/script-integration inventory. No CtZ gameplay changes or third-party source/assets redistribution. See [verification](08-research/verification-2026-10-12-v0.1.73.md).
 
 ## v0.1.72 — 2026-10-12 — Use touch actor travel and marker lifecycle
 

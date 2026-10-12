@@ -1,0 +1,976 @@
+{
+  "scope": "ENGINE1011 gamedata; BETA150 Main/gamedata only; ZIP142 gamedata. Patches and actual installation excluded.",
+  "method": "Recursive file-name presence and raw file hash inventory; script/API searches plus selected manual reads. No universal negative implementation claim.",
+  "packages": {
+    "ENGINE1011": {
+      "file_count": 161,
+      "script_lua_count": 70,
+      "requested_names_present": [],
+      "requested_names_absent": [
+        "_g.script",
+        "utils_obj.script",
+        "db.script",
+        "xr_motivator.script",
+        "bind_stalker_ext.script",
+        "item_knife.script",
+        "smart_terrain.script",
+        "sim_board.script",
+        "simulation_objects.script",
+        "xr_effects.script",
+        "xr_conditions.script",
+        "sr_teleport.script",
+        "bind_restrictor.script",
+        "map_spots.xml",
+        "dynamic_item_spawn.ltx",
+        "game_setup.script",
+        "ui_options.script",
+        "smart_terrain_masks.ltx",
+        "includes.ltx"
+      ],
+      "files": [
+        {
+          "path": "gamedata/configs/mod_script_dxml.ltx",
+          "sha256": "3de95bd4c4905029d1cedda3f67de738d7d5b4fd8e49f8cfac79d916c3b90d6b"
+        },
+        {
+          "path": "gamedata/configs/mod_spawn_overlays_meadow.ltx",
+          "sha256": "d25b613c07f9032d112a88b85e0e35a5e0847211e256ace983ecaf9486a22aa1"
+        },
+        {
+          "path": "gamedata/configs/mod_system_anomaly_fixes.ltx",
+          "sha256": "5734589d759d3e50f34c820dfdde7c8917afb070670f485d3f6fa3a3ed3c2563"
+        },
+        {
+          "path": "gamedata/configs/mod_system_base_hud.ltx",
+          "sha256": "b8a2f27620f11de5ceaf20b53cecce82fe1bf6894c4502da9489e34d83bd37a4"
+        },
+        {
+          "path": "gamedata/configs/mod_system_flashlight_definition.ltx",
+          "sha256": "e5201f8ddcb62644f2e02469d9817b8b157edbef796fd2df9c46dde514d6e17e"
+        },
+        {
+          "path": "gamedata/configs/mod_system_knife.ltx",
+          "sha256": "e0a986b0c90fd0f7069005a335f5c93c66aa715cdd78020e7d52b558c0eeabea"
+        },
+        {
+          "path": "gamedata/configs/mod_system_shader_crosshair.ltx",
+          "sha256": "ba6b12ce42d2df933cec0d10c87a01c6703f89ea6f6aa1c9f790e9267eea8bb0"
+        },
+        {
+          "path": "gamedata/configs/mod_system_spawn_antifreeze_ignore.ltx",
+          "sha256": "adcb62b8a9d70d4a5a7a425bedf3be6f856503f5cc4c7264d5751c092db19924"
+        },
+        {
+          "path": "gamedata/configs/patrol_paths.ltx",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        {
+          "path": "gamedata/configs/scripts/labx8/mod_lx8_door_lock_fix.ltx",
+          "sha256": "836467f206accca02dd284e0cf329086eef105e9f00856c78a7d675ed6e3a49d"
+        },
+        {
+          "path": "gamedata/configs/spawn_overlays.ltx",
+          "sha256": "6099ed7254fcd4f770a8c6fa66f387d9a1a515c538e1ddb0afa8cbd956944b2f"
+        },
+        {
+          "path": "gamedata/configs/text/eng/ui_lua_fatal_window.xml",
+          "sha256": "dc745eb2accefdf80c53f65211febee832021f37aa34a24e6097295126b502ae"
+        },
+        {
+          "path": "gamedata/configs/text/eng/ui_mm_modded_exes.xml",
+          "sha256": "db706b02eba49a954ef66138a3a4b194d70d34dc1524ad238e7bbda3f4d52b4f"
+        },
+        {
+          "path": "gamedata/configs/text/rus/ui_lua_fatal_window.xml",
+          "sha256": "93bc7b5002e5d9da82e664fbeb0ce232804b3f5dd1a5898486170c4c1f1fc330"
+        },
+        {
+          "path": "gamedata/configs/text/rus/ui_mm_modded_exes.xml",
+          "sha256": "38920623f4004c3347b01f5093f0c007e1c432329a5e4bb8d2d6ee5798f3def0"
+        },
+        {
+          "path": "gamedata/configs/ui/textures_descr/ui_actor_main_menu_options.xml",
+          "sha256": "387fe395b06ead5ee280bf5cebc8b8dbfb7e2ac41cde1d9f78ae78c6886ae05f"
+        },
+        {
+          "path": "gamedata/configs/ui/textures_descr/ui_actor_multiplayer_menu_screen.xml",
+          "sha256": "5a2217fa3c3c581bd4b48e45a66c5db20e118d01124488ea70891e5cbf34f07e"
+        },
+        {
+          "path": "gamedata/configs/ui/textures_descr/ui_common.xml",
+          "sha256": "6ccd59425134c1ca1be47061276100aa53935f2a69e7988840087e9e29ee317e"
+        },
+        {
+          "path": "gamedata/configs/ui/ui_ctrl_hdr.xml",
+          "sha256": "b760bbfa1e612532e3e3f888527dbc0c52a0483b1f3480a292e876be83a85aaf"
+        },
+        {
+          "path": "gamedata/configs/ui/ui_ctrl_hdr_16.xml",
+          "sha256": "02cefd8e852f211227a39bebc670cd3aa9162628bc0cbd2e45185da19cbc6650"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_modded_exes_axr_trade_manager.ltx",
+          "sha256": "2b8d70d312b0dbb059f51a379888e40698dcb39b925d7810fe505ed1f91c0ed4"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_modded_exes_bind_item.ltx",
+          "sha256": "0e08a175fce5a6739ef75581bfa569426a833ee6e1c6cc4f43af2a37a4651f05"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_modded_exes_global.ltx",
+          "sha256": "1fd5a00c7d48acbd9a91bb1436a04853a8f8d6f848b2c31331225b6713fbbb95"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_modded_exes_info_portions.ltx",
+          "sha256": "d0a8ae7066db7be10ed7614df0da2134078baafaa3e507d973bff474761054b0"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_modded_exes_item_device_script_fixes.ltx",
+          "sha256": "42c286cfb3753d2759d456445a92262c8fc70f4c259a97f012fd818c8e409392"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_modded_exes_item_weapon.ltx",
+          "sha256": "9c4c1c9b0bd178f43542200b957a4e0d4a21e2b251de52f8562ccae6b0c416ff"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_modded_exes_pda.ltx",
+          "sha256": "2d789bb156eee1f26522c491e17794b33a9488e87ce7aaf6aa14bca933bfbe67"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_modded_exes_sim_squad_scripted.ltx",
+          "sha256": "0874985af89e0331ca9004025f0eae08b463365a500d4e9889dd7112f76d02ba"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_modded_exes_state_mgr_animation.ltx",
+          "sha256": "739465663f3f6c6c6fd586aee717f4328dcbe1cb48fd5559aa6c5520388ae545"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_modded_exes_ui_debug_launcher.ltx",
+          "sha256": "fa965cc614c56191d86830511a16c536d2b9a5f4da0a829a27fef89b58edf473"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_modded_exes_ui_debug_main.ltx",
+          "sha256": "de2bd5866e113b9d36e5df78c403706a759239631465b341a28f554f5399c636"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_modded_exes_utils_item.ltx",
+          "sha256": "28964b45fe2b23d8f3d1d9a7ce7d3c75b787bc05070701b1890b2182c70e3ea0"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_modded_exes_xrs_facer_script_fixes.ltx",
+          "sha256": "c55270fe43620c3e3bdbc2560235c652e2aeaf7fe147707a553550926959c712"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_test.ltx",
+          "sha256": "40a0c9cf6dd71c7793f2c630ae24b413be3fdb863a3b2773df573e6539edc355"
+        },
+        {
+          "path": "gamedata/configs/unlocalizers/unlocalizer_ui_options.ltx",
+          "sha256": "6d6937a877d2ba010ab3bbbf11a03f9f3ddd158573cfca3ae770a14113265815"
+        },
+        {
+          "path": "gamedata/levels/jupiter/level.snd_env",
+          "sha256": "9fa1f51452106c4f1aebc7c2640cce74b2d64bbf6b9ef4bb7700e32b4de1f58c"
+        },
+        {
+          "path": "gamedata/levels/jupiter_underground/level.snd_env",
+          "sha256": "4e6f139540ad8d06bdd2500b1d9161e666c92e310fcc5aee87ccc3d7edc9c5da"
+        },
+        {
+          "path": "gamedata/levels/k00_marsh/level.snd_env",
+          "sha256": "2ff722a1f4ea5e2d60ee7bb75c867c7651c7d552ed48f7286c3393bf3b1d921e"
+        },
+        {
+          "path": "gamedata/levels/l03u_agr_underground/level.snd_env",
+          "sha256": "9d3f93ae548dacaa1948b1acd3fa2749754139ae3d7260551914c23c55d5e589"
+        },
+        {
+          "path": "gamedata/levels/l04_darkvalley/level.snd_env",
+          "sha256": "b4c728da96a4761859a7ac6136270cd6164017740e4180df12fa74b7cf591e62"
+        },
+        {
+          "path": "gamedata/levels/l04u_labx18/level.snd_env",
+          "sha256": "222c4c6f8db901b68c32c91db0ee4c71da7d619d9456c4598605876b9138e0fb"
+        },
+        {
+          "path": "gamedata/levels/l05_bar/level.snd_env",
+          "sha256": "d04f265bf87f8c5e2134efe3fc00cf4d4053d6c7978311ee07fff2306312120f"
+        },
+        {
+          "path": "gamedata/levels/l08u_brainlab/level.snd_env",
+          "sha256": "edce101b068c1d3e63e975f4dc458ba72e178484a6f7f7c7fa58d97097296f3e"
+        },
+        {
+          "path": "gamedata/levels/l10_radar/level.snd_env",
+          "sha256": "1b9269be48cd02625c9e0dd82550c9368777760dde5688e1bb52228aa69812d2"
+        },
+        {
+          "path": "gamedata/levels/l10_red_forest/level.snd_env",
+          "sha256": "888ffb21476fa810dbe2dddebb611a159b0d3fe2934caf148dc96847f53c00a9"
+        },
+        {
+          "path": "gamedata/levels/l10u_bunker/level.snd_env",
+          "sha256": "ce53a87c7f34076856f8a24b39b8d4cd814831b120a44c040de2c310d33c7341"
+        },
+        {
+          "path": "gamedata/levels/l11_hospital/level.snd_env",
+          "sha256": "dcdfb5ce0ca828c951b5c086e99753be347eda3a3ecf1d643748809805e4e949"
+        },
+        {
+          "path": "gamedata/levels/l12u_control_monolith/level.snd_env",
+          "sha256": "711c15a6c856902c2829faee1b240598fbd18b9815be03c0967a7de3fd1f8f41"
+        },
+        {
+          "path": "gamedata/levels/l12u_sarcofag/level.snd_env",
+          "sha256": "c4d0e7d3928f150bc521fd3dae962d49488d0148d856003e2bf143102e04c1a3"
+        },
+        {
+          "path": "gamedata/levels/l13u_warlab/level.snd_env",
+          "sha256": "f428e1dd45008da29a990f7c8abc83f811cec997e023253b551a10ac0703b013"
+        },
+        {
+          "path": "gamedata/levels/labx8/level.snd_env",
+          "sha256": "e66259428998880ecc0722e1f07adfbe03389a5a9c7718587633523f40d10d7d"
+        },
+        {
+          "path": "gamedata/levels/pripyat/level.snd_env",
+          "sha256": "89b62ae6418cc80878e7870885e1b4806116d899d13aefe8f28e2240d74c866f"
+        },
+        {
+          "path": "gamedata/materials/material_pairs.ltx",
+          "sha256": "5fc55e6de021304e658b7de74f78934a75f4b88b6a90ed3a6e17ff4785f7a77a"
+        },
+        {
+          "path": "gamedata/materials/materials.ltx",
+          "sha256": "388c040eb1dfd176f344f04a6415c864c6b59ce97d705d0d834d9c5db781ff50"
+        },
+        {
+          "path": "gamedata/scripts/.vscode/launch.json",
+          "sha256": "3f116f88f4d865ce1e9a57e73078363b756a3d7b9bd4336e69b715b809af3957"
+        },
+        {
+          "path": "gamedata/scripts/.vscode/settings.json",
+          "sha256": "6584e608774587c401988444d072cc485ecf18287db4daf3ec775e11e3765584"
+        },
+        {
+          "path": "gamedata/scripts/LuaPanda.lua",
+          "sha256": "40d6a8fddc4fa9b51227182f73e67a585207c79060d1a591d432be06f5b92f1b"
+        },
+        {
+          "path": "gamedata/scripts/_g_patches.script",
+          "sha256": "4095fe564cca74a102026a6cc8203cc6bff4676d6ea3d9d98229dde8ba73c39b"
+        },
+        {
+          "path": "gamedata/scripts/_imgui_groups.script",
+          "sha256": "2aadc23a50ef1284c79ece6a21261ccbf34914c3361481b28588b03818072a0b"
+        },
+        {
+          "path": "gamedata/scripts/aaa_sound_object_patch.script",
+          "sha256": "fd9f8d17d9046afec317bda7d2a3eacda6a5e5cad653e6c07b97face5081e24f"
+        },
+        {
+          "path": "gamedata/scripts/aaaa_script_fixes_mp.script",
+          "sha256": "07c358ca0088747aadb63a3df392a9b5963e571ff641ac3b7faab46db53f3068"
+        },
+        {
+          "path": "gamedata/scripts/axr_beh_patches.script",
+          "sha256": "c009d1bb736ae552f4d1bcb18b43369092832aa6466d546d0535f3068cf04c9e"
+        },
+        {
+          "path": "gamedata/scripts/axr_main.script",
+          "sha256": "bc7bbbd12bc357297735d35a04fd7bfef28e91a694478984d63dcdf96d613826"
+        },
+        {
+          "path": "gamedata/scripts/bind_monster.script",
+          "sha256": "08f9a66e2715b1fa8e95d1c6209c75624e24f0778877a2fece126dc319bef4ad"
+        },
+        {
+          "path": "gamedata/scripts/callbacks_gameobject.script",
+          "sha256": "3f99c80b18c14d24291b1b022d887f0bb8a1d96e0e7d24954272e1b143076b7d"
+        },
+        {
+          "path": "gamedata/scripts/class_registrator_modded_exes.script",
+          "sha256": "db80b3cb28a8872eec0c3968be17e7bed6fd6cd00ecb357e55dd0ee2b243c9e9"
+        },
+        {
+          "path": "gamedata/scripts/dxml_core.script",
+          "sha256": "ad1d6ce2b360e8756735ad163de8d26a4545653d96d1f02777a8d6dddf46c038"
+        },
+        {
+          "path": "gamedata/scripts/dynamic_callbacks.lua",
+          "sha256": "8cf29f142221465cefe5b641373a1bc42e623c97458cd4c4af1517c431bb1b26"
+        },
+        {
+          "path": "gamedata/scripts/dynamic_items_by_level.script",
+          "sha256": "b2602bd300ab13a06970e4f5aa5f53df6abf682f2928f55e61c7bddd40c2b6e5"
+        },
+        {
+          "path": "gamedata/scripts/fakelens.script",
+          "sha256": "f359e29a8dd5955e40b512ccb4ce533a09046dfa07ce383e69e8f8f61cf65cc9"
+        },
+        {
+          "path": "gamedata/scripts/global.lua",
+          "sha256": "f760aecc3b3e52933622ee3e0351ea7c0534023704baaa307e1bef294374d32e"
+        },
+        {
+          "path": "gamedata/scripts/imgui_helper.script",
+          "sha256": "40d4946941aa938d90eb192b67f94d557364700aa5ad12eb222215d65a6aa188"
+        },
+        {
+          "path": "gamedata/scripts/imgui_lua_debug.script",
+          "sha256": "2d244efb64c0950414fa2600c46ccb00f948b78cdbaf38bb228336c7a090c43e"
+        },
+        {
+          "path": "gamedata/scripts/imgui_shader_bus.script",
+          "sha256": "43d0c70fa36c16b1c6b42c6b17c4b177006e4d8872c1e0c795228f7386f03c67"
+        },
+        {
+          "path": "gamedata/scripts/item_weapon.script",
+          "sha256": "50425934b81f491e040333df7c7c03744485e0dacf61c05d1a7f5a291149a8df"
+        },
+        {
+          "path": "gamedata/scripts/ltx_help_ex.script",
+          "sha256": "5f9d03b25de6cd3853a03d5d3e11ba50bb627b28104d5a68984bda3b65109fb1"
+        },
+        {
+          "path": "gamedata/scripts/lua_help_ex.script",
+          "sha256": "7c5caab25d7a65cfbb0d9d9f4e6283c20776d4ddf8d5985d0551c0ba1e62b139"
+        },
+        {
+          "path": "gamedata/scripts/lua_help_imgui.script",
+          "sha256": "6dd0aa0ab27e4308405de510542134358d0cf4d8c6010df0c6d0e66d1a15a463"
+        },
+        {
+          "path": "gamedata/scripts/modded_exes_migration.script",
+          "sha256": "6ca7d3c035908b4f90e56919e0fcb3139621d10fdb7c38b1c11abaf7bef2a2f1"
+        },
+        {
+          "path": "gamedata/scripts/modxml_fix_faction_spot_size.script",
+          "sha256": "866720de7a6163f51d7af1cd8c76f6bc8dfb5c3a2cfa2e10e9309362df96c9fa"
+        },
+        {
+          "path": "gamedata/scripts/modxml_inject_keybinds.script",
+          "sha256": "39770f508482a8dbb5f91fd760a66084bb86c795fbb309c769a2ba64beff1028"
+        },
+        {
+          "path": "gamedata/scripts/modxml_lua_fatal_window.script",
+          "sha256": "ec589570887efa526ba6f399a5e43eac62c552a9b4a60bdfeef2a0c059a5e674"
+        },
+        {
+          "path": "gamedata/scripts/modxml_portrait_cover.script",
+          "sha256": "e74e59b27f762f7b59aea0f37e704308ff9e0b1f391077fca24a7c48b1ae8354"
+        },
+        {
+          "path": "gamedata/scripts/modxml_test.script",
+          "sha256": "5d54d846fc77ea73c29d339cd09dc1852b861af157102cda84105a8080f5caab"
+        },
+        {
+          "path": "gamedata/scripts/options_builder.script",
+          "sha256": "89096f841ef6cff6acd8c71afe4e6478e97e7dea748e292a1bb13cb94b3f36dd"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes.script",
+          "sha256": "5781110de14e41c88ecc56cd8997403c368bd397c033ce3f7a2bfa7b57b57c6e"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_3d_ballistics.script",
+          "sha256": "7e89ac3d8c991ac5e5a4ace46922a869368f3a4c4c7b690a1f204f07c7c3e99b"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_3d_scopes.script",
+          "sha256": "2890b615089cc00e91704d545329fb8f856efc4e8b364fd970bac2a246eafd00"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_aim.script",
+          "sha256": "56a13460f8715843c186bcfb96da6b5f881a205946074ba8538458c886c0eee8"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_camera.script",
+          "sha256": "4a8b4a9b580be74b8a51062a1dfbc4c4d818155ef92e68a25bdafd72431938a5"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_control.script",
+          "sha256": "7fb20e3370dffe3b231eb60170d7d512badb8643d15a46e0def0b7dfa2d07561"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_crash_saves.script",
+          "sha256": "4215b3a3afea904d51c50b5d6cb4d4204a99b0111c0461a8ea1099e7c87fae15"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_crosshair.script",
+          "sha256": "9921c0840bf172188bb2c90008a1da3d6fe18f2ca4421e41bb5b137170be25df"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_debug.script",
+          "sha256": "88381cbab1c2e710575b9b7ae2513bc65a20a0bba70920149d29b21cd9a2185d"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_doppler.script",
+          "sha256": "031b99d4bffb50db16ec04aeffb3c9b1526dd64ab5aefdc042643b74f92188c9"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_errors.script",
+          "sha256": "b2a256c788bc00b1b2f2c576f4ca96d451d37982e5e4db730145519c68339578"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_gameplay.script",
+          "sha256": "e8a0cd70c0534bf546968c6208453a0b6507c031ce39da2ffa8fca0b5b35fa76"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_gameplay_general.script",
+          "sha256": "b35148f06ea95122fb262082fd3167b7a8b744fd5074f4073412952db1c829b3"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_graphics.script",
+          "sha256": "157d403048d8381ffd9bcb3daf2e9ffcb0b3f4f0b77b725e92f1ecf53f88cf30"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_hdr10.script",
+          "sha256": "363c4776a84892a71aea7f42f48d705081f683384c35a76c08233793bde9dbdb"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_keyboard.script",
+          "sha256": "5c6a381a8f8ab2036824d6bc26eb312659de4b66f43e3ad94ada4b59992745fa"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_logging.script",
+          "sha256": "570bc1135753363ac6a3c630e80c20d8947e35d7f04d501784a3944e0cb12c55"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_monsters.script",
+          "sha256": "bbf62594f406251ab0c8795451cd2d69537c6cf1b278c918fae3f4e353e57603"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_mouse.script",
+          "sha256": "13c404effb5c9876adce6c5193153fc316126c928be9b44cb0b5fe01c6e1170a"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_optimizations.script",
+          "sha256": "431256c30a888fe0738fccd3ef31bc6286bfffdf4a3e628cafd6cf68923b942a"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_particles.script",
+          "sha256": "18370b54b4f6837c180516751cc6eb60608406b4a47c062b3ee09d54d10b454f"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_pda.script",
+          "sha256": "aa465d61481bec88430ce3167202ae12c2be0915d6d40ef893452428bd221a93"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_saves.script",
+          "sha256": "50ef46aa67c2bd644000d368be44707669bc627840a9d8b4b3aa876dff8150dd"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_sound.script",
+          "sha256": "045a478fa1676e7734b6937447008241431009d26c061e29bae12e581e402030"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_sound_delay.script",
+          "sha256": "cacb24292b2683a2ebb92a4df1f1177afcf8eeda5459b3edaedd54fdfee60caf"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_sound_distance.script",
+          "sha256": "48b746775041addab7cd96f0d34721794ff1115c41db6b65fa8f4613109f763d"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_stalkers.script",
+          "sha256": "2cdaa46c3c3147a3945eef3600e86649c2bd36ff15f98a62bf61feabd30119d7"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_ui_hud.script",
+          "sha256": "0a91dd52224b4d65820c30d09d0d5b931f3407cea97786bbea04fed58fdb3514"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_visual.script",
+          "sha256": "c423ae080e2ff0ddb0424e65f2d1ac5006709fd6d7c12b968e916156c6c0d7b0"
+        },
+        {
+          "path": "gamedata/scripts/options_modded_exes_weapons.script",
+          "sha256": "587fac863b27e67d4ee6ebf97f6ec5885510d3dfe9c14d9cf3264ca32ebd2c00"
+        },
+        {
+          "path": "gamedata/scripts/pda_dynamic_tabs.script",
+          "sha256": "22fa12638c0e612ced86535bbdb2a8b94761e9ff33874d20397aec0e52d2d52d"
+        },
+        {
+          "path": "gamedata/scripts/scopeRadii.script",
+          "sha256": "dae0ff5a4da32ae3a56eb20819d64e0e7ee941987cd9e3df78ec664e6e5264ec"
+        },
+        {
+          "path": "gamedata/scripts/se_projector.script",
+          "sha256": "047090d0e68bfd41df36e4c7ed079ef96f7aaa3eaf9ae6929106e02d06556e00"
+        },
+        {
+          "path": "gamedata/scripts/se_stmgun.script",
+          "sha256": "5c5c38b6b92e718e9463a2b874b171bf1740bac18cb52343407600d588cf8195"
+        },
+        {
+          "path": "gamedata/scripts/sim_squad_scripted.script",
+          "sha256": "e9b637ec358a162bc5a73631613cb2339c948464e17f176dd4b47167c59a2603"
+        },
+        {
+          "path": "gamedata/scripts/slaxml.script",
+          "sha256": "506b9163b257ed691fe3bacd86c38aa8a490eb488cacc0f07e9432c9f095096a"
+        },
+        {
+          "path": "gamedata/scripts/socket.lua",
+          "sha256": "95cd324ffcc020b1ac446df32f478a4e37c7f5dc1abaf4fa6d3604763853ad01"
+        },
+        {
+          "path": "gamedata/scripts/true_first_person_death.script",
+          "sha256": "52c4f843c72e35d9deec8ac787f8972e654a151e89e970df2fe1b72dca1d931c"
+        },
+        {
+          "path": "gamedata/scripts/ui_options_modded_exes.script",
+          "sha256": "9445c633aad1b41eff0a572216c7acd763868d9634de5795fb735e9bcd5f2dcf"
+        },
+        {
+          "path": "gamedata/scripts/xr_weapon_jam.script",
+          "sha256": "228719a3c988c2164d9044dc828c2f8a880f7f90ed57c707e225276a84d8c93d"
+        },
+        {
+          "path": "gamedata/scripts/zz_ui_debug_inputs.script",
+          "sha256": "1ad2d9866f7d6ae2fe41b74c2e878fec4b95d91860672d167952ecadc02aec3e"
+        },
+        {
+          "path": "gamedata/shaders/r2/combine_2_naa.ps",
+          "sha256": "b138824af4f56682e6b08aa1aea3b8849cbdd9e1884032af04a1eee9b9516c5d"
+        },
+        {
+          "path": "gamedata/shaders/r2/fakescope.ps",
+          "sha256": "48e6bd45e1e4bd8ae5557fdaca4cf6273a358f1f180e20da0946e943f4681fcf"
+        },
+        {
+          "path": "gamedata/shaders/r2/heatvision.ps",
+          "sha256": "42d4cf8b80d7cb9cb05dc963c58594e9c195ccc089607a6c23d9f3d84fda52e5"
+        },
+        {
+          "path": "gamedata/shaders/r3/combine_2_naa.ps",
+          "sha256": "843a3d672363f8326af4c084c29ec94918afc2c7e3060def84a2847e762ca99a"
+        },
+        {
+          "path": "gamedata/shaders/r3/common_functions.h",
+          "sha256": "4559f860afd82d9d450e83ca9d1c61b5668e9e8f38dc85bddbe63c6f4e6e5d7f"
+        },
+        {
+          "path": "gamedata/shaders/r3/deffer_tree_branch_bump-hq.vs",
+          "sha256": "640402bc3d6d3a60e12a75cc937c11073d08fc3677dee5a5a1a0161d6def4202"
+        },
+        {
+          "path": "gamedata/shaders/r3/deffer_tree_branch_bump_d-hq.vs",
+          "sha256": "7ab195844d452100c60fdce8758371ae24fd30134bdb13a24e7584f75046d2f5"
+        },
+        {
+          "path": "gamedata/shaders/r3/deffer_tree_branch_flat.vs",
+          "sha256": "8e9b13ed35c6ccdcf2764eb2cf34f3e475467e19f1559b4727291f26fde94e4c"
+        },
+        {
+          "path": "gamedata/shaders/r3/editor.vs",
+          "sha256": "4f66ace8ae280e742d93cabc9929eed7da90daf0c7b8b4651bfde07b57637ec9"
+        },
+        {
+          "path": "gamedata/shaders/r3/effects_sun.ps",
+          "sha256": "b0e41df995bedadfd71642eb7ad42650aebebfe696c6b509aa37d13b95c312a1"
+        },
+        {
+          "path": "gamedata/shaders/r3/effects_sun.s",
+          "sha256": "141c54ce89458e7d3b78a81203b124af1ea831acb381b2a3aead4fb486d36d3a"
+        },
+        {
+          "path": "gamedata/shaders/r3/fakescope.ps",
+          "sha256": "4a2284277171f82364d724c440b29455c5a19b11f9b8e56f44fc1e9908666985"
+        },
+        {
+          "path": "gamedata/shaders/r3/hdr10.h",
+          "sha256": "a62edc50e55173d496939d0a0d520948186a7f0e97003d9e860dab57d55c2faa"
+        },
+        {
+          "path": "gamedata/shaders/r3/hdr10_bloom.h",
+          "sha256": "3da3f5c2325fb769afc9d707237bdf009beee7c0b1dc9b8383ff9e8bcf38a367"
+        },
+        {
+          "path": "gamedata/shaders/r3/hdr10_bloom_blur.ps",
+          "sha256": "7be384a9fde6c0aff67618f66acb6cb31811ca6007522dcde61dd32f67203621"
+        },
+        {
+          "path": "gamedata/shaders/r3/hdr10_bloom_downsample.ps",
+          "sha256": "d848b56486458c62071dd6863aa0d684aedc1509644c94d4de737c20598dbec1"
+        },
+        {
+          "path": "gamedata/shaders/r3/hdr10_bloom_upsample.ps",
+          "sha256": "76df30def77ec8bfb3355ed7fc45515f2771205eeda26ff57c240e620d895f23"
+        },
+        {
+          "path": "gamedata/shaders/r3/hdr10_lens_flare.h",
+          "sha256": "a646193e8d4b3ac2bd5518325f7d190ab11169770345b2eb8b96684c9b914fc2"
+        },
+        {
+          "path": "gamedata/shaders/r3/hdr10_lens_flare_blur.ps",
+          "sha256": "b21897a5098d9cd36b0551c1857d3f7d223c6a0565391c8dbd7d9a4785a6cfbf"
+        },
+        {
+          "path": "gamedata/shaders/r3/hdr10_lens_flare_downsample.ps",
+          "sha256": "d4acad4485155b9bf5363ec51b767809488d81376c5ab6b167ba9bdd496f4004"
+        },
+        {
+          "path": "gamedata/shaders/r3/hdr10_lens_flare_fgen.ps",
+          "sha256": "160f1f1fb9bd3bcbc7758f19d2f5a4868963c1e8286e413e11dbcde3bfbe7429"
+        },
+        {
+          "path": "gamedata/shaders/r3/hdr10_lens_flare_upsample.ps",
+          "sha256": "d221b2f7fc30c211f5ac99de4097c8814a8cc6f9b9cc3ff8fd454ba162ae6910"
+        },
+        {
+          "path": "gamedata/shaders/r3/hud_cursor.s",
+          "sha256": "ca1daaebca354cb0dc441e33c9b72209093d1f394efe93015219af64282f7d91"
+        },
+        {
+          "path": "gamedata/shaders/r3/hud_default.ps",
+          "sha256": "3d9c0f727d5edc9f18fa9659a6e3f05f987296cb76836a2f7171e14540f2c88b"
+        },
+        {
+          "path": "gamedata/shaders/r3/hud_default.s",
+          "sha256": "ca1daaebca354cb0dc441e33c9b72209093d1f394efe93015219af64282f7d91"
+        },
+        {
+          "path": "gamedata/shaders/r3/hud_font.ps",
+          "sha256": "d94bdd7b8418899530f316d0c1d59fc7a35fc0126ca24e1157ca19e7f0d98538"
+        },
+        {
+          "path": "gamedata/shaders/r3/models_selflight_det.s",
+          "sha256": "1ccbe3065097f77ad491f35b357c765f2a562f5057c5a0fa62aea0a161954ad6"
+        },
+        {
+          "path": "gamedata/shaders/r3/night_vision.h",
+          "sha256": "0b86f8ebcaf073fd1915b5ce4bec7e42248ee0290ceb2d041fc7dd3f183541d5"
+        },
+        {
+          "path": "gamedata/shaders/r3/postprocess.ps",
+          "sha256": "7f5215f976d81eca6decd418a8cb3ccdc360cc4c93cdcd59ac4951327b8aaba1"
+        },
+        {
+          "path": "gamedata/shaders/r3/postprocess_cm.ps",
+          "sha256": "2a45adb36af478665115bc5b64f860bc6413839ea120398e4f13dc7375398119"
+        },
+        {
+          "path": "gamedata/shaders/r3/simple_color.ps",
+          "sha256": "1d2601bf5c653620cba8ed8ef9b59157b40cdd615ed3ceae7b546ec0d4e0b88a"
+        },
+        {
+          "path": "gamedata/shaders/r3/yuv2rgb.ps",
+          "sha256": "9690a5e5af1ac0d5b8ec921e17860f368047c6bd2ba3bfa9c9406cb5d412eea5"
+        },
+        {
+          "path": "gamedata/textures/ui/cursor_cross.dds",
+          "sha256": "8404c0e2358f48b09fa9b8792a46daa66041a6a69f44aff20e7b9b521b3f3571"
+        },
+        {
+          "path": "gamedata/textures/ui/cursor_dot.dds",
+          "sha256": "f119929aee50cf464ed5651a89c3895ec8cba534bf426752de1c5e7d1922d16c"
+        },
+        {
+          "path": "gamedata/textures/ui/cursor_plus.dds",
+          "sha256": "49909933fda76057dd6567f4fad52419d2d8f52526153232953647a31675cf97"
+        }
+      ]
+    },
+    "BETA150": {
+      "file_count": 31,
+      "script_lua_count": 17,
+      "requested_names_present": [
+        "ui_options.script",
+        "includes.ltx"
+      ],
+      "requested_names_absent": [
+        "_g.script",
+        "utils_obj.script",
+        "db.script",
+        "xr_motivator.script",
+        "bind_stalker_ext.script",
+        "item_knife.script",
+        "smart_terrain.script",
+        "sim_board.script",
+        "simulation_objects.script",
+        "xr_effects.script",
+        "xr_conditions.script",
+        "sr_teleport.script",
+        "bind_restrictor.script",
+        "map_spots.xml",
+        "dynamic_item_spawn.ltx",
+        "game_setup.script",
+        "smart_terrain_masks.ltx"
+      ],
+      "files": [
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/misc/offline_combat_simulator.ltx",
+          "sha256": "82e685aa0e64ebb21b193ffa269b69e47251417dbefc7ccf0439f39a4a18b999"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/misc/simulation.ltx",
+          "sha256": "237ae9e3207fe01ab6c90693c65497f57d9c3e1813304adf0a6da31b46ddfc21"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/misc/simulation_objects_props.ltx",
+          "sha256": "4d908bc02dfad51d46479da095f689ca8a94eed6d2fa354512b46993dd073c79"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/misc/task/tm_warfare.ltx",
+          "sha256": "80c45a8d7ddbc29c4a3e298bfb89bcfc937b7774b4bc0b480b28bc5515a993bf"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/presets/includes.ltx",
+          "sha256": "2963a56a4324ab86ab28b1d9c2d0f79ce514d602d6e5127b223ae991aacb9548"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/presets/warfare_alifeoverhaul.ltx",
+          "sha256": "c31940a1a95cfd98e84d98852d731992a3765400e0b82a16af9074b98a2b360a"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/presets/warfare_alifeoverhaul_faster.ltx",
+          "sha256": "cb18095063114d50f91e5e11f374402414dda59d530e06bb3285b415b58d3262"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/presets/warfare_alifeoverhaul_rapidtest.ltx",
+          "sha256": "2140f2e18da0b288945d282f3450287664dc3b09d758153c2c7b839c5c2121a2"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/presets/warfare_alifeoverhaul_veryfast.ltx",
+          "sha256": "c4d3b22b66763c6febe24755c00a8c39d1eb621cb7fc17fb5ff33b8b686bf8f7"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/text/eng/st_warfare.xml",
+          "sha256": "79720a16664fb89431cb3ccd2cfe0a9f1ea8ae9f5be31279920d113799845525"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/text/eng/ui_st_options.xml",
+          "sha256": "a0df073623a8519a9a1ca4877ade56fc34eafaa988649cc10f74175b81beeacc"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/text/eng/ui_st_warfare.xml",
+          "sha256": "681b3b75c707b372976ebd3bd171cec165a46e7840657f493d5b5f74a60f2dc7"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/text/rus/st_warfare.xml",
+          "sha256": "c39c9fa6dc4e308166f84c43a4759df6dd27f572ec9859bde3668b27b5172298"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/configs/text/rus/ui_st_options.xml",
+          "sha256": "d8b116fbc91b100d8280cc95c20ef0697c10c7dc9306133cfdb07eac6ce0a8f3"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/dialogs.script",
+          "sha256": "78995862cbdb0baec771d2a1fcc44ef26426ddf20c2fc1820a818de9544a4415"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/faction_expansions.script",
+          "sha256": "d49f8dde6f21a1539a95d8034ab51eb411c634c3ae0e52f2b73d5f38d41c7acc"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/game_relations.script",
+          "sha256": "7071d37b166fec79be9bdeaa5b9a11e3de305db1cc61c3379678cd81875bd6bf"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/sim_offline_combat.script",
+          "sha256": "d896f8e8c2195080987330ac91c3c9aab1f884e60019063216f5946395140945"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/sim_squad_scripted.script",
+          "sha256": "2f3c45745aa8d8aa1372f5784f904f0cb13e00cab06f1f0de428ea3f244b70ee"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/sim_squad_warfare.script",
+          "sha256": "dfa5b8df7569f6d9a02137f9c14247dcbb3d580df563a74f11b11b0747aaac45"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/smart_terrain_warfare.script",
+          "sha256": "1923142cf03c97510a1e6ff42aae20377e3e5d82dd36cf6cd42d4ee4dbe280ff"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/tasks_assault.script",
+          "sha256": "19d59a8cf22aa9963da1d08e938a1f31729fcd6c3a7fb70534e8952bd3b97af7"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/tasks_smart_control.script",
+          "sha256": "ae080fc7cf1e21c75ab17b397671f6c373c5cfcce30827a0a39c8719ee606fed"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/ui_mm_faction_select.script",
+          "sha256": "eb8a93948ebbac9e4400f467b42979c55fc0d6b8dd0986b1cc4eccc332c6645c"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/ui_options.script",
+          "sha256": "9983a251cb60ef0938709183334693a06a8bef36a03fc9fbbd88c4926bb86faf"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/ui_pda_warfare_tab.script",
+          "sha256": "e41de7d0cfbcd549d67d5f80decd12a1c15bd898e87ddf45baa24e648366ca62"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/warfare.script",
+          "sha256": "159bf5daa6938ff6d20790405a7657dd5a92ef8507404d7f54c5a16bc939905b"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/warfare_factions.script",
+          "sha256": "68103c9fb18c5f12fd6dfaf70a652466635c1369409217bdb31f265532c604ba"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/warfare_monkeypatches.script",
+          "sha256": "252e40521f7712bc298761bb37efdf9e59d79b26c588cf56ea3c72763246af5d"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/warfare_options.script",
+          "sha256": "28177d7195177a1fc528059bed65c80bf04960a0418460ae1ad5e1d6c2bf1615"
+        },
+        {
+          "path": "Warfare Alife Overhaul - Main/gamedata/scripts/xr_logic.script",
+          "sha256": "4ba4638de674a5266ad2063630d3db8fc8de47e7bdfce428754d442b9ad72543"
+        }
+      ]
+    },
+    "ZIP142": {
+      "file_count": 29,
+      "script_lua_count": 17,
+      "requested_names_present": [
+        "ui_options.script",
+        "includes.ltx"
+      ],
+      "requested_names_absent": [
+        "_g.script",
+        "utils_obj.script",
+        "db.script",
+        "xr_motivator.script",
+        "bind_stalker_ext.script",
+        "item_knife.script",
+        "smart_terrain.script",
+        "sim_board.script",
+        "simulation_objects.script",
+        "xr_effects.script",
+        "xr_conditions.script",
+        "sr_teleport.script",
+        "bind_restrictor.script",
+        "map_spots.xml",
+        "dynamic_item_spawn.ltx",
+        "game_setup.script",
+        "smart_terrain_masks.ltx"
+      ],
+      "files": [
+        {
+          "path": "gamedata/configs/misc/offline_combat_simulator.ltx",
+          "sha256": "98f7e00c6c178c7c717dedc18cd6411864b728e29cd6efe4d8749c94208ae4a0"
+        },
+        {
+          "path": "gamedata/configs/misc/simulation_objects_props.ltx",
+          "sha256": "d6811717dd3585abcd4c094186d8c54112bf26328d11c0c6db391564585743cb"
+        },
+        {
+          "path": "gamedata/configs/misc/task/tm_warfare.ltx",
+          "sha256": "80c45a8d7ddbc29c4a3e298bfb89bcfc937b7774b4bc0b480b28bc5515a993bf"
+        },
+        {
+          "path": "gamedata/configs/presets/includes.ltx",
+          "sha256": "2963a56a4324ab86ab28b1d9c2d0f79ce514d602d6e5127b223ae991aacb9548"
+        },
+        {
+          "path": "gamedata/configs/presets/warfare_alifeoverhaul.ltx",
+          "sha256": "cceb69edbd2b0a5cd75d35fc4379a2f6f1d4ef149602659aa107439fd4a11e1e"
+        },
+        {
+          "path": "gamedata/configs/presets/warfare_alifeoverhaul_faster.ltx",
+          "sha256": "dff57e36231c19cac773e0a165666c96f4fd7327960d3c307739747f414fbe79"
+        },
+        {
+          "path": "gamedata/configs/presets/warfare_alifeoverhaul_rapidtest.ltx",
+          "sha256": "95883c0e04ed6e49f580a9dabbd3dd997734b96d819aed38db7d750f60e166fe"
+        },
+        {
+          "path": "gamedata/configs/presets/warfare_alifeoverhaul_veryfast.ltx",
+          "sha256": "b3ab5686de1ec7781cc32b8c5c66d659e0dbe0a0a3a1459f7d306a87c20166b6"
+        },
+        {
+          "path": "gamedata/configs/text/eng/st_warfare.xml",
+          "sha256": "0e5c7c452b02dbae876a63d5b75960de80b3c7974ffaf88005fa6ed096c1a589"
+        },
+        {
+          "path": "gamedata/configs/text/eng/ui_st_options.xml",
+          "sha256": "a0df073623a8519a9a1ca4877ade56fc34eafaa988649cc10f74175b81beeacc"
+        },
+        {
+          "path": "gamedata/configs/text/rus/st_warfare.xml",
+          "sha256": "c39c9fa6dc4e308166f84c43a4759df6dd27f572ec9859bde3668b27b5172298"
+        },
+        {
+          "path": "gamedata/configs/text/rus/ui_st_options.xml",
+          "sha256": "d8b116fbc91b100d8280cc95c20ef0697c10c7dc9306133cfdb07eac6ce0a8f3"
+        },
+        {
+          "path": "gamedata/scripts/dialogs.script",
+          "sha256": "78995862cbdb0baec771d2a1fcc44ef26426ddf20c2fc1820a818de9544a4415"
+        },
+        {
+          "path": "gamedata/scripts/faction_expansions.script",
+          "sha256": "c07e46f8fc9f7306a72c5ac3c9bffa46b9cea8be9f862abef5e586d523d67b93"
+        },
+        {
+          "path": "gamedata/scripts/game_relations.script",
+          "sha256": "7071d37b166fec79be9bdeaa5b9a11e3de305db1cc61c3379678cd81875bd6bf"
+        },
+        {
+          "path": "gamedata/scripts/sim_offline_combat.script",
+          "sha256": "d896f8e8c2195080987330ac91c3c9aab1f884e60019063216f5946395140945"
+        },
+        {
+          "path": "gamedata/scripts/sim_squad_scripted.script",
+          "sha256": "2f3c45745aa8d8aa1372f5784f904f0cb13e00cab06f1f0de428ea3f244b70ee"
+        },
+        {
+          "path": "gamedata/scripts/sim_squad_warfare.script",
+          "sha256": "dfa5b8df7569f6d9a02137f9c14247dcbb3d580df563a74f11b11b0747aaac45"
+        },
+        {
+          "path": "gamedata/scripts/smart_terrain_warfare.script",
+          "sha256": "787b6e54e07ca8ff5d4dc8f4c20c1289abf31e4a7f5fb349ace38d8aaf554490"
+        },
+        {
+          "path": "gamedata/scripts/tasks_assault.script",
+          "sha256": "19d59a8cf22aa9963da1d08e938a1f31729fcd6c3a7fb70534e8952bd3b97af7"
+        },
+        {
+          "path": "gamedata/scripts/tasks_smart_control.script",
+          "sha256": "ae080fc7cf1e21c75ab17b397671f6c373c5cfcce30827a0a39c8719ee606fed"
+        },
+        {
+          "path": "gamedata/scripts/ui_mm_faction_select.script",
+          "sha256": "eb8a93948ebbac9e4400f467b42979c55fc0d6b8dd0986b1cc4eccc332c6645c"
+        },
+        {
+          "path": "gamedata/scripts/ui_options.script",
+          "sha256": "9983a251cb60ef0938709183334693a06a8bef36a03fc9fbbd88c4926bb86faf"
+        },
+        {
+          "path": "gamedata/scripts/ui_pda_warfare_tab.script",
+          "sha256": "e41de7d0cfbcd549d67d5f80decd12a1c15bd898e87ddf45baa24e648366ca62"
+        },
+        {
+          "path": "gamedata/scripts/warfare.script",
+          "sha256": "de4dc29a15f0e9e81060e5aac5a4ce8a821695a478e243e2c993f33c70cb346e"
+        },
+        {
+          "path": "gamedata/scripts/warfare_factions.script",
+          "sha256": "68103c9fb18c5f12fd6dfaf70a652466635c1369409217bdb31f265532c604ba"
+        },
+        {
+          "path": "gamedata/scripts/warfare_monkeypatches.script",
+          "sha256": "252e40521f7712bc298761bb37efdf9e59d79b26c588cf56ea3c72763246af5d"
+        },
+        {
+          "path": "gamedata/scripts/warfare_options.script",
+          "sha256": "28177d7195177a1fc528059bed65c80bf04960a0418460ae1ad5e1d6c2bf1615"
+        },
+        {
+          "path": "gamedata/scripts/xr_logic.script",
+          "sha256": "99f6ab41333b0381cc4f63be2b4bebad1358f7144e7c2a29b2f08e70060c9a38"
+        }
+      ]
+    }
+  }
+}

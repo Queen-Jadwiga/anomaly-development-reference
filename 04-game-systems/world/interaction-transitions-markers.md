@@ -1,6 +1,6 @@
 # Use touch actor transitions and map-marker lifecycle
 
-> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-03
 - Subsystem: world interaction/navigation
@@ -71,3 +71,7 @@ The map manager wrapper selects holder registry 1 from A-Life, or local storage 
 The registry container persists map locations; selected A-Life load restores objects/registrations, then registries, then replayed on_register callbacks. Loaded/unloaded notifications reset manager registry pointers and pending removal notices. Therefore restoration is not a fresh AddMapLocation callback sequence, and current source/custom wrappers can still recreate or alter markers. Full effective restore/script ordering remains WORLD-04/persistence work. M06/M14/M15: `alife_registry_container.cpp:15–40`, `alife_storage_manager.cpp:82–94,151–163`.
 
 WORLD-03 selected use/touch, actor transition and ordinary-marker lifecycle pass is complete within scope. Effective installed integration and runtime remain partial/untested. Next WORLD-04 supplied consumers, cross-system consolidation and bounded audit. No engine/gameplay code or third-party assets changed. [Completion status](source-completion-status.md), [verification](../../08-research/verification-2026-10-12-v0.1.72.md).
+
+## Current navigation after WORLD-04
+
+The original research scope and findings above are retained. [Supplied consumers](supplied-consumers.md), [central guide](development-reference.md), [completion status](source-completion-status.md) and [v0.1.73 bounded audit](../../08-research/verification-2026-10-12-v0.1.73.md) record the completed available-source pass and remaining effective/runtime requirements.

@@ -1,6 +1,6 @@
 # ALIFE-11 — Native configuration and control contracts
 
-> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ALIFE-11
 - Subsystem: A-Life

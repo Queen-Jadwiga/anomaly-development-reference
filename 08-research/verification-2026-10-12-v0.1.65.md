@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.65
 
-> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.73**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.65, based on main f45d4d00454bece799ae3bcde0bc3d417a4d2f05
 - Scope: GAME-03 selected death/condition reconstruction
