@@ -1,6 +1,6 @@
 # Module and state ownership contracts
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ARCH-02-OWNERSHIP
 - Subsystem: practical mod architecture
@@ -96,3 +96,7 @@ For mutable notifications, document who may mutate arguments and what later list
 ## Completion boundary
 
 ARCH-02 ownership synthesis closes within this selected scope. No new source trace was needed to invent a missing interface: effective manager/global/binder/startup/winner edges remain explicitly open. The [compatibility companion](compatibility-package-contracts.md) completes the dependency/package/upgrade side. DEBUG-01 next traces selected diagnostics; ARCH-03 later qualifies patterns/tests and audits the combined foundation. Runtime remains deferred. [Roadmap](../ROADMAP.md), [verification](../08-research/verification-2026-10-12-v0.1.79.md).
+
+## Subsequent practical foundation consolidation
+
+ARCH-03 [central guide](development-reference.md), [qualified patterns](../07-code-library/qualified-patterns.md), [test guidance](test-guidance.md) and [bounded audit](../08-research/verification-2026-10-12-v0.1.81.md) now complete the selected practical foundation. The original ARCH-02 allocation/limits above retain their research revision. Effective integration partial and runtime deferred; next separate whole-ADR audit.

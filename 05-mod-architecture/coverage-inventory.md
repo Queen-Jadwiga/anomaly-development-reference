@@ -1,6 +1,6 @@
 # Practical architecture/debugging coverage inventory
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ARCH-01
 - Subsystem: practical architecture/debugging (cross-system foundation)
@@ -65,3 +65,7 @@ Cross-system architecture/debugging/example categories retain their existing 05/
 ## DEBUG-01 disposition — 2026-10-12
 
 [Selected diagnostic routes](../06-debugging/diagnostic-routes.md) and [triage](../06-debugging/triage.md) now close the bounded DEBUG-01 allocation: 41 source rows/67 ranges/21 files and six documentation pins. The original inventory/plan remains preserved; effective installed aliases/build/profile and runtime stay open. Next ARCH-03 patterns/test guidance and practical consolidation/audit. [Verification](../08-research/verification-2026-10-12-v0.1.80.md).
+
+## ARCH-03 practical foundation closure — 2026-10-12
+
+[Central practical reference](development-reference.md), [qualified patterns](../07-code-library/qualified-patterns.md) and [test guidance](test-guidance.md) now close the selected ARCH-01–03/DEBUG-01 foundation allocation. The dated inventory/plan above and original pins remain preserved. The [bounded audit](../08-research/verification-2026-10-12-v0.1.81.md) covers selected references/diagnostic source and qualifications; effective integration stays partial and runtime deferred. Next separate whole-ADR consolidation/provenance/navigation/consistency audit, not performed by this closure.

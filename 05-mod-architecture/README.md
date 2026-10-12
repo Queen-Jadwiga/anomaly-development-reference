@@ -1,11 +1,11 @@
 # Mod architecture and GAMMA compatibility
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
-Start with [module/state ownership contracts](module-state-contracts.md) and [compatibility/dependency/package contracts](compatibility-package-contracts.md). **ARCH-02 is complete within selected synthesis scope**; effective integration and the remaining practical foundation are partial. Runtime verification remains deferred.
+Start with the [practical architecture/debugging development reference](development-reference.md). **ARCH-01–03 and DEBUG-01 are complete within selected foundation scope**; effective installed integration remains partial and runtime verification deferred.
 
-- [ARCH-02 investigation](../08-research/investigations/2026-10-12-ARCH-02-module-state-compatibility.md), [26 pinned documentation boundaries](../evidence/architecture/README.md), [verification](../08-research/verification-2026-10-12-v0.1.79.md).
-- [ARCH-01 coverage inventory](coverage-inventory.md) preserves the original gaps and allocation. Existing source guides remain authoritative: [configuration/script integration](../04-game-systems/configuration/development-reference.md), [UI lifetime](../03-ui-pda/development-reference.md), [A-Life identity](../04-game-systems/alife/development-reference.md), [persistence](../04-game-systems/persistence/development-reference.md) and [effective-profile provenance](../08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md).
-- [Debugging entry](../06-debugging/README.md), [example qualification](../07-code-library/README.md), [source-tool tests](../tests/README.md).
+- [Module/state ownership and interfaces](module-state-contracts.md), [compatibility/dependency/package contracts](compatibility-package-contracts.md).
+- [Diagnostic routes and triage](../06-debugging/README.md), [qualified patterns](../07-code-library/qualified-patterns.md), [test guidance](test-guidance.md).
+- [Original coverage inventory](coverage-inventory.md), [ARCH-03 investigation](../08-research/investigations/2026-10-12-ARCH-03-patterns-consolidation-audit.md), [evidence/audit](../evidence/architecture/README.md), [verification](../08-research/verification-2026-10-12-v0.1.81.md).
 
-[DEBUG-01 selected diagnostic routes/triage](../06-debugging/README.md) are now complete within source scope. Next ARCH-03 adds qualified patterns/test guidance and consolidates/audits. Proposed mod contracts are design guidance, not an implemented framework or installed compatibility result. No tested drop-in architecture is certified. [Roadmap](../ROADMAP.md).
+Canonical subsystem guides remain authoritative for their source/API behavior and missing effective edges. The four protocols are proposed non-runnable designs; two linked UI examples are call sketches. No drop-in framework or installed compatibility is certified. Next is the separate cross-system final ADR audit, not performed here. [Roadmap](../ROADMAP.md).

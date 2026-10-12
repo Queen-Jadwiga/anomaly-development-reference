@@ -1,6 +1,6 @@
 # Compatibility, dependencies and package contracts
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ARCH-02-COMPATIBILITY
 - Subsystem: practical mod architecture
@@ -82,3 +82,5 @@ For upgrade, inventory removed/renamed files as well as added ones: stale differ
 | Safe upgrade/uninstall/retry | Actual schema/lifecycle/side-effect path plus appropriately scoped verification | No general recipe certified |
 
 Complete-within-scope means ARCH-02's selected synthesis is done. It does not close every effective dependency or promote external UI/clock observations to independent ADR verification. Logging/assertion/stack/error routes remain DEBUG-01; qualified examples and test guidance remain ARCH-03. No CtZ gameplay changes or universal load-order/save-repair guidance. [Investigation](../08-research/investigations/2026-10-12-ARCH-02-module-state-compatibility.md), [verification](../08-research/verification-2026-10-12-v0.1.79.md), [roadmap](../ROADMAP.md).
+
+Current practical completion: ARCH-03 [central guide](development-reference.md), [patterns](../07-code-library/qualified-patterns.md), [test guidance](test-guidance.md) and [bounded audit](../08-research/verification-2026-10-12-v0.1.81.md) complete the selected foundation. The ARCH-02 research allocation above remains dated; effective installed compatibility and runtime are not certified. Next separate whole-ADR audit.

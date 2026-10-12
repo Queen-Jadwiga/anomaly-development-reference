@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.81 — 2026-10-12 — Qualified patterns and practical foundation audit
+
+- ARCH-03 adds four proposed non-runnable protocols for subscription identity, wrapper installation/restoration, staged restoration/request reconciliation and bounded probes. Retain dependency/precondition/ownership/failure/reentry/cleanup/persistence limits and two existing UI sketch qualifications.
+- Add test guidance separating seven repository/three binding-pattern tests from proposed model fixtures and deferred engine/profile tests; consolidate the practical foundation in a central guide. No runnable mod/fixture or new native export introduced.
+- Pin 16 reference rows at v0.1.80; bounded audit rechecks 54 earlier reference rows and 41 diagnostic source rows/67 ranges/21 files, with original scopes retained. ARCH-01–03/DEBUG-01 selected foundation complete; effective integration partial and runtime deferred. Next separate whole-ADR audit, not performed here. No CtZ gameplay or third-party source/assets changes. [Verification](08-research/verification-2026-10-12-v0.1.81.md).
 
 ## v0.1.80 — 2026-10-12 — Diagnostic routes and triage
 

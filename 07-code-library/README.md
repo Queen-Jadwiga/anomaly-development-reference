@@ -1,11 +1,11 @@
-# Reusable code library
+# Qualified patterns and example policy
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
-Only promote code after specifying dependency/version and test status. Early examples should be called **experimental**, not drop-in verified.
+Start with [qualified mod patterns](qualified-patterns.md): four experimental, unimplemented/non-runnable protocols for subscriptions, wrappers, restoration/reconciliation and bounded probes. Each records dependencies, preconditions, ownership, failure/reentry, persistence, cleanup and proposed check limits.
 
-[ARCH-01 inventory](../05-mod-architecture/coverage-inventory.md) identifies existing coverage and gaps. Current [minimal UI patterns](../03-ui-pda/examples/minimal-static-ui-patterns.md) are two non-runnable call sketches assuming initialized owned widgets. ARCH-03 will consolidate selected qualified patterns/test guidance after architecture and diagnostic contracts; no new runtime-tested example is introduced by the inventory. [Roadmap](../ROADMAP.md).
+The existing [two UI call sketches](../03-ui-pda/examples/minimal-static-ui-patterns.md) remain non-runnable and untested, with initialized-object/lifetime qualification. No standalone mod or new runtime-tested code is introduced.
 
-[ARCH-02 interface/ownership contracts](../05-mod-architecture/module-state-contracts.md) and [package support fields](../05-mod-architecture/compatibility-package-contracts.md) provide design review guidance. They introduce no runnable or runtime-tested example. DEBUG-01 precedes ARCH-03 patterns/test guidance and bounded consolidation.
+Only promote code after specifying dependency/version and actual test status. Experimental designs and fixtures cannot certify native receipts, pointer safety, installed compatibility or runtime recovery. [Test guidance](../05-mod-architecture/test-guidance.md), [central practical reference](../05-mod-architecture/development-reference.md).
 
-[DEBUG-01 routes](../06-debugging/diagnostic-routes.md), [diagnostic API](../02-lua-api/debugging/diagnostic-api.md) and [triage](../06-debugging/triage.md) now supply selected error/output/probe limits. No runnable or runtime-tested example is introduced. Next ARCH-03 patterns/test guidance and practical consolidation/audit.
+ARCH-03 patterns/test guidance and practical consolidation/bounded audit are complete within selected scope. [Investigation](../08-research/investigations/2026-10-12-ARCH-03-patterns-consolidation-audit.md), [evidence](../evidence/architecture/README.md), [verification](../08-research/verification-2026-10-12-v0.1.81.md). Effective integration partial; runtime deferred. Next separate whole-ADR audit. [Roadmap](../ROADMAP.md).

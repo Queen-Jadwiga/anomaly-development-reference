@@ -1,6 +1,6 @@
 # Configuration and script integration development reference
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-01-GUIDE (stable central-guide identity)
 - Subsystem: configuration/script integration
@@ -53,4 +53,4 @@ CONFIG-01–04 planned available-source inventory/contracts/consumers/consolidat
 
 Next: **practical architecture/debugging, beginning with existing-coverage inventory**. All-option tuning, every VM/parser/filesystem/addon/control combination, full MCM and broad MO2 internals remain optional depth unless a concrete question requires them. [Roadmap](../../ROADMAP.md).
 
-Current navigation: [ARCH-02 ownership](../../05-mod-architecture/module-state-contracts.md) and [compatibility/package contracts](../../05-mod-architecture/compatibility-package-contracts.md) are complete within selected synthesis scope. [DEBUG-01 diagnostic routes/triage](../../06-debugging/README.md) are now complete within selected source scope. Next ARCH-03; effective integration partial and runtime deferred. The stopping-rule paragraph above retains the CONFIG-04 research allocation.
+Current navigation: [ARCH-02 ownership](../../05-mod-architecture/module-state-contracts.md) and [compatibility/package contracts](../../05-mod-architecture/compatibility-package-contracts.md) are complete within selected synthesis scope. [DEBUG-01 diagnostic routes/triage](../../06-debugging/README.md) are now complete within selected source scope. ARCH-03 [practical consolidation](../../05-mod-architecture/development-reference.md), [patterns](../../07-code-library/qualified-patterns.md) and [bounded audit](../../08-research/verification-2026-10-12-v0.1.81.md) now complete the selected foundation. Next separate whole-ADR audit; effective integration partial and runtime deferred. The stopping-rule paragraph above retains the CONFIG-04 research allocation.

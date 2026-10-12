@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.80.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.81.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -331,3 +331,8 @@ Records retain their research revision and source baseline; those are distinct f
 
 - [DEBUG-01 native/Lua routes](06-debugging/diagnostic-routes.md), [triage and bounded probe guidance](06-debugging/triage.md), [four Lua diagnostic exports](02-lua-api/debugging/diagnostic-api.md).
 - [Investigation](08-research/investigations/2026-10-12-DEBUG-01-diagnostic-routes-triage.md), [evidence](evidence/debugging/README.md), [verification](08-research/verification-2026-10-12-v0.1.80.md).
+
+## Practical foundation consolidation and qualified patterns
+
+- [ARCH-03 central architecture/debugging guide](05-mod-architecture/development-reference.md), [four qualified protocol patterns and UI sketch limits](07-code-library/qualified-patterns.md), [test guidance](05-mod-architecture/test-guidance.md).
+- [Investigation](08-research/investigations/2026-10-12-ARCH-03-patterns-consolidation-audit.md), [evidence/audit](evidence/architecture/README.md), [bounded verification](08-research/verification-2026-10-12-v0.1.81.md). Selected foundation complete; effective integration partial and runtime deferred. Separate whole-ADR audit remains next.

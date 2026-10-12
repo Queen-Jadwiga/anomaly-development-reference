@@ -1,6 +1,6 @@
 # FAC-04 — Action-driven goodwill and rank/reputation contributions
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-04
 - Subsystem: factions / relations

@@ -1,6 +1,6 @@
 # Configuration/script integration evidence
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
 [Coverage inventory](coverage-inventory-2026-10-12.csv) has 18 rows K01–K18 pinned to ADR v0.1.73 main `6327645f473774753964454c79beabe4f4c2c716`. It hashes full raw documentation bytes, records inclusive selected section ranges/markers, classifies coverage and allocates follow-on work. It is a documentation-inventory schema, not a native source-evidence ledger. Repeated files represent distinct reviewed boundaries; original underlying ledgers and their source/runtime qualifications remain authoritative.
 

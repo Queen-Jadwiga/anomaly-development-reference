@@ -1,6 +1,6 @@
 # Selected native and Lua diagnostic routes
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
 - ID: DEBUG-01-ROUTES
 - Subsystem: debugging / native-Lua integration
@@ -89,3 +89,7 @@ The conditional dump code locates DBGHELP/MiniDumpWriteDump, constructs an appli
 [XML/DXML local error findings](../03-ui-pda/xml-dxml-callback-errors-ui04b-oct11.md) remain local: protected parse/construction differs from unprotected callback/serialization and native XML assertions. DEBUG-01 now qualifies the selected shared Luabind/assertion handlers; it does not close every effective XML caller/addon chain. D01/S06–S09/B04/N03. [External UI/clock reports](../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md) retain reported build/provenance and inferred-mechanism labels; no new independent reproduction occurs. D03.
 
 Completion: selected logging/export/stack/assertion/loader/Luabind/binder/panic/unhandled/dump boundaries close within this scope. Every native crash, symbol implementation, debugger/renderer/profiler internals and installed aliases remain outside the pass. [Triage](triage.md), [verification](../08-research/verification-2026-10-12-v0.1.80.md), [roadmap](../ROADMAP.md). Next ARCH-03; runtime deferred.
+
+## Subsequent practical consolidation
+
+ARCH-03 [central reference](../05-mod-architecture/development-reference.md), [patterns](../07-code-library/qualified-patterns.md), [test guidance](../05-mod-architecture/test-guidance.md) and [bounded audit](../08-research/verification-2026-10-12-v0.1.81.md) now complete the selected practical foundation. DEBUG-01's original scope/next allocation above remains research history; effective aliases/build/profile and runtime limits remain unchanged. Next separate whole-ADR audit.

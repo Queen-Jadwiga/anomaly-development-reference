@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -95,3 +95,5 @@ All version-sensitive engine documentation must cite an exact revision once iden
 [ARCH-02 ownership/compatibility synthesis](architecture/README.md): 26 section pins in nine documents at immutable ADR v0.1.78. Documentation synthesis and explicitly proposed design contracts; inherited source/build/external scopes retained. No new engine/API/runtime guarantee or third-party source artifact.
 
 [DEBUG-01 diagnostic evidence](debugging/README.md): ENGINE1011 selected native/Lua logger, writer, build, stack, assertion/error, Luabind/binder/panic and Windows filter/dump routes; 41 rows/67 ranges/21 files plus six immutable ADR v0.1.79 documentation pins. Four Lua exports/converter qualified; triage is recommended guidance. Unknown binary/profile correspondence, missing installed aliases and deferred runtime retained. No third-party source/assets.
+
+[ARCH-03 qualified patterns/practical audit](architecture/README.md): 16 immutable ADR v0.1.80 reference/test-source rows; recheck 54 earlier reference rows and 41 DEBUG-01 source rows/67 ranges/21 files. Four proposed protocols and two linked non-runnable UI sketches, implemented ADR test inventory and consolidated guidance. No new engine API, runnable framework/fixture, runtime result or whole-ADR audit.

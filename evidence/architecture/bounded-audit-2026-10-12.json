@@ -1,0 +1,97 @@
+{
+  "id": "ARCH-03-BOUNDED-AUDIT",
+  "research_revision": "0.1.81",
+  "base_commit": "a9248aea46442c3cd520b7e33974827dbd810a95",
+  "review_date": "2026-10-12",
+  "scope": "ARCH-01/02, DEBUG-01 and ARCH-03 selected practical architecture/debugging/example/test foundation; not whole ADR",
+  "inputs": [
+    {
+      "step": "ARCH-01",
+      "kind": "repository reference integrity",
+      "ledger": "evidence/architecture/coverage-inventory-2026-10-12.csv",
+      "ledger_sha256": "b9de239202b4cc799bdbde82625a7062d0aa7577f91636b9b1420c226bf59644",
+      "rows": 22,
+      "distinct_paths": 20,
+      "result": "pass",
+      "method": "raw full-file SHA-256, inclusive range and marker against original local revision"
+    },
+    {
+      "step": "ARCH-02",
+      "kind": "repository reference integrity",
+      "ledger": "evidence/architecture/module-state-contracts-2026-10-12.csv",
+      "ledger_sha256": "3ca5e7cd9c578ee65f97f128e4a6394c6bf1e12cc9eec0c96cb7a547b7720f65",
+      "rows": 26,
+      "distinct_paths": 9,
+      "result": "pass",
+      "method": "raw full-file SHA-256, inclusive range and marker against original local revision"
+    },
+    {
+      "step": "DEBUG-01 reference reuse",
+      "kind": "repository reference integrity",
+      "ledger": "evidence/debugging/triage-references-2026-10-12.csv",
+      "ledger_sha256": "e0740442d593e5195213fe1533d0b6df6bd266ee6bff102cc6a158233587c2a9",
+      "rows": 6,
+      "distinct_paths": 6,
+      "result": "pass",
+      "method": "raw full-file SHA-256, inclusive range and marker against original local revision"
+    },
+    {
+      "step": "ARCH-03",
+      "kind": "repository reference integrity",
+      "ledger": "evidence/architecture/qualified-patterns-2026-10-12.csv",
+      "ledger_sha256": "aabae7bff926e698c3c94bd55099434671243afb6fb10ad9641117aa24f4db92",
+      "rows": 16,
+      "distinct_paths": 10,
+      "result": "pass",
+      "method": "raw full-file SHA-256, inclusive range and marker against original local revision"
+    },
+    {
+      "step": "DEBUG-01 source contracts",
+      "kind": "source integrity",
+      "ledger": "evidence/debugging/diagnostic-routes-2026-10-12.csv",
+      "ledger_sha256": "deeb7353436688bad57a24d3b7334f5af9ecd0f98f5efbc0750316f7cba7b588",
+      "source_id": "ENGINE1011",
+      "rows": 41,
+      "ranges": 67,
+      "distinct_paths": 21,
+      "result": "pass",
+      "method": "raw full-file SHA-256, line count, inclusive range and scope-file map against uploaded source snapshot"
+    }
+  ],
+  "totals": {
+    "earlier_reference_rows": 54,
+    "new_reference_rows": 16,
+    "diagnostic_source_rows": 41,
+    "diagnostic_range_groups": 67,
+    "diagnostic_files": 21,
+    "proposed_protocol_patterns": 4,
+    "linked_non_runnable_ui_sketches": 2,
+    "existing_test_inventory": {
+      "tests/test_repository_checks.py": 7,
+      "tests/test_binding_patterns.py": 3
+    }
+  },
+  "semantic_review": {
+    "method": "bounded manual review of linked current guides, source qualifications and implemented fixture bodies; no new native behavior trace",
+    "retained_distinctions": [
+      "design protocols unimplemented versus inherited selected engine contracts",
+      "source integrity and fixture results versus deferred game/profile tests",
+      "listener/wrapper identity and capture versus repeat/removal guarantees",
+      "owned model/schema/campaign pairing versus transient native/UI handles",
+      "request/notification/return versus observed/reconciled/atomic completion",
+      "buffer/flush/current filtered stack versus disk receipt/fault-context/dump guarantee",
+      "source/build/package axes versus installed winning aliases and effective readiness",
+      "dated plans and immutable evidence versus current central navigation"
+    ],
+    "result": "no new contradictory implementation guarantee introduced; current completion/navigation updated with original bodies and pins retained"
+  },
+  "runtime_status": "untested; deferred",
+  "excluded": [
+    "whole-ADR semantic/provenance audit",
+    "every native dependency/source path",
+    "generator/input scope changes and engine compilation",
+    "new runnable pattern/fixture implementation",
+    "game/profile execution, actual migration or measured diagnostic overhead",
+    "CtZ gameplay changes and third-party source/assets"
+  ]
+}

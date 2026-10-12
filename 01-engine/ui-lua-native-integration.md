@@ -1,6 +1,6 @@
 # UI architecture: Lua ↔ native XML ↔ native widgets — Part D
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
 **Target source:** X-Ray Monolith `2026.5.15` (`6a08e0905ce34748ee2904a5e0809f8afd141137`). **Evidence:** Parts A–C historical C++ source inspection. **Runtime:** not tested against installed MT-TEST executable. This is the **integrated architecture map**, not a claim of exhaustive engine documentation.
 

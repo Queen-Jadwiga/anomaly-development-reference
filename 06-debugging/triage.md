@@ -1,6 +1,6 @@
 # Provenance-aware diagnostic triage
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
 - ID: DEBUG-01-TRIAGE
 - Subsystem: practical debugging
@@ -73,3 +73,5 @@ Log timestamps are local wall time. Scheduler Device.dwTimeGlobal milliseconds, 
 A useful incident disposition states the observed failure, qualified source route, supported mechanism or remaining alternatives, missing effective inputs, proposed next observation and any actual result. A source-confirmed route can coexist with an untested diagnosis; an external repeated observation can coexist with unknown executable correspondence. Do not close an incident because links/hashes match, a pcall returned false, or the native caller continued.
 
 DEBUG-01 closes these selected diagnostic/triage contracts. Effective aliases/build/profile chains and independent runtime reproduction remain partial; no generic crash recovery or tested fix is certified. Next ARCH-03 qualifies selected patterns/test guidance and consolidates/audits the practical foundation. [Verification](../08-research/verification-2026-10-12-v0.1.80.md), [roadmap](../ROADMAP.md).
+
+Current completion: ARCH-03 [central guide](../05-mod-architecture/development-reference.md), [patterns](../07-code-library/qualified-patterns.md), [test guidance](../05-mod-architecture/test-guidance.md) and [bounded audit](../08-research/verification-2026-10-12-v0.1.81.md) complete the selected practical foundation. Earlier DEBUG-01 allocation remains dated; proposed probes/fixtures remain unimplemented and runtime deferred. Next separate whole-ADR audit.

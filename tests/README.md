@@ -1,6 +1,6 @@
 # Verification and tests
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
 ADR has documentation/source checks; engine/game runtime testing remains deferred.
 
@@ -22,3 +22,5 @@ Run `python -m unittest discover -s tests -p "test_*.py"`. Checks cover the vali
 [Economy consolidation audit v0.1.62](../08-research/verification-2026-10-12-v0.1.62.md): source integrity and existing regression suite; no engine/game transaction runtime test.
 
 [Gameplay-state consolidation v0.1.66](../08-research/verification-2026-10-12-v0.1.66.md): bounded source/integrity checks and existing regressions; no game runtime.
+
+[ARCH-03 test guidance](../05-mod-architecture/test-guidance.md) distinguishes the seven repository and three binding-pattern tests implemented here from proposed mod-model fixtures and deferred engine/profile tests. [Practical bounded audit v0.1.81](../08-research/verification-2026-10-12-v0.1.81.md) rechecks selected pins and existing tests; no new fixture/runnable pattern or game result is introduced.

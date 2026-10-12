@@ -1,6 +1,6 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
 
 Current canonical locations:
 
@@ -87,3 +87,5 @@ Inventory contracts are consolidated in the [development reference](../04-game-s
 ## Selected debugging exports
 
 [Diagnostic API](debugging/diagnostic-api.md) records exact source-qualified log/error_log/print_stack/flush signatures, converter/build guards, void returns and failure/output limits. [Debugging reference](../06-debugging/README.md), [evidence](../evidence/debugging/README.md). DEBUG-01 selected scope complete; runtime deferred.
+
+[Practical architecture/debugging consolidation](../05-mod-architecture/development-reference.md), [qualified patterns](../07-code-library/qualified-patterns.md) and [test guidance](../05-mod-architecture/test-guidance.md) organize use of the existing catalogs; they introduce no new native export or implemented service. [ARCH-03 bounded audit](../08-research/verification-2026-10-12-v0.1.81.md).
