@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.70**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.71**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.71 — 2026-10-12 — Spatial relocation restriction and patrol contracts
+
+- WORLD-02 traces selected client/graph queries, simulator/actor/NPC relocation, movement requests, restriction defaults/live/server/refresh/serialization boundaries and patrol query/request failures. Add 40 pinned ENGINE1011 evidence entries and focused API contracts.
+- Retain explicit Lua arities, input-output converter, assertion/sentinel, borrowed lifetime, geometric versus accessible query and request-versus-success limits. No installed/runtime certification or CtZ gameplay changes.
+- Selected WORLD-02 scope complete; WORLD-03 interaction/actor transitions/marker lifecycle next. See [verification](08-research/verification-2026-10-12-v0.1.71.md).
 
 ## v0.1.70 — 2026-10-12 — World/navigation existing-coverage inventory
 

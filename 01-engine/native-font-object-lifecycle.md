@@ -1,6 +1,6 @@
 # Native `CGameFont` lifecycle — May 15, 2026 source
 
-> ADR document set: **v0.1.70**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.71**. Research revisions and source/build versions below describe their original scope.
 
 **Research scope:** ADR v0.1.10 Part B. **Engine target:** X-Ray Monolith tag `2026.5.15`, pinned commit `6a08e0905ce34748ee2904a5e0809f8afd141137`. **Runtime:** deferred.
 

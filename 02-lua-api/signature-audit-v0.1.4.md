@@ -1,6 +1,6 @@
 # Signature audit — v0.1.4
 
-> ADR document set: **v0.1.70**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.71**. Research revisions and source/build versions below describe their original scope.
 
 **Coverage:** Three classes at the pinned May 15 source revision: CUIWindow, CUIScrollView and CUIProgressBar. The remaining three classes from v0.1.3 remain registration-only until their headers are examined.
 

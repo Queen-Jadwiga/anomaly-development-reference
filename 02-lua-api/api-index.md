@@ -1,6 +1,6 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.70**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.71**. Research revisions and source/build versions below describe their original scope.
 
 Current canonical locations:
 
@@ -69,3 +69,5 @@ Inventory contracts are consolidated in the [development reference](../04-game-s
 [Actor booster and modifier contracts](gameplay/actor-effects-api.md): selected class exports, replacement semantics and map accessor build limit.
 
 [Native task/info contracts](tasks/native-task-info-api.md): actor task-manager forwarding/adoption and owner info query/transfer return boundaries.
+
+- [Selected world spatial/restriction/patrol contracts](world/spatial-api.md): WORLD-02; source-confirmed within scope, effective/runtime limits retained.

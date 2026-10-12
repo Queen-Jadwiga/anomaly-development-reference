@@ -1,6 +1,6 @@
 # Derived death and condition restoration
 
-> ADR document set: **v0.1.70**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.71**. Research revisions and source/build versions below describe their original scope.
 
 - ID: GAME-03
 - Subsystem: actor/NPC gameplay state

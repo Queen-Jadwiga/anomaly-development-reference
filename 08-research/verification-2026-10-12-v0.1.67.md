@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.67
 
-> ADR document set: **v0.1.70**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.71**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.67, based on main c50969ba3bb20ff81b8fe9e3fd35a0e3e3680d3b
 - Scope: STRUCT-01 entry points, navigation and layout conventions
