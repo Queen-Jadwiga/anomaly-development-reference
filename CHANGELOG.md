@@ -1,6 +1,11 @@
 # ADR changelog
 
-> ADR document set: **v0.1.54**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.55 — 2026-10-11 — Item placement and activation
+
+- Add ITEM-02 reference, focused Lua API, investigation and 19-entry ledger. Trace eligibility/movement, unequal callback phases, server requested/current slot transitions and selected actor event consumers.
+- Keep effective NPC equipment/readiness unverified; preserve previous research/evidence and defer runtime. Next item consumption/destruction and owner cleanup. See [verification](08-research/verification-2026-10-11-v0.1.55.md).
 
 ## v0.1.54 — 2026-10-11 — Inventory ownership foundation
 

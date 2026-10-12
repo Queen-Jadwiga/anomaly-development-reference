@@ -1,6 +1,6 @@
 # Engine architecture — first-pass map
 
-> ADR document set: **v0.1.54**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
 
 **Status:** Architectural research outline; exact files and bindings pending source checkout at a pinned commit.
 

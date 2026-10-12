@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.54**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.54.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-11-v0.1.55.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -132,7 +132,7 @@ Records retain their research revision and source baseline; those are distinct f
 ## 08-research
 
 - [PER-02 Lua storage investigation](08-research/investigations/2026-10-11-PER-02-lua-storage.md)
-- [Current verification — v0.1.54](08-research/verification-2026-10-11-v0.1.54.md)
+- [Current verification — v0.1.55](08-research/verification-2026-10-11-v0.1.55.md)
 
 - [PER-01 native save/load investigation](08-research/investigations/2026-10-11-PER-01-native-save-load.md)
 - [PER-01 verification — v0.1.50](08-research/verification-2026-10-11-v0.1.50.md)
@@ -249,3 +249,7 @@ Records retain their research revision and source baseline; those are distinct f
 
 - [ITEM-01 investigation](08-research/investigations/2026-10-11-ITEM-01-ownership-lifecycle.md).
 - [Inventory evidence](evidence/inventory/README.md).
+
+- [Item placement/activation](04-game-systems/inventory/placement-activation.md).
+- [Placement Lua APIs](02-lua-api/inventory/placement-api.md).
+- [ITEM-02 investigation](08-research/investigations/2026-10-11-ITEM-02-placement-activation.md).

@@ -1,0 +1,20 @@
+evidence_id,source_id,source_path,symbol,line_ranges,file_sha256,line_count,subject
+P01,ENGINE1011,src/xrGame/Inventory.cpp,CInventory::Slot,345-446,02c86fd02085223e67bb95e2656150caf450dfb5c91b77c0252774cdb9495f03,1561,Slot mutation and callback before placement field update
+P02,ENGINE1011,src/xrGame/Inventory.cpp,CInventory::Belt;CInventory::Ruck,448-547,02c86fd02085223e67bb95e2656150caf450dfb5c91b77c0252774cdb9495f03,1561,Belt/ruck mutation and distinct callback phases
+P03,ENGINE1011,src/xrGame/Inventory.cpp,CanPutInSlot;CanPutInBelt;CanPutInRuck;BeltWidth,1204-1252;1327-1345,02c86fd02085223e67bb95e2656150caf450dfb5c91b77c0252774cdb9495f03,1561,Eligibility and configurable belt width
+P04,ENGINE1011,src/xrGame/Inventory.cpp,CInventory::Activate,557-660,02c86fd02085223e67bb95e2656150caf450dfb5c91b77c0252774cdb9495f03,1561,Server-only requested/current activation paths
+P05,ENGINE1011,src/xrGame/Inventory.cpp,CInventory::Update;CActor_OnChangedSlot,820-885,02c86fd02085223e67bb95e2656150caf450dfb5c91b77c0252774cdb9495f03,1561,Hidden-item/HUD gates and changed-slot callback
+P06,ENGINE1011,src/xrGame/InventoryOwner.cpp,OnItemBelt;OnItemRuck;OnItemSlot,511-547,7abbb1405915f5b98050ad1f78b7e4234521357358d99dc1e0db7e03aceea24b,705,Conditional base placement callbacks
+P07,ENGINE1011,src/xrGame/script_game_object_inventory_owner.cpp,MakeItemActive;MoveItemToRuck;MoveItemToSlot;MoveItemToBelt,476-580,a9e0a854da799220cfa0a816f2a48a839c1325c7118a27588e838e84660c81d3,3051,Lua event helpers and commented preflight
+P08,ENGINE1011,src/xrGame/Actor_Events.cpp,GEG_PLAYER_ITEM2SLOT;GEG_PLAYER_ACTIVATE_SLOT,186-251;267-274,d63cfdbf4a49c163e930f520378c8ce026ec286677ef9102935b256c2cc6b177,378,Selected actor event guards and native consumers
+P09,ENGINE1011,src/xrGame/xrServer_process_event.cpp,GEG_PLAYER_ITEM2SLOT;GEG_PLAYER_ACTIVATE_SLOT,49-63;329-337,5e5d96631fe1045835baa7e139d8e7a961e949ac8c1d23d9b0ca88fde863494c,400,Placement broadcast versus activation server-client routing
+P10,ENGINE1011,src/xrGame/script_game_object_script3.cpp,make_item_active;move_to_slot;move_to_belt;move_to_ruck,310-313,24bbffd954d03a5d97ed627c2a8df77a7f51c3ab80c37570528b58fb7c229ff5,762,Lua registration
+P11,ENGINE1011,src/xrGame/script_game_object.h,MakeItemActive;MoveItemToSlot;MoveItemToRuck;MoveItemToBelt,449-452,7e11b75b3269c5cab1be786d40afeab2eb293710e2ecbc3bab7ecceb87c87450,1418,Exact Lua-facing native signatures
+P12,ENGINE1011,src/xrGame/script_game_object_script.cpp,EXTENDED_ITEM_CALLBACKS;item_to_belt;item_to_slot;item_to_ruck,157-162,a3eb52bc8eabc6873ed926e3617456d480e41796a93c1a1706ea3facb39e38fa,199,Placement enum registrations
+P13,ENGINE1011,src/build_config_defines.h,EXTENDED_ITEM_CALLBACKS,4,677576631effd244bec2ce7902aeaecbd1027d6849136909587bbebd9f8c120b,85,Snapshot define enables callback compile guard
+P14,ENGINE1011,src/xrGame/Inventory.h,Slot;Belt;Ruck;ActiveItem,54-64;80-81,fc7134db6a5d940af14e934242432dd9cccb6cde8c20150086b009974366e56b,203,Native defaults and active item accessor
+P15,ENGINE1011,src/xrGame/InventoryOwner.h,CanPutInSlot,61,0feafed720bd51b3bd403996a514005679bf5e5fad041315c63ed502df7a54ce,283,Default owner slot predicate
+P16,ENGINE1011,src/xrGame/ai/stalker/ai_stalker.h,CanPutInSlot,280,3a3895de69523cac182cd93facd258603b9670c1df4eddabfd7177a1a00d9f07,918,Stalker outfit/PDA exclusions
+P17,ENGINE1011,src/xrGame/HudItem.cpp,ActivateItem;DeactivateItem;OnMoveToRuck;SendDeactivateItem;SendHiddenItem,245-276,af4090ef4664f0f6d8fb5031a372e610a317260124c4c980089690230bde5350,1270,Selected HUD activation/hidden-state producers
+P18,ENGINE1011,src/xrGame/inventory_item.cpp,ActivateItem;DeactivateItem,199-206,f206ff9bcd2ce721055d86ed0b7e9ed0f1206f8fc245ea5578ccc71f73803b6b,1556,Base activation stub differs from HUD item override
+P19,ENGINE1011,src/xrGame/Inventory.cpp,CanBeActivated;IsSlotBlocked,55-58;1551-1561,02c86fd02085223e67bb95e2656150caf450dfb5c91b77c0252774cdb9495f03,1561,Slot activation and block tests

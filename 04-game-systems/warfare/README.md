@@ -1,8 +1,8 @@
 # Warfare subsystem
 
-> ADR document set: **v0.1.54**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.54.**
+**Current revision: v0.1.55.**
 
 Use the [A-Life lifecycle/state map](../alife/lifecycle-state-reference.md) and [callback-phase reference](../alife/callback-phase-reference.md) for native/bundled representation and readiness boundaries. Effective Warfare policy and installed callback order remain separate open work.
 

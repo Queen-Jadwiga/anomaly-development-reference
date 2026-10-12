@@ -1,6 +1,6 @@
 # CUIProgressBar — declaration-backed signatures
 
-> ADR document set: **v0.1.54**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
 
 **Source-confirmed, runtime-untested:** [registration](https://github.com/themrdemonized/xray-monolith/blob/6a08e0905ce34748ee2904a5e0809f8afd141137/src/xrGame/ui/UIProgressBar_script.cpp#L5-L29); [declarations](https://github.com/themrdemonized/xray-monolith/blob/6a08e0905ce34748ee2904a5e0809f8afd141137/src/xrGame/ui/UIProgressBar.h#L44-L74).
 

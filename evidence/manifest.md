@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.54**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 

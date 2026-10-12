@@ -1,6 +1,6 @@
 # XML/UI Construction and ownership (Part C)
 
-> ADR document set: **v0.1.54**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.55**. Research revisions and source/build versions below describe their original scope.
 
 **Status:** Source-confirmed for pinned May 2026 C++ implementation; runtime untested.
 
