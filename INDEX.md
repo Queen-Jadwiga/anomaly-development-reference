@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.71**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.71.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.72.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -24,6 +24,8 @@ Records retain their research revision and source baseline; those are distinct f
 - [UI architecture: Lua ↔ native XML ↔ native widgets — Part D](01-engine/ui-lua-native-integration.md)
 
 ## 02-lua-api
+
+- [WORLD-03 use/zone/changer/marker APIs](02-lua-api/world/interaction-api.md).
 
 - [WORLD-02 spatial restriction/patrol APIs](02-lua-api/world/spatial-api.md).
 
@@ -86,6 +88,8 @@ Records retain their research revision and source baseline; those are distinct f
 - [UI-04a — XML loading routes, naming and DXML interception boundaries](03-ui-pda/xml-loading-paths-ui04a-oct11.md)
 
 ## 04-game-systems
+
+- [WORLD-03 use/touch, actor transitions and marker lifecycle](04-game-systems/world/interaction-transitions-markers.md), [investigation](08-research/investigations/2026-10-12-WORLD-03-interaction-transitions-markers.md), [ledger](evidence/world/interaction-transition-markers-2026-10-12.csv), [verification](08-research/verification-2026-10-12-v0.1.72.md).
 
 - [WORLD-02 spatial queries and relocation](04-game-systems/world/spatial-queries-relocation.md), [investigation](08-research/investigations/2026-10-12-WORLD-02-spatial-contracts.md), [source ledger](evidence/world/spatial-contracts-2026-10-12.csv), [verification](08-research/verification-2026-10-12-v0.1.71.md).
 

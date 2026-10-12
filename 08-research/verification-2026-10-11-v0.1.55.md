@@ -1,6 +1,6 @@
 # ITEM-02 increment verification — v0.1.55
 
-> ADR document set: **v0.1.71**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: focused placement/active-slot transitions, Lua producers and selected actor consumers

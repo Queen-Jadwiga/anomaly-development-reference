@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.71**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.72 — 2026-10-12 — Use touch actor travel and marker lifecycle
+
+- WORLD-03 traces selected actor/forced use and zone contact routing, level-changer trigger/dialog/packet/temporary destination save/reconnect and state, plus ordinary marker append/query/remove/visibility/notification/serialization/restoration. Add pinned U/T/M source ledger and focused API tables.
+- Preserve use-result versus completed-action, silent/dialog enable, travel acceptance versus arrival, marker existence/visibility/persistence and deferred callback/lifetime limits. No CtZ gameplay or independent runtime changes.
+- Selected WORLD-03 scope complete; WORLD-04 supplied consumers/consolidation/bounded audit next. See [verification](08-research/verification-2026-10-12-v0.1.72.md).
 
 ## v0.1.71 — 2026-10-12 — Spatial relocation restriction and patrol contracts
 

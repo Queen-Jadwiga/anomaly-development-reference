@@ -1,6 +1,6 @@
 # UI and PDA source completion and remaining work
 
-> ADR document set: **v0.1.71**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
 
 The documented UI/PDA source foundation is development-reference ready within its recorded selected scope. Detailed pages retain their own source baselines and inventory limits; this navigation change does not imply exhaustive binding/converter/build coverage or installed compatibility.
 

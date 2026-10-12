@@ -1,6 +1,6 @@
 # Research investigations
 
-> ADR document set: **v0.1.71**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
 
 One canonical dated record per question, named `YYYY-MM-DD-ID-topic.md`. Use the [investigation template](../templates/investigation.md), [workflow](../workflow.md) and [evidence policy](../evidence-policy.md).
 
@@ -65,3 +65,5 @@ Earlier records retain their original format and IDs. Recent A-Life/Warfare reco
 - [WORLD-01 — Existing world/navigation coverage](2026-10-12-WORLD-01-existing-coverage.md): inventory closure, new source chains pending.
 
 - [WORLD-02 — Spatial/relocation and selected restriction/patrol contracts](2026-10-12-WORLD-02-spatial-contracts.md): selected native/contracts scope complete; runtime deferred.
+
+- [WORLD-03 — Selected use/touch, actor travel and marker lifecycle](2026-10-12-WORLD-03-interaction-transitions-markers.md): complete within selected source scope; effective/runtime pending.

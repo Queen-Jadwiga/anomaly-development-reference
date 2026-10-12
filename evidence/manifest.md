@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.71**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.72**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -77,3 +77,5 @@ All version-sensitive engine documentation must cite an exact revision once iden
 [World coverage inventory](world/README.md): 14 document-reference rows pinned to immutable ADR v0.1.69; coverage classification and next-step allocation, not a new native claim ledger or engine baseline.
 
 [World spatial/contracts source ledger](world/spatial-contracts-2026-10-12.csv): P01–P40, ENGINE1011; selected native exports/definitions/callers, input-output policy and two bundled callers. [World evidence](world/README.md).
+
+[World interaction/transition/marker ledger](world/interaction-transition-markers-2026-10-12.csv): U01–U16, T01–T13, M01–M19, ENGINE1011; selected use/touch/travel/ordinary-marker lifecycle and one bundled relay, not full installed consumers.
