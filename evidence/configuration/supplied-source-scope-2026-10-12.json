@@ -1,0 +1,143 @@
+{
+  "scope": "ENGINE1011 gamedata; full BETA150 package including optional patch folders; ZIP142 gamedata. Filename presence and declared preset includes only, not installed winners.",
+  "packages": {
+    "ENGINE1011": {
+      "file_count": 161,
+      "requested_files": {
+        "_g.script": [],
+        "axr_main.script": [
+          {
+            "path": "gamedata/scripts/axr_main.script",
+            "sha256": "bc7bbbd12bc357297735d35a04fd7bfef28e91a694478984d63dcdf96d613826"
+          }
+        ],
+        "ui_options.script": [],
+        "axr_options.ltx": [],
+        "localization.ltx": [],
+        "script.ltx": [],
+        "game_setup.script": [],
+        "trade_manager.script": [],
+        "xr_motivator.script": [],
+        "includes.ltx": [],
+        "warfare_default.ltx": [],
+        "warfare_yoko.ltx": []
+      }
+    },
+    "BETA150": {
+      "file_count": 62,
+      "requested_files": {
+        "_g.script": [],
+        "axr_main.script": [],
+        "ui_options.script": [
+          {
+            "path": "Patches/GAMMA Warfare Patch/gamedata/scripts/ui_options.script",
+            "sha256": "51a729d0b2a5cd9f877054de024e89ed44b600822c2e85948f3d8cdb94ac9f17"
+          },
+          {
+            "path": "Patches/Patch for Dynamic Mutants or Dynamic Nocturnal Mutants or other bmblbx addons/gamedata/scripts/ui_options.script",
+            "sha256": "cff0f202adb1fa11b53b20920f542b4bba88625a78af06e388a9f0539b27c64d"
+          },
+          {
+            "path": "Warfare Alife Overhaul - Main/gamedata/scripts/ui_options.script",
+            "sha256": "9983a251cb60ef0938709183334693a06a8bef36a03fc9fbbd88c4926bb86faf"
+          }
+        ],
+        "axr_options.ltx": [],
+        "localization.ltx": [],
+        "script.ltx": [],
+        "game_setup.script": [],
+        "trade_manager.script": [],
+        "xr_motivator.script": [],
+        "includes.ltx": [
+          {
+            "path": "Warfare Alife Overhaul - Main/gamedata/configs/presets/includes.ltx",
+            "sha256": "2963a56a4324ab86ab28b1d9c2d0f79ce514d602d6e5127b223ae991aacb9548"
+          }
+        ],
+        "warfare_default.ltx": [],
+        "warfare_yoko.ltx": []
+      }
+    },
+    "ZIP142": {
+      "file_count": 29,
+      "requested_files": {
+        "_g.script": [],
+        "axr_main.script": [],
+        "ui_options.script": [
+          {
+            "path": "gamedata/scripts/ui_options.script",
+            "sha256": "9983a251cb60ef0938709183334693a06a8bef36a03fc9fbbd88c4926bb86faf"
+          }
+        ],
+        "axr_options.ltx": [],
+        "localization.ltx": [],
+        "script.ltx": [],
+        "game_setup.script": [],
+        "trade_manager.script": [],
+        "xr_motivator.script": [],
+        "includes.ltx": [
+          {
+            "path": "gamedata/configs/presets/includes.ltx",
+            "sha256": "2963a56a4324ab86ab28b1d9c2d0f79ce514d602d6e5127b223ae991aacb9548"
+          }
+        ],
+        "warfare_default.ltx": [],
+        "warfare_yoko.ltx": []
+      }
+    }
+  },
+  "beta_main_preset_include_targets": [
+    {
+      "declared_name": "video_minimum.ltx",
+      "present_in_main_presets": false
+    },
+    {
+      "declared_name": "video_low.ltx",
+      "present_in_main_presets": false
+    },
+    {
+      "declared_name": "video_default.ltx",
+      "present_in_main_presets": false
+    },
+    {
+      "declared_name": "video_high.ltx",
+      "present_in_main_presets": false
+    },
+    {
+      "declared_name": "video_extreme.ltx",
+      "present_in_main_presets": false
+    },
+    {
+      "declared_name": "economy_diff.ltx",
+      "present_in_main_presets": false
+    },
+    {
+      "declared_name": "gameplay_diff.ltx",
+      "present_in_main_presets": false
+    },
+    {
+      "declared_name": "warfare_default.ltx",
+      "present_in_main_presets": false
+    },
+    {
+      "declared_name": "warfare_yoko.ltx",
+      "present_in_main_presets": false
+    },
+    {
+      "declared_name": "warfare_alifeoverhaul.ltx",
+      "present_in_main_presets": true
+    },
+    {
+      "declared_name": "warfare_alifeoverhaul_faster.ltx",
+      "present_in_main_presets": true
+    },
+    {
+      "declared_name": "warfare_alifeoverhaul_veryfast.ltx",
+      "present_in_main_presets": true
+    },
+    {
+      "declared_name": "warfare_alifeoverhaul_rapidtest.ltx",
+      "present_in_main_presets": true
+    }
+  ]
+}

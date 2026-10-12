@@ -1,6 +1,6 @@
 # UI-04b — DXML callback failure and registration behavior (2026-10-11)
 
-> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
 
 **Status:** Source research complete for inspected October 11 source; runtime validation deferred. **Scope:** native XML callback boundary, DXML Lua parser wrapper, module registration and callback ordering. This document does not assert that installed GAMMA uses the same effective scripts.
 

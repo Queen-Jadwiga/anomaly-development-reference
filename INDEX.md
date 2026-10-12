@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.76.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.77.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -314,3 +314,5 @@ Records retain their research revision and source baseline; those are distinct f
 - CONFIG-02: [LTX/INI/DLTX behavior](04-game-systems/configuration/ltx-ini-dltx.md), [Lua INI contracts](02-lua-api/configuration/ini-api.md), [investigation](08-research/investigations/2026-10-12-CONFIG-02-ltx-ini-dltx.md), [verification](08-research/verification-2026-10-12-v0.1.75.md).
 
 - CONFIG-03: [loading/startup/shared callbacks](04-game-systems/configuration/script-loading-startup-callbacks.md), [lookup/callback API](02-lua-api/configuration/script-callback-api.md), [investigation](08-research/investigations/2026-10-12-CONFIG-03-script-loading-startup-callbacks.md), [verification](08-research/verification-2026-10-12-v0.1.76.md).
+
+- CONFIG-04: [supplied options/patch consumers](04-game-systems/configuration/supplied-options-patches.md), [helper API](02-lua-api/configuration/options-patch-api.md), [consolidated guide](04-game-systems/configuration/development-reference.md), [investigation](08-research/investigations/2026-10-12-CONFIG-04-consumers-consolidation-audit.md), [bounded audit](08-research/verification-2026-10-12-v0.1.77.md).

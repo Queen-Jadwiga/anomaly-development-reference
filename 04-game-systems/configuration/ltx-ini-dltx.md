@@ -1,6 +1,6 @@
 # LTX/INI loading and selected DLTX contracts
 
-> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-02
 - Subsystem: configuration/script integration
@@ -69,3 +69,7 @@ DLTX diagnostics inspect **final surviving item metadata**: `dltx_get_filename_o
 ## Remaining integration and next work
 
 Selected bundled `r_*_ex` defaults and `ini_file_ex` replacement differ from raw native readers; their definition-level contracts are in the API page. Actual global installation/order and later replacements remain CONFIG-03/04 work. Reuse domain option/preset, task, economy and persistence evidence instead of claiming all those consumers reload together. Exact effective include/mod files, filesystem winners, cache settings, build flags and consumer copies remain unknown. Exhaustive malformed-input/security/VM/error propagation and every parser/option remain optional depth. CONFIG-02 closes this selected source scope; **next CONFIG-03 — native script loading, startup and shared callbacks**. [Completion status](source-completion-status.md), [guide](development-reference.md), [roadmap](../../ROADMAP.md).
+
+## Subsequent available-source completion
+
+CONFIG-04 supplied consumers, [practical consolidation](development-reference.md) and [bounded audit](../../08-research/verification-2026-10-12-v0.1.77.md) are now complete within selected available-source scope. The dated findings/next allocation above retain their original research revision; [current completion](source-completion-status.md) keeps effective integration partial and runtime deferred.

@@ -1,6 +1,6 @@
 # Inventory consolidation and bounded audit — v0.1.58
 
-> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Investigation: ITEM-05

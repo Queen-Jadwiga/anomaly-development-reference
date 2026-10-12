@@ -1,6 +1,6 @@
 # Script lookup, prefetch and shared callback contracts
 
-> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-03-API
 - Subsystem: configuration/script integration

@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.77 — 2026-10-12 — Configuration consumers consolidation and bounded audit
+
+- CONFIG-04 traces selected supplied option/preset/default/current/pending/apply/change, Warfare refresh, builder/helper/unlocalizer and captured-original consumers. Add 29 pinned rows, seven qualified raw/slice comparisons and scoped effective-input records.
+- Consolidate practical state-owner/precedence/loading/identity/refresh/lifetime guidance and audit 114 CONFIG-02–04 source rows/156 ranges plus original inventory pins and preservation/navigation. Planned available-source pass complete within selected scope; effective integration partial and runtime deferred.
+- Preserve conditional repeat-install/new-key-write, cache/default/return, variant and final global/emitter limits. Next practical architecture/debugging coverage inventory. No CtZ gameplay or third-party source/assets changes. [Verification](08-research/verification-2026-10-12-v0.1.77.md).
 
 ## v0.1.76 — 2026-10-12 — Native script loading startup and shared callbacks
 

@@ -1,6 +1,6 @@
 # REV-01 — External runtime issue review and catalog correction
 
-> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
 
 - ID: REV-01
 - Subsystem: UI/PDA, native API catalog, callbacks and persistence

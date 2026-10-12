@@ -1,6 +1,6 @@
 # Part A — Luabind registration and XML initializer bridge (v0.1.10)
 
-> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
 
 **Baseline:** X-Ray Monolith tag `2026.5.15`, commit `6a08e0905ce34748ee2904a5e0809f8afd141137` (matching reported build date; binary identity not proven). **Method:** targeted inspection of historical files, *not* full-repository search. **Runtime:** deferred.
 

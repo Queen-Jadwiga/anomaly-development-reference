@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.71
 
-> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.71, based on main `074131f7d807529c98c92fc4e125dd347874b824`
 - Scope: WORLD-02 spatial/relocation and selected restriction/patrol contracts

@@ -1,8 +1,8 @@
 # Trade and economy
 
-> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.76.** Selected available-source foundation, practical consolidation and bounded audit are complete within scope. Full effective installed integration remains partial; runtime untested and deferred.
+**Current revision: v0.1.77.** Selected available-source foundation, practical consolidation and bounded audit are complete within scope. Full effective installed integration remains partial; runtime untested and deferred.
 
 - [Practical development reference](development-reference.md).
 - [Source completion and remaining work](source-completion-status.md).

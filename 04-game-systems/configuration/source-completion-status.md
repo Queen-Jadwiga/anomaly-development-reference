@@ -1,33 +1,42 @@
 # Configuration/script integration source completion
 
-> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-STATUS
 - Subsystem: configuration/script integration
-- Research revision: v0.1.76
-- Record status: partial
-- Source status: existing documentation inventory plus selected source-confirmed ENGINE1011 contracts
+- Research revision: v0.1.77
+- Record status: planned available-source pass complete-within-scope; effective integration partial
+- Source status: documentation inventory plus selected native/supplied contracts confirmed
 - Runtime status: untested; deferred
-- Baselines: CONFIG-01 pins ADR v0.1.73 main `6327645f473774753964454c79beabe4f4c2c716`; CONFIG-02/03 use ENGINE1011 via [manifest](../../evidence/manifest.md); linked records retain their original baselines
+- Baselines: CONFIG-01 ADR v0.1.73 pin; ENGINE1011/BETA150/ZIP142 via [manifest](../../evidence/manifest.md)
 - Last reviewed: 2026-10-12
 
-## Current scope
+## Completed selected scope
 
-| Work | Status | Boundary |
+| Work | Canonical reference | Boundary |
 | --- | --- | --- |
-| CONFIG-01 existing coverage | Complete within scope | 18 selected pinned documentation rows; inherited confidence, no new native closure |
-| CONFIG-02 LTX/INI and selected DLTX | Complete within selected ENGINE1011 scope | [Parser/cache/precedence/read/write/lifetime](ltx-ini-dltx.md), [Lua exports/ownership](../../02-lua-api/configuration/ini-api.md); 50 evidence rows, runtime deferred |
-| CONFIG-03 native script loading/startup/callbacks | Complete within selected ENGINE1011 scope | [Loading/startup/dispatch](script-loading-startup-callbacks.md), [lookup/callback contracts](../../02-lua-api/configuration/script-callback-api.md); effective core global/configuration/emitter route remains open |
-| CONFIG-04 supplied options/replacements and audit | Open | Selected current/default/preset/cache/change consumers, installation phases, practical synthesis and bounded audit |
-| Effective installed integration | Partial | Winning inputs/profile, wrappers, later patches, build flags and core dependencies |
-| Independent game runtime | Untested; deferred | No engine/game test or installed compatibility result in this increment |
+| CONFIG-01 inventory | [18 pinned documentation rows](coverage-inventory.md) | Original hashes/sections preserved; later five-event correction explicit |
+| CONFIG-02 LTX/INI/DLTX | [Behavior](ltx-ini-dltx.md), [INI API](../../02-lua-api/configuration/ini-api.md) | Selected parser/export/converter/lifetime paths |
+| CONFIG-03 loading/startup/callbacks | [Behavior](script-loading-startup-callbacks.md), [API](../../02-lua-api/configuration/script-callback-api.md) | Selected shared/helper/debug-global contracts; missing effective core routing retained |
+| CONFIG-04 consumers | [Options/patches](supplied-options-patches.md), [API](../../02-lua-api/configuration/options-patch-api.md) | Selected menu/preset/cache/refresh/builder/wrapper/unlocalizer chains and variants |
+| Consolidation/bounded audit | [Guide](development-reference.md), [v0.1.77 audit](../../08-research/verification-2026-10-12-v0.1.77.md) | 114 source rows/156 ranges, original inventory pins, comparison/scope/preservation/navigation |
+| Effective integration | Partial | Winning inputs and executed wrapper/consumer/restore chain unknown |
+| Independent runtime | Untested; deferred | No compatibility, timing, reload or recovery certification |
 
-## Required effective inputs
+## Effective-source requirements
 
-Collect relevant winning scripts including global wrappers, dispatch/startup, options/preset loaders and later differently named patches; relevant LTX/include/DLTX and XML resources; conflict/supplying-mod records from the active virtual view; packed-core dependencies and executable/build identity. Existing [WAR-002a provenance requirements](../../08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md) remain authoritative. Prior package inventories identify scoped absences only; ENGINE1011 axr_main and supplied ui_options are available and must not be called absent wholesale.
+| Input needed | Closure required |
+| --- | --- |
+| Winning _G/global/core class/exec helpers, script.ltx and configured startup callback | Native initialization → actual globals/module handlers; final Register/Send/Unregister route |
+| Winning UI definitions/current axr/localization/preset/include resources and optional selection | Exact path/type/current/default, include completeness, edit/apply/write/command/change and consumer behavior |
+| Executable/build/debug/cache configuration, virtual-view conflict records and packed resources | Uploaded-source equivalence, actual native inputs and supplying-mod winners |
+| Later modules, original captures, directives and binders | Effective wrapper layers, repeated-install guards, listener identity and object lifetime |
+| Domain manager/storage/restore emitters and copied consumer state | Refresh/reconstruction across different owners; retain each subsystem's unresolved edges |
+
+[WAR-002a virtual-view requirements](../../08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md) remain authoritative. Current scopes positively identify engine extensions/axr_main and supplied ui_options. Requested-filename absence in an addon is not installed absence; partial preset include files require effective base/other resources. A mod list alone does not establish executed order.
 
 ## Completion and stopping rule
 
-The available-source foundation closes after CONFIG-02–04's selected implementation/export/caller, ownership/failure/reset and precedence boundaries are traced, linked and audited. Effective integration closes only when relevant winning source chains and inputs are reconciled; collecting a mod list alone does not close execution order. Preserve missing core manager/binder/storage edges in their owning subsystems rather than pretending shared startup research implements them.
+The planned available-source pass closes after selected implementation/export/caller, state/lifetime/error/reset/precedence contracts are linked and audited. Effective integration closes only when relevant winning chains/inputs are reconciled. Shared integration research does not implement absent manager/binder/storage behavior or certify compatibility by assembling alternative packages.
 
-Independent runtime remains a separate explicitly resumed phase with executable/profile provenance, repeatable observations and logs. Exhaustive parser/VM/filesystem/addon combinations and every option are optional later depth. [Inventory](coverage-inventory.md), [guide](development-reference.md), [roadmap](../../ROADMAP.md).
+Runtime is a separate explicitly resumed phase with executable/profile provenance, repeatable observations/logs and actual outcomes; it remains deferred. Exhaustive option/VM/parser/addon combinations, full MCM and broad MO2 internals remain optional depth. Next practical architecture/debugging existing-coverage inventory. [Guide](development-reference.md), [roadmap](../../ROADMAP.md).

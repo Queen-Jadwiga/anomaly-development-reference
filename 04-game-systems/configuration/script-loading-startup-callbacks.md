@@ -1,6 +1,6 @@
 # Script loading, startup and shared callbacks
 
-> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-03
 - Subsystem: configuration/script integration
@@ -72,3 +72,7 @@ Earlier WORLD-04 C12 and CONFIG-01 K08 wording counted six names; those immutabl
 The [scoped filename record](../../evidence/configuration/script-source-scope-2026-10-12.json) covers 161 ENGINE1011 gamedata files. axr_main, _g_patches, global.lua and dynamic_callbacks.lua are present; exact _g.script, script.ltx and bind_actor.script filenames are absent there. This is not absence from the installed game or all other packages. Winning configuration, core global/binder/storage scripts, differently named patch modules, build/debug flags and consumer/emitter chains remain needed to close effective startup, option refresh and restoration.
 
 CONFIG-03 completes this selected source pass. Next **CONFIG-04 — supplied options/patch consumers, consolidation and bounded audit**; include current/default/preset/cache/change paths, captured originals/unlocalizer directives and effective-file requirements. Exhaustive VM/Luabind errors, all modules/addon stacks and runtime compatibility remain outside the bounded pass. No CtZ gameplay changes or third-party source/assets redistribution. [Guide](development-reference.md), [completion status](source-completion-status.md), [roadmap](../../ROADMAP.md).
+
+## Subsequent available-source completion
+
+CONFIG-04 supplied consumers, [practical consolidation](development-reference.md) and [bounded audit](../../08-research/verification-2026-10-12-v0.1.77.md) are now complete within selected available-source scope. The dated findings/next allocation above retain their original research revision; [current completion](source-completion-status.md) keeps effective integration partial and runtime deferred.
