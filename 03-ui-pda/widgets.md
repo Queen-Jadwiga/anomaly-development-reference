@@ -1,6 +1,6 @@
 # UI widgets — source-backed starting index
 
-> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
 
 Refer to [`02-lua-api/api-index.md`](../02-lua-api/api-index.md). Source-confirmed at pinned May 15 commit: `CUIWindow`, `CUIStatic`, `CUITextWnd`, `CUIScrollView`, `CUIProgressBar`, `CUILines`.
 

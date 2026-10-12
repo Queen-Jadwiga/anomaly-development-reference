@@ -1,6 +1,6 @@
 # UI-04 — Native XML interception and DXML lifecycle (2026.10.11)
 
-> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
 
 **Baseline:** User-supplied `xray-monolith-2026.10.11.zip`. **Status:** source research complete for the traced `CXml::Load` → DXML path; integration and runtime validation pending. This analysis does **not** establish that every XML load in the game invokes `CXml::Load`.
 

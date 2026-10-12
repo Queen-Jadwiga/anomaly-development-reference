@@ -1,6 +1,6 @@
 # INV-010 — Lua XML registration (Part A)
 
-> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
 
 **Status:** Partial resolution. **Date:** 2026-10-09. **Runtime testing:** deferred.
 

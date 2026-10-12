@@ -1,6 +1,6 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source status
 
@@ -80,7 +80,7 @@ The first broadly useful ADR extends beyond CtZ while remaining bounded. CtZ sup
 
 - [x] Substantial UI/PDA, A-Life/Warfare, faction and persistence available-source foundations; effective/runtime gaps remain open.
 - [x] Selected inventory/item lifecycle available-source foundation: [ownership](04-game-systems/inventory/ownership-lifecycle.md), [placement/activation](04-game-systems/inventory/placement-activation.md), [consumption/removal](04-game-systems/inventory/consumption-destruction.md), [persistence/reconstruction](04-game-systems/inventory/persistence-reconstruction.md) and [consolidation/audit](04-game-systems/inventory/development-reference.md) complete within scope; [effective integration](04-game-systems/inventory/source-completion-status.md) remains partial.
-- [ ] Trade/economy: [ECO-01 native money/pricing/selected UI trade](04-game-systems/economy/native-trade.md) complete within scope; [ECO-02 configuration/supply and supplied consumers](04-game-systems/economy/trader-configuration.md) complete within scope; next consolidation/audit. Winning trade managers, discount/gate/stock/item configs and startup order remain required. Native accounting and item-event acceptance remain separate; runtime deferred.
+- [x] Trade/economy selected available-source foundation: ECO-01/ECO-02 plus [ECO-03 consolidation and bounded audit](04-game-systems/economy/development-reference.md). [Effective integration](04-game-systems/economy/source-completion-status.md) remains partial; winning managers/stock/gate/discount configs and runtime remain open.
 - [ ] Actor/NPC gameplay state: health/damage/death/condition/immunity/effects and callback boundaries; extend existing casualty findings.
 - [ ] Tasks/dialogue/info state: lifecycle, conditions/actions, rewards and persistence.
 - [ ] World interaction/navigation: extend existing lookup/position/graph/restriction/smart/transition/map-marker coverage after inventorying it; do not duplicate completed A-Life findings.
@@ -92,4 +92,4 @@ Each subsystem's first-edition boundary is its main lifecycle, state owner, rele
 
 ## Maintenance
 
-Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-12-v0.1.61.md). Historical unchecked boxes are not the current backlog.
+Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-12-v0.1.62.md). Historical unchecked boxes are not the current backlog.

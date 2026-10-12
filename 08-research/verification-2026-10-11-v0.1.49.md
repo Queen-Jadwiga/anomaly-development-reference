@@ -1,6 +1,6 @@
 # Faction consolidation and final available-source audit — v0.1.49
 
-> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: FAC-01–05 practical consolidation, bounded semantic consistency and repository integrity

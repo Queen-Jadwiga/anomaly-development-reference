@@ -1,6 +1,6 @@
 # ITEM-04 — Item persistence and reconstruction
 
-> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-04
 - Subsystem: inventory/item lifecycle

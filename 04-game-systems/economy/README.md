@@ -1,14 +1,14 @@
 # Trade and economy
 
-> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.61.** Subsystem partial; runtime untested and deferred.
+**Current revision: v0.1.62.** Selected available-source foundation, practical consolidation and bounded audit are complete within scope. Full effective installed integration remains partial; runtime untested and deferred.
 
+- [Practical development reference](development-reference.md).
+- [Source completion and remaining work](source-completion-status.md).
 - [Native money, pricing and selected UI trade flow](native-trade.md).
-- [Focused Lua money/base-cost contracts](../../02-lua-api/economy/money-cost-api.md).
-- [ECO-01 investigation](../../08-research/investigations/2026-10-11-ECO-01-native-trade.md).
-- [Evidence](../../evidence/economy/README.md).
+- [Trader configuration and supplied supply/economy consumers](trader-configuration.md).
+- [Lua money/base-cost contracts](../../02-lua-api/economy/money-cost-api.md) and [policy/supply contracts](../../02-lua-api/economy/trader-policy-api.md).
+- [ECO-03 consolidation](../../08-research/investigations/2026-10-12-ECO-03-economy-consolidation.md), [audit](../../08-research/verification-2026-10-12-v0.1.62.md) and [evidence](../../evidence/economy/README.md).
 
-Existing [inventory transfer/lifecycle](../inventory/development-reference.md), [directed faction attitude](../factions/native-relations.md), [persistence](../persistence/development-reference.md) and [CtZ strategic account repair](../persistence/ctz-campaign-safety.md) remain separate contracts. ECO-01 and ECO-02 are complete within their available-source scope; next consolidation/audit. [Roadmap](../../ROADMAP.md).
-
-ECO-02 now maps [trader configuration and supplied consumers](trader-configuration.md) and [policy/supply APIs](../../02-lua-api/economy/trader-policy-api.md). Available-source pass complete within scope; winning manager/config/gate/discount definitions remain missing. Next consolidation/audit.
+Inventory requests, character balances and mod-owned faction accounts remain distinct. Next general ADR foundation: actor/NPC gameplay state. Effective-source collection and runtime are separate work. [Roadmap](../../ROADMAP.md).

@@ -1,6 +1,6 @@
 # Native money, pricing and trade flow
 
-> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ECO-01
 - Subsystem: trade/economy
@@ -46,6 +46,8 @@ Selected GetItemPrice computes:
 7. Require trade_manager.get_buy_discount or get_sell_discount by b_buying, passing pThis owner ID; multiply/floor the returned script factor.
 8. For an eatable with nonzero max uses, scale by remaining/max uses using integer arithmetic and enforce at least 1. Finally clamp the non-early-return result to [1, 1000000].
 
+E13/E14. A disabled action or zero factor produces a zero quote; direct native TransferItem still proceeds with item requests and zero-price accounting. The selected UI eligibility layer and the quote result have different contracts.
+
 E13. The required discount lookup is asserted; no identity-discount fallback is present in this body. Conversion/overflow/nonfinite script inputs and exhaustive derived Cost are not validated by this function's name or the final clamp.
 
 Buy/sell directions are from the CTrade instance's pThis owner. Selected actor-menu pricing uses m_partner_trade: true prices actor items being bought by the partner, false prices partner items sold to the actor. The inspected factor lookup uses pThis trade parameters. In its non-actor branch the internal buying selector stays true even though exponent/discount selection still follows b_buying; do not generalize an NPC↔NPC pricing recipe from the actor path. E13/E17/E18.
@@ -54,7 +56,7 @@ Local or global-default disabled entries reject enabled(); factors prefer local 
 
 ## UI preflight and native per-item accounting
 
-Selected CanMoveToPartner requires CanTrade, partner buy-action enabled, and condition above the buy threshold except for eatables with nonzero max uses. It computes resulting partner weight from current inventory and selected baskets. This is the selected actor-sell-list gate, not a universal native TransferItem guard. E17.
+Selected CanMoveToPartner requires CanTrade, partner buy-action enabled, and condition at or above the buy threshold except for eatables with nonzero max uses. It computes resulting partner weight from current inventory and selected baskets. This is the selected actor-sell-list gate, not a universal native TransferItem guard. E17.
 
 The native CanTrade scan uses nearby objects, can return false on a dead entity encountered, then checks selected partner distance [0.5,4.5] and opposite facing. StartTradeEx instead calls SetPartner then StartTrade without invoking CanTrade in that body or checking SetPartner's bool. Thus session-start and that optional proximity predicate have different contracts. E15/E16.
 
@@ -77,7 +79,7 @@ UI TransferItems removes each cell, calls that native method, updates lists, the
 
 ## Lua money wrappers: literal hazards
 
-[Exact API contracts](../../02-lua-api/economy/money-cost-api.md). GiveMoneySafe saturates positive additions to u32 max and negative deductions to zero using widened magnitude, then calls set_money; infinite-money policy can prevent a requested deduction. Money/give_money require inventory-owner receiver by VERIFY. E01/E02/E06–E08.
+[Exact API contracts](../../02-lua-api/economy/money-cost-api.md). GiveMoneySafe saturates positive additions to u32 max and negative deductions to zero using widened magnitude, then calls set_money for nonzero deltas; a zero delta skips both setter and event. Infinite-money policy can prevent a requested deduction. Money/give_money require inventory-owner receiver by VERIFY. E01/E02/E06–E08.
 
 TransferMoney's wrapper is not an established conservative transfer algorithm. It checks source u32 balance against signed int money, changes source by -money, computes **new source minus old source** as unsigned arithmetic assigned to int, and passes that signed result to GiveMoneySafe on destination. For a positive small transfer on ordinary 32-bit two's-complement conversion, a source deduction yields a negative destination delta: e.g. 1000→900 yields -100, so a destination 1000 can also become 900. This is a qualified source arithmetic illustration, not an observed runtime test or cross-platform conversion guarantee. E06.
 

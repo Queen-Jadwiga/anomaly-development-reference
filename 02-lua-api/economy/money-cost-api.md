@@ -1,6 +1,6 @@
 # Money and base-cost Lua contracts
 
-> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ECO-01-API
 - Subsystem: trade/economy
@@ -20,7 +20,7 @@ Evidence E06–E12 in [ledger](../../evidence/economy/native-trade-2026-10-11.cs
 | Lua export | Exact native signature excluding receiver | Return / guard / mutation |
 | --- | --- | --- |
 | money() | u32 Money() | VERIFY inventory-owner receiver, return live get_money; not server balance getter |
-| give_money(delta) | void GiveMoney(int money) | VERIFY inventory-owner; helper saturates signed delta, then infinite-money setter policy applies; sends optional-money path with true here; no success return |
+| give_money(delta) | void GiveMoney(int money) | VERIFY inventory-owner; helper saturates signed delta, then infinite-money setter policy applies; nonzero delta invokes setter with event=true; zero delta invokes no setter/event; no success return |
 | transfer_money(amount, target) | void TransferMoney(int money, CScriptGameObject* pForWho) | Explicit target-null log/return; VERIFY both inventory owners; source-balance gate then signed-delta algorithm described below; no success return |
 | cost() | u32 Cost() const | Dynamic inventory-item cast; failed cast logs/returns numeric zero; calls virtual native Cost, not CTrade GetItemPrice |
 

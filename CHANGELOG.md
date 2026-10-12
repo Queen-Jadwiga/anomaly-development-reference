@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.62 — 2026-10-12 — Economy consolidation and bounded audit
+
+- Add practical economy development reference, completion rule and ECO-03 source audit using the preserved ECO-01/ECO-02 ledgers.
+- Clarify condition-threshold equality, zero money-delta event behavior and zero quote versus direct native transfer; retain qualified arithmetic, stock and supplied-script hazards.
+- Mark selected available-source economy work complete within scope; effective installed integration partial and runtime deferred. Next actor/NPC gameplay state. See [verification](08-research/verification-2026-10-12-v0.1.62.md).
 
 ## v0.1.61 — 2026-10-12 — Trader configuration and supply consumers
 

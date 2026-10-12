@@ -1,6 +1,6 @@
 # ECO-02 — Trader configuration and supplied economy consumers
 
-> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ECO-02
 - Subsystem: trade/economy

@@ -1,6 +1,6 @@
 # Trader configuration and supply consumers
 
-> ADR document set: **v0.1.61**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.62**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ECO-02
 - Subsystem: trade/economy
@@ -70,3 +70,7 @@ Scoped inventory/search of ENGINE1011 gamedata and the full BETA150/ZIP142 extra
 Collect the winning trade managers, trader LTX/include/inheritance chains, game_difficulties and economy configs, logic/binders/condition helpers, item cost/section configs, unlocalizers and startup/monkeypatch order. Needed questions: conditional profile selection, goodwill/reputation/progression unlocks, exact buy/sell discounts, refresh inventory cleanup and timer writes, save/load reconstruction, and which NPC patch actually runs. A default 24-hour fallback is not the installed cycle; trade profiles named by a caller are not available stock evidence.
 
 For CtZ, keep faction accounts, reserved stock, orders and successful delivery separate from character money and spawn requests. Native buy_supplies can destroy troop inventory and create unaccounted supplies; it is unsuitable as a general troop loadout/requisition helper without a deliberate adapter and runtime checks. No CtZ, Arsenal or ZoneMart implementation is included. ECO-02 is complete within this available-source boundary; effective integration remains partial. Next practical economy consolidation and bounded audit; runtime stays deferred.
+
+## ECO-03 follow-up — 2026-10-12
+
+[Practical development reference](development-reference.md) and [source completion rule](source-completion-status.md) consolidate and audit ECO-01/ECO-02. Selected available-source work is complete within scope; effective integration remains partial and runtime deferred.
