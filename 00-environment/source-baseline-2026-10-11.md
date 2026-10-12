@@ -1,6 +1,6 @@
 # SRC-002 — October 11, 2026 Modded Exes source and runtime candidate
 
-> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
 
 **New preferred source baseline (from 2026-10-11 onward):** user-supplied `xray-monolith-2026.10.11.zip`.
 

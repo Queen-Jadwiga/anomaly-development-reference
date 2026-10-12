@@ -1,6 +1,6 @@
 # ITEM-01 increment verification — v0.1.54
 
-> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: selected native inventory/server/actor/box ownership and Lua request contracts

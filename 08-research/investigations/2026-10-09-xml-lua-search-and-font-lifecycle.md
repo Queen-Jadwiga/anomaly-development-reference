@@ -1,6 +1,6 @@
 # INV-008 — XML registration and font-manager lifecycle
 
-> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
 
 Status: **Open / partially documented**. Target commit `6a08e0905ce34748ee2904a5e0809f8afd141137`. Runtime deferred.
 

@@ -1,6 +1,6 @@
 # FAC-03 source and repository verification — v0.1.46
 
-> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: character-community mutation, live team/group effects and selected server transfer/reconstruction

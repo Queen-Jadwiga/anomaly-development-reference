@@ -1,6 +1,6 @@
 # Practical architecture/debugging coverage inventory
 
-> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ARCH-01
 - Subsystem: practical architecture/debugging (cross-system foundation)
@@ -57,3 +57,7 @@ The debugging outline, external issue review and local XML/script error traces d
 ENGINE1011 path-presence searches locate `src/xrCore/log.cpp`, `xrDebug.cpp`, `xrDebugNew.cpp`, `xrDebug.h`, `xrDebug_macros.h`, `src/xrServerEntities/script_engine.cpp`, `script_storage.cpp` and `src/xrGame/script_binder.cpp`. These are diagnostic trace candidates, not newly certified behavior/exports. Unknown exact upstream commit/executable/profile correspondence remains explicit. File presence and old function names do not establish active build branches, logging guarantees or safe error recovery.
 
 Cross-system architecture/debugging/example categories retain their existing 05/06/07 homes; the canonical inventory is here with links from their entry pages. They are not forced into the three-file behavior-subsystem pattern. Renderer/VM/security/profiler internals, every mod manager/addon combination, all native crash causes and unrelated multiplayer remain optional depth unless a concrete diagnostic/design question requires them. Runtime remains deferred. [Architecture entry](README.md), [debugging entry](../06-debugging/README.md), [examples](../07-code-library/README.md), [roadmap](../ROADMAP.md).
+
+## ARCH-02 disposition — 2026-10-12
+
+[Module/state ownership](module-state-contracts.md) and [compatibility/package contracts](compatibility-package-contracts.md) now close the selected ARCH-02 synthesis allocation. The pinned ARCH-01 rows and original bounded plan above remain unchanged. The new 26-row documentation ledger preserves existing source/build/external confidence and labels proposed designs; effective dependencies and runtime remain open. Next DEBUG-01, then ARCH-03. [Verification](../08-research/verification-2026-10-12-v0.1.79.md).

@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.78
 
-> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.78, based on main `fd6904d872af9a55f6abc7c219132824ffad558c`
 - Scope: ARCH-01 existing practical architecture/debugging coverage inventory

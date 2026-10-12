@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.78.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.79.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -321,3 +321,8 @@ Records retain their research revision and source baseline; those are distinct f
 
 - [ARCH-01 coverage inventory and bounded plan](05-mod-architecture/coverage-inventory.md), [architecture entry](05-mod-architecture/README.md), [debugging entry](06-debugging/README.md), [example policy](07-code-library/README.md).
 - [Investigation](08-research/investigations/2026-10-12-ARCH-01-existing-coverage.md), [22-row evidence](evidence/architecture/README.md), [verification](08-research/verification-2026-10-12-v0.1.78.md).
+
+## Practical module/state and compatibility contracts
+
+- [ARCH-02 ownership, interfaces and lifecycle](05-mod-architecture/module-state-contracts.md), [dependencies, versions and package/upgrade contracts](05-mod-architecture/compatibility-package-contracts.md).
+- [Investigation](08-research/investigations/2026-10-12-ARCH-02-module-state-compatibility.md), [26-row synthesis evidence](evidence/architecture/README.md), [verification](08-research/verification-2026-10-12-v0.1.79.md).

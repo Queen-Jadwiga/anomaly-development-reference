@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.79 — 2026-10-12 — Module state ownership and compatibility contracts
+
+- ARCH-02 synthesizes authority/lifetime, module responsibilities, public interface records, installation/removal/reload boundaries and request/observation/retry policy from existing subsystem evidence. Proposed mod-owned contracts remain explicitly design guidance.
+- Add dependency/winning-file, build/interface/schema/campaign identity and package/upgrade/disable support contracts; preserve unresolved effective routes and original source/runtime qualifications. Pin 26 sections across nine documents at immutable ADR v0.1.78.
+- Complete within selected synthesis scope; practical foundation/effective integration partial and runtime deferred. Next DEBUG-01, then ARCH-03. No CtZ gameplay or third-party source/assets changes. [Verification](08-research/verification-2026-10-12-v0.1.79.md).
 
 ## v0.1.78 — 2026-10-12 — Practical architecture debugging coverage inventory
 

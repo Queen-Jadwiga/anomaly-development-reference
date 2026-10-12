@@ -1,6 +1,6 @@
 # Subsystem entry point map
 
-> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
 
 This map identifies the eleven currently researched behavior subsystems. Each has a README for browsing, a development reference for practical synthesis and links, and a source-completion status for readiness, missing effective inputs and runtime limits. These are different roles; adding a guide does not mark research complete.
 

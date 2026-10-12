@@ -1,6 +1,6 @@
 # FAC-05 — Supplied Warfare faction/relation consumers
 
-> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-05
 - Subsystem: factions / Warfare integration

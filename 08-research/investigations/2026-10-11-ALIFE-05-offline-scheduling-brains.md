@@ -1,6 +1,6 @@
 # ALIFE-05 — Native scheduling, brains and offline movement
 
-> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.35 · 11 October 2026 · bounded source investigation.** This traces the native scheduled-update path, individual and group brains, and their supplied Lua task boundary. All runtime verification and installed GAMMA profile reconciliation remain deferred.
 
