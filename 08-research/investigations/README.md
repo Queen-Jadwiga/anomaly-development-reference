@@ -1,6 +1,6 @@
 # Research investigations
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
 One canonical dated record per question, named `YYYY-MM-DD-ID-topic.md`. Use the [investigation template](../templates/investigation.md), [workflow](../workflow.md) and [evidence policy](../evidence-policy.md).
 
@@ -38,3 +38,5 @@ Earlier records retain their original format and IDs. Recent A-Life/Warfare reco
 [ITEM-03 — Consumption/destruction](2026-10-11-ITEM-03-consumption-destruction.md).
 
 - [ITEM-04 — persistence/reconstruction](2026-10-11-ITEM-04-persistence-reconstruction.md).
+
+- [ITEM-05 — inventory consolidation and bounded audit](2026-10-11-ITEM-05-inventory-consolidation.md).

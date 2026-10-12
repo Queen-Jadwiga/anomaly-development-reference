@@ -1,6 +1,6 @@
 # Item placement and active-slot transitions
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-02
 - Research revision: v0.1.55
@@ -59,3 +59,5 @@ These files establish the selected actor chain. They do not establish effective 
 ## Scope and next work
 
 ITEM-02 closes this focused placement/requested-current/callback pass. Detailed animations, weapon mechanics, every derived item/AI selection path, blocking/load/recovery policies, installed script overrides and runtime remain outside scope. Next: item consumption/destruction and inventory-owner cleanup, then item persistence/reconstruction and consolidation. [Roadmap](../../ROADMAP.md).
+
+Current completion: the selected ITEM-01–04 foundations and [ITEM-05 consolidation/audit](development-reference.md) are complete within available-source scope. Earlier next-step text above records the individual increment; use [completion status](source-completion-status.md) and the [current roadmap](../../ROADMAP.md) for the active backlog.

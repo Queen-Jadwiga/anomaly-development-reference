@@ -1,6 +1,6 @@
 # FAC-02 source and repository verification — v0.1.45
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: native relation persistence/reset/ID cleanup and navigation

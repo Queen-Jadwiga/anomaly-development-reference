@@ -1,6 +1,6 @@
 # FAC-02 — Native relation persistence, reset and ID cleanup
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-02
 - Subsystem: factions / relations

@@ -1,6 +1,6 @@
 # Item consumption, destruction and owner cleanup
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-03
 - Research revision: v0.1.56
@@ -15,7 +15,7 @@ D01–D18 refer to the [ledger](../../evidence/inventory/consumption-destruction
 
 ClientEat validates eatable type, living-entity/inventory-owner receiver, matching inventory and live parent ID, then sends an eat event and returns true. That is request success, not completed consumption. Selected actor event processing validates live item/non-destruction and mode-specific alive state, and calls Eat only when the named _G.CInventory__eat functor exists and returns true for the item. There is no unconditional fallback Eat in that selected branch. D01/D05.
 
-Native Eat independently checks eatable/entity/owner/inventory/parent consistency, then calls UseBy. The selected UseBy applies medicine influence and configured boosters, sends the mode-dependent booster event, adjusts uses and condition, then returns true. It has no early Empty rejection in this body. Full condition/booster internals and effective script use policy are outside scope. D01–D03.
+Native Eat independently checks eatable/entity/owner/inventory consistency and compares the parent ID, then calls UseBy. Eat and ClientEat dereference H_Parent for that ID comparison without an explicit null guard; a valid live parent is a required invariant, not a null-safe rejection contract. The selected UseBy applies medicine influence and configured boosters, sends the mode-dependent booster event, adjusts uses and condition, then returns true. It has no early Empty rejection in this body. Full condition/booster internals and effective script use policy are outside scope. D01–D03.
 
 For the actor's inventory in single-player, Eat then emits native use_object(item). UI selection/refresh follows. Only afterward does it test Empty: an empty non-deletable item returns false; an empty deletable item gets manual-drop marked. Thus **false can follow applied effects and the callback**, and true does not mean object destruction has completed. Retrying merely because Eat returned false is not established safe behavior. The native in-Eat named gate block is commented; the active actor event gate is a separate path. D01/D05/D18.
 
@@ -55,3 +55,5 @@ game_object:eat(item) calls native inventory Eat directly after explicit argumen
 For CtZ logistics or soldier equipment, distinguish abstract campaign balances from actual item effects/counts/removal; establish the effective NPC policy before assuming actor consumption/UI behavior applies. This pass supplies source boundaries rather than a working NPC consumable recipe. Full weapon/ammunition/artefact use, death-drop strategy, decoder/schema and runtime remain outside scope.
 
 Next: item persistence and reconstruction, followed by inventory consolidation and bounded audit. [Roadmap](../../ROADMAP.md).
+
+Current completion: the selected ITEM-01–04 foundations and [ITEM-05 consolidation/audit](development-reference.md) are complete within available-source scope. Earlier next-step text above records the individual increment; use [completion status](source-completion-status.md) and the [current roadmap](../../ROADMAP.md) for the active backlog.

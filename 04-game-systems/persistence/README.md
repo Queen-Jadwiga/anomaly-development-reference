@@ -1,8 +1,8 @@
 # Persistence
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.57.** Available-source research/consolidation status: complete within selected scope. Full effective installed storage/schema behavior remains partial; runtime is unverified. Runtime verification is deferred until explicitly resumed by the user.
+**Current revision: v0.1.58.** Available-source research/consolidation status: complete within selected scope. Full effective installed storage/schema behavior remains partial; runtime is unverified. Runtime verification is deferred until explicitly resumed by the user.
 
 - [Native save/load pipeline](native-save-load-pipeline.md).
 - [Native Lua extension contracts](../../02-lua-api/persistence/native-extension-contracts.md).

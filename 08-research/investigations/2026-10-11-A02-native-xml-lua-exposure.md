@@ -1,6 +1,6 @@
 # A-02 — Separate native CUIXmlInit Lua exposure (2026-10-11)
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
 **Status:** SOURCE RESEARCH COMPLETE — runtime validation optional/pending.  **Revision:** ADR v0.1.13. **Source:** user-supplied `xray-monolith-2026.10.11.zip`; extracted project root `xray-monolith-2026.10.11/`. This result applies only to that snapshot, not automatically to previous releases, custom DLLs, or runtime-injected registrations.
 

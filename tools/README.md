@@ -1,6 +1,6 @@
 # Research and documentation tools
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
 | Tool | Purpose | Requirements / scope |
 | --- | --- | --- |

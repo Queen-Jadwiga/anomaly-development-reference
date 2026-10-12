@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.58 — 2026-10-11 — Inventory consolidation and bounded audit
+
+- Add practical inventory development reference, source-completion rule and ITEM-05 investigation; audit selected ITEM-01–04 source/API/callback/persistence boundaries.
+- Clarify strict restoration bypass versus ordinary placement predicates and native consumption's required parent invariant, using existing evidence. Preserve dated investigation bodies, ledger bytes and runtime limits.
+- Available-source inventory work complete within scope; effective integration partial. Next trade/economy. See [verification](08-research/verification-2026-10-11-v0.1.58.md).
 
 ## v0.1.57 — 2026-10-11 — Item persistence and reconstruction
 

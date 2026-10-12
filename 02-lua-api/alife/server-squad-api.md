@@ -1,6 +1,6 @@
 # Server entity, squad and movement API
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
 [Catalog conventions](README.md). These are selected checked contracts. The complete scoped occurrence inventory, with overload expressions and evaluated guards, is in [the bindings CSV](native-lua-bindings-oct11.csv).
 

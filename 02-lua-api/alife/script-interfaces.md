@@ -1,6 +1,6 @@
 # Script interfaces and effective-source boundary
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
 [Catalog conventions](README.md). [Function declaration CSV](script-interfaces-oct11.csv) retains source IDs, paths, lines, parameters and colon/explicit receiver forms. It includes the four selected engine scripts (`sim_squad_scripted`, `bind_monster`, `callbacks_gameobject`, `aaaa_script_fixes_mp`) and all `.script` files found in the supplied BETA150 main/patch folders. It does not silently merge implementations from those variants.
 

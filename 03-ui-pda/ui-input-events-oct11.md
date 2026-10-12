@@ -1,6 +1,6 @@
 # October 11 UI survey — input and event routes
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
 **Scope:** source-identified routes; not a comprehensive guarantee about interception priority in every input mode.
 

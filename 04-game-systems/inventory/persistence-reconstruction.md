@@ -1,6 +1,6 @@
 # Item persistence and reconstruction
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-04
 - Research revision: v0.1.57
@@ -40,7 +40,7 @@ Client item save writes zero as the physical marker when parented; independent i
 
 After successful live net_Spawn, the selected Level spawn function invokes the client spawn manager callback, then dispatches GE_OWNERSHIP_TAKE to a non-sentinel parent. The active code uses immediate cl_Process_Event; the queued packet alternative in this block is commented. A spawn callback can therefore precede the item's live inventory take in this path. R11.
 
-Selected actor ownership handling checks CanTakeItem, sets the live parent, calls Take(..., false, true), then SelectBestWeapon. Take attempts the restored belt/ruck/slot placement; a failed attempt makes placement undefined and triggers its normal fallback. Placement restoration is therefore conditional, not a promise to preserve an incompatible slot/configuration. OnItemTake follows placement, before final weight/state/UI work. Other owner variants remain explicit dependencies. R12/R13; ITEM-01/02 establish their earlier scoped contracts.
+Selected actor ownership handling checks CanTakeItem, sets the live parent, calls Take(..., false, true), then SelectBestWeapon. Take attempts the restored belt/ruck/slot placement; a failed attempt makes placement undefined and triggers its normal fallback. Strict placement bypasses the ordinary Slot/Belt/Ruck eligibility predicates; this fallback is not proof that restoration revalidates normal eligibility or safely migrates an incompatible slot/configuration. See ITEM-02 P01–P03. OnItemTake follows placement, before final weight/state/UI work. Other owner variants remain explicit dependencies. R12/R13; ITEM-01/02 establish their earlier scoped contracts.
 
 InventoryOwner save records the current active slot. Load reads it, directly sets NO_ACTIVE_SLOT only for that sentinel, and records m_tmp_active_slot_num; the immediate deferred-activation line is commented. OnItemTake emits eOnItemTake, attaches the item, then requests Activate when its slot matches the pending slot and ItemFromSlot exists, and clears the pending value. The callback precedes this restoration request; Activate still has ITEM-02 eligibility/readiness boundaries. Actor SelectBestWeapon and derived owner policy can further affect selection. R12–R14.
 
@@ -49,3 +49,5 @@ InventoryOwner save records the current active slot. Load reads it, directly set
 Inference from the traced phases: reconcile persistent IDs against restored server entities, and resolve live handles only after their actual availability; do not recreate an item merely because no client handle exists yet. A parent ID, loaded placement value, spawn callback or take callback alone is not proof of final equipped/readiness state. Keep addon-owned metadata in its explicitly traced storage/binder contract, with schema and campaign identity checks; native item fields do not serialize arbitrary Lua tables. See [CtZ campaign safety](../persistence/ctz-campaign-safety.md).
 
 Missing installed binders/helpers, offline item-state synchronization, NPC-specific restoration, all derived item serializers, binary/profile equivalence and malformed-packet recovery remain open. No universal migration recipe, callback-complete barrier or tested save compatibility is asserted. ITEM-04 is complete within selected scope; next inventory consolidation and bounded audit. Runtime remains deferred.
+
+Current completion: the selected ITEM-01–04 foundations and [ITEM-05 consolidation/audit](development-reference.md) are complete within available-source scope. Earlier next-step text above records the individual increment; use [completion status](source-completion-status.md) and the [current roadmap](../../ROADMAP.md) for the active backlog.

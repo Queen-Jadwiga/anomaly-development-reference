@@ -1,6 +1,6 @@
 # Workflow and structure verification — ADR v0.1.40
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
 **11 October 2026 · documentation/source integrity checks; engine/game runtime deferred.**
 

@@ -1,6 +1,6 @@
 # Inventory ownership, containment and pickup/drop
 
-> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.58**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-01
 - Research revision: v0.1.54
@@ -63,3 +63,5 @@ inventory_for_each builds an AddAvailableItems list and invokes the callback wit
 ITEM-01 closes selected server/actor/box ownership and focused request/observer contracts. It does not close NPC consumers, placement/activation details, item use/consumption/destruction, item serialization/reconstruction, price/payment, effective GAMMA scripts, full graph attach/detach internals or runtime. Existing [A-Life lifecycle](../alife/lifecycle-state-reference.md) and [persistence pipeline](../persistence/native-save-load-pipeline.md) provide surrounding context without proving every item-specific edge.
 
 Next ITEM-02: slot/belt/ruck movement, eligibility, active-item transitions and callback ordering; then consumption/destruction and persistence, followed by bounded consolidation. [Roadmap](../../ROADMAP.md).
+
+Current completion: the selected ITEM-01–04 foundations and [ITEM-05 consolidation/audit](development-reference.md) are complete within available-source scope. Earlier next-step text above records the individual increment; use [completion status](source-completion-status.md) and the [current roadmap](../../ROADMAP.md) for the active backlog.
