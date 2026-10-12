@@ -1,6 +1,6 @@
 # A-Life / Warfare C++ and Lua interface catalog
 
-> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.39 · ALIFE-09 · 11 October 2026 · source inventory and focused contracts; runtime deferred.**
 

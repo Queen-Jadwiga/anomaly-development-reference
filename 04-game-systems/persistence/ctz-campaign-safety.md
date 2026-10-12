@@ -1,6 +1,6 @@
 # CtZ campaign identity, schema and reconciliation
 
-> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
 
 **Research revision: v0.1.52.** PER-03 is complete within its selected source scope. Runtime verification remains deferred. This describes CTZ005J Alpha 0.0.5j at commit `eba6660db09353dcc42a195ae6e7e706f4762277`; it does not certify save compatibility or change CtZ gameplay.
 

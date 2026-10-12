@@ -1,6 +1,6 @@
 # Repository file and folder conventions
 
-> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
 
 **Effective from v0.1.40.** Every new record has one canonical home. Entry pages may link it; obsolete forwarding pages are removed after internal navigation is repaired (v0.1.41). Earlier URLs remain in Git history.
 
@@ -12,7 +12,7 @@
 | `02-lua-api/<subsystem>/` | API catalogs, class/method contracts and generated export datasets |
 | `02-lua-api/templates/` | Shared API template |
 | `03-ui-pda/` | UI/PDA behavior and integration reference |
-| `04-game-systems/<subsystem>/` | A-Life, Warfare, factions and persistence references/entry pages |
+| `04-game-systems/<subsystem>/` | Behavior subsystem references and entry pages |
 | `05-mod-architecture/`, `06-debugging/`, `07-code-library/` | Mod design, diagnostics and qualified examples |
 | `08-research/investigations/` | Dated question/evidence/findings/disposition records |
 | `08-research/templates/` | Shared investigation and verification templates |
@@ -37,3 +37,13 @@ Older UI investigations already under `08-research/investigations/` stay there. 
 ## Link and tooling rules
 
 Use relative repository links internally; use immutable upstream links when available and explain snapshot-only line checks. Never traverse above the repository root. Do not put generated output back into a historical forwarding directory. Generators accept explicit source/output roots and document prerequisites. Source archives, compiled executables, private profile paths and gameplay assets are not repository artifacts.
+
+## Standard subsystem entry pattern
+
+For the researched behavior subsystems listed in [the subsystem map](subsystem-map.md), use three distinct entry files:
+
+- README.md: concise directory navigation and current scoped status; link the central guide first.
+- development-reference.md: practical synthesis/decision guidance and links to existing detailed source, API and evidence records. It is not a duplicate investigation or a forwarding stub.
+- source-completion-status.md: completed scope, effective-source requirements, runtime limits and stopping rule. Shared rules can remain authoritative in one page with an explicit scoped link from another subsystem.
+
+Detailed reference filenames and dated research remain stable. New central guides must reuse existing evidence and retain source/build qualifications; filename consistency does not justify duplicating research or revalidating older baselines. Keep subsystem audit links pinned to that subsystem's actual audit; the root latest-verification link has a different purpose. Earlier next-step plans belong in dated/history records, while current directory hubs point to the roadmap. Cross-system architecture/environment/project categories are not forced into this behavior-subsystem pattern.

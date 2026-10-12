@@ -1,10 +1,12 @@
 # PDA architecture — investigation PDA-001
 
-> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
 
-**Current state:** Source research is underway. No assertion yet that a new PDA tab can be registered using only the May 2026 Lua API.
+**Historical starter state:** Source research is underway. No assertion yet that a new PDA tab can be registered using only the May 2026 Lua API.
 
-## Questions to resolve
+For current source guidance and remaining work, use the [UI/PDA development reference](development-reference.md) and [completion status](source-completion-status.md). The starter questions below retain their original May-target scope.
+
+## Original questions to resolve
 
 1. Which C++ objects own the PDA screen and its tabs/pages?
 2. What Lua APIs expose PDA windows and UI event routing?

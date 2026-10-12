@@ -1,6 +1,6 @@
 # INV-012 — Part C: XML/UI object construction, attachment and deletion
 
-> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
 
 **Baseline:** X-Ray Monolith `2026.5.15` (`6a08e0905ce34748ee2904a5e0809f8afd141137`).  **Evidence:** historical source, not runtime tested. **Date:** 2026-10-09.
 

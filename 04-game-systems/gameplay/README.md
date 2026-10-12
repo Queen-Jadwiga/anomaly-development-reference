@@ -1,8 +1,8 @@
 # Actor and NPC gameplay state
 
-> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.66.** Selected available-source foundation and consolidation/audit complete within scope. Effective installed integration partial; runtime untested and deferred.
+**Current revision: v0.1.67.** Selected available-source foundation and consolidation/audit complete within scope. Effective installed integration partial; runtime untested and deferred.
 
 - [Practical development reference](development-reference.md).
 - [Source completion and remaining work](source-completion-status.md).

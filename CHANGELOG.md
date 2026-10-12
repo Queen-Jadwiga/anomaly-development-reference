@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.67 — 2026-10-12 — Consistent subsystem entry points
+
+- Standardize README, development-reference and source-completion-status across eight researched behavior subsystems; add A-Life/Warfare/UI central guides without moving existing detailed research.
+- Add subsystem map and directory hubs; document file roles and shared-closure rules. Repair stale audit links, UI starter status and economy roadmap text.
+- Preserve original evidence, history, source/version confidence and runtime limits. See [structural verification](08-research/verification-2026-10-12-v0.1.67.md).
 
 ## v0.1.66 — 2026-10-12 — Gameplay state consolidation and bounded audit
 

@@ -1,6 +1,6 @@
 # Faction and relation source evidence
 
-> ADR document set: **v0.1.66**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
 
 - [FAC-01 native relation ledger](native-relations-2026-10-11.csv): F01–F18, 18 ENGINE1011 source files; IDs are local to this ledger.
 - [Native reference](../../04-game-systems/factions/native-relations.md).
