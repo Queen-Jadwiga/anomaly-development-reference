@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.74.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.75.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -310,3 +310,5 @@ Records retain their research revision and source baseline; those are distinct f
 
 - [Directory entry](04-game-systems/configuration/README.md), [development reference](04-game-systems/configuration/development-reference.md), [coverage inventory](04-game-systems/configuration/coverage-inventory.md), [completion status](04-game-systems/configuration/source-completion-status.md).
 - [CONFIG-01 investigation](08-research/investigations/2026-10-12-CONFIG-01-existing-coverage.md), [evidence](evidence/configuration/README.md), [inventory verification](08-research/verification-2026-10-12-v0.1.74.md).
+
+- CONFIG-02: [LTX/INI/DLTX behavior](04-game-systems/configuration/ltx-ini-dltx.md), [Lua INI contracts](02-lua-api/configuration/ini-api.md), [investigation](08-research/investigations/2026-10-12-CONFIG-02-ltx-ini-dltx.md), [verification](08-research/verification-2026-10-12-v0.1.75.md).

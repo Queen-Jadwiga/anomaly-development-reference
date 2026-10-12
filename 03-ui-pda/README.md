@@ -1,6 +1,6 @@
 # UI and PDA
 
-> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
 
 Start with the [development reference](development-reference.md) and [source completion/remaining work](source-completion-status.md). The documented source foundation is usable within its selected scope; independent runtime and effective addon integration remain open, with attributed external reports retained separately.
 

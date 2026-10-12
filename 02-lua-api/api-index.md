@@ -1,6 +1,6 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
 
 Current canonical locations:
 
@@ -75,3 +75,7 @@ Inventory contracts are consolidated in the [development reference](../04-game-s
 - [Selected world use/zone/changer/marker APIs](world/interaction-api.md): WORLD-03; effective/runtime gaps retained.
 
 - [WORLD-04 selected dynamic restriction consumer extensions](world/consumer-extension-api.md); [world consolidation](../04-game-systems/world/development-reference.md).
+
+## Configuration contracts
+
+[Selected Lua INI construction/read/write/lifetime and DLTX diagnostics](configuration/ini-api.md), CONFIG-02/ENGINE1011. Exact registered arities, ownership and converter limits; runtime deferred.

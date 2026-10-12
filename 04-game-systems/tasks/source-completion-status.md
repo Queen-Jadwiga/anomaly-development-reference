@@ -1,6 +1,6 @@
 # Tasks dialogue and info state completion status
 
-> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
 
 **As of 12 October 2026:** planned available-source work TASK-01–03 is complete **within selected scope** and consolidated for development use. Effective installed integration remains **partial**; independent runtime is **untested/deferred**. [Central guide](development-reference.md), [native foundation](native-task-dialogue-info.md), [supplied consumers](supplied-task-dialogue-consumers.md), [audit](../../08-research/verification-2026-10-12-v0.1.69.md).
 

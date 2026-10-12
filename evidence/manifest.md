@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -83,3 +83,5 @@ All version-sensitive engine documentation must cite an exact revision once iden
 [World supplied-consumer ledger and scope/comparison records](world/README.md): WORLD-04, ENGINE1011/BETA150 main/ZIP142; selected callers, configuration requests, focused native restriction extensions and bounded inventory/comparison. No new source artifact or installed winner is introduced.
 
 [Configuration/script-integration coverage ledger](configuration/README.md): CONFIG-01, 18 existing-documentation rows at ADR v0.1.73 immutable main commit. Inherited source/runtime confidence; no new native contract or source artifact.
+
+[CONFIG-02 LTX/INI/DLTX source ledger](configuration/ltx-ini-dltx-2026-10-12.csv): 50 ENGINE1011 rows across 21 files/72 cited range groups; selected settings/parser/merge/cache/read/write/Lua/policy/helper contracts. Archive pin retained, upstream commit/executable correspondence unknown.

@@ -1,6 +1,6 @@
 # Standard ADR research workflow
 
-> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
 
 **Effective from ADR v0.1.40 · 11 October 2026.** Applies to every subsystem. Existing dated records remain historical evidence; this workflow governs new work and current navigation.
 

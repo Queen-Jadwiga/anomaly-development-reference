@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.75 — 2026-10-12 — LTX/INI and selected DLTX contracts
+
+- CONFIG-02 traces selected ENGINE1011 settings roots, construction/cache, includes/mod discovery, scalar/parent/list/delete resolution, reads/writes/save, Lua exports/converters/ownership and bundled default helpers; add 50 pinned evidence rows.
+- Preserve exact constructor and in-out arities, integer BOOL flags, pointer reload/close hazards, resolved-save versus source structure, cache and diagnostic provenance limits. Selected source pass complete; effective integration partial and runtime deferred.
+- Next CONFIG-03 native script loading/startup/shared callbacks. No CtZ gameplay or third-party source/assets changes. [Verification](08-research/verification-2026-10-12-v0.1.75.md).
 
 ## v0.1.74 — 2026-10-12 — Configuration/script integration coverage inventory
 

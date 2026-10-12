@@ -1,6 +1,6 @@
 # ITEM-03 — Consumption, destruction and owner cleanup
 
-> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-03
 - Subsystem: inventory

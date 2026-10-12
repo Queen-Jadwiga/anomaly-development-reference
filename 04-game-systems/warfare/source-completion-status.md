@@ -1,6 +1,6 @@
 # Warfare source completion and remaining work
 
-> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
 
 Selected supplied-package controls, policy paths and native integration boundaries are complete within their documented available-source scope. Effective Warfare integration remains partial; runtime untested and deferred.
 

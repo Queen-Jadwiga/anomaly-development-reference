@@ -1,6 +1,6 @@
 # UI-01a — Native tab selection, reset, and event propagation
 
-> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
 
 Status: **source research complete for tab-control state transitions**; runtime checks deferred. Source baseline: uploaded `xray-monolith-2026.10.11.zip` (not the installed executable). Line numbers refer to this archive. This record is limited to `CUITabControl` state transitions, dynamic-tab rebuild interaction, and PDA routing. It does not certify addon compatibility.
 

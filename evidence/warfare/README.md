@@ -1,6 +1,6 @@
 # Warfare source evidence
 
-> ADR document set: **v0.1.74**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
 
 - [WAR-002 source ledger](source-evidence-war002-oct11.csv).
 - [Supplied package script byte comparison](archive-script-comparison-oct11.csv).
