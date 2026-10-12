@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.63
 
-> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
 
 - Target ADR revision: v0.1.63, based on main 8fb8b70890311609c402435bcbfe4f46677db2f8
 - Changed scope: GAME-01 base condition/live hit and focused Lua contracts

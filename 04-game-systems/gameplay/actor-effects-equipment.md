@@ -1,6 +1,6 @@
 # Actor survival boosters and equipment mitigation
 
-> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
 
 - ID: GAME-02
 - Subsystem: actor/NPC gameplay state

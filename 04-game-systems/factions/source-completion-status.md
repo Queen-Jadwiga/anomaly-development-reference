@@ -1,6 +1,6 @@
 # Faction source completion and remaining work
 
-> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
 
 **As of 11 October 2026:** planned native and selected supplied-package faction research, practical consolidation and bounded final available-source audit are complete within scope. The reference is ready for development use **within those documented source boundaries**. Full effective GAMMA/CtZ faction integration remains **partial**. Runtime is **untested** and deferred until the user explicitly resumes it.
 

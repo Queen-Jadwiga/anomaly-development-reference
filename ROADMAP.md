@@ -1,6 +1,6 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source status
 
@@ -82,7 +82,7 @@ The first broadly useful ADR extends beyond CtZ while remaining bounded. CtZ sup
 - [x] Selected inventory/item lifecycle available-source foundation: [ownership](04-game-systems/inventory/ownership-lifecycle.md), [placement/activation](04-game-systems/inventory/placement-activation.md), [consumption/removal](04-game-systems/inventory/consumption-destruction.md), [persistence/reconstruction](04-game-systems/inventory/persistence-reconstruction.md) and [consolidation/audit](04-game-systems/inventory/development-reference.md) complete within scope; [effective integration](04-game-systems/inventory/source-completion-status.md) remains partial.
 - [x] Trade/economy selected available-source foundation: ECO-01/ECO-02 plus [ECO-03 consolidation and bounded audit](04-game-systems/economy/development-reference.md). [Effective integration](04-game-systems/economy/source-completion-status.md) remains partial; winning managers/stock/gate/discount configs and runtime remain open.
 - [x] Actor/NPC gameplay state selected available-source foundation: GAME-01–03 plus [GAME-04 consolidation/audit](04-game-systems/gameplay/development-reference.md). [Effective integration](04-game-systems/gameplay/source-completion-status.md) remains partial; medicine/helper/restore, installed-profile and runtime gaps retained.
-- [ ] Tasks/dialogue/info state: [TASK-01 native foundation](04-game-systems/tasks/native-task-dialogue-info.md) complete within selected scope; next supplied task/dialogue/reward/restoration consumers and effective inputs, then consolidation/audit. Runtime deferred.
+- [x] Tasks/dialogue/info state: TASK-01 native foundation, TASK-02 supplied consumers and TASK-03 [consolidation/audit](04-game-systems/tasks/development-reference.md) complete within selected available-source scope. [Effective integration](04-game-systems/tasks/source-completion-status.md) remains partial; runtime deferred.
 - [ ] World interaction/navigation: extend existing lookup/position/graph/restriction/smart/transition/map-marker coverage after inventorying it; do not duplicate completed A-Life findings.
 - [ ] Configuration/script integration: LTX sections/inheritance, Lua startup/loading, callback registration, patching and effective file precedence.
 - [ ] Practical architecture/debugging: compatibility/state ownership, logging/crash diagnosis, qualified examples and evidence-based test guidance.
@@ -92,4 +92,13 @@ Each subsystem's first-edition boundary is its main lifecycle, state owner, rele
 
 ## Maintenance
 
-Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-12-v0.1.68.md). Historical unchecked boxes are not the current backlog.
+Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-12-v0.1.69.md). Historical unchecked boxes are not the current backlog.
+
+## Tasks/dialogue/info effective backlog
+
+- [ ] Winning task/turn-in/functor/reward helpers, startup order and active task/dialogue/info definitions.
+- [ ] Actor stored tables, task-manager stage/history/repeat serialization, omitted native info-list reconstruction and effective binders/dispatcher/encoder restore phases.
+- [ ] Confirm active consumers and handler returns before treating supplied smart-control/dispatcher discrepancies as installed bugs.
+- [ ] Runtime task/turn-in/reward/info/save-load/level-change observations, deferred.
+
+See [completion requirements](04-game-systems/tasks/source-completion-status.md); historical next-step descriptions in dated records retain their original scope.

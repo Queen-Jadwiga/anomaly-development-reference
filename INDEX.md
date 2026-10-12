@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.68.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.69.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -132,7 +132,7 @@ Records retain their research revision and source baseline; those are distinct f
 ## 08-research
 
 - [PER-02 Lua storage investigation](08-research/investigations/2026-10-11-PER-02-lua-storage.md)
-- [Current verification — v0.1.56](08-research/verification-2026-10-12-v0.1.68.md)
+- [Current verification — v0.1.56](08-research/verification-2026-10-12-v0.1.69.md)
 
 - [PER-01 native save/load investigation](08-research/investigations/2026-10-11-PER-01-native-save-load.md)
 - [PER-01 verification — v0.1.50](08-research/verification-2026-10-11-v0.1.50.md)
@@ -269,7 +269,7 @@ Records retain their research revision and source baseline; those are distinct f
 - [ENV-RT01 reported GAMMA baseline](00-environment/reported-gamma-runtime-2026-10-12.md).
 - [REV-01 confidence/disposition review](08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md).
 - [Source comparison](evidence/runtime/issue-review-source-2026-10-12.csv) and [external observations](evidence/runtime/reported-observations-2026-10-12.csv).
-- [v0.1.60 verification](08-research/verification-2026-10-12-v0.1.68.md).
+- [v0.1.60 verification](08-research/verification-2026-10-12-v0.1.69.md).
 
 - [Trader configuration and supply consumers](04-game-systems/economy/trader-configuration.md), [policy/supply APIs](02-lua-api/economy/trader-policy-api.md), [ECO-02](08-research/investigations/2026-10-12-ECO-02-trader-configuration.md).
 
@@ -288,3 +288,5 @@ Records retain their research revision and source baseline; those are distinct f
 [Subsystem entry map](08-research/subsystem-map.md), [UI/PDA hub](03-ui-pda/README.md), [game-system hub](04-game-systems/README.md). Each researched behavior subsystem has a README, development reference and completion status; legacy detailed files retain their identity.
 
 - [Tasks/dialogue/info state](04-game-systems/tasks/README.md), [native foundation](04-game-systems/tasks/native-task-dialogue-info.md), [APIs](02-lua-api/tasks/native-task-info-api.md), [TASK-01](08-research/investigations/2026-10-12-TASK-01-native-task-dialogue-info.md).
+
+- [Supplied task/dialogue/reward/restoration consumers](04-game-systems/tasks/supplied-task-dialogue-consumers.md), [TASK-02](08-research/investigations/2026-10-12-TASK-02-supplied-task-dialogue-consumers.md), [TASK-03 consolidation](08-research/investigations/2026-10-12-TASK-03-task-state-consolidation.md).

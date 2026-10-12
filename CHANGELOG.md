@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.69 — 2026-10-12 — Task dialogue consumers and consolidation
+
+- TASK-02 traces supplied offer/description/setup/grant/stage/turn-in/cancel, rewards and restoration callers with 16 pinned evidence entries and explicit missing effective implementations.
+- Compare BETA150/ZIP142 condition-list dispatch; retain return-dependent double invocation and smart-control cache/readiness discrepancies as source findings with installed use unproven.
+- TASK-03 consolidates practical state-owner, ordering, reward and restore guidance and audits all 34 task evidence entries. Available-source pass complete within scope; installed integration partial and runtime deferred. No CtZ gameplay changes. See [audit](08-research/verification-2026-10-12-v0.1.69.md).
 
 ## v0.1.68 — 2026-10-12 — Native tasks dialogue and info state
 

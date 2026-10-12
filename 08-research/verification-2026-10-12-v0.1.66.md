@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.66
 
-> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.66, based on main 7996f62bdcb3f4542b65ce67e3db93eb1f517498
 - Scope: GAME-04 gameplay-state consolidation and bounded audit

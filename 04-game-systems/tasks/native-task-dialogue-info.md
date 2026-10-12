@@ -1,6 +1,6 @@
 # Native task dialogue and info state
 
-> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
 
 - ID: TASK-01
 - Subsystem: tasks/dialogue/info state
@@ -10,7 +10,7 @@
 - Baseline/provenance: ENGINE1011; [source record](../../00-environment/source-baseline-2026-10-11.md)
 - Last reviewed: 2026-10-12
 
-[Ledger T01–T18](../../evidence/tasks/native-task-dialogue-info-2026-10-12.csv), [investigation](../../08-research/investigations/2026-10-12-TASK-01-native-task-dialogue-info.md), [Lua contracts](../../02-lua-api/tasks/native-task-info-api.md). This first native pass does not establish effective GAMMA task rewards, repeatability, NPC dialogue packages or whole restoration. Supplied scripts/configuration and practical final consolidation remain next work.
+[Ledger T01–T18](../../evidence/tasks/native-task-dialogue-info-2026-10-12.csv), [investigation](../../08-research/investigations/2026-10-12-TASK-01-native-task-dialogue-info.md), [Lua contracts](../../02-lua-api/tasks/native-task-info-api.md). This first native pass does not establish effective GAMMA task rewards, repeatability, NPC dialogue packages or whole restoration. The subsequent [supplied-consumer pass](supplied-task-dialogue-consumers.md) and [practical consolidation](development-reference.md) retain these native limits.
 
 ## Prior coverage and state owners
 
@@ -65,4 +65,8 @@ GetScriptText falls back to the supplied text key only when no text function is 
 
 Task/map state, actor info flags, dialogue eligibility and scripted reward delivery are different layers. Persist mission identity and reconcile effective state before retries; neither task state callbacks nor info-add returns are atomic reward receipts. This is inferred design guidance, not a tested task/requisition recipe.
 
-TASK-01 completes this selected native foundation. Next supplied task/dialogue/condition consumers, reward and restore callers, XML/configuration/binder/startup and missing effective sources; then bounded practical consolidation/audit. Runtime remains deferred, and no CtZ code is changed. [Completion status](source-completion-status.md), [roadmap](../../ROADMAP.md).
+TASK-01 completes this selected native foundation. The subsequent supplied-consumer pass and practical consolidation/audit are complete within selected available-source scope; missing effective XML/configuration/binder/startup, manager/reward and restoration implementations remain open. Runtime remains deferred, and no CtZ code is changed. [Completion status](source-completion-status.md), [roadmap](../../ROADMAP.md).
+
+## Subsequent source pass
+
+TASK-02 available supplied caller tracing and TASK-03 practical consolidation/audit are now complete within selected scope. See [supplied consumers](supplied-task-dialogue-consumers.md), [central guide](development-reference.md) and [current status](source-completion-status.md). The TASK-01 findings above retain their original native scope; effective installation/runtime gaps remain open.

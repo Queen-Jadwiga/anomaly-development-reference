@@ -1,6 +1,6 @@
 # Warfare development reference
 
-> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
 
 - ID: STRUCT-01-WARFARE
 - Subsystem: Warfare

@@ -1,8 +1,8 @@
 # Persistence
 
-> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.68.** Available-source research/consolidation status: complete within selected scope. Full effective installed storage/schema behavior remains partial; runtime is unverified. Runtime verification is deferred until explicitly resumed by the user.
+**Current revision: v0.1.69.** Available-source research/consolidation status: complete within selected scope. Full effective installed storage/schema behavior remains partial; runtime is unverified. Runtime verification is deferred until explicitly resumed by the user.
 
 Start with the [development reference](development-reference.md) and [completion status](source-completion-status.md).
 
