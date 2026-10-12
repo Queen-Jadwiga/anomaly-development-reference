@@ -1,0 +1,101 @@
+{
+  "source_id": "ENGINE1011",
+  "archive_sha256": "14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee",
+  "archive_tree_root": "xray-monolith-2026.10.11/",
+  "method": "selected definition/registration/converter/caller/conditional inspection; not exhaustive search",
+  "upstream_commit": null,
+  "executable_equivalence": "unknown",
+  "excluded": [
+    "alternate xrDebug.cpp behavior (project exclusions recorded only)",
+    "all crash paths and stackwalker internals",
+    "profiler implementation and measured overhead",
+    "installed printf/printe/callstack aliases",
+    "game execution"
+  ],
+  "files": {
+    "src/xrCore/log.cpp": {
+      "sha256": "fa4928ccdd5b64dfbe83b1a9baddc51de58ea927fff7d92eb82008904bca4a69",
+      "line_count": 319
+    },
+    "src/xrCore/LocatorAPI.cpp": {
+      "sha256": "1880c14351c901c49b3649464e14b6c2c5e812b37243be2ebb847d197b76c723",
+      "line_count": 1764
+    },
+    "src/xrCore/FS_internal.h": {
+      "sha256": "55e948bc49904b2003790ee90b0dfc86eeca2eabc2e5237bbed7f0f6ea9dca8c",
+      "line_count": 123
+    },
+    "src/xrGame/console_commands.cpp": {
+      "sha256": "b8e26b91a30bbf7e1b0ac6ade5b2bad2ad467bc56a4330608bec9462ab943165",
+      "line_count": 3326
+    },
+    "src/build_config_defines.h": {
+      "sha256": "677576631effd244bec2ce7902aeaecbd1027d6849136909587bbebd9f8c120b",
+      "line_count": 85
+    },
+    "src/xrCore/xrCore.vcxproj": {
+      "sha256": "bcf21a95fc1520575252b7cbf0e7cd1bfabd52f0038fe391f94258a6065dd943",
+      "line_count": 696
+    },
+    "src/xrCore/xrCore.h": {
+      "sha256": "edff8d7666810c5d20c5a3266bd1d84abdc7706fceff00224511ddb674a44013",
+      "line_count": 356
+    },
+    "src/xrCore/xrDebug_macros.h": {
+      "sha256": "c99616db965ab0a8172fbc6289b1f61e848b6d03fd4fce6aabca45e7a312fb39",
+      "line_count": 107
+    },
+    "src/xrCore/xrDebugNew.cpp": {
+      "sha256": "cdd64680869da493816c0834ecd0a96b2a5a89190f011c59b931a914075f2595",
+      "line_count": 1210
+    },
+    "src/xrEngine/x_ray.cpp": {
+      "sha256": "32b8e6da14da1c23883b3fa9c117d51a5f08f04a11eadfa0f674f91665579424",
+      "line_count": 2031
+    },
+    "src/xrServerEntities/script_engine_script.cpp": {
+      "sha256": "7e8eb5400dc6dc19417249981a164c53c8e367b1d935b80ba4604d80ae983bfa",
+      "line_count": 282
+    },
+    "src/3rd party/luabind/detail/policy.hpp": {
+      "sha256": "e5726f8e277dca56f97616160c179b78ac435364c3efb974f211633dc635a2c4",
+      "line_count": 1296
+    },
+    "src/xrServerEntities/script_storage.cpp": {
+      "sha256": "f044ff05abe170729723da64f479c47612e2a882a064dfcd61ed5ddb5e3a18c2",
+      "line_count": 1320
+    },
+    "src/xrServerEntities/script_engine.cpp": {
+      "sha256": "8cb5c6f86ea78f61eab1126f5f3b44aa4afb0f077f33d53a86b0ccf0b8b05052",
+      "line_count": 642
+    },
+    "src/3rd party/luabind/luabind/src/pcall.cpp": {
+      "sha256": "5144471e2684aef63855d637971879451bfd5a33ddfc3c3b1acb358f6d81da79",
+      "line_count": 51
+    },
+    "src/3rd party/luabind/functor.hpp": {
+      "sha256": "034b18159ae5e385380743cecc09f44bb40823f18a8830486069d3d02c6db97f",
+      "line_count": 449
+    },
+    "src/3rd party/luajit-2/src/lj_err.c": {
+      "sha256": "aae3bf0df31a3892d9a305634f88218861869a342910e90d19bac021bb81a69b",
+      "line_count": 800
+    },
+    "src/xrGame/script_binder.cpp": {
+      "sha256": "15ee88fab3355f17da675eb798d12f2eb9bacfa3b5b35c793bfb76084116b319",
+      "line_count": 276
+    },
+    "gamedata/scripts/_g_patches.script": {
+      "sha256": "4095fe564cca74a102026a6cc8203cc6bff4676d6ea3d9d98229dde8ba73c39b",
+      "line_count": 1818
+    },
+    "gamedata/scripts/axr_main.script": {
+      "sha256": "bc7bbbd12bc357297735d35a04fd7bfef28e91a694478984d63dcdf96d613826",
+      "line_count": 727
+    },
+    "src/xrCore/xrCore.cpp": {
+      "sha256": "b6d5eddad4099e37b875f99c30988d53719ee4018cea050c2656447f175b6ef2",
+      "line_count": 244
+    }
+  }
+}

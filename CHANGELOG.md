@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.80 — 2026-10-12 — Diagnostic routes and triage
+
+- DEBUG-01 traces selected native logger/writer/lifecycle, build guards, stack/assertion, loader/storage/Luabind/binder/panic and Windows filter/dump routes. Pin 41 source rows/67 ranges/21 files; distinguish buffering/flush/receipt, filtered current stacks and local versus fatal recovery boundaries.
+- Add exact log/error_log/print_stack/flush export/converter contracts and provenance-aware intake, competing hypotheses and bounded probe guidance using six immutable documentation pins. Link selected shared handlers from the existing local XML/DXML reference without claiming every effective chain.
+- Complete within selected source scope; effective executable/profile integration partial, runtime deferred. Next ARCH-03 patterns/test guidance and practical consolidation/bounded audit; later whole-ADR audit separate. No CtZ gameplay or third-party source/assets changes. [Verification](08-research/verification-2026-10-12-v0.1.80.md).
 
 ## v0.1.79 — 2026-10-12 — Module state ownership and compatibility contracts
 

@@ -1,6 +1,6 @@
 # TASK-02 — Supplied task dialogue reward and restoration consumers
 
-> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
 
 - ID: TASK-02
 - ADR/research revision: v0.1.69

@@ -1,6 +1,6 @@
 # Verification and tests
 
-> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
 
 ADR has documentation/source checks; engine/game runtime testing remains deferred.
 

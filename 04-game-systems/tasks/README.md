@@ -1,6 +1,6 @@
 # Tasks dialogue and info state
 
-> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
 
 Start with the [development reference](development-reference.md) and [completion status](source-completion-status.md). Planned selected available-source work TASK-01–03 is consolidated; effective integration partial, runtime untested/deferred.
 

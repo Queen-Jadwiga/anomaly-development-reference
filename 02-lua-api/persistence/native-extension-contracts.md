@@ -1,6 +1,6 @@
 # Native persistence extension contracts
 
-> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
 
 - ID: PER-01-API
 - Subsystem: persistence

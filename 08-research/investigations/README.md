@@ -1,6 +1,6 @@
 # Research investigations
 
-> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
 
 One canonical dated record per question, named `YYYY-MM-DD-ID-topic.md`. Use the [investigation template](../templates/investigation.md), [workflow](../workflow.md) and [evidence policy](../evidence-policy.md).
 

@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.74
 
-> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.74, based on main `6327645f473774753964454c79beabe4f4c2c716`
 - Changed scope: CONFIG-01 existing configuration/script-integration coverage inventory and next source boundaries

@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.73
 
-> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.73, based on main `a3ca46b965b672170d1940098fc8dc222a065eae`
 - Scope: WORLD-04 consumers, practical consolidation and bounded world audit

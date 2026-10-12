@@ -1,6 +1,6 @@
 # Contributing to ADR
 
-> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
 
 Follow the [research workflow](08-research/workflow.md), [repository layout](08-research/repository-layout.md) and [evidence policy](08-research/evidence-policy.md).
 

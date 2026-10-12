@@ -1,6 +1,6 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
 
 Current canonical locations:
 
@@ -83,3 +83,7 @@ Inventory contracts are consolidated in the [development reference](../04-game-s
 [Selected script lookup/prefetch and shared callback contracts](configuration/script-callback-api.md), CONFIG-03/ENGINE1011: native-only versus Lua exports, exact listener identity, ordering/removal/dispatch, debug-global route and effective-wrapper limits.
 
 [Supplied option/patch helper contracts](configuration/options-patch-api.md), CONFIG-04: direct get/set versus pending/current/default/preset/apply/change, class/instance and original-capture limits; effective integration partial.
+
+## Selected debugging exports
+
+[Diagnostic API](debugging/diagnostic-api.md) records exact source-qualified log/error_log/print_stack/flush signatures, converter/build guards, void returns and failure/output limits. [Debugging reference](../06-debugging/README.md), [evidence](../evidence/debugging/README.md). DEBUG-01 selected scope complete; runtime deferred.

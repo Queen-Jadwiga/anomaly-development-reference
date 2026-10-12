@@ -1,6 +1,6 @@
 # UI-04b — DXML callback failure and registration behavior (2026-10-11)
 
-> ADR document set: **v0.1.79**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.80**. Research revisions and source/build versions below describe their original scope.
 
 **Status:** Source research complete for inspected October 11 source; runtime validation deferred. **Scope:** native XML callback boundary, DXML Lua parser wrapper, module registration and callback ordering. This document does not assert that installed GAMMA uses the same effective scripts.
 
@@ -30,3 +30,7 @@
 - Runtime-deferred: actual GAMMA mod load order, external wrappers, error propagation in executable, malformed patch repro, cache conflicts.
 
 **Source-level remaining questions:** a truly exhaustive error-propagation study through Luabind and global script exception handlers would be separate; it is not necessary to represent local callback behavior above accurately. This record deliberately makes no blanket claim that all Lua exceptions terminate the game.
+
+## Subsequent selected shared-handler coverage
+
+[DEBUG-01 diagnostic routes](../06-debugging/diagnostic-routes.md) now trace selected ENGINE1011 Luabind error-handler registration, no-exceptions fatal/assertion backend and exception-qualified binder catch boundaries. This narrows the previously open shared-handler question for those selected paths; it does not certify every effective XML callback/addon/caller route or alter the local fallback findings above. Runtime remains deferred. [Evidence](../evidence/debugging/README.md).
