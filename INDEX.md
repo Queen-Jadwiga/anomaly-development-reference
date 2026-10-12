@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.77.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.78.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -316,3 +316,8 @@ Records retain their research revision and source baseline; those are distinct f
 - CONFIG-03: [loading/startup/shared callbacks](04-game-systems/configuration/script-loading-startup-callbacks.md), [lookup/callback API](02-lua-api/configuration/script-callback-api.md), [investigation](08-research/investigations/2026-10-12-CONFIG-03-script-loading-startup-callbacks.md), [verification](08-research/verification-2026-10-12-v0.1.76.md).
 
 - CONFIG-04: [supplied options/patch consumers](04-game-systems/configuration/supplied-options-patches.md), [helper API](02-lua-api/configuration/options-patch-api.md), [consolidated guide](04-game-systems/configuration/development-reference.md), [investigation](08-research/investigations/2026-10-12-CONFIG-04-consumers-consolidation-audit.md), [bounded audit](08-research/verification-2026-10-12-v0.1.77.md).
+
+## Practical architecture/debugging inventory
+
+- [ARCH-01 coverage inventory and bounded plan](05-mod-architecture/coverage-inventory.md), [architecture entry](05-mod-architecture/README.md), [debugging entry](06-debugging/README.md), [example policy](07-code-library/README.md).
+- [Investigation](08-research/investigations/2026-10-12-ARCH-01-existing-coverage.md), [22-row evidence](evidence/architecture/README.md), [verification](08-research/verification-2026-10-12-v0.1.78.md).

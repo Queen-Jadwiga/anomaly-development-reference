@@ -1,6 +1,6 @@
 # Verification and tests
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
 ADR has documentation/source checks; engine/game runtime testing remains deferred.
 
@@ -19,6 +19,6 @@ Run `python -m unittest discover -s tests -p "test_*.py"`. Checks cover the vali
 
 `test_binding_patterns.py` checks that accessor-backed properties are recognized alongside methods/fields, that property-only source origins pass validation, and that prior binding categories remain distinct. Full generator reproduction additionally checks the actual condition property and preserves all earlier rows. These are source-tool tests, not game tests. Selected externally reported runtime observations are tracked separately in [REV-01](../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md).
 
-[Economy consolidation audit v0.1.62](../08-research/verification-2026-10-12-v0.1.66.md): source integrity and existing regression suite; no engine/game transaction runtime test.
+[Economy consolidation audit v0.1.62](../08-research/verification-2026-10-12-v0.1.62.md): source integrity and existing regression suite; no engine/game transaction runtime test.
 
 [Gameplay-state consolidation v0.1.66](../08-research/verification-2026-10-12-v0.1.66.md): bounded source/integrity checks and existing regressions; no game runtime.

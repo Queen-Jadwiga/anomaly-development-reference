@@ -1,6 +1,6 @@
 # Supplied Warfare faction and relation consumers
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-05
 - Source status: source-confirmed within selected BETA150 main-package paths

@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.78 — 2026-10-12 — Practical architecture debugging coverage inventory
+
+- ARCH-01 inventories 22 selected documentation boundaries spanning architecture/provenance/state ownership, diagnostic/error/external-report/clock guidance and examples/source-tool tests; preserve original confidence and raw immutable document pins.
+- Define bounded ARCH-02/DEBUG-01/ARCH-03 work, connect existing 05/06/07 entry pages, label architecture/source-map starters historical and repair the tests-entry economy-audit link. No new native/logger/runtime-tested recipe is certified.
+- Inventory complete within scope; practical foundation partial and runtime deferred. Next ARCH-02 module/state ownership and compatibility contracts. No CtZ gameplay or third-party source/assets changes. [Verification](08-research/verification-2026-10-12-v0.1.78.md).
 
 ## v0.1.77 — 2026-10-12 — Configuration consumers consolidation and bounded audit
 

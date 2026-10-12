@@ -1,6 +1,6 @@
 # Actor booster and modifier Lua contracts
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
 - ID: GAME-02-API
 - Subsystem: actor/NPC gameplay state

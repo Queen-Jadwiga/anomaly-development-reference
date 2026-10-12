@@ -1,6 +1,6 @@
 # PER-02 — Supplied Lua storage contracts and effective-profile gaps
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
 - ID: PER-02
 - Subsystem: persistence

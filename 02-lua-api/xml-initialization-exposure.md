@@ -1,6 +1,6 @@
 # Lua-facing XML initialization: verified boundary and open bindings (ADR v0.1.7)
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
 **Engine source target:** X-Ray Monolith `2026.5.15` / `6a08e0905ce34748ee2904a5e0809f8afd141137`. **Runtime:** deferred.  
 **Important:** This is a *registration investigation*, not an inventory of Lua-exposed `CUIXmlInit` methods.

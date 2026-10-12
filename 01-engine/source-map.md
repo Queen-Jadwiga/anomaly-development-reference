@@ -1,6 +1,8 @@
 # Source code map — work in progress
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+
+**Historical starter outline:** the initial research state below is retained as orientation, not current completeness or source-pin status. Use [current subsystem guides](../08-research/subsystem-map.md), [source baselines](../00-environment/source-baseline-2026-10-11.md) and [ARCH-01 practical coverage](../05-mod-architecture/coverage-inventory.md) for established coverage and remaining work.
 
 **Important:** No exact 2026-05-15 source commit has yet been pinned. The paths below are navigation targets, not verified file-location assertions.
 

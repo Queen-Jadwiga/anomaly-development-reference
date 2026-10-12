@@ -1,6 +1,6 @@
 # Persistence development reference
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
 **Research revision: v0.1.53.** Selected native, supplied Lua and CtZ persistence research is consolidated for development use within its source boundaries. Effective installed persistence remains partial; runtime is untested and deferred until explicitly resumed by the user. [Completion rule](source-completion-status.md), [PER-04 record](../../08-research/investigations/2026-10-11-PER-04-persistence-consolidation.md), [audit](../../08-research/verification-2026-10-11-v0.1.53.md).
 

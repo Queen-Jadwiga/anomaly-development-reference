@@ -1,11 +1,11 @@
 # Anomaly Development Reference (ADR)
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
 **Source-backed modding research for S.T.A.L.K.E.R. Anomaly / X-Ray Monolith / Modded Exes**
 
 > **Work in progress — independent research, not official engine documentation.**
-> Current ADR revision: **v0.1.77** (12 October 2026). Primary research source: the
+> Current ADR revision: **v0.1.78** (12 October 2026). Primary research source: the
 > **2026.10.11** X-Ray Monolith source archive. Independent target-installation testing remains pending; selected **external runtime observations** are documented with build limits.
 
 ## Current runtime feedback
@@ -44,7 +44,7 @@ If you only have a few minutes, start here:
 | [Native faction identity and relations](04-game-systems/factions/native-relations.md) | Community identity, goodwill direction and final attitude |
 | [Faction development reference](04-game-systems/factions/development-reference.md) | Practical query, mutation, storage and event boundaries |
 | [Native save/load pipeline](04-game-systems/persistence/native-save-load-pipeline.md) | File framing, reconstruction and Lua extension phases |
-| [Current verification report](08-research/verification-2026-10-12-v0.1.77.md) | What was checked and what was not |
+| [Current verification report](08-research/verification-2026-10-12-v0.1.78.md) | What was checked and what was not |
 | [Full research index](INDEX.md) | Every investigated area and historic records |
 
 ## Research status
@@ -57,7 +57,7 @@ If you only have a few minutes, start here:
 - **Inventory/item lifecycle:** selected ownership, placement/activation, consumption/removal and persistence foundations consolidated in the [development reference](04-game-systems/inventory/development-reference.md); [bounded audit](08-research/verification-2026-10-11-v0.1.58.md) complete. [Effective integration](04-game-systems/inventory/source-completion-status.md) remains partial.
 - **Tasks/dialogue/info:** [native and supplied-source consolidation](04-game-systems/tasks/development-reference.md) and [bounded audit](08-research/verification-2026-10-12-v0.1.69.md) complete within scope; [effective integration remains partial](04-game-systems/tasks/source-completion-status.md). Runtime deferred.
 - **World interaction/navigation:** [WORLD-01–04 consolidation](04-game-systems/world/development-reference.md) and [bounded audit](08-research/verification-2026-10-12-v0.1.73.md) complete within selected available-source scope; [effective integration remains partial](04-game-systems/world/source-completion-status.md). Runtime deferred.
-- **Configuration/script integration:** [CONFIG-01 existing-coverage inventory](04-game-systems/configuration/coverage-inventory.md) complete within scope; [shared contracts/effective integration remain partial](04-game-systems/configuration/source-completion-status.md). [CONFIG-02 LTX/INI/DLTX and Lua contracts](04-game-systems/configuration/ltx-ini-dltx.md) complete within selected source scope; [CONFIG-01–04 practical consolidation](04-game-systems/configuration/development-reference.md) and [bounded audit](08-research/verification-2026-10-12-v0.1.77.md) complete within selected available-source scope; effective integration remains partial. Next practical architecture/debugging coverage inventory. Runtime deferred.
+- **Configuration/script integration:** [CONFIG-01 existing-coverage inventory](04-game-systems/configuration/coverage-inventory.md) complete within scope; [shared contracts/effective integration remain partial](04-game-systems/configuration/source-completion-status.md). [CONFIG-02 LTX/INI/DLTX and Lua contracts](04-game-systems/configuration/ltx-ini-dltx.md) complete within selected source scope; [CONFIG-01–04 practical consolidation](04-game-systems/configuration/development-reference.md) and [bounded audit](08-research/verification-2026-10-12-v0.1.77.md) complete within selected available-source scope; effective integration remains partial. [ARCH-01 practical architecture/debugging inventory](05-mod-architecture/coverage-inventory.md) is complete within scope; next ARCH-02 module/state ownership and compatibility contracts. Runtime deferred.
 - **October 11 executable in GAMMA:** candidate target; runtime compatibility and behavior
   are unverified.
 - **Source-level limits:** some exhaustive export, indirect event, configuration, and

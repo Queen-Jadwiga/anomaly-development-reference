@@ -1,6 +1,6 @@
 # World interaction and navigation
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
 Start with the [development reference](development-reference.md). WORLD-01–04 planned available-source work is **complete within selected scope**; effective installed integration remains **partial** and runtime deferred.
 
@@ -8,4 +8,4 @@ Start with the [development reference](development-reference.md). WORLD-01–04 
 - [Spatial APIs](../../02-lua-api/world/spatial-api.md), [interaction APIs](../../02-lua-api/world/interaction-api.md), [consumer extension APIs](../../02-lua-api/world/consumer-extension-api.md).
 - [Completion status](source-completion-status.md), [world evidence](../../evidence/world/README.md), [WORLD-04 audit](../../08-research/verification-2026-10-12-v0.1.73.md).
 
-Existing offline graph/realization findings remain canonical in [A-Life](../alife/development-reference.md). The [configuration/script-integration inventory](../configuration/coverage-inventory.md) is now complete within scope; CONFIG-02/03 selected contracts are complete; CONFIG-04 consolidation/audit is also complete within selected source scope; next practical architecture/debugging coverage inventory. [Roadmap](../../ROADMAP.md).
+Existing offline graph/realization findings remain canonical in [A-Life](../alife/development-reference.md). The [configuration/script-integration inventory](../configuration/coverage-inventory.md) is now complete within scope; CONFIG-02/03 selected contracts are complete; CONFIG-04 consolidation/audit is also complete within selected source scope; [ARCH-01 practical inventory](../../05-mod-architecture/coverage-inventory.md) is complete within scope; next ARCH-02 module/state ownership and compatibility contracts. [Roadmap](../../ROADMAP.md).

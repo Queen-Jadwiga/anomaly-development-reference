@@ -1,6 +1,8 @@
 # Engine architecture — first-pass map
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
+
+**Historical starter outline:** the initial research state below is retained as orientation, not current completeness or source-pin status. Use [current subsystem guides](../08-research/subsystem-map.md), [source baselines](../00-environment/source-baseline-2026-10-11.md) and [ARCH-01 practical coverage](../05-mod-architecture/coverage-inventory.md) for established coverage and remaining work.
 
 **Status:** Architectural research outline; exact files and bindings pending source checkout at a pinned commit.
 

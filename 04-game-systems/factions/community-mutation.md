@@ -1,6 +1,6 @@
 # Character-community mutation and team/group effects
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-03
 - Source status: source-confirmed within selected native setters, registrations and packet consumers

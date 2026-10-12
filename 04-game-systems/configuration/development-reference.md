@@ -1,6 +1,6 @@
 # Configuration and script integration development reference
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-01-GUIDE (stable central-guide identity)
 - Subsystem: configuration/script integration
@@ -52,3 +52,5 @@ Trace original capture per installation versus shared module slots. Trade evalua
 CONFIG-01–04 planned available-source inventory/contracts/consumers/consolidation/audit are complete within scope. Winning configuration/global/class/exec/storage/binder inputs, startup/patch caller order, native/cache/debug identity and effective consumer refresh/restoration remain partial under the [completion rule](source-completion-status.md). Runtime remains deferred.
 
 Next: **practical architecture/debugging, beginning with existing-coverage inventory**. All-option tuning, every VM/parser/filesystem/addon/control combination, full MCM and broad MO2 internals remain optional depth unless a concrete question requires them. [Roadmap](../../ROADMAP.md).
+
+Current navigation: [ARCH-01 practical architecture/debugging inventory](../../05-mod-architecture/coverage-inventory.md) is complete within scope; next ARCH-02 module/state ownership and compatibility contracts. The stopping-rule paragraph above retains the CONFIG-04 research allocation.

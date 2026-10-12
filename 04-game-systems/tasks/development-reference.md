@@ -1,6 +1,6 @@
 # Tasks dialogue and info state development reference
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
 **Research revision: v0.1.69.** TASK-01 native foundation, TASK-02 supplied consumers and TASK-03 consolidation/audit finish the planned available-source pass within scope. Effective installed integration remains **partial**; runtime is **untested/deferred**. [Completion rule](source-completion-status.md), [audit](../../08-research/verification-2026-10-12-v0.1.69.md).
 

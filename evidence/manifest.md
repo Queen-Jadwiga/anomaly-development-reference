@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -89,3 +89,5 @@ All version-sensitive engine documentation must cite an exact revision once iden
 [CONFIG-03 loading/startup/callback ledger](configuration/script-loading-callbacks-2026-10-12.csv): 35 ENGINE1011 rows, 14 files/47 range groups; [scoped availability](configuration/script-source-scope-2026-10-12.json). Explicit WORLD-04 C12/CONFIG-01 K08 five-event correction preserves original CSV bytes; no installed/global winner inferred.
 
 [CONFIG-04 supplied consumer ledger](configuration/supplied-options-patches-2026-10-12.csv): 29 ENGINE1011/BETA150 main/explicit optional variant rows, 15 files/37 ranges; [seven raw/slice comparisons](configuration/package-comparison-2026-10-12.csv) and [scoped inputs](configuration/supplied-source-scope-2026-10-12.json). Full CONFIG-02–04 bounded audit covers 114 source rows/156 ranges; no installed winner or runtime certification.
+
+[Practical architecture/debugging inventory](architecture/README.md): ARCH-01, 22 existing-documentation rows pinned at ADR v0.1.77 immutable main commit. Original source/build/external confidence retained; no new native/logger/API/runtime contract or source artifact.

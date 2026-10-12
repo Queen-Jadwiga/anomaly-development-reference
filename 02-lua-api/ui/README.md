@@ -1,6 +1,6 @@
 # UI Lua API catalog
 
-> ADR document set: **v0.1.77**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.78**. Research revisions and source/build versions below describe their original scope.
 
 Current UI inventory and focused October 11 follow-ups are linked here. Earlier class entries retain their own historical target/status; moving a file does not promote it to the current source baseline or runtime verification.
 
