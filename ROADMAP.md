@@ -1,6 +1,6 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.63**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.64**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source status
 
@@ -81,7 +81,7 @@ The first broadly useful ADR extends beyond CtZ while remaining bounded. CtZ sup
 - [x] Substantial UI/PDA, A-Life/Warfare, faction and persistence available-source foundations; effective/runtime gaps remain open.
 - [x] Selected inventory/item lifecycle available-source foundation: [ownership](04-game-systems/inventory/ownership-lifecycle.md), [placement/activation](04-game-systems/inventory/placement-activation.md), [consumption/removal](04-game-systems/inventory/consumption-destruction.md), [persistence/reconstruction](04-game-systems/inventory/persistence-reconstruction.md) and [consolidation/audit](04-game-systems/inventory/development-reference.md) complete within scope; [effective integration](04-game-systems/inventory/source-completion-status.md) remains partial.
 - [x] Trade/economy selected available-source foundation: ECO-01/ECO-02 plus [ECO-03 consolidation and bounded audit](04-game-systems/economy/development-reference.md). [Effective integration](04-game-systems/economy/source-completion-status.md) remains partial; winning managers/stock/gate/discount configs and runtime remain open.
-- [ ] Actor/NPC gameplay state: [GAME-01 base condition/live-hit foundation](04-game-systems/gameplay/native-condition.md) complete within scope. Next actor-specific survival/boosters/equipment; derived death and condition persistence/effective consumers, then consolidation/audit. Existing casualty findings linked; runtime deferred.
+- [ ] Actor/NPC gameplay state: [GAME-01 base condition/live-hit foundation](04-game-systems/gameplay/native-condition.md) complete within scope. [GAME-02 actor survival/boosters/equipment](04-game-systems/gameplay/actor-effects-equipment.md) complete within scope. Next derived death and condition persistence/effective consumers, then consolidation/audit. Existing casualty findings linked; runtime deferred.
 - [ ] Tasks/dialogue/info state: lifecycle, conditions/actions, rewards and persistence.
 - [ ] World interaction/navigation: extend existing lookup/position/graph/restriction/smart/transition/map-marker coverage after inventorying it; do not duplicate completed A-Life findings.
 - [ ] Configuration/script integration: LTX sections/inheritance, Lua startup/loading, callback registration, patching and effective file precedence.
@@ -92,4 +92,4 @@ Each subsystem's first-edition boundary is its main lifecycle, state owner, rele
 
 ## Maintenance
 
-Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-12-v0.1.63.md). Historical unchecked boxes are not the current backlog.
+Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-12-v0.1.64.md). Historical unchecked boxes are not the current backlog.

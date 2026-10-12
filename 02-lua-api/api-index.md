@@ -1,6 +1,6 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.63**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.64**. Research revisions and source/build versions below describe their original scope.
 
 Current canonical locations:
 
@@ -65,3 +65,5 @@ Inventory contracts are consolidated in the [development reference](../04-game-s
 [Trader policy and supplies Lua contracts](economy/trader-policy-api.md): owner/global factors, show filters, scalar setters and destructive supply requests.
 
 [Live condition properties and changes](gameplay/condition-api.md): current fields versus pending deltas and base/actor limits.
+
+[Actor booster and modifier contracts](gameplay/actor-effects-api.md): selected class exports, replacement semantics and map accessor build limit.

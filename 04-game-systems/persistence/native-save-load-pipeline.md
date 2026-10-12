@@ -1,6 +1,6 @@
 # Native save/load pipeline and Lua extension boundaries
 
-> ADR document set: **v0.1.63**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.64**. Research revisions and source/build versions below describe their original scope.
 
 - ID: PER-01
 - Source status: source-confirmed within selected single-player A-Life paths

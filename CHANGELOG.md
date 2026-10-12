@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.63**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.64**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.64 — 2026-10-12 — Actor survival boosters and equipment
+
+- Add GAME-02 source reference, focused effect APIs and 21-entry evidence ledger.
+- Trace actor update/sleep/food/stamina, medicine/booster return and timer semantics, armor penetration/wear and artefact callback/query distinctions.
+- Preserve timed-medicine updater gap and booster accessor/compiler mismatch as scoped source questions. Next derived death/condition persistence/effective consumers; runtime deferred. See [verification](08-research/verification-2026-10-12-v0.1.64.md).
 
 ## v0.1.63 — 2026-10-12 — Native condition and live hit foundation
 

@@ -1,11 +1,11 @@
 # Anomaly Development Reference (ADR)
 
-> ADR document set: **v0.1.63**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.64**. Research revisions and source/build versions below describe their original scope.
 
 **Source-backed modding research for S.T.A.L.K.E.R. Anomaly / X-Ray Monolith / Modded Exes**
 
 > **Work in progress — independent research, not official engine documentation.**
-> Current ADR revision: **v0.1.63** (12 October 2026). Primary research source: the
+> Current ADR revision: **v0.1.64** (12 October 2026). Primary research source: the
 > **2026.10.11** X-Ray Monolith source archive. Independent target-installation testing remains pending; selected **external runtime observations** are documented with build limits.
 
 ## Current runtime feedback
@@ -44,7 +44,7 @@ If you only have a few minutes, start here:
 | [Native faction identity and relations](04-game-systems/factions/native-relations.md) | Community identity, goodwill direction and final attitude |
 | [Faction development reference](04-game-systems/factions/development-reference.md) | Practical query, mutation, storage and event boundaries |
 | [Native save/load pipeline](04-game-systems/persistence/native-save-load-pipeline.md) | File framing, reconstruction and Lua extension phases |
-| [Current verification report](08-research/verification-2026-10-12-v0.1.63.md) | What was checked and what was not |
+| [Current verification report](08-research/verification-2026-10-12-v0.1.64.md) | What was checked and what was not |
 | [Full research index](INDEX.md) | Every investigated area and historic records |
 
 ## Research status
@@ -54,7 +54,7 @@ If you only have a few minutes, start here:
 - **A-Life / Warfare:** [identity/lifecycle](08-research/investigations/2026-10-11-ALIFE-01-identity-lifecycle.md) and [creation/release/callback ordering](08-research/investigations/2026-10-11-ALIFE-02-creation-registration-release.md) documented; [supplied Warfare policy and offline combat](08-research/investigations/2026-10-11-WAR-002b-policy-offline-combat.md) traced. [Save/load and CtZ identity reconstruction](08-research/investigations/2026-10-11-ALIFE-04-save-load-identity.md) traced. [Native offline scheduling and brains](08-research/investigations/2026-10-11-ALIFE-05-offline-scheduling-brains.md) traced. [Graph location and online realization](08-research/investigations/2026-10-11-ALIFE-06-graph-online-realization.md) traced. [Client-to-server position synchronization and offline teardown](08-research/investigations/2026-10-11-ALIFE-07-client-server-offline-teardown.md) traced. [Native switching eligibility and forced states](08-research/investigations/2026-10-11-ALIFE-08-switching-eligibility.md) traced. [C++/Lua class and interface catalog](02-lua-api/alife/README.md) added. [Lifecycle/state](04-game-systems/alife/lifecycle-state-reference.md) and [callback-phase](04-game-systems/alife/callback-phase-reference.md) references consolidate the native/bundled-source paths. Active GAMMA profile reconciliation remains open.
 - **Factions / relations:** [native query foundations](04-game-systems/factions/native-relations.md) and [focused Lua contracts](02-lua-api/factions/relations-api.md) documented; [native persistence/reset/cleanup](04-game-systems/factions/relation-persistence.md) traced; [community mutation and local team/group effects](04-game-systems/factions/community-mutation.md) traced; [native action-driven goodwill/rank/reputation](04-game-systems/factions/action-goodwill.md) traced; [selected supplied Warfare relation consumers](04-game-systems/factions/warfare-relation-consumers.md) traced; [practical consolidation](04-game-systems/factions/development-reference.md) and bounded final audit complete within available-source scope; [effective integration remains partial](04-game-systems/factions/source-completion-status.md).
 - **Persistence:** [native save/load pipeline](04-game-systems/persistence/native-save-load-pipeline.md) and [Lua extension boundaries](02-lua-api/persistence/native-extension-contracts.md) documented; [supplied Lua codec/caller contracts](04-game-systems/persistence/lua-storage-contracts.md) and missing core implementations mapped; [CtZ campaign identity/schema/reconciliation](04-game-systems/persistence/ctz-campaign-safety.md) documented; [practical consolidation and bounded audit](04-game-systems/persistence/development-reference.md) complete within scope; effective installed storage remains partial.
-- **Inventory/item lifecycle:** selected ownership, placement/activation, consumption/removal and persistence foundations consolidated in the [development reference](04-game-systems/inventory/development-reference.md); [bounded audit](08-research/verification-2026-10-12-v0.1.63.md) complete. [Effective integration](04-game-systems/inventory/source-completion-status.md) remains partial.
+- **Inventory/item lifecycle:** selected ownership, placement/activation, consumption/removal and persistence foundations consolidated in the [development reference](04-game-systems/inventory/development-reference.md); [bounded audit](08-research/verification-2026-10-12-v0.1.64.md) complete. [Effective integration](04-game-systems/inventory/source-completion-status.md) remains partial.
 - **October 11 executable in GAMMA:** candidate target; runtime compatibility and behavior
   are unverified.
 - **Source-level limits:** some exhaustive export, indirect event, configuration, and
@@ -116,4 +116,6 @@ Selected inventory/item lifecycle foundations are complete within scope: [owners
 
 Trade/economy available-source work is consolidated and audited: [practical reference](04-game-systems/economy/development-reference.md) and [source completion](04-game-systems/economy/source-completion-status.md). Selected native/supplied contracts are complete within scope; installed managers/configs and runtime remain open. Next actor/NPC gameplay state.
 
-Actor/NPC gameplay-state research has started: [native condition/hit phases](04-game-systems/gameplay/native-condition.md) separates live fields, pending changes and death requests. Next actor survival/boosters/equipment; runtime deferred.
+Actor/NPC gameplay-state research has started: [native condition/hit phases](04-game-systems/gameplay/native-condition.md) separates live fields, pending changes and death requests. GAME-02 extends actor survival/boosters/equipment; next derived death/condition restoration, runtime deferred.
+
+[Actor survival/boosters/equipment](04-game-systems/gameplay/actor-effects-equipment.md) now traces actor-specific rates, effect replacement/expiration and armor mitigation with source/build/effective limits. Next derived death and condition restoration.
