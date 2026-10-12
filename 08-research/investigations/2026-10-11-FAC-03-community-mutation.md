@@ -1,6 +1,6 @@
 # FAC-03 — Character-community mutation and team/group effects
 
-> ADR document set: **v0.1.56**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-03
 - Subsystem: factions / relations

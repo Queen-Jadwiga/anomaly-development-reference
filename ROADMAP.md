@@ -1,6 +1,6 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.56**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source status
 
@@ -8,7 +8,7 @@ UI/PDA is development-reference ready within the documented source scope. A-Life
 
 ## Next source work
 
-The planned consolidation and bounded audits from available snapshots are complete for A-Life/Warfare and factions. Both retain effective installed-source requirements; see [A-Life/Warfare completion](04-game-systems/alife/source-completion-status.md) and [faction completion](04-game-systems/factions/source-completion-status.md). Persistence available-source work is complete within selected scope: PER-01 selected native save/load pipeline and Lua extension boundaries are complete within scope. PER-02 supplied codec/caller/gap pass is complete within scope; effective core manager/dispatch/storage remains partial. PER-03 selected CtZ campaign identity/schema/restoration/reconciliation is complete; PER-04 practical consolidation and final bounded audit are complete. Full effective installed persistence remains partial under its [completion rule](04-game-systems/persistence/source-completion-status.md). Inventory is active: ITEM-01 selected ownership/pickup/drop and focused Lua interfaces complete; ITEM-02 focused placement/activation is complete; ITEM-03 selected consumption/destruction/owner cleanup is complete; item persistence/reconstruction is next. Runtime verification remains deferred.
+The planned consolidation and bounded audits from available snapshots are complete for A-Life/Warfare and factions. Both retain effective installed-source requirements; see [A-Life/Warfare completion](04-game-systems/alife/source-completion-status.md) and [faction completion](04-game-systems/factions/source-completion-status.md). Persistence available-source work is complete within selected scope: PER-01 selected native save/load pipeline and Lua extension boundaries are complete within scope. PER-02 supplied codec/caller/gap pass is complete within scope; effective core manager/dispatch/storage remains partial. PER-03 selected CtZ campaign identity/schema/restoration/reconciliation is complete; PER-04 practical consolidation and final bounded audit are complete. Full effective installed persistence remains partial under its [completion rule](04-game-systems/persistence/source-completion-status.md). Inventory is active: ITEM-01 selected ownership/pickup/drop and focused Lua interfaces complete; ITEM-02 focused placement/activation is complete; ITEM-03 selected consumption/destruction/owner cleanup is complete; ITEM-04 selected persistence/reconstruction is complete; practical consolidation and bounded audit are next. Runtime verification remains deferred.
 
 <a id="current-a-lifewarfare-remaining-scope--v0138"></a>
 
@@ -70,7 +70,7 @@ Native phase/source findings do not certify arbitrary Lua table serialization, w
 The first broadly useful ADR extends beyond CtZ while remaining bounded. CtZ supplies practical examples/questions; it does not define the only completion criterion. Existing detailed scope/status qualifications remain in force.
 
 - [x] Substantial UI/PDA, A-Life/Warfare, faction and persistence available-source foundations; effective/runtime gaps remain open.
-- [ ] Inventory/item lifecycle: [ITEM-01 ownership/pickup/drop](04-game-systems/inventory/ownership-lifecycle.md) complete within scope; [ITEM-02 placement/activation](04-game-systems/inventory/placement-activation.md) complete within focused scope; [ITEM-03 consumption/destruction/owner cleanup](04-game-systems/inventory/consumption-destruction.md) complete within scope; next persistence/reconstruction and consolidation. NPC variants remain explicit dependencies.
+- [ ] Inventory/item lifecycle: [ITEM-01 ownership/pickup/drop](04-game-systems/inventory/ownership-lifecycle.md) complete within scope; [ITEM-02 placement/activation](04-game-systems/inventory/placement-activation.md) complete within focused scope; [ITEM-03 consumption/destruction/owner cleanup](04-game-systems/inventory/consumption-destruction.md) complete within scope; [ITEM-04 persistence/reconstruction](04-game-systems/inventory/persistence-reconstruction.md) complete within scope; next practical consolidation and bounded audit. NPC variants remain explicit dependencies.
 - [ ] Trade/economy: money, prices, trade eligibility/transaction flow, trader configuration and script overrides; event transfer names alone do not establish payment.
 - [ ] Actor/NPC gameplay state: health/damage/death/condition/immunity/effects and callback boundaries; extend existing casualty findings.
 - [ ] Tasks/dialogue/info state: lifecycle, conditions/actions, rewards and persistence.
@@ -83,4 +83,4 @@ Each subsystem's first-edition boundary is its main lifecycle, state owner, rele
 
 ## Maintenance
 
-Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.56.md). Historical unchecked boxes are not the current backlog.
+Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-11-v0.1.57.md). Historical unchecked boxes are not the current backlog.

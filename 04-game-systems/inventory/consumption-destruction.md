@@ -1,6 +1,6 @@
 # Item consumption, destruction and owner cleanup
 
-> ADR document set: **v0.1.56**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-03
 - Research revision: v0.1.56

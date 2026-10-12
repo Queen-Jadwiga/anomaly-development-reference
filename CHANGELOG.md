@@ -1,6 +1,11 @@
 # ADR changelog
 
-> ADR document set: **v0.1.56**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.57**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.57 — 2026-10-11 — Item persistence and reconstruction
+
+- Add ITEM-04 reference/investigation and 15-entry source ledger: server/client saved fields, derived initialization order, parent take/placement and pending active-slot restoration.
+- Preserve effective/NPC/derived and runtime limits; next inventory consolidation/audit. See [verification](08-research/verification-2026-10-11-v0.1.57.md).
 
 ## v0.1.56 — 2026-10-11 — Item consumption and cleanup
 
