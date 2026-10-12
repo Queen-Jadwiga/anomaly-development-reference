@@ -1,14 +1,14 @@
 # Configuration/script integration source completion
 
-> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-STATUS
 - Subsystem: configuration/script integration
-- Research revision: v0.1.75
+- Research revision: v0.1.76
 - Record status: partial
 - Source status: existing documentation inventory plus selected source-confirmed ENGINE1011 contracts
 - Runtime status: untested; deferred
-- Baselines: CONFIG-01 pins ADR v0.1.73 main `6327645f473774753964454c79beabe4f4c2c716`; CONFIG-02 uses ENGINE1011 via [manifest](../../evidence/manifest.md); linked records retain their original baselines
+- Baselines: CONFIG-01 pins ADR v0.1.73 main `6327645f473774753964454c79beabe4f4c2c716`; CONFIG-02/03 use ENGINE1011 via [manifest](../../evidence/manifest.md); linked records retain their original baselines
 - Last reviewed: 2026-10-12
 
 ## Current scope
@@ -17,7 +17,7 @@
 | --- | --- | --- |
 | CONFIG-01 existing coverage | Complete within scope | 18 selected pinned documentation rows; inherited confidence, no new native closure |
 | CONFIG-02 LTX/INI and selected DLTX | Complete within selected ENGINE1011 scope | [Parser/cache/precedence/read/write/lifetime](ltx-ini-dltx.md), [Lua exports/ownership](../../02-lua-api/configuration/ini-api.md); 50 evidence rows, runtime deferred |
-| CONFIG-03 native script loading/startup/callbacks | Open | Namespace lookup, execution/cache/reset, global bridges, registration/removal/dispatch contracts |
+| CONFIG-03 native script loading/startup/callbacks | Complete within selected ENGINE1011 scope | [Loading/startup/dispatch](script-loading-startup-callbacks.md), [lookup/callback contracts](../../02-lua-api/configuration/script-callback-api.md); effective core global/configuration/emitter route remains open |
 | CONFIG-04 supplied options/replacements and audit | Open | Selected current/default/preset/cache/change consumers, installation phases, practical synthesis and bounded audit |
 | Effective installed integration | Partial | Winning inputs/profile, wrappers, later patches, build flags and core dependencies |
 | Independent game runtime | Untested; deferred | No engine/game test or installed compatibility result in this increment |

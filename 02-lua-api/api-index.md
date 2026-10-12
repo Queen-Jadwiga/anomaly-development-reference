@@ -1,6 +1,6 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
 
 Current canonical locations:
 
@@ -79,3 +79,5 @@ Inventory contracts are consolidated in the [development reference](../04-game-s
 ## Configuration contracts
 
 [Selected Lua INI construction/read/write/lifetime and DLTX diagnostics](configuration/ini-api.md), CONFIG-02/ENGINE1011. Exact registered arities, ownership and converter limits; runtime deferred.
+
+[Selected script lookup/prefetch and shared callback contracts](configuration/script-callback-api.md), CONFIG-03/ENGINE1011: native-only versus Lua exports, exact listener identity, ordering/removal/dispatch, debug-global route and effective-wrapper limits.

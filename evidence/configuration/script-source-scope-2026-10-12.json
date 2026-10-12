@@ -1,0 +1,41 @@
+{
+  "source_id": "ENGINE1011",
+  "scope": "Uploaded ENGINE1011 gamedata only; filename presence is not installed functionality or winning file identity.",
+  "file_count": 161,
+  "requested_files": {
+    "_g.script": [],
+    "script.ltx": [],
+    "bind_actor.script": [],
+    "axr_main.script": [
+      {
+        "source_path": "gamedata/scripts/axr_main.script",
+        "sha256": "bc7bbbd12bc357297735d35a04fd7bfef28e91a694478984d63dcdf96d613826"
+      }
+    ],
+    "_g_patches.script": [
+      {
+        "source_path": "gamedata/scripts/_g_patches.script",
+        "sha256": "4095fe564cca74a102026a6cc8203cc6bff4676d6ea3d9d98229dde8ba73c39b"
+      }
+    ],
+    "dynamic_callbacks.lua": [
+      {
+        "source_path": "gamedata/scripts/dynamic_callbacks.lua",
+        "sha256": "8cf29f142221465cefe5b641373a1bc42e623c97458cd4c4af1517c431bb1b26"
+      }
+    ],
+    "global.lua": [
+      {
+        "source_path": "gamedata/scripts/global.lua",
+        "sha256": "f760aecc3b3e52933622ee3e0351ea7c0534023704baaa307e1bef294374d32e"
+      }
+    ]
+  },
+  "debug_dispatch_event_names": [
+    "save",
+    "load",
+    "update",
+    "save_state",
+    "load_state"
+  ]
+}

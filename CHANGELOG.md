@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.76 — 2026-10-12 — Native script loading startup and shared callbacks
+
+- CONFIG-03 traces selected native VM/reset/autoload/namespace/lookup/compile/execute, configured startup callers, root discovery and callback identity/registration/order/removal/dispatch contracts; add 35 pinned evidence rows and scoped source availability.
+- Trace supplied spairs key-snapshot/live-priority behavior and the conditional debug-global .lua loader. Correct prior standalone event count from six to five explicitly while preserving historical ledgers; retain build/lifecycle/global-winner/error/return limits.
+- Selected source pass complete; effective integration partial and runtime deferred. Next CONFIG-04 supplied options/patch consumers, consolidation and bounded audit. No CtZ gameplay or third-party source/assets changes. [Verification](08-research/verification-2026-10-12-v0.1.76.md).
 
 ## v0.1.75 — 2026-10-12 — LTX/INI and selected DLTX contracts
 

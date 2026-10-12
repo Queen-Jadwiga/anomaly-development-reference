@@ -1,6 +1,6 @@
 # Use touch actor transitions and map-marker lifecycle
 
-> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-03
 - Subsystem: world interaction/navigation

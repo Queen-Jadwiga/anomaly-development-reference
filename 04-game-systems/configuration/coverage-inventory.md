@@ -1,6 +1,6 @@
 # Configuration/script integration coverage inventory
 
-> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-01
 - Subsystem: configuration/script integration
@@ -51,3 +51,7 @@ Keep domain policy in A-Life/Warfare, economy, tasks, persistence and world; kee
 ENGINE1011 path-presence searches locate `src/xrCore/Xr_ini.cpp`, `xr_ini.h`, `LocatorAPI.cpp`, `src/xrServerEntities/script_ini_file.cpp`, `script_ini_file_script.cpp`, `script_ini_file_inline.h`, `script_engine.cpp`, `script_engine_inline.h`, `script_storage.cpp`, and bundled `axr_main.script`, `_g_patches.script`, `dxml_core.script`, `dynamic_callbacks.lua`, `options_builder.script` and `ui_options_modded_exes.script`. WORLD-04 already pins selected BETA150/ZIP142 `ui_options`/preset callers. These are trace candidates, not newly certified contracts. Locate DLTX implementation through parser dependencies rather than assuming a standalone filename. Exact upstream commit/executable equivalence and installed overrides remain unknown.
 
 All-option tuning advice, full MO2 internals, every filesystem consumer, arbitrary addon stacks, exhaustive Lua VM/Luabind error propagation and unrelated multiplayer remain optional depth unless a concrete integration question requires them. [Central guide](development-reference.md), [completion rule](source-completion-status.md), [roadmap](../../ROADMAP.md).
+
+## CONFIG-03 amendment — 2026-10-12
+
+CONFIG-03 now traces selected loading/startup/dispatch contracts and corrects K08's inherited six-name wording to five. The [original pinned ledger](../../evidence/configuration/coverage-inventory-2026-10-12.csv) remains unchanged; the new [source reference](script-loading-startup-callbacks.md) establishes the conditional debug-global loader and retains effective alias uncertainty. The bounded plan above records CONFIG-01's original allocation; current progress is in [completion status](source-completion-status.md).

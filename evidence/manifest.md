@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -85,3 +85,5 @@ All version-sensitive engine documentation must cite an exact revision once iden
 [Configuration/script-integration coverage ledger](configuration/README.md): CONFIG-01, 18 existing-documentation rows at ADR v0.1.73 immutable main commit. Inherited source/runtime confidence; no new native contract or source artifact.
 
 [CONFIG-02 LTX/INI/DLTX source ledger](configuration/ltx-ini-dltx-2026-10-12.csv): 50 ENGINE1011 rows across 21 files/72 cited range groups; selected settings/parser/merge/cache/read/write/Lua/policy/helper contracts. Archive pin retained, upstream commit/executable correspondence unknown.
+
+[CONFIG-03 loading/startup/callback ledger](configuration/script-loading-callbacks-2026-10-12.csv): 35 ENGINE1011 rows, 14 files/47 range groups; [scoped availability](configuration/script-source-scope-2026-10-12.json). Explicit WORLD-04 C12/CONFIG-01 K08 five-event correction preserves original CSV bytes; no installed/global winner inferred.

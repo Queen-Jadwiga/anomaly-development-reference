@@ -1,6 +1,6 @@
 # Supplied world/navigation consumers and effective boundaries
 
-> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-04-CONSUMERS
 - Research revision: v0.1.73
@@ -45,8 +45,12 @@ Bundled anomaly policy collects selected anomaly shapes and online monster refer
 
 dynamic_items_by_level wraps game_setup.init_settings, reads external dynamic_item_spawn.ltx and accesses named producer upvalues. Its geometric nearest graph helper sets config gm_id or drops entries when level resolution fails; a resolved guard is set before resolve, making it one-time per selected module lifecycle even when resolve returns early for missing upvalues. Missing producer/config/runtime and later wrapping order remain open. C11; [WORLD-02 nearest query](spatial-queries-relocation.md).
 
-ENGINE1011 has an axr_main .script module-start loop and a separate dynamic_callbacks.lua namespace with only six storage/update names. The latter file's presence does not establish global aliasing or generic marker/use callback delivery. The former selected loop searches root *.script on_game_start methods; it does not prove every .lua namespace executes. Full effective aliases/startup/priority/order are retained for the next configuration/script-integration subsystem and [prior REV-01](../../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md). C12/C13.
+ENGINE1011 has an axr_main .script module-start loop and a separate dynamic_callbacks.lua namespace with five storage/update names (count corrected by CONFIG-03). The latter file's presence does not establish global aliasing or generic marker/use callback delivery. The former selected loop searches root *.script on_game_start methods; it does not prove every .lua namespace executes. Full effective aliases/startup/priority/order are retained for the next configuration/script-integration subsystem and [prior REV-01](../../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md). C12/C13.
 
 ## Package comparison and remaining inputs
 
 Nine full-file BETA150/ZIP142 comparisons plus one normalized smart show/hide slice and the ENGINE1011/BETA150 squad comparison are recorded. Read the comparison_scope: normalized slice equality is not full-file equality. The smart file differs overall but selected show/hide blocks are equal; engine-bundled and main squad full files differ. Relevant core files, option includes, marker XML, actor/restrictor/teleport binders, smart/jobs, save wrappers and namespace startup must come from the actual winning profile. Source findings do not select a preferred variant or prescribe a patch. [Completion rule](source-completion-status.md), [central guide](development-reference.md), [bounded audit](../../08-research/verification-2026-10-12-v0.1.73.md).
+
+## CONFIG-03 amendment — 2026-10-12
+
+[CONFIG-03](../configuration/script-loading-startup-callbacks.md) corrects C12's six-name description to **five** (save/load/update/save_state/load_state) and establishes the selected lua_debug-enabled native global loader for this .lua file. Later _G/module assignments and actual debug/profile settings still decide the effective global route; axr_main and this dispatcher remain distinct. The original C12 CSV subject/hash is preserved as dated evidence, with this explicit correction. Generic marker/use delivery is still not proved by that small dispatcher.

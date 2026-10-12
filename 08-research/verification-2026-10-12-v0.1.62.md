@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.62
 
-> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
 
 - Target ADR revision: v0.1.62, based on main 7145b9d7107fa38005d8dd66c30a1fda1a8e70a0
 - Changed scope: ECO-03 consolidation and bounded available-source economy audit

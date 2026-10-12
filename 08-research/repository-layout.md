@@ -1,6 +1,6 @@
 # Repository file and folder conventions
 
-> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
 
 **Effective from v0.1.40.** Every new record has one canonical home. Entry pages may link it; obsolete forwarding pages are removed after internal navigation is repaired (v0.1.41). Earlier URLs remain in Git history.
 

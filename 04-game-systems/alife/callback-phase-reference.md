@@ -1,6 +1,6 @@
 # A-Life callback phases and observation contracts
 
-> ADR document set: **v0.1.75**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.76**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ALIFE-10 — callback reference
 - Subsystem: A-Life / Warfare integration
@@ -108,3 +108,7 @@ Effective board/smart readiness, Lua load/save dispatch, creature casualty/safe-
 The PRE/NORMAL/POST/dependency model described above belongs to the inspected ENGINE1011 bundled dispatcher. At upstream September commit `9b491ffbfe5d529e817ceffed70214d0f03f62c5`, `axr_main.callback_set(name, listener)` assigns monotonically increasing indices and `make_callback` dispatches sorted by them; that inspected implementation has no tier ordering. Do not generalize either dispatcher to every older/newer installed profile.
 
 [Issue #4](https://github.com/Queen-Jadwiga/anomaly-development-reference/issues/4) additionally reports an installed `RegisterScriptCallback(name, func)` wrapper. Its exact winning file was not supplied; the pinned comparison verifies `callback_set`, not an unseen global wrapper. Always inspect the effective dispatcher/wrapper before depending on priorities, dependencies or extra registration arguments. [S04 and build scope](../../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md#feature-history-and-build-scope).
+
+## CONFIG-03 shared-dispatch follow-up
+
+[CONFIG-03](../configuration/script-loading-startup-callbacks.md) extends the selected make_callback body with the supplied _g_patches heap iterator: keys are collected at iterator creation while values/priorities remain live. This does not establish a frozen listener/order snapshot or reorder guarantee during mutation. It also traces the conditional five-event debug-global dispatcher, which must remain separate from axr_main. Earlier native lifecycle and September/October qualifications above remain authoritative.
