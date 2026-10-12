@@ -1,6 +1,6 @@
 # C-01 — Native UI creation and parent-child ownership contract
 
-> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.70**. Research revisions and source/build versions below describe their original scope.
 
 **Source:** user-provided `xray-monolith-2026.10.11.zip`. **Status:** source research complete; no runtime claims. **Question:** Which ownership and attachment behaviors are actually implemented when native UI controls are constructed by `CScriptXmlInit`, and which are exposed to Lua?
 

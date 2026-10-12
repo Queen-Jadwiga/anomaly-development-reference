@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.70**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.69.md).
+Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.70.md).
 
 Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
 
@@ -84,6 +84,9 @@ Records retain their research revision and source baseline; those are distinct f
 - [UI-04a — XML loading routes, naming and DXML interception boundaries](03-ui-pda/xml-loading-paths-ui04a-oct11.md)
 
 ## 04-game-systems
+
+- [World interaction/navigation guide](04-game-systems/world/development-reference.md), [coverage inventory](04-game-systems/world/coverage-inventory.md), [completion status](04-game-systems/world/source-completion-status.md).
+- [WORLD-01 investigation](08-research/investigations/2026-10-12-WORLD-01-existing-coverage.md), [coverage ledger](evidence/world/README.md), [v0.1.70 verification](08-research/verification-2026-10-12-v0.1.70.md).
 
 - [Inventory/item lifecycle](04-game-systems/inventory/README.md).
 - [Ownership and pickup/drop](04-game-systems/inventory/ownership-lifecycle.md).

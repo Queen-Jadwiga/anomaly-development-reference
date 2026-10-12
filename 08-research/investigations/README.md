@@ -1,6 +1,6 @@
 # Research investigations
 
-> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.70**. Research revisions and source/build versions below describe their original scope.
 
 One canonical dated record per question, named `YYYY-MM-DD-ID-topic.md`. Use the [investigation template](../templates/investigation.md), [workflow](../workflow.md) and [evidence policy](../evidence-policy.md).
 
@@ -61,3 +61,5 @@ Earlier records retain their original format and IDs. Recent A-Life/Warfare reco
 
 - [TASK-02 supplied consumers](2026-10-12-TASK-02-supplied-task-dialogue-consumers.md).
 - [TASK-03 task state consolidation/audit](2026-10-12-TASK-03-task-state-consolidation.md).
+
+- [WORLD-01 — Existing world/navigation coverage](2026-10-12-WORLD-01-existing-coverage.md): inventory closure, new source chains pending.

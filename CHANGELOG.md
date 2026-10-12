@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.70**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.70 — 2026-10-12 — World/navigation existing-coverage inventory
+
+- WORLD-01 maps 14 existing ADR coverage areas with immutable document hashes, canonical references, retained confidence and missing edges. Reuse A-Life graph/offline/realization findings.
+- Establish world README/development-reference/completion-status entries with partial subsystem status and bounded WORLD-02–04 work. No new native API certification or CtZ gameplay changes; runtime deferred.
+- See [inventory verification](08-research/verification-2026-10-12-v0.1.70.md).
 
 ## v0.1.69 — 2026-10-12 — Task dialogue consumers and consolidation
 

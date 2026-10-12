@@ -1,6 +1,6 @@
 # A-Life
 
-> ADR document set: **v0.1.69**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.70**. Research revisions and source/build versions below describe their original scope.
 
 Start with the [development reference](development-reference.md) and [shared A-Life/Warfare completion status](source-completion-status.md). Selected available-source consolidation/audit is complete within scope; effective installed chains remain partial and runtime untested/deferred.
 
