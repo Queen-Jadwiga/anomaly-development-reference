@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -69,3 +69,5 @@ All version-sensitive engine documentation must cite an exact revision once iden
 [Actor effects/equipment ledger](gameplay/actor-effects-2026-10-12.csv): A01–A21, ENGINE1011; actor survival, medicine/boosters, Lua helpers and selected armor/artefact formulas.
 
 [Death/condition restoration ledger](gameplay/death-restoration-2026-10-12.csv): R01–R19, ENGINE1011/BETA150; selected derived death and server/live/custom-data reconstruction.
+
+[Native tasks/dialogue/info ledger](tasks/native-task-dialogue-info-2026-10-12.csv): T01–T18, ENGINE1011; selected lifecycle, info storage and phrase helper/caller paths.

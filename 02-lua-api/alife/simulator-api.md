@@ -1,6 +1,6 @@
 # Simulator Lua API contracts
 
-> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
 
 [Catalog conventions](README.md). Source: `src/xrGame/alife_simulator_script.cpp`, plus native update/combat declarations in the evidence ledger. The following signatures omit the bound C++ `self` receiver and retain native ID types. `LPCSTR` denotes string input; `Fvector` denotes a vector. Colon-call notation is descriptive, not a runnable sample.
 

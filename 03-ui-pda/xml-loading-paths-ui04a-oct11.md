@@ -1,6 +1,6 @@
 # UI-04a — XML loading routes, naming and DXML interception boundaries
 
-> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
 
 **Baseline:** user-supplied X-Ray Monolith source tag `2026.10.11`. **Status:** source research completed for enumerated native `CXml` entry points, UI filename remapping, and bundled Lua XML helper. Runtime confirmation and exhaustive third-party addon coverage deferred.
 

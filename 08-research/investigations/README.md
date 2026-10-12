@@ -1,6 +1,6 @@
 # Research investigations
 
-> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
 
 One canonical dated record per question, named `YYYY-MM-DD-ID-topic.md`. Use the [investigation template](../templates/investigation.md), [workflow](../workflow.md) and [evidence policy](../evidence-policy.md).
 
@@ -56,3 +56,5 @@ Earlier records retain their original format and IDs. Recent A-Life/Warfare reco
 - [GAME-04 — gameplay state consolidation and bounded audit](2026-10-12-GAME-04-gameplay-consolidation.md).
 
 - [STRUCT-01 — subsystem entry point consistency](2026-10-12-STRUCT-01-subsystem-entry-points.md).
+
+- [TASK-01 — native tasks dialogue and info state](2026-10-12-TASK-01-native-task-dialogue-info.md).

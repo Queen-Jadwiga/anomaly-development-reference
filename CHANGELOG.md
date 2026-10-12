@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.68 — 2026-10-12 — Native tasks dialogue and info state
+
+- Add TASK-01 source reference/API/investigation and 18-entry ledger; establish the ninth subsystem with the standard entry pattern and explicitly partial status.
+- Trace task state/predicate/action/save boundaries, local/event info changes and overload-dependent dialogue conditions/actions; distinguish active info ID storage from commented legacy XML behavior.
+- Next supplied consumers/rewards/restoration/effective gaps, then consolidation/audit; runtime deferred. No CtZ changes. See [verification](08-research/verification-2026-10-12-v0.1.68.md).
 
 ## v0.1.67 — 2026-10-12 — Consistent subsystem entry points
 

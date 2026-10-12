@@ -1,8 +1,8 @@
 # Subsystem entry point map
 
-> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
 
-This map identifies the eight currently researched behavior subsystems. Each has a README for browsing, a development reference for practical synthesis and links, and a source-completion status for readiness, missing effective inputs and runtime limits. These are different roles; adding a guide does not mark research complete.
+This map identifies the nine currently researched behavior subsystems. Each has a README for browsing, a development reference for practical synthesis and links, and a source-completion status for readiness, missing effective inputs and runtime limits. These are different roles; adding a guide does not mark research complete.
 
 | Subsystem | Folder entry | Central guide | Status and gaps | Research/audit scope |
 | --- | --- | --- | --- | --- |
@@ -13,10 +13,11 @@ This map identifies the eight currently researched behavior subsystems. Each has
 | Persistence | [README](../04-game-systems/persistence/README.md) | [Development reference](../04-game-systems/persistence/development-reference.md) | [Completion status](../04-game-systems/persistence/source-completion-status.md) | PER-04 and v0.1.53 audit |
 | Inventory | [README](../04-game-systems/inventory/README.md) | [Development reference](../04-game-systems/inventory/development-reference.md) | [Completion status](../04-game-systems/inventory/source-completion-status.md) | ITEM-05 and v0.1.58 audit |
 | Trade/economy | [README](../04-game-systems/economy/README.md) | [Development reference](../04-game-systems/economy/development-reference.md) | [Completion status](../04-game-systems/economy/source-completion-status.md) | ECO-03 and v0.1.62 audit |
+| Tasks/dialogue/info | [README](../04-game-systems/tasks/README.md) | [Development reference](../04-game-systems/tasks/development-reference.md) | [Completion status](../04-game-systems/tasks/source-completion-status.md) | TASK-01 native foundation; subsystem in progress |
 | Gameplay state | [README](../04-game-systems/gameplay/README.md) | [Development reference](../04-game-systems/gameplay/development-reference.md) | [Completion status](../04-game-systems/gameplay/source-completion-status.md) | GAME-04 and v0.1.66 audit |
 
 UI/PDA retains its established 03-ui-pda location; A-Life and Warfare retain distinct guides while their combined closure requirements remain authoritative in A-Life completion status. Detailed pages, API catalogs, dated investigations, evidence and historical snapshots stay in their canonical homes.
 
-Environment, cross-system engine architecture, mod architecture, debugging, examples and project records are other document categories. They do not require artificial subsystem completion pages merely to match filenames. Future task/dialogue and world-interaction research should adopt the same entry pattern when those sections are established.
+Environment, cross-system engine architecture, mod architecture, debugging, examples and project records are other document categories. They do not require artificial subsystem completion pages merely to match filenames. Future world-interaction research should adopt the same entry pattern when those sections are established.
 
 Use [layout rules](repository-layout.md), [workflow](workflow.md), [full index](../INDEX.md) and [current roadmap](../ROADMAP.md). This map is navigation, not an exhaustive engine subsystem inventory.

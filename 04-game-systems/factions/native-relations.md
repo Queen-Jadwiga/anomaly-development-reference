@@ -1,6 +1,6 @@
 # Native faction identity, goodwill and relation resolution
 
-> ADR document set: **v0.1.67**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.68**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-01
 - Source status: source-confirmed within selected native definitions and Lua registrations
