@@ -1,6 +1,6 @@
 # Practical architecture/debugging evidence
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 [coverage-inventory-2026-10-12.csv](coverage-inventory-2026-10-12.csv): 22 documentation rows A01–A11/D01–D07/T01–T04 at immutable ADR v0.1.77 `fd6904d872af9a55f6abc7c219132824ffad558c`. Schema records coverage area/level, canonical document/raw SHA-256, inclusive section ranges/marker, retained boundary, missing work and assigned step. It is a documentation-inventory schema, not native source evidence.
 

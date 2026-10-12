@@ -1,8 +1,8 @@
 # Actor and NPC gameplay state
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.81.** Selected available-source foundation and consolidation/audit complete within scope. Effective installed integration partial; runtime untested and deferred.
+**Current revision: v0.1.82.** Selected available-source foundation and consolidation/audit complete within scope. Effective installed integration partial; runtime untested and deferred.
 
 - [Practical development reference](development-reference.md).
 - [Source completion and remaining work](source-completion-status.md).
@@ -10,4 +10,4 @@
 - [Condition APIs](../../02-lua-api/gameplay/condition-api.md), [actor effect APIs](../../02-lua-api/gameplay/actor-effects-api.md).
 - [GAME-04 consolidation](../../08-research/investigations/2026-10-12-GAME-04-gameplay-consolidation.md), [audit](../../08-research/verification-2026-10-12-v0.1.66.md), [evidence](../../evidence/gameplay/README.md).
 
-Live state, pending changes, server state and strategic casualties remain separate. Medicine/helper/restore gaps are explicit in completion status. Next general foundation: tasks/dialogue/info state. [Roadmap](../../ROADMAP.md).
+Live state, pending changes, server state and strategic casualties remain separate. Medicine/helper/restore gaps are explicit in completion status. The original GAME-04 follow-on was tasks/dialogue/info state; that selected pass is now consolidated. [Current whole-reference status](../../08-research/reference-status.md) retains effective/runtime gaps. [Roadmap](../../ROADMAP.md).

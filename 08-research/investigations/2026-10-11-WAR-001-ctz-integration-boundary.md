@@ -1,6 +1,6 @@
 # WAR-001 — CtZ integration boundary and source prerequisites
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.31 · source inspection only; in-game verification deferred.**
 

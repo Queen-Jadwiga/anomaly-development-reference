@@ -1,6 +1,6 @@
 # World coverage evidence
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 - [WORLD-01 coverage inventory](coverage-inventory-2026-10-12.csv): 14 rows indexing existing ADR documents at v0.1.69 main `6ab1f93634f54ccc40dfe3fe33b716114a62157e`.
 

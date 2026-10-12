@@ -1,6 +1,6 @@
 # Configuration/script integration source completion
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-STATUS
 - Subsystem: configuration/script integration
@@ -39,4 +39,4 @@
 
 The planned available-source pass closes after selected implementation/export/caller, state/lifetime/error/reset/precedence contracts are linked and audited. Effective integration closes only when relevant winning chains/inputs are reconciled. Shared integration research does not implement absent manager/binder/storage behavior or certify compatibility by assembling alternative packages.
 
-Runtime is a separate explicitly resumed phase with executable/profile provenance, repeatable observations/logs and actual outcomes; it remains deferred. Exhaustive option/VM/parser/addon combinations, full MCM and broad MO2 internals remain optional depth. [ARCH-01 practical inventory](../../05-mod-architecture/coverage-inventory.md) is complete within scope; next ARCH-02 module/state ownership and compatibility contracts. [Guide](development-reference.md), [roadmap](../../ROADMAP.md).
+Runtime is a separate explicitly resumed phase with executable/profile provenance, repeatable observations/logs and actual outcomes; it remains deferred. Exhaustive option/VM/parser/addon combinations, full MCM and broad MO2 internals remain optional depth. [Selected practical foundation](../../05-mod-architecture/development-reference.md) and [whole-reference audit](../../08-research/reference-status.md) are now complete within scope; effective integration remains partial. [Guide](development-reference.md), [roadmap](../../ROADMAP.md).

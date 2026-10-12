@@ -38,6 +38,14 @@ class RepositoryChecks(unittest.TestCase):
         self.assertTrue(any('inconsistent document-set version' in x for x in self.fixture('',version='0.0.0')))
     def test_obsolete_forwarding(self):
         self.assertTrue(any('obsolete forwarding' in x for x in self.fixture('',title='# Moved: obsolete')))
+    def test_verification_revision_label_mismatch(self):
+        report=next(self.root.glob(f'08-research/verification-*-v{self.version}.md')).relative_to(self.root).as_posix()
+        errors=self.fixture(f'[verification v0.0.0]({report})')
+        self.assertTrue(any('verification revision label mismatch' in x for x in errors))
+    def test_matching_report_and_other_revision_labels(self):
+        report=next(self.root.glob(f'08-research/verification-*-v{self.version}.md')).relative_to(self.root).as_posix()
+        errors=self.fixture(f'[verification v{self.version}]({report})\n[source v0.0.0](README.md)')
+        self.assertEqual(errors,[])
     def test_malformed_csv(self):
         (self.root/'fixture.csv').write_text('one,two\nthree\n')
         self.assertTrue(any('CSV row width' in x for x in checker.check(self.root)['errors']))

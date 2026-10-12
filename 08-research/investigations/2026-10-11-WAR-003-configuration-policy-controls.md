@@ -1,6 +1,6 @@
 # WAR-003 — Supplied Warfare configuration and policy controls
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WAR-003
 - Subsystem: Warfare / A-Life integration

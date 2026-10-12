@@ -1,6 +1,6 @@
 # Subsystem entry point map
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 This map identifies the eleven currently researched behavior subsystems. Each has a README for browsing, a development reference for practical synthesis and links, and a source-completion status for readiness, missing effective inputs and runtime limits. These are different roles; adding a guide does not mark research complete.
 
@@ -23,3 +23,5 @@ UI/PDA retains its established 03-ui-pda location; A-Life and Warfare retain dis
 Environment, cross-system engine architecture, mod architecture, debugging, examples and project records are other document categories. They do not require artificial subsystem completion pages merely to match filenames. World interaction/navigation uses that pattern for its completed selected available-source pass; effective installed integration remains partial.
 
 Use [layout rules](repository-layout.md), [workflow](workflow.md), [full index](../INDEX.md) and [current roadmap](../ROADMAP.md). This map is navigation, not an exhaustive engine subsystem inventory.
+
+[ADR-01 whole-reference status](reference-status.md) consolidates current closure and the [provenance register](../00-environment/provenance-register.md). All eleven entry/guide/status triples and their original scoped audits are reviewed in the [entry ledger](../evidence/reference/entry-contracts-2026-10-12.csv); this map remains navigation rather than a full native subsystem inventory.

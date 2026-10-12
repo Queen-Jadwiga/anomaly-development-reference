@@ -1,6 +1,6 @@
 # GAME-02 — Actor survival effects and equipment mitigation
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 - ID: GAME-02
 - Subsystem: actor/NPC gameplay state

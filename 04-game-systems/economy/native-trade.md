@@ -1,6 +1,6 @@
 # Native money, pricing and trade flow
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ECO-01
 - Subsystem: trade/economy

@@ -1,6 +1,6 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source status
 
@@ -15,12 +15,13 @@ UI/PDA is development-reference ready within the documented source scope. A-Life
 
 Documentation intake does not close the two crash investigations or independently certify the user’s install. [Confidence/disposition](08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md). CtZ UI timing/lifetime review belongs in its separate project; no mod change is included here.
 
-## Next source work
+## Current completion and next work
 
-The planned consolidation and bounded audits from available snapshots are complete for A-Life/Warfare and factions. Both retain effective installed-source requirements; see [A-Life/Warfare completion](04-game-systems/alife/source-completion-status.md) and [faction completion](04-game-systems/factions/source-completion-status.md). Persistence available-source work is complete within selected scope: PER-01 selected native save/load pipeline and Lua extension boundaries are complete within scope. PER-02 supplied codec/caller/gap pass is complete within scope; effective core manager/dispatch/storage remains partial. PER-03 selected CtZ campaign identity/schema/restoration/reconciliation is complete; PER-04 practical consolidation and final bounded audit are complete. Full effective installed persistence remains partial under its [completion rule](04-game-systems/persistence/source-completion-status.md). Inventory ITEM-01–04 selected foundations and ITEM-05 practical consolidation/bounded audit are complete within available-source scope. [Effective inventory integration](04-game-systems/inventory/source-completion-status.md) remains partial. Trade/economy and gameplay state available-source work are now consolidated and audited within scope; effective installed inputs and runtime remain open. Tasks/dialogue/info state TASK-01–03 are also consolidated and audited within selected available-source scope; effective installed integration remains partial under the [task completion rule](04-game-systems/tasks/source-completion-status.md). World interaction/navigation WORLD-01 [coverage inventory](04-game-systems/world/coverage-inventory.md) is complete within scope; effective installed integration remains partial. WORLD-02 selected spatial/relocation/restriction/patrol contracts are complete within scope. WORLD-03 selected use/touch/actor transition/marker lifecycle contracts are complete within scope. WORLD-04 supplied consumers, practical consolidation and bounded audit are complete within selected available-source scope. CONFIG-01 [configuration/script-integration inventory](04-game-systems/configuration/coverage-inventory.md) is complete within scope; the subsystem remains partial. CONFIG-02 selected LTX/INI/DLTX and Lua contracts are complete within scope. CONFIG-03 selected native script loading/startup/shared callback contracts are complete within scope. CONFIG-04 supplied consumers, practical consolidation and bounded audit are complete within selected available-source scope. ARCH-02 [module/state ownership](05-mod-architecture/module-state-contracts.md) and [compatibility/package contracts](05-mod-architecture/compatibility-package-contracts.md) are complete within selected synthesis scope; practical foundation/effective integration remain partial. [DEBUG-01 diagnostic routes/triage](06-debugging/README.md) are complete within selected source scope. ARCH-03 [central practical guide](05-mod-architecture/development-reference.md), [patterns](07-code-library/qualified-patterns.md), [test guidance](05-mod-architecture/test-guidance.md) and [bounded audit](08-research/verification-2026-10-12-v0.1.81.md) complete the selected foundation. Next separate whole-ADR consolidation/provenance/navigation/consistency audit. Runtime verification remains deferred.
+[ADR-01 whole-reference status](08-research/reference-status.md) closes the planned consolidation/provenance/navigation/consistency audit. The eleven behavior foundations and practical ARCH-01–03/DEBUG-01 pass remain complete/usable within their documented selected source/design scope. Each subsystem retains its own audit and effective/runtime limits.
+
+Next work is relevant effective-profile source closure when winning inputs are available, or a concrete targeted source question. Independent runtime verification remains deferred until explicitly resumed. Broader exhaustive engine/addon/build coverage is optional later depth. [Provenance register](00-environment/provenance-register.md), [subsystem map](08-research/subsystem-map.md), [current verification](08-research/verification-2026-10-12-v0.1.82.md).
 
 <a id="current-a-lifewarfare-remaining-scope--v0138"></a>
-
 ## Current A-Life/Warfare remaining scope
 
 
@@ -95,13 +96,13 @@ The first broadly useful ADR extends beyond CtZ while remaining bounded. CtZ sup
 - [x] ARCH-02: [module/state ownership](05-mod-architecture/module-state-contracts.md), interfaces/lifecycle and [dependency/version/package/upgrade contracts](05-mod-architecture/compatibility-package-contracts.md); 26 pinned documentation boundaries, design inference explicit, effective integration partial.
 - [x] DEBUG-01: [selected native/Lua diagnostic routes](06-debugging/diagnostic-routes.md), [four exports](02-lua-api/debugging/diagnostic-api.md) and [triage](06-debugging/triage.md); 41 source rows/67 ranges/21 files, six documentation pins; effective integration partial and runtime deferred.
 - [x] ARCH-03: [qualified patterns](07-code-library/qualified-patterns.md), [test guidance](05-mod-architecture/test-guidance.md), [practical consolidation](05-mod-architecture/development-reference.md) and [bounded audit](08-research/verification-2026-10-12-v0.1.81.md); four proposed protocols/two linked UI sketches, 16 new reference rows; selected foundation complete, effective integration partial and runtime deferred.
-- [ ] Separate cross-system final ADR consolidation/provenance/navigation/consistency audit: review subsystem maps/guides, evidence scopes and missing effective/runtime edges; practical patterns/guidance are now consolidated. Not performed by ARCH-03.
+- [x] ADR-01: [whole-reference consolidation/provenance/navigation/consistency audit](08-research/reference-status.md), [inventory/integrity/corrections](evidence/reference/README.md) and [verification](08-research/verification-2026-10-12-v0.1.82.md). Effective-source closure and runtime remain open; no exhaustive native/runtime certification.
 
 Each subsystem's first-edition boundary is its main lifecycle, state owner, relevant configuration/Lua contracts, callbacks, persistence, failure behavior and cross-system dependencies, with explicit gaps. Inventory existing coverage before each new investigation. Full renderer internals, every weapon/AI variant, animation/physics internals, multiplayer and exhaustive binding/build combinations are optional later depth unless a concrete question requires them. Effective-source collection and runtime resumption remain separate; all runtime remains deferred.
 
 ## Maintenance
 
-Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-12-v0.1.81.md). Historical unchecked boxes are not the current backlog.
+Use the [standard workflow](08-research/workflow.md), [layout conventions](08-research/repository-layout.md) and [current verification report](08-research/verification-2026-10-12-v0.1.82.md). Historical unchecked boxes are not the current backlog.
 
 ## Tasks/dialogue/info effective backlog
 

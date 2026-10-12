@@ -1,0 +1,60 @@
+path,sha256,rows,classification,checked_rows,unchecked_rows,checked_range_groups,result,limits
+02-lua-api/alife/binding-helper-declarations-oct11.csv,115d241d400c59a067cd0876c9bdce993812e39b449f122c6e3fd9082df0859c,174,generated API inventory; original projection/provenance retained,0,0,0,inventory-only,Structure inventoried; no full regeneration or historical May source revalidation
+02-lua-api/alife/native-lua-bindings-oct11.csv,c6c0cd9a648c1fff2405c5595b0fd2d58f9b0c1e5c2b658554281dfafd04f0a9,1151,generated API inventory; original projection/provenance retained,0,0,0,inventory-only,Structure inventoried; no full regeneration or historical May source revalidation
+02-lua-api/alife/native-lua-classes-oct11.csv,963bbda8aace4421acddb295e9fd4ad4cf5d837d6dda08231dd2d8081f0dc788,84,generated API inventory; original projection/provenance retained,0,0,0,inventory-only,Structure inventoried; no full regeneration or historical May source revalidation
+02-lua-api/alife/script-interfaces-oct11.csv,145c429447a7c7616cff9631a3cc451ecdd32b1ac14a4b9a6e6c316c689fa918,1372,generated API inventory; original projection/provenance retained,0,0,0,inventory-only,Structure inventoried; no full regeneration or historical May source revalidation
+02-lua-api/ui/exports-ui-2026-05-15.csv,b6e25a64a0d1075b65c23eec0d078bbae604da91116bdbb9e92cd7118a708689,90,generated API inventory; original projection/provenance retained,0,0,0,inventory-only,Structure inventoried; no full regeneration or historical May source revalidation
+02-lua-api/ui/ui-binding-inventory-oct11.csv,d0f3e74e36b39a1d0028084f65d3eeccf8334e41e8b007e27d9ef63e9d189bf4,425,generated API inventory; original projection/provenance retained,0,0,0,inventory-only,Structure inventoried; no full regeneration or historical May source revalidation
+02-lua-api/ui/ui06-followup-message-emitters.csv,94d5e84ab10bb55369d997ee8765710bdc48c85dd966b35555a2c549930e4b44,13,generated API inventory; original projection/provenance retained,0,0,0,inventory-only,Structure inventoried; no full regeneration or historical May source revalidation
+02-lua-api/ui/ui06-followup-scoped-def-occurrences.csv,d7425f14dfcd56d51d8790aeb7adc59ef53f9a22d690a2e568ebf7f7cfe418aa,450,generated API inventory; original projection/provenance retained,0,0,0,inventory-only,Structure inventoried; no full regeneration or historical May source revalidation
+08-research/migrations-2026-10-11-v0.1.40.csv,c3e151589448aedff29c621017d98cd76d072bf3ac489594d3cf56b3e444cfc2,41,historical path migration ledger,0,0,0,inventory-only,
+evidence/alife/client-server-offline-evidence-oct11.csv,6f8e978a2ad1758faa39a95b58cbf6c2e0a4e8fb8aa29176d8a1450d568d6b9e,25,source/file pin integrity,25,0,38,pass within declared check,
+evidence/alife/configuration-controls-2026-10-11.csv,23775026e0d3539b63835db5e0f7cb25e68dba79f8a334f16e10bae5dcb9d3d7,18,source/file pin integrity,18,0,25,pass within declared check,
+evidence/alife/creation-release-evidence-oct11.csv,b10db95b1672f5e10df483ed0597de0d4c5d13c88e773a404f570660e3c11473,16,source/file pin integrity,16,0,20,pass within declared check,
+evidence/alife/graph-online-realization-evidence-oct11.csv,3fb39859979a8d012ea28cad9b76312cf21f39a226a41bea04b133143385859b,27,source/file pin integrity,27,0,37,pass within declared check,
+evidence/alife/interface-evidence-oct11.csv,88868b56faf69500a23026e6900ef98e661dc4232ebf39076d45034f43cea24d,73,source/file pin integrity,73,0,0,pass within declared check,
+evidence/alife/lifecycle-callbacks-2026-10-11.csv,6b84e6759cc5f67d9d340d88ae792936d1a656e219081260aff86cc13530e2d6,47,source/file pin integrity,47,0,73,pass within declared check,
+evidence/alife/offline-scheduling-evidence-oct11.csv,3d1e75702fde65963bdafddc3f9b4d860db9f982f385baba97a9ec2a01b9d41f,21,source/file pin integrity,21,0,29,pass within declared check,
+evidence/alife/save-load-evidence-oct11.csv,a653ab7ca8151a27e7547779fe72412a9f7877e3cfc56d3f56a825376e0077cb,15,source/file pin integrity,15,0,24,pass within declared check,
+evidence/alife/source-evidence-oct11.csv,99fe672454f8c155fa6c539bcfd89251200ce435db7212970983868dc081c261,15,source/file pin integrity,15,0,30,pass within declared check,
+evidence/alife/switching-eligibility-evidence-oct11.csv,d0e89327856fbc22fa7fb23844febb191163c466a80fd157c5e634dfaff1e356,19,source/file pin integrity,19,0,35,pass within declared check,
+evidence/architecture/coverage-inventory-2026-10-12.csv,b9de239202b4cc799bdbde82625a7062d0aa7577f91636b9b1420c226bf59644,22,immutable ADR reference pin,22,0,22,pass within declared check,
+evidence/architecture/module-state-contracts-2026-10-12.csv,3ca5e7cd9c578ee65f97f128e4a6394c6bf1e12cc9eec0c96cb7a547b7720f65,26,immutable ADR reference pin,26,0,26,pass within declared check,
+evidence/architecture/qualified-patterns-2026-10-12.csv,aabae7bff926e698c3c94bd55099434671243afb6fb10ad9641117aa24f4db92,16,immutable ADR reference pin,16,0,16,pass within declared check,
+evidence/configuration/coverage-inventory-2026-10-12.csv,1fbcea14f89abb2c1f1c795f50f01519d999fd09c840631ecabfea52d5a9522c,18,immutable ADR reference pin,18,0,18,pass within declared check,
+evidence/configuration/ltx-ini-dltx-2026-10-12.csv,dfd480a55190e2dc766fe82c9ec6cf5669bfa45652457819eefa7b5c6c2a66af,50,source/file pin integrity,50,0,72,pass within declared check,
+evidence/configuration/package-comparison-2026-10-12.csv,cb447aee82f4470be3e16a222260838e2ae8d57c56c2eeb8326cea93c828ec40,7,package comparison dataset; original reproduction retained,0,0,0,inventory-only,Structure inventoried; comparisons are qualified to original files/slices
+evidence/configuration/script-loading-callbacks-2026-10-12.csv,42a6319c92d1bd2f59cc55351fd59868de5f2cb319a9fb4f6f4b02dfe6f9d078,35,source/file pin integrity,35,0,47,pass within declared check,
+evidence/configuration/supplied-options-patches-2026-10-12.csv,eef964be839bfc78464aa2ce330af968e55a2706257a8ec79d330462a6e36905,29,source/file pin integrity,29,0,37,pass within declared check,
+evidence/debugging/diagnostic-routes-2026-10-12.csv,deeb7353436688bad57a24d3b7334f5af9ecd0f98f5efbc0750316f7cba7b588,41,source/file pin integrity,41,0,67,pass within declared check,
+evidence/debugging/triage-references-2026-10-12.csv,e0740442d593e5195213fe1533d0b6df6bd266ee6bff102cc6a158233587c2a9,6,immutable ADR reference pin,6,0,6,pass within declared check,
+evidence/economy/native-trade-2026-10-11.csv,93a06706e0fdfa35b8af68cee94878675603fa67eae3280a9a5713dbc2a55b8d,23,source/file pin integrity,23,0,32,pass within declared check,
+evidence/economy/trader-configuration-2026-10-12.csv,db96ed2a4afd76e9c08a893985f5676f13c85aba15548c714e5dce47ce09b440,21,source/file pin integrity,21,0,31,pass within declared check,
+evidence/factions/action-goodwill-2026-10-11.csv,9226332658329a46ea78d624879b3b9cce03b55b83a3ec82edd765fcdd811631,20,source/file pin integrity,20,0,24,pass within declared check,
+evidence/factions/community-mutation-2026-10-11.csv,73ecf7abb3358756444293c23bdea8a5678d054201fa4e76396f1138896d4a4a,19,source/file pin integrity,19,0,34,pass within declared check,
+evidence/factions/native-relations-2026-10-11.csv,135916b8e9683dcdd9270c73f2131b060f5ecebb4833747b9bcfa2570e067b35,18,source/file pin integrity,18,0,32,pass within declared check,
+evidence/factions/relation-persistence-2026-10-11.csv,a1e00425cbe4fba1438def7b51a2998064e9ccb4ff140c2075c098a480d33c21,18,source/file pin integrity,18,0,26,pass within declared check,
+evidence/factions/warfare-consumers-2026-10-11.csv,84d16d1015d1e2c8352c71aaae953b0dabde4ecd1f23ab86201af403137313da,20,source/file pin integrity,20,0,32,pass within declared check,
+evidence/gameplay/actor-effects-2026-10-12.csv,12d4b10a27b147bea23aeaba1d8ae7ebc3fcf0ad15ca22060fc064632a706534,21,source/file pin integrity,21,0,26,pass within declared check,
+evidence/gameplay/death-restoration-2026-10-12.csv,25adcb83a06ac5e2bdb5a2485b4ef3aff2687942a8f582914f809f9e46d2d01b,19,source/file pin integrity,19,0,24,pass within declared check,
+evidence/gameplay/native-condition-2026-10-12.csv,78ce357650e48dcc9cf7aed587fa08ad5b8e4c1c4bf6cb1b41c54ee49f7f602f,21,source/file pin integrity,21,0,25,pass within declared check,
+evidence/inventory/consumption-destruction-2026-10-11.csv,8c7bb87277fd9c448559bed72cbd04108ff3feed9268e55af4bd7b58a0f51b61,18,source/file pin integrity,18,0,24,pass within declared check,
+evidence/inventory/ownership-lifecycle-2026-10-11.csv,5097391c503b0ae12d46642c77abfd7dd9dc14673bc69883f4892c28137ab17a,20,source/file pin integrity,20,0,25,pass within declared check,
+evidence/inventory/persistence-reconstruction-2026-10-11.csv,1678ad1814d930037a15ec9f471bc583c3120c35da6e121cb33d61d1b9070ad4,15,source/file pin integrity,15,0,23,pass within declared check,
+evidence/inventory/placement-activation-2026-10-11.csv,112b3666d905c8626dd094d2ec36b299388bf58da45c6306500877618976c56c,19,source/file pin integrity,19,0,24,pass within declared check,
+evidence/persistence/ctz-campaign-safety-2026-10-11.csv,f8fd6e1afadc467233ea0dcf43d6fc3e78a99dffadbecf760da26c96dfc4a630,13,source/file pin integrity,13,0,22,pass within declared check,
+evidence/persistence/lua-storage-2026-10-11.csv,692af1cf6210204ee6a8b71ea33e421b8ad4462c296ebfc78a6ff1ade3b2a257,13,source/file pin integrity,13,0,21,pass within declared check,
+evidence/persistence/native-pipeline-2026-10-11.csv,07daf009012014a4071dfdbb7e194dca25a87382be2cb1244792792275d0b0a5,24,source/file pin integrity,24,0,33,pass within declared check,
+evidence/runtime/issue-review-source-2026-10-12.csv,562a36589529aa4b59283139599447b5c0514789824ffadfdac826acfd5e4a05,6,source/file pin integrity,2,4,3,pass within declared check,UPSTREAM0912 immutable remote source pin retained; no local September source checkout
+evidence/runtime/reported-observations-2026-10-12.csv,9aacacb1508b33c41afcc8946f4cf199f441f72eebf3cadb1d999f1dd04ae112,10,external observation ledger,0,0,0,inventory-only,Reporter/body/build pins retained; not independent runtime reproduction
+evidence/tasks/native-task-dialogue-info-2026-10-12.csv,0b5d0733c6b8b48d9b2500ba8684c3d510d0e9421c6a487f605bfe3679f573d6,18,source/file pin integrity,18,0,32,pass within declared check,
+evidence/tasks/supplied-consumers-2026-10-12.csv,0510193e2a2e4c4f3e9c3d1b54982b92a70b54c7ce3d045199d8779675c0b79c,16,source/file pin integrity,16,0,37,pass within declared check,
+evidence/templates/source-evidence.csv,0cb6da79c9638f0c0328fc05be30886eef99beb7840d06659c842df0bda53123,0,empty schema template,0,0,0,inventory-only,
+evidence/warfare/archive-script-comparison-oct11.csv,965b3d7ffb9db348bff33c91f56b9dab14a0aa71d523550c436dcd0f09fa3ffb,17,package comparison dataset; original reproduction retained,0,0,0,inventory-only,Structure inventoried; comparisons are qualified to original files/slices
+evidence/warfare/configuration-controls-2026-10-11.csv,894adbd7c64a15fc5fdffab277b36348ce4c6d04cb75d550dc563eeeb3963c16,18,source/file pin integrity,18,0,35,pass within declared check,
+evidence/warfare/source-evidence-war002-oct11.csv,f6bfd7b52e8ffb1df9cc192ca43a5b09d1f5698a208e5470e3be71eaafc5bef9,16,source/file pin integrity,16,0,39,pass within declared check,
+evidence/world/coverage-inventory-2026-10-12.csv,8716da8b3e6b6d458fa3d847ad9138e9c66ca3d92a513337eaaeaef9fafde844,14,immutable ADR reference pin,14,0,14,pass within declared check,
+evidence/world/interaction-transition-markers-2026-10-12.csv,895ac72632c2e4ea7a7cba46d5b6dcd70f24be7d9493152bda59ad56d5631209,48,source/file pin integrity,48,0,64,pass within declared check,
+evidence/world/package-comparison-2026-10-12.csv,ab8ae974d030bc88b1ec9e9aa3ef3cb42d8b5f5d2c20f2c9767919db9278b096,11,package comparison dataset; original reproduction retained,0,0,0,inventory-only,Structure inventoried; comparisons are qualified to original files/slices
+evidence/world/spatial-contracts-2026-10-12.csv,cb6250d4aeac5950570832e28d1ecc725b5b7b4ed9c0b4183804cbb03f917ce0,40,source/file pin integrity,40,0,76,pass within declared check,
+evidence/world/supplied-consumers-2026-10-12.csv,9a5771be7597205cb0c87076abd1771b508a72b8edf0d9707eaf0bcec8ba328d,27,source/file pin integrity,27,0,44,pass within declared check,

@@ -1,6 +1,6 @@
 # Economy source completion and remaining work
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 **As of 12 October 2026:** ECO-01 native money/pricing/selected UI trade, ECO-02 trader policy/supplies/selected supplied consumers, and ECO-03 practical consolidation/bounded audit are complete within their available-source scope. The [development reference](development-reference.md) is usable within those boundaries. Full effective installed integration is **partial**; runtime is **untested** and deferred.
 
@@ -27,4 +27,4 @@ Collection uses the existing [effective-profile provenance requirements](../../0
 
 Mark full installed economy integration development-reference ready at source level after relevant winning manager/configuration/consumer chains are traced and reconciled with the selected native source. Runtime remains a separate phase, resumed explicitly with identified build/profile, representative prices/gates/restock, money/item acceptance, edge inputs and save/load/level-change observations recorded.
 
-Every derived item Cost, every native NPC/artefact/task variant, mechanic upgrades, multiplayer, exhaustive converters/build combinations and malformed-input robustness are optional later depth unless a concrete question needs them. A conserved faction market or safe loadout recipe is not established by completing this bounded source pass. Next general foundation: actor/NPC health, damage, death, condition/immunity/effects and callback boundaries. [Roadmap](../../ROADMAP.md).
+Every derived item Cost, every native NPC/artefact/task variant, mechanic upgrades, multiplayer, exhaustive converters/build combinations and malformed-input robustness are optional later depth unless a concrete question needs them. A conserved faction market or safe loadout recipe is not established by completing this bounded source pass. Original ECO-03 follow-on: actor/NPC gameplay state, subsequently consolidated within selected scope. Current planning follows the [whole-reference status](../../08-research/reference-status.md). [Roadmap](../../ROADMAP.md).

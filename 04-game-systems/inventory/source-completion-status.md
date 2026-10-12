@@ -1,6 +1,6 @@
 # Inventory source completion and remaining work
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 **As of 11 October 2026:** selected ITEM-01–04 native/server/actor/box/eatable foundations, focused Lua contracts, practical consolidation and bounded final available-source audit are complete within scope. The [development reference](development-reference.md) is usable within those boundaries. Full effective installed inventory integration is **partial**; runtime is **untested** and deferred until explicitly resumed.
 
@@ -31,4 +31,4 @@ The existing [A-Life/Warfare](../alife/source-completion-status.md) and [persist
 
 Mark full installed inventory integration development-reference ready at source level only after relevant effective chains are traced and reconciled with the selected native findings. Runtime remains a separate, explicitly resumed phase with identified build/profile, repeatable acquisition/transfer/placement/activation/use/removal/save-load/level-change observations and recorded outcomes.
 
-Full weapon/animation/physics internals, every item/owner subclass, exhaustive converter/binding/build coverage and malformed-save/relationship robustness are optional later depth unless a concrete modding question requires them. Trade pricing/payment/configuration is the next subsystem, not implicitly completed by inventory GE_TRADE names. [Roadmap](../../ROADMAP.md).
+Full weapon/animation/physics internals, every item/owner subclass, exhaustive converter/binding/build coverage and malformed-save/relationship robustness are optional later depth unless a concrete modding question requires them. The original ITEM-05 follow-on was trade/economy, subsequently consolidated within selected scope. Inventory GE_TRADE names still do not establish payment; current planning follows the [whole-reference status](../../08-research/reference-status.md). [Roadmap](../../ROADMAP.md).

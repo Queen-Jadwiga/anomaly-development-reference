@@ -1,6 +1,6 @@
 # Practical architecture/debugging coverage inventory
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ARCH-01
 - Subsystem: practical architecture/debugging (cross-system foundation)

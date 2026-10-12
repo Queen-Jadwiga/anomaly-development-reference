@@ -1,6 +1,6 @@
 # Gameplay state source completion and remaining work
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 **As of 12 October 2026:** GAME-01 base condition/live hits, GAME-02 actor effects/equipment, GAME-03 selected derived death/restoration, and GAME-04 practical consolidation/bounded audit are complete within their available-source boundaries. [Development reference](development-reference.md). Full effective installed integration remains **partial**; runtime **untested** and deferred.
 
@@ -28,4 +28,4 @@ Use existing [effective-profile provenance requirements](../../08-research/inves
 
 Full installed gameplay-state integration becomes development-reference ready at source level when relevant winning condition/hit/death/restore chains are collected, traced and reconciled with selected native findings. Runtime remains a separate explicitly resumed phase: pin executable/profile, record repeatable state-change/effect/mitigation/callback/casualty/save-load/level-change observations, then classify actual outcomes.
 
-Every monster species attack/death override, animation/physics/effect internals, multiplayer variants, exhaustive converters and malformed-save/input robustness are optional later depth unless a concrete modding question requires them. Safe NPC medicine, resurrection or casualty bookkeeping is not automatically proved by this scoped completion. Next general foundation: tasks/dialogue/info state. [Roadmap](../../ROADMAP.md).
+Every monster species attack/death override, animation/physics/effect internals, multiplayer variants, exhaustive converters and malformed-save/input robustness are optional later depth unless a concrete modding question requires them. Safe NPC medicine, resurrection or casualty bookkeeping is not automatically proved by this scoped completion. Original GAME-04 follow-on: tasks/dialogue/info state, subsequently consolidated within selected scope. Current planning follows the [whole-reference status](../../08-research/reference-status.md). [Roadmap](../../ROADMAP.md).

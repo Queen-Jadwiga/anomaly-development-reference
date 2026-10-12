@@ -1,6 +1,6 @@
 # INV-007 — XML/Lua boundary and font getters
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 - Version: ADR v0.1.7
 - Target: `6a08e0905ce34748ee2904a5e0809f8afd141137`

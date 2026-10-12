@@ -1,6 +1,6 @@
 # Game system references
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 Choose the [subsystem entry point map](../08-research/subsystem-map.md) for consistent central guides and completion status.
 
@@ -8,6 +8,7 @@ Choose the [subsystem entry point map](../08-research/subsystem-map.md) for cons
 - [Persistence](persistence/README.md), [inventory](inventory/README.md).
 - [Trade/economy](economy/README.md), [actor/NPC gameplay state](gameplay/README.md).
 - [Tasks/dialogue/info state](tasks/README.md).
+- [Configuration/script integration](configuration/README.md): selected available-source pass consolidated; effective integration partial.
 - [World interaction/navigation](world/README.md): planned available-source inventory/traces/consumers/consolidation/audit complete within scope; effective installed integration partial.
 - [UI/PDA](../03-ui-pda/README.md) lives in its existing dedicated section.
 

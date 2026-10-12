@@ -1,20 +1,26 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
-Current canonical locations:
+Choose a current catalog below. Each page retains its own source/build/registration/converter scope; none is a complete ABI or runtime certification. [Provenance register](../00-environment/provenance-register.md), [whole-reference status](../08-research/reference-status.md).
 
-- [UI catalog and October 11 follow-ups](ui/README.md).
-- [A-Life/Warfare C++ and Lua catalog](alife/README.md).
-- [Focused faction and relation contracts](factions/relations-api.md).
-- [Community mutation and live team contracts](factions/community-mutation-api.md).
-- [Rank/reputation and action-flag contracts](factions/action-values-api.md).
-- [Native persistence extension contracts](persistence/native-extension-contracts.md).
-- [Supplied Lua codec/storage caller contracts](persistence/lua-storage-api.md).
-- [Shared API entry template](templates/api-entry.md).
-- [Research workflow](../08-research/workflow.md) and [repository layout](../08-research/repository-layout.md).
+| Area | Current canonical contracts |
+| --- | --- |
+| UI/PDA | [UI catalog and qualified historical/October entries](ui/README.md) |
+| A-Life/Warfare | [Class/binding/script catalogs and focused server/simulator interfaces](alife/README.md) |
+| Factions | [Relations](factions/relations-api.md), [community mutation](factions/community-mutation-api.md), [rank/reputation](factions/action-values-api.md) |
+| Persistence | [Native extension contracts](persistence/native-extension-contracts.md), [Lua codec/storage callers](persistence/lua-storage-api.md) |
+| Inventory | [Ownership](inventory/ownership-api.md), [placement](inventory/placement-api.md), [consumption/destruction](inventory/consumption-api.md) |
+| Economy | [Money/base cost](economy/money-cost-api.md), [trader policy/supplies](economy/trader-policy-api.md) |
+| Gameplay state | [Condition](gameplay/condition-api.md), [actor effects](gameplay/actor-effects-api.md) |
+| Tasks/dialogue/info | [Native task/info contracts](tasks/native-task-info-api.md) |
+| World/navigation | [Spatial](world/spatial-api.md), [interaction/transition/markers](world/interaction-api.md), [consumer restriction extensions](world/consumer-extension-api.md) |
+| Configuration/script | [INI/DLTX](configuration/ini-api.md), [loading/callbacks](configuration/script-callback-api.md), [options/patch helpers](configuration/options-patch-api.md) |
+| Diagnostics | [Four selected Lua exports](debugging/diagnostic-api.md) |
 
-Each record declares its own baseline and scope. An inventory is not an exhaustive ABI or runtime certification. Earlier class-entry content remains historically scoped even after relocation.
+[Practical guide](../05-mod-architecture/development-reference.md), [qualified patterns](../07-code-library/qualified-patterns.md) and [test guidance](../05-mod-architecture/test-guidance.md) organize use of these contracts without implementing new native services. [API template](templates/api-entry.md), [workflow](../08-research/workflow.md), [layout](../08-research/repository-layout.md), [full file index](../INDEX.md).
+
+The sections below retain the original May-era extraction/declaration research and its revision-specific caveats. They are history, not the status of every current catalog or an October availability claim.
 
 ## Historical May 15 index — preserved
 
@@ -46,46 +52,5 @@ See [machine-readable export index](ui/exports-ui-2026-05-15.csv).
 - [XML initialization exposure audit](xml-initialization-exposure.md) — native initializer documented; direct Lua registration not yet proven.
 - [Font globals vs. XML tokens](../03-ui-pda/font-manager-and-lua-getters.md).
 
-## Architecture cross-reference
 
-[End-to-end UI/Lua-native integration](../01-engine/ui-lua-native-integration.md).
-
-For cross-layer selection, see the [faction development reference](../04-game-systems/factions/development-reference.md).
-
-- [Inventory ownership APIs](inventory/ownership-api.md).
-
-[Inventory placement APIs](inventory/placement-api.md).
-
-[Consumption/destruction APIs](inventory/consumption-api.md).
-
-Inventory contracts are consolidated in the [development reference](../04-game-systems/inventory/development-reference.md); [effective-source completion](../04-game-systems/inventory/source-completion-status.md) remains partial.
-
-[Money and base-cost Lua contracts](economy/money-cost-api.md): native balances/deltas and virtual item Cost, distinct from partner trade price.
-
-[Trader policy and supplies Lua contracts](economy/trader-policy-api.md): owner/global factors, show filters, scalar setters and destructive supply requests.
-
-[Live condition properties and changes](gameplay/condition-api.md): current fields versus pending deltas and base/actor limits.
-
-[Actor booster and modifier contracts](gameplay/actor-effects-api.md): selected class exports, replacement semantics and map accessor build limit.
-
-[Native task/info contracts](tasks/native-task-info-api.md): actor task-manager forwarding/adoption and owner info query/transfer return boundaries.
-
-- [Selected world spatial/restriction/patrol contracts](world/spatial-api.md): WORLD-02; source-confirmed within scope, effective/runtime limits retained.
-
-- [Selected world use/zone/changer/marker APIs](world/interaction-api.md): WORLD-03; effective/runtime gaps retained.
-
-- [WORLD-04 selected dynamic restriction consumer extensions](world/consumer-extension-api.md); [world consolidation](../04-game-systems/world/development-reference.md).
-
-## Configuration contracts
-
-[Selected Lua INI construction/read/write/lifetime and DLTX diagnostics](configuration/ini-api.md), CONFIG-02/ENGINE1011. Exact registered arities, ownership and converter limits; runtime deferred.
-
-[Selected script lookup/prefetch and shared callback contracts](configuration/script-callback-api.md), CONFIG-03/ENGINE1011: native-only versus Lua exports, exact listener identity, ordering/removal/dispatch, debug-global route and effective-wrapper limits.
-
-[Supplied option/patch helper contracts](configuration/options-patch-api.md), CONFIG-04: direct get/set versus pending/current/default/preset/apply/change, class/instance and original-capture limits; effective integration partial.
-
-## Selected debugging exports
-
-[Diagnostic API](debugging/diagnostic-api.md) records exact source-qualified log/error_log/print_stack/flush signatures, converter/build guards, void returns and failure/output limits. [Debugging reference](../06-debugging/README.md), [evidence](../evidence/debugging/README.md). DEBUG-01 selected scope complete; runtime deferred.
-
-[Practical architecture/debugging consolidation](../05-mod-architecture/development-reference.md), [qualified patterns](../07-code-library/qualified-patterns.md) and [test guidance](../05-mod-architecture/test-guidance.md) organize use of the existing catalogs; they introduce no new native export or implemented service. [ARCH-03 bounded audit](../08-research/verification-2026-10-12-v0.1.81.md).
+Current cross-layer UI navigation: [UI guide](../03-ui-pda/development-reference.md), [native/Lua architecture](../01-engine/ui-lua-native-integration.md).

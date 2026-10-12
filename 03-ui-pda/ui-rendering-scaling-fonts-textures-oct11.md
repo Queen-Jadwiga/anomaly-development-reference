@@ -1,6 +1,6 @@
 # UI rendering, aspect scaling, native font and texture paths — 2026-10-11 source
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 **Status:** CtZ-relevant source pass complete; no runtime verification. **Scope:** XML initialization, named fonts, aspect-related filename selection, and `CUIStatic` texture initialization. This is **not** an exhaustive renderer or device backend audit.
 

@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.68
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.68, based on main bb01bb6c104efbf07ada269da707204f8ba0f1a6
 - Scope: TASK-01 selected native task/dialogue/info foundation

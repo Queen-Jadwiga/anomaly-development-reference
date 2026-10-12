@@ -1,8 +1,8 @@
 # Factions and relations
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
-**Current revision: v0.1.81.** Planned native and selected supplied-package research, consolidation and bounded source audit are complete within scope. Full effective GAMMA/CtZ integration remains partial; runtime verification remains deferred until the user explicitly resumes it.
+**Current revision: v0.1.82.** Planned native and selected supplied-package research, consolidation and bounded source audit are complete within scope. Full effective GAMMA/CtZ integration remains partial; runtime verification remains deferred until the user explicitly resumes it.
 
 Start with the [practical development reference](development-reference.md) and [completion status](source-completion-status.md).
 

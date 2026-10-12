@@ -37,6 +37,14 @@ def check(root):
     ids={p:headings(t) for p,t in texts.items()}
     for path,text in texts.items():
         clean=prose(text)
+        # A valid target can still have a misleading explicit verification revision label.
+        for label,raw in re.findall(r'\[([^\]\n]+)\]\(([^\s)]+)(?:\s+"[^"]*")?\)',clean):
+            url=urlsplit(raw.strip('<>'))
+            if url.scheme or url.netloc:continue
+            report=re.fullmatch(r'verification-\d{4}-\d{2}-\d{2}-v(\d+\.\d+\.\d+)\.md',Path(unquote(url.path)).name)
+            versions=set(re.findall(r'\bv(\d+\.\d+\.\d+)\b',label))
+            if report and len(versions)==1 and report.group(1) not in versions:
+                errors.append(f'{path.relative_to(root)}: verification revision label mismatch: {label} -> {raw}')
         targets=re.findall(r'\]\(([^\s)]+)(?:\s+"[^"]*")?\)',clean)
         targets+=re.findall(r'^\s*\[[^]]+\]:\s*(\S+)',clean,re.M)
         for raw in targets:

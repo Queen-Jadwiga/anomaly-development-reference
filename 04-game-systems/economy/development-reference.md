@@ -1,6 +1,8 @@
 # Trade and economy development reference
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+
+**Current cross-system status:** [ADR-01 whole-reference audit](../../08-research/reference-status.md) is complete within scope. Original research allocations/baselines below remain dated; selected foundations are consolidated, effective installed integration stays partial and runtime verification deferred.
 
 - ID: ECO-03
 - Subsystem: trade/economy

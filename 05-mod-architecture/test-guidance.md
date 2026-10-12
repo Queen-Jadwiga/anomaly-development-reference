@@ -1,10 +1,10 @@
 # Test guidance for qualified mod patterns
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ARCH-03-TESTS
 - Subsystem: practical architecture / verification
-- Research revision: v0.1.81
+- Research revision: v0.1.82 maintenance; original pattern guidance v0.1.81
 - Record status: complete-within-scope for selected test guidance and implemented ADR test inventory
 - Source status: pinned reference/test-source synthesis; proposed mod fixture/runtime plans distinguished
 - Runtime status: game/profile tests untested; deferred
@@ -18,7 +18,7 @@ Choose a check that can answer the claim being made. This page records **existin
 | Check | What it can establish | What it cannot establish | Current status |
 | --- | --- | --- | --- |
 | Repository validator | Local target/anchor, banner, containment, forwarding/empty-file, required navigation and CSV-width integrity within tool scope | Correct interpretation, complete source coverage or game behavior | Implemented; run for each increment |
-| Validator regression fixtures | Seven tests check valid current tree and deliberate missing target/anchor, root escape, stale revision, forwarding page and malformed CSV | Native error recovery or installed addon compatibility | Implemented in tests/test_repository_checks.py |
+| Validator regression fixtures | Nine tests check valid current tree and deliberate missing target/anchor, root escape, stale revision, forwarding page, malformed CSV and explicit verification-label agreement | Native error recovery or installed addon compatibility | Implemented in tests/test_repository_checks.py |
 | Binding-pattern fixtures | Three tests cover property recognition/origin and preservation of earlier binding categories | Every overload/converter, actual export availability or setter safety | Implemented in tests/test_binding_patterns.py |
 | Source/document pin checks | Declared raw hashes, ranges/counts/markers and baseline identity | Interpretation or unknown executable/profile equivalence | Per-increment integrity checks; recorded in verification |
 | Generator reproduction | Same outputs from declared inputs/projection/tool | Engine compilation, universal ABI/API completeness or runtime | Use when generator/input/output scope changes; unchanged catalogs preserved here |
@@ -26,7 +26,7 @@ Choose a check that can answer the claim being made. This page records **existin
 | Engine/build checks | Identified build can compile/link a selected implementation | Installed profile behavior or all build combinations | Not performed here |
 | Game/profile reproduction | Recorded behavior for exact executable/winning files/settings/save/trigger | Universal compatibility or another setup's result | Deferred |
 
-Q12–Q14/Q16; [tests entry](../tests/README.md), [tools](../tools/README.md). The ten existing regressions are seven repository tests plus three binding-pattern tests. Actual counts/results for this revision belong in the [ARCH-03 verification](../08-research/verification-2026-10-12-v0.1.81.md), not in a proposed protocol's runtime status.
+Q12–Q14/Q16; [tests entry](../tests/README.md), [tools](../tools/README.md). ADR-01 adds two focused report-label regressions; the current suite is nine repository tests plus three binding-pattern tests. ARCH-03’s original seven-plus-three inventory remains pinned at its research revision. Actual counts/results for this revision belong in the [current audit verification](../08-research/verification-2026-10-12-v0.1.82.md), not in a proposed protocol's runtime status.
 
 From the repository root, the implemented ADR checks are:
 

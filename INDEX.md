@@ -1,14 +1,25 @@
 # ADR index
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
-Start with the [landing page](README.md), [current roadmap](ROADMAP.md), [API catalogs](02-lua-api/api-index.md), and [latest verification](08-research/verification-2026-10-12-v0.1.81.md).
+Start with [whole-reference status](08-research/reference-status.md), [subsystem map](08-research/subsystem-map.md), [provenance register](00-environment/provenance-register.md), [API catalogs](02-lua-api/api-index.md), [practical guide](05-mod-architecture/development-reference.md), [roadmap](ROADMAP.md) and [latest verification](08-research/verification-2026-10-12-v0.1.82.md).
 
-Records retain their research revision and source baseline; those are distinct from the current ADR document-set version. Older source audits remain evidence, rather than current work lists.
+This complete Markdown file index groups current guides, detailed references, templates, dated investigations/verification and history by their actual canonical location. A title/revision is that record's scope, not current engine compatibility or a new runtime result. The current document-set banner is separate. Generated evidence/data and code are indexed through their category entries below; no source archives/assets are part of the ADR.
+
+## Root navigation and maintenance
+
+- [ADR maintenance](AGENTS.md)
+- [ADR changelog](CHANGELOG.md)
+- [Contributing to ADR](CONTRIBUTING.md)
+- [Publish and maintain ADR on GitHub](PUBLISHING.md)
+- [Anomaly Development Reference (ADR)](README.md)
+- [ADR roadmap](ROADMAP.md)
 
 ## 00-environment
 
 - [Installed engine baseline — ENV-001](00-environment/engine-version.md)
+- [ADR provenance register](00-environment/provenance-register.md)
+- [ENV-RT01 — External GAMMA runtime report](00-environment/reported-gamma-runtime-2026-10-12.md)
 - [SRC-001 — Official May 15, 2026 source baseline](00-environment/source-baseline-2026-05-15.md)
 - [SRC-002 — October 11, 2026 Modded Exes source and runtime candidate](00-environment/source-baseline-2026-10-11.md)
 - [Source repositories — SRC-001](00-environment/source-repositories.md)
@@ -25,33 +36,33 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 02-lua-api
 
-- [WORLD-04 consumer-discovered restriction APIs](02-lua-api/world/consumer-extension-api.md).
-
-- [WORLD-03 use/zone/changer/marker APIs](02-lua-api/world/interaction-api.md).
-
-- [WORLD-02 spatial restriction/patrol APIs](02-lua-api/world/spatial-api.md).
-
-- [Inventory ownership APIs](02-lua-api/inventory/ownership-api.md).
-
-- [Supplied codec and Lua storage caller contracts](02-lua-api/persistence/lua-storage-api.md)
-
-- [Native persistence extension contracts](02-lua-api/persistence/native-extension-contracts.md)
-
-- [Rank/reputation and action-flag contracts](02-lua-api/factions/action-values-api.md)
-
-- [Community mutation and live team APIs](02-lua-api/factions/community-mutation-api.md)
-
-- [Focused faction and relation Lua contracts](02-lua-api/factions/relations-api.md)
-
 - [A-Life / Warfare C++ and Lua interface catalog](02-lua-api/alife/README.md)
 - [Native class and Lua name map](02-lua-api/alife/class-map.md)
 - [Script interfaces and effective-source boundary](02-lua-api/alife/script-interfaces.md)
 - [Server entity, squad and movement API](02-lua-api/alife/server-squad-api.md)
 - [Simulator Lua API contracts](02-lua-api/alife/simulator-api.md)
 - [Lua API catalogs](02-lua-api/api-index.md)
+- [Lua INI construction, reads, writes and DLTX metadata](02-lua-api/configuration/ini-api.md)
+- [Supplied option and patch helper contracts](02-lua-api/configuration/options-patch-api.md)
+- [Script lookup, prefetch and shared callback contracts](02-lua-api/configuration/script-callback-api.md)
+- [Debugging Lua API](02-lua-api/debugging/README.md)
+- [Selected Lua diagnostic exports](02-lua-api/debugging/diagnostic-api.md)
+- [Money and base-cost Lua contracts](02-lua-api/economy/money-cost-api.md)
+- [Trader policy and supplies Lua contracts](02-lua-api/economy/trader-policy-api.md)
+- [Rank, reputation and action-flag Lua contracts](02-lua-api/factions/action-values-api.md)
+- [Community mutation and live team APIs](02-lua-api/factions/community-mutation-api.md)
+- [Focused faction and relation Lua contracts](02-lua-api/factions/relations-api.md)
+- [Actor booster and modifier Lua contracts](02-lua-api/gameplay/actor-effects-api.md)
+- [Live condition property and change contracts](02-lua-api/gameplay/condition-api.md)
+- [Consumption and destruction Lua contracts](02-lua-api/inventory/consumption-api.md)
+- [Inventory ownership Lua contracts](02-lua-api/inventory/ownership-api.md)
+- [Placement and active-item Lua contracts](02-lua-api/inventory/placement-api.md)
+- [Supplied Lua codec and storage caller contracts](02-lua-api/persistence/lua-storage-api.md)
+- [Native persistence extension contracts](02-lua-api/persistence/native-extension-contracts.md)
 - [Part A — Luabind registration and XML initializer bridge (v0.1.10)](02-lua-api/registration-architecture-part-A.md)
 - [Signature audit — v0.1.4](02-lua-api/signature-audit-v0.1.4.md)
 - [ADR v0.1.5 — text/UI declaration audit](02-lua-api/signature-audit-v0.1.5.md)
+- [Native task and info Lua contracts](02-lua-api/tasks/native-task-info-api.md)
 - [API symbol](02-lua-api/templates/api-entry.md)
 - [UI Lua API catalog](02-lua-api/ui/README.md)
 - [CScriptXmlInit](02-lua-api/ui/classes/CScriptXmlInit.md)
@@ -61,12 +72,17 @@ Records retain their research revision and source baseline; those are distinct f
 - [CUIStatic — declaration audit (ADR v0.1.5)](02-lua-api/ui/classes/CUIStatic.md)
 - [CUITextWnd — declaration audit (ADR v0.1.5)](02-lua-api/ui/classes/CUITextWnd.md)
 - [CUIWindow — declaration-backed signatures (ADR v0.1.4)](02-lua-api/ui/classes/CUIWindow.md)
+- [Selected dynamic restriction consumer extensions](02-lua-api/world/consumer-extension-api.md)
+- [Selected use zone level-changer and marker APIs](02-lua-api/world/interaction-api.md)
+- [Selected world spatial restriction and patrol APIs](02-lua-api/world/spatial-api.md)
 - [Lua-facing XML initialization: verified boundary and open bindings (ADR v0.1.7)](02-lua-api/xml-initialization-exposure.md)
 - [XML initializer Lua registration audit — v0.1.9](02-lua-api/xml-registration-audit-v0.1.9.md)
 - [XML initializer Lua-registration search — v0.1.8](02-lua-api/xml-registration-search-v0.1.8.md)
 
 ## 03-ui-pda
 
+- [UI and PDA](03-ui-pda/README.md)
+- [UI and PDA development reference](03-ui-pda/development-reference.md)
 - [October 11 UI survey — DXML pipeline and patch scoping](03-ui-pda/dxml-pipeline-oct11.md)
 - [October 11 UI survey — native dynamic PDA tabs](03-ui-pda/dynamic-pda-tabs-oct11.md)
 - [Minimal UI patterns — reference only](03-ui-pda/examples/minimal-static-ui-patterns.md)
@@ -76,6 +92,7 @@ Records retain their research revision and source baseline; those are distinct f
 - [XML font resolution and text initialization (ADR v0.1.6)](03-ui-pda/fonts.md)
 - [PDA architecture — investigation PDA-001](03-ui-pda/pda-architecture.md)
 - [UI-01 — Dynamic PDA tab and subdialog lifecycle (2026-10-11 source)](03-ui-pda/pda-subdialog-lifecycle-oct11.md)
+- [UI and PDA source completion and remaining work](03-ui-pda/source-completion-status.md)
 - [XML/UI Construction and ownership (Part C)](03-ui-pda/ui-construction-ownership.md)
 - [October 11 UI survey — Lua controls, fonts, visual resources](03-ui-pda/ui-controls-typography-survey-oct11.md)
 - [October 11 UI survey — input and event routes](03-ui-pda/ui-input-events-oct11.md)
@@ -91,96 +108,101 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## 04-game-systems
 
-- [WORLD-04 supplied consumers](04-game-systems/world/supplied-consumers.md), [world consolidation](04-game-systems/world/development-reference.md), [completion status](04-game-systems/world/source-completion-status.md), [investigation](08-research/investigations/2026-10-12-WORLD-04-consumers-consolidation-audit.md), [bounded audit](08-research/verification-2026-10-12-v0.1.73.md).
-
-- [WORLD-03 use/touch, actor transitions and marker lifecycle](04-game-systems/world/interaction-transitions-markers.md), [investigation](08-research/investigations/2026-10-12-WORLD-03-interaction-transitions-markers.md), [ledger](evidence/world/interaction-transition-markers-2026-10-12.csv), [verification](08-research/verification-2026-10-12-v0.1.72.md).
-
-- [WORLD-02 spatial queries and relocation](04-game-systems/world/spatial-queries-relocation.md), [investigation](08-research/investigations/2026-10-12-WORLD-02-spatial-contracts.md), [source ledger](evidence/world/spatial-contracts-2026-10-12.csv), [verification](08-research/verification-2026-10-12-v0.1.71.md).
-
-- [World interaction/navigation guide](04-game-systems/world/development-reference.md), [coverage inventory](04-game-systems/world/coverage-inventory.md), [completion status](04-game-systems/world/source-completion-status.md).
-- [WORLD-01 investigation](08-research/investigations/2026-10-12-WORLD-01-existing-coverage.md), [coverage ledger](evidence/world/README.md), [v0.1.70 verification](08-research/verification-2026-10-12-v0.1.70.md).
-
-- [Inventory/item lifecycle](04-game-systems/inventory/README.md).
-- [Ownership and pickup/drop](04-game-systems/inventory/ownership-lifecycle.md).
-
-- [Supplied Lua storage contracts and effective gaps](04-game-systems/persistence/lua-storage-contracts.md)
-
-- [Native save/load pipeline](04-game-systems/persistence/native-save-load-pipeline.md)
-
-- [Faction practical development reference](04-game-systems/factions/development-reference.md)
-- [Faction source completion and remaining work](04-game-systems/factions/source-completion-status.md)
-
-- [Supplied Warfare faction/relation consumers](04-game-systems/factions/warfare-relation-consumers.md)
-
-- [Action-driven goodwill and rank/reputation](04-game-systems/factions/action-goodwill.md)
-
+- [Game system references](04-game-systems/README.md)
+- [A-Life](04-game-systems/alife/README.md)
+- [A-Life callback phases and observation contracts](04-game-systems/alife/callback-phase-reference.md)
+- [A-Life configuration and control reference](04-game-systems/alife/configuration-controls.md)
+- [A-Life development reference](04-game-systems/alife/development-reference.md)
+- [A-Life lifecycle and state reference](04-game-systems/alife/lifecycle-state-reference.md)
+- [A-Life / Warfare source completion and remaining work](04-game-systems/alife/source-completion-status.md)
+- [Configuration and script integration](04-game-systems/configuration/README.md)
+- [Configuration/script integration coverage inventory](04-game-systems/configuration/coverage-inventory.md)
+- [Configuration and script integration development reference](04-game-systems/configuration/development-reference.md)
+- [LTX/INI loading and selected DLTX contracts](04-game-systems/configuration/ltx-ini-dltx.md)
+- [Script loading, startup and shared callbacks](04-game-systems/configuration/script-loading-startup-callbacks.md)
+- [Configuration/script integration source completion](04-game-systems/configuration/source-completion-status.md)
+- [Supplied option and patch consumers](04-game-systems/configuration/supplied-options-patches.md)
+- [Trade and economy](04-game-systems/economy/README.md)
+- [Trade and economy development reference](04-game-systems/economy/development-reference.md)
+- [Native money, pricing and trade flow](04-game-systems/economy/native-trade.md)
+- [Economy source completion and remaining work](04-game-systems/economy/source-completion-status.md)
+- [Trader configuration and supply consumers](04-game-systems/economy/trader-configuration.md)
+- [Factions and relations](04-game-systems/factions/README.md)
+- [Action-driven goodwill, rank and reputation](04-game-systems/factions/action-goodwill.md)
 - [Character-community mutation and team/group effects](04-game-systems/factions/community-mutation.md)
-
-- [Native relation persistence, reset and cleanup](04-game-systems/factions/relation-persistence.md)
-
-- [Native faction identity and relations](04-game-systems/factions/native-relations.md)
-
-- [Native configuration controls](04-game-systems/alife/configuration-controls.md)
-- [Warfare policy controls](04-game-systems/warfare/policy-controls.md)
-- [A-Life / Warfare completion status](04-game-systems/alife/source-completion-status.md)
-
-- [A-Life lifecycle/state reference](04-game-systems/alife/lifecycle-state-reference.md)
-- [A-Life callback phases](04-game-systems/alife/callback-phase-reference.md)
-
-- [A-Life reference](04-game-systems/alife/README.md)
-- [Factions](04-game-systems/factions/README.md)
+- [Faction and relation development reference](04-game-systems/factions/development-reference.md)
+- [Native faction identity, goodwill and relation resolution](04-game-systems/factions/native-relations.md)
+- [Native relation persistence, reset and ID cleanup](04-game-systems/factions/relation-persistence.md)
+- [Faction source completion and remaining work](04-game-systems/factions/source-completion-status.md)
+- [Supplied Warfare faction and relation consumers](04-game-systems/factions/warfare-relation-consumers.md)
+- [Actor and NPC gameplay state](04-game-systems/gameplay/README.md)
+- [Actor survival boosters and equipment mitigation](04-game-systems/gameplay/actor-effects-equipment.md)
+- [Derived death and condition restoration](04-game-systems/gameplay/death-restoration.md)
+- [Gameplay state development reference](04-game-systems/gameplay/development-reference.md)
+- [Native health and condition hit processing](04-game-systems/gameplay/native-condition.md)
+- [Gameplay state source completion and remaining work](04-game-systems/gameplay/source-completion-status.md)
+- [Inventory and item lifecycle](04-game-systems/inventory/README.md)
+- [Item consumption, destruction and owner cleanup](04-game-systems/inventory/consumption-destruction.md)
+- [Inventory and item lifecycle development reference](04-game-systems/inventory/development-reference.md)
+- [Inventory ownership, containment and pickup/drop](04-game-systems/inventory/ownership-lifecycle.md)
+- [Item persistence and reconstruction](04-game-systems/inventory/persistence-reconstruction.md)
+- [Item placement and active-slot transitions](04-game-systems/inventory/placement-activation.md)
+- [Inventory source completion and remaining work](04-game-systems/inventory/source-completion-status.md)
 - [Persistence](04-game-systems/persistence/README.md)
-- [Warfare subsystem](04-game-systems/warfare/README.md)
+- [CtZ campaign identity, schema and reconciliation](04-game-systems/persistence/ctz-campaign-safety.md)
+- [Persistence development reference](04-game-systems/persistence/development-reference.md)
+- [Supplied Lua storage contracts and effective-profile gaps](04-game-systems/persistence/lua-storage-contracts.md)
+- [Native save/load pipeline and Lua extension boundaries](04-game-systems/persistence/native-save-load-pipeline.md)
+- [Persistence source completion and remaining work](04-game-systems/persistence/source-completion-status.md)
+- [Tasks dialogue and info state](04-game-systems/tasks/README.md)
+- [Tasks dialogue and info state development reference](04-game-systems/tasks/development-reference.md)
+- [Native task dialogue and info state](04-game-systems/tasks/native-task-dialogue-info.md)
+- [Tasks dialogue and info state completion status](04-game-systems/tasks/source-completion-status.md)
+- [Supplied task dialogue reward and restoration consumers](04-game-systems/tasks/supplied-task-dialogue-consumers.md)
+- [Warfare](04-game-systems/warfare/README.md)
+- [Warfare development reference](04-game-systems/warfare/development-reference.md)
+- [Warfare configuration and policy controls](04-game-systems/warfare/policy-controls.md)
+- [Warfare source completion and remaining work](04-game-systems/warfare/source-completion-status.md)
+- [World interaction and navigation](04-game-systems/world/README.md)
+- [World interaction/navigation coverage inventory](04-game-systems/world/coverage-inventory.md)
+- [World interaction/navigation development reference](04-game-systems/world/development-reference.md)
+- [Use touch actor transitions and map-marker lifecycle](04-game-systems/world/interaction-transitions-markers.md)
+- [World interaction/navigation completion status](04-game-systems/world/source-completion-status.md)
+- [Spatial queries relocation and selected restriction/patrol contracts](04-game-systems/world/spatial-queries-relocation.md)
+- [Supplied world/navigation consumers and effective boundaries](04-game-systems/world/supplied-consumers.md)
 
 ## 05-mod-architecture
 
 - [Mod architecture and GAMMA compatibility](05-mod-architecture/README.md)
+- [Compatibility, dependencies and package contracts](05-mod-architecture/compatibility-package-contracts.md)
+- [Practical architecture/debugging coverage inventory](05-mod-architecture/coverage-inventory.md)
+- [Practical architecture and debugging development reference](05-mod-architecture/development-reference.md)
+- [Module and state ownership contracts](05-mod-architecture/module-state-contracts.md)
+- [Test guidance for qualified mod patterns](05-mod-architecture/test-guidance.md)
 
 ## 06-debugging
 
-- [Debugging workflow](06-debugging/README.md)
+- [Debugging reference](06-debugging/README.md)
+- [Selected native and Lua diagnostic routes](06-debugging/diagnostic-routes.md)
+- [Provenance-aware diagnostic triage](06-debugging/triage.md)
 
 ## 07-code-library
 
-- [Reusable code library](07-code-library/README.md)
+- [Qualified patterns and example policy](07-code-library/README.md)
+- [Qualified mod patterns](07-code-library/qualified-patterns.md)
 
 ## 08-research
 
-- [PER-02 Lua storage investigation](08-research/investigations/2026-10-11-PER-02-lua-storage.md)
-- [Current verification — v0.1.56](08-research/verification-2026-10-12-v0.1.69.md)
-
-- [PER-01 native save/load investigation](08-research/investigations/2026-10-11-PER-01-native-save-load.md)
-- [PER-01 verification — v0.1.50](08-research/verification-2026-10-11-v0.1.50.md)
-
-- [FAC-06 consolidation and final source audit](08-research/investigations/2026-10-11-FAC-06-faction-consolidation.md)
-- [Final faction verification — v0.1.49](08-research/verification-2026-10-11-v0.1.49.md)
-
-- [FAC-05 Warfare consumer investigation](08-research/investigations/2026-10-11-FAC-05-warfare-consumers.md)
-- [FAC-05 increment verification — v0.1.48](08-research/verification-2026-10-11-v0.1.48.md)
-
-- [FAC-04 action-goodwill investigation](08-research/investigations/2026-10-11-FAC-04-action-goodwill.md)
-- [FAC-04 verification — v0.1.47](08-research/verification-2026-10-11-v0.1.47.md)
-
-- [FAC-03 community mutation investigation](08-research/investigations/2026-10-11-FAC-03-community-mutation.md)
-- [FAC-03 verification — v0.1.46](08-research/verification-2026-10-11-v0.1.46.md)
-
-- [FAC-02 relation persistence investigation](08-research/investigations/2026-10-11-FAC-02-relation-persistence.md)
-- [FAC-02 verification — v0.1.45](08-research/verification-2026-10-11-v0.1.45.md)
-
-- [FAC-01 native faction/relation queries](08-research/investigations/2026-10-11-FAC-01-native-relations.md)
-- [FAC-01 verification — v0.1.44](08-research/verification-2026-10-11-v0.1.44.md)
-
-- [ALIFE-11 configuration investigation](08-research/investigations/2026-10-11-ALIFE-11-configuration-controls.md)
-- [WAR-003 policy-control investigation](08-research/investigations/2026-10-11-WAR-003-configuration-policy-controls.md)
-- [Available-source audit — v0.1.43](08-research/verification-2026-10-11-v0.1.43.md)
-
-- [ALIFE-10 synthesis record](08-research/investigations/2026-10-11-ALIFE-10-lifecycle-callback-consolidation.md)
-- [ALIFE-10 verification — v0.1.42](08-research/verification-2026-10-11-v0.1.42.md)
-
-- [Canonical-tree cleanup verification — v0.1.41](08-research/verification-2026-10-11-v0.1.41.md)
-
 - [Update scope — v0.1.12](08-research/2026-10-11-update-scope.md)
 - [Evidence and verification policy](08-research/evidence-policy.md)
+- [Open questions — consolidated review after Parts A–D](08-research/open-questions-v0.1.10.md)
+- [Whole-reference status and effective closure](08-research/reference-status.md)
+- [Repository file and folder conventions](08-research/repository-layout.md)
+- [Subsystem entry point map](08-research/subsystem-map.md)
+- [Standard ADR research workflow](08-research/workflow.md)
+
+## 08-research — dated investigations
+
 - [INV-014 — A-01/A-02 registration bootstrap audit (ADR v0.1.11)](08-research/investigations/2026-10-09-A01-A02-registration-bootstrap.md)
 - [Investigation: UI Lua binding extraction](08-research/investigations/2026-10-09-lua-ui-binding-extraction.md)
 - [INV-010 — Lua XML registration (Part A)](08-research/investigations/2026-10-09-part-A-registration-audit.md)
@@ -203,24 +225,118 @@ Records retain their research revision and source baseline; those are distinct f
 - [ALIFE-06 — Graph location, online realization and spawn callbacks](08-research/investigations/2026-10-11-ALIFE-06-graph-online-realization.md)
 - [ALIFE-07 — Client-to-server position synchronization and offline teardown](08-research/investigations/2026-10-11-ALIFE-07-client-server-offline-teardown.md)
 - [ALIFE-08 — Switching eligibility, hysteresis and forced states](08-research/investigations/2026-10-11-ALIFE-08-switching-eligibility.md)
+- [ALIFE-10 — Lifecycle and callback reference consolidation](08-research/investigations/2026-10-11-ALIFE-10-lifecycle-callback-consolidation.md)
+- [ALIFE-11 — Native configuration and control contracts](08-research/investigations/2026-10-11-ALIFE-11-configuration-controls.md)
 - [B-01 — ownership of UI font manager and named font pointers](08-research/investigations/2026-10-11-B01-font-manager-ownership.md)
 - [B-02 — client UI font manager lifecycle and device-reset handling](08-research/investigations/2026-10-11-B02-font-manager-lifecycle.md)
 - [C-01 — Native UI creation and parent-child ownership contract](08-research/investigations/2026-10-11-C01-ui-ownership.md)
 - [C-02 — CUIScrollView internal pad and child ownership](08-research/investigations/2026-10-11-C02-scrollview-ownership.md)
 - [C-03 — Luabind ownership transfer versus native UI AutoDelete](08-research/investigations/2026-10-11-C03-luabind-adoption-autodelete.md)
 - [C-04 — Lua return ownership of CScriptXmlInit-created UI controls](08-research/investigations/2026-10-11-C04-xml-factory-return-ownership.md)
+- [ECO-01 — Native money, pricing and trade flow](08-research/investigations/2026-10-11-ECO-01-native-trade.md)
+- [FAC-01 — Native faction identity and relation queries](08-research/investigations/2026-10-11-FAC-01-native-relations.md)
+- [FAC-02 — Native relation persistence, reset and ID cleanup](08-research/investigations/2026-10-11-FAC-02-relation-persistence.md)
+- [FAC-03 — Character-community mutation and team/group effects](08-research/investigations/2026-10-11-FAC-03-community-mutation.md)
+- [FAC-04 — Action-driven goodwill and rank/reputation contributions](08-research/investigations/2026-10-11-FAC-04-action-goodwill.md)
+- [FAC-05 — Supplied Warfare faction/relation consumers](08-research/investigations/2026-10-11-FAC-05-warfare-consumers.md)
+- [FAC-06 — Faction reference consolidation and final available-source audit](08-research/investigations/2026-10-11-FAC-06-faction-consolidation.md)
+- [ITEM-01 — Native inventory ownership and pickup/drop](08-research/investigations/2026-10-11-ITEM-01-ownership-lifecycle.md)
+- [ITEM-02 — Placement and active-item transitions](08-research/investigations/2026-10-11-ITEM-02-placement-activation.md)
+- [ITEM-03 — Consumption, destruction and owner cleanup](08-research/investigations/2026-10-11-ITEM-03-consumption-destruction.md)
+- [ITEM-04 — Item persistence and reconstruction](08-research/investigations/2026-10-11-ITEM-04-persistence-reconstruction.md)
+- [ITEM-05 — Inventory consolidation and bounded audit](08-research/investigations/2026-10-11-ITEM-05-inventory-consolidation.md)
+- [PER-01 — Native save/load pipeline and Lua extension boundaries](08-research/investigations/2026-10-11-PER-01-native-save-load.md)
+- [PER-02 — Supplied Lua storage contracts and effective-profile gaps](08-research/investigations/2026-10-11-PER-02-lua-storage.md)
+- [PER-03 — CtZ campaign identity, schema and restoration](08-research/investigations/2026-10-11-PER-03-ctz-campaign-safety.md)
+- [PER-04 — Persistence consolidation and final available-source audit](08-research/investigations/2026-10-11-PER-04-persistence-consolidation.md)
 - [UI-01a — Native tab selection, reset, and event propagation](08-research/investigations/2026-10-11-UI-01a-tab-state-transitions.md)
 - [WAR-001 — CtZ integration boundary and source prerequisites](08-research/investigations/2026-10-11-WAR-001-ctz-integration-boundary.md)
 - [WAR-002a — Warfare source packages and effective-profile boundary](08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md)
 - [WAR-002b — Targeting, ownership and offline combat in the supplied Warfare source](08-research/investigations/2026-10-11-WAR-002b-policy-offline-combat.md)
+- [WAR-003 — Supplied Warfare configuration and policy controls](08-research/investigations/2026-10-11-WAR-003-configuration-policy-controls.md)
+- [ADR-01 — Whole-reference consolidation, provenance, navigation and consistency audit](08-research/investigations/2026-10-12-ADR-01-whole-reference-audit.md)
+- [ARCH-01 — Existing practical architecture/debugging coverage](08-research/investigations/2026-10-12-ARCH-01-existing-coverage.md)
+- [ARCH-02 — Module/state ownership and compatibility contracts](08-research/investigations/2026-10-12-ARCH-02-module-state-compatibility.md)
+- [ARCH-03 — Qualified patterns, test guidance and bounded practical audit](08-research/investigations/2026-10-12-ARCH-03-patterns-consolidation-audit.md)
+- [CONFIG-01 — Existing configuration/script integration coverage](08-research/investigations/2026-10-12-CONFIG-01-existing-coverage.md)
+- [CONFIG-02 — LTX/INI and selected DLTX contracts](08-research/investigations/2026-10-12-CONFIG-02-ltx-ini-dltx.md)
+- [CONFIG-03 — Native script loading, startup and shared callbacks](08-research/investigations/2026-10-12-CONFIG-03-script-loading-startup-callbacks.md)
+- [CONFIG-04 — Supplied consumers, consolidation and bounded audit](08-research/investigations/2026-10-12-CONFIG-04-consumers-consolidation-audit.md)
+- [DEBUG-01 — Diagnostic routes and triage](08-research/investigations/2026-10-12-DEBUG-01-diagnostic-routes-triage.md)
+- [ECO-02 — Trader configuration and supplied economy consumers](08-research/investigations/2026-10-12-ECO-02-trader-configuration.md)
+- [ECO-03 — Economy consolidation and bounded audit](08-research/investigations/2026-10-12-ECO-03-economy-consolidation.md)
+- [GAME-01 — Native condition fields and live hit phases](08-research/investigations/2026-10-12-GAME-01-native-condition.md)
+- [GAME-02 — Actor survival effects and equipment mitigation](08-research/investigations/2026-10-12-GAME-02-actor-effects.md)
+- [GAME-03 — Derived death and condition reconstruction](08-research/investigations/2026-10-12-GAME-03-death-restoration.md)
+- [GAME-04 — Gameplay state consolidation and bounded audit](08-research/investigations/2026-10-12-GAME-04-gameplay-consolidation.md)
+- [REV-01 — External runtime issue review and catalog correction](08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md)
+- [STRUCT-01 — Subsystem entry point consistency](08-research/investigations/2026-10-12-STRUCT-01-subsystem-entry-points.md)
+- [TASK-01 — Native tasks dialogue and info state](08-research/investigations/2026-10-12-TASK-01-native-task-dialogue-info.md)
+- [TASK-02 — Supplied task dialogue reward and restoration consumers](08-research/investigations/2026-10-12-TASK-02-supplied-task-dialogue-consumers.md)
+- [TASK-03 — Tasks dialogue and info state consolidation and audit](08-research/investigations/2026-10-12-TASK-03-task-state-consolidation.md)
+- [WORLD-01 — Existing world/navigation coverage and next scope](08-research/investigations/2026-10-12-WORLD-01-existing-coverage.md)
+- [WORLD-02 — Spatial queries relocation and selected restriction/patrol contracts](08-research/investigations/2026-10-12-WORLD-02-spatial-contracts.md)
+- [WORLD-03 — Use touch actor transitions and marker lifecycle](08-research/investigations/2026-10-12-WORLD-03-interaction-transitions-markers.md)
+- [WORLD-04 — Supplied consumers consolidation and bounded audit](08-research/investigations/2026-10-12-WORLD-04-consumers-consolidation-audit.md)
 - [Research investigations](08-research/investigations/README.md)
-- [Open questions — consolidated review after Parts A–D](08-research/open-questions-v0.1.10.md)
-- [Repository file and folder conventions](08-research/repository-layout.md)
+
+## 08-research — historical snapshots
+
+- [ADR index](08-research/history/index-through-v0.1.40.md)
+- [Anomaly Development Reference (ADR)](08-research/history/readme-through-v0.1.40.md)
+- [ADR roadmap](08-research/history/roadmap-through-v0.1.40.md)
+
+## 08-research — templates
+
 - [ID — Investigation title](08-research/templates/investigation.md)
 - [Verification — YYYY-MM-DD — ADR revision](08-research/templates/verification.md)
+
+## 08-research — verification reports
+
 - [ADR source verification — v0.1.30 (11 October 2026)](08-research/verification-2026-10-11-v0.1.30.md)
 - [Workflow and structure verification — ADR v0.1.40](08-research/verification-2026-10-11-v0.1.40.md)
-- [Standard ADR research workflow](08-research/workflow.md)
+- [ADR verification — v0.1.41](08-research/verification-2026-10-11-v0.1.41.md)
+- [ALIFE-10 verification — 11 October 2026 — ADR v0.1.42](08-research/verification-2026-10-11-v0.1.42.md)
+- [Available-source consolidation audit — ADR v0.1.43](08-research/verification-2026-10-11-v0.1.43.md)
+- [FAC-01 source and repository verification — v0.1.44](08-research/verification-2026-10-11-v0.1.44.md)
+- [FAC-02 source and repository verification — v0.1.45](08-research/verification-2026-10-11-v0.1.45.md)
+- [FAC-03 source and repository verification — v0.1.46](08-research/verification-2026-10-11-v0.1.46.md)
+- [FAC-04 source and repository verification — v0.1.47](08-research/verification-2026-10-11-v0.1.47.md)
+- [FAC-05 increment verification — v0.1.48](08-research/verification-2026-10-11-v0.1.48.md)
+- [Faction consolidation and final available-source audit — v0.1.49](08-research/verification-2026-10-11-v0.1.49.md)
+- [PER-01 increment verification — v0.1.50](08-research/verification-2026-10-11-v0.1.50.md)
+- [PER-02 increment verification — v0.1.51](08-research/verification-2026-10-11-v0.1.51.md)
+- [PER-03 increment verification — v0.1.52](08-research/verification-2026-10-11-v0.1.52.md)
+- [Persistence final available-source audit — v0.1.53](08-research/verification-2026-10-11-v0.1.53.md)
+- [ITEM-01 increment verification — v0.1.54](08-research/verification-2026-10-11-v0.1.54.md)
+- [ITEM-02 increment verification — v0.1.55](08-research/verification-2026-10-11-v0.1.55.md)
+- [ITEM-03 increment verification — v0.1.56](08-research/verification-2026-10-11-v0.1.56.md)
+- [ITEM-04 increment verification — v0.1.57](08-research/verification-2026-10-11-v0.1.57.md)
+- [Inventory consolidation and bounded audit — v0.1.58](08-research/verification-2026-10-11-v0.1.58.md)
+- [ECO-01 increment verification — v0.1.59](08-research/verification-2026-10-11-v0.1.59.md)
+- [Verification — 2026-10-12 — ADR v0.1.60](08-research/verification-2026-10-12-v0.1.60.md)
+- [Verification — 2026-10-12 — ADR v0.1.61](08-research/verification-2026-10-12-v0.1.61.md)
+- [Verification — 2026-10-12 — ADR v0.1.62](08-research/verification-2026-10-12-v0.1.62.md)
+- [Verification — 2026-10-12 — ADR v0.1.63](08-research/verification-2026-10-12-v0.1.63.md)
+- [Verification — 2026-10-12 — ADR v0.1.64](08-research/verification-2026-10-12-v0.1.64.md)
+- [Verification — 2026-10-12 — ADR v0.1.65](08-research/verification-2026-10-12-v0.1.65.md)
+- [Verification — 2026-10-12 — ADR v0.1.66](08-research/verification-2026-10-12-v0.1.66.md)
+- [Verification — 2026-10-12 — ADR v0.1.67](08-research/verification-2026-10-12-v0.1.67.md)
+- [Verification — 2026-10-12 — ADR v0.1.68](08-research/verification-2026-10-12-v0.1.68.md)
+- [Verification — 2026-10-12 — ADR v0.1.69](08-research/verification-2026-10-12-v0.1.69.md)
+- [Verification — 2026-10-12 — ADR v0.1.70](08-research/verification-2026-10-12-v0.1.70.md)
+- [Verification — 2026-10-12 — ADR v0.1.71](08-research/verification-2026-10-12-v0.1.71.md)
+- [Verification — 2026-10-12 — ADR v0.1.72](08-research/verification-2026-10-12-v0.1.72.md)
+- [Verification — 2026-10-12 — ADR v0.1.73](08-research/verification-2026-10-12-v0.1.73.md)
+- [Verification — 2026-10-12 — ADR v0.1.74](08-research/verification-2026-10-12-v0.1.74.md)
+- [Verification — 2026-10-12 — ADR v0.1.75](08-research/verification-2026-10-12-v0.1.75.md)
+- [Verification — 2026-10-12 — ADR v0.1.76](08-research/verification-2026-10-12-v0.1.76.md)
+- [Verification — 2026-10-12 — ADR v0.1.77](08-research/verification-2026-10-12-v0.1.77.md)
+- [Verification — 2026-10-12 — ADR v0.1.78](08-research/verification-2026-10-12-v0.1.78.md)
+- [Verification — 2026-10-12 — ADR v0.1.79](08-research/verification-2026-10-12-v0.1.79.md)
+- [Verification — 2026-10-12 — ADR v0.1.80](08-research/verification-2026-10-12-v0.1.80.md)
+- [Verification — 2026-10-12 — ADR v0.1.81](08-research/verification-2026-10-12-v0.1.81.md)
+- [Verification — 2026-10-12 — ADR v0.1.82](08-research/verification-2026-10-12-v0.1.82.md)
 
 ## 09-projects
 
@@ -228,13 +344,20 @@ Records retain their research revision and source baseline; those are distinct f
 
 ## evidence
 
-- [Persistence evidence](evidence/persistence/README.md)
-
-- [Faction and relation evidence](evidence/factions/README.md)
-
 - [A-Life source evidence](evidence/alife/README.md)
+- [Practical architecture/debugging evidence](evidence/architecture/README.md)
+- [Configuration/script integration evidence](evidence/configuration/README.md)
+- [Selected debugging evidence](evidence/debugging/README.md)
+- [Trade/economy evidence](evidence/economy/README.md)
+- [Faction and relation source evidence](evidence/factions/README.md)
+- [Gameplay state evidence](evidence/gameplay/README.md)
+- [Inventory evidence](evidence/inventory/README.md)
 - [Evidence manifest](evidence/manifest.md)
+- [Persistence source evidence](evidence/persistence/README.md)
+- [Whole-reference audit evidence](evidence/reference/README.md)
+- [Task dialogue and info evidence](evidence/tasks/README.md)
 - [Warfare source evidence](evidence/warfare/README.md)
+- [World coverage evidence](evidence/world/README.md)
 
 ## tests
 
@@ -245,94 +368,93 @@ Records retain their research revision and source baseline; those are distinct f
 - [Research and documentation tools](tools/README.md)
 - [Reproducible pinned checkout and audit](tools/source-audit-commands.md)
 
-## History and maintenance
+## Machine-readable datasets and implemented source tools
 
-- [Changelog](CHANGELOG.md)
-- [Contributing](CONTRIBUTING.md)
-- [Maintenance rules](AGENTS.md)
-- [Publishing](PUBLISHING.md)
-- [Historical navigation](08-research/history/index-through-v0.1.40.md)
-- [Historical roadmap](08-research/history/roadmap-through-v0.1.40.md)
-- [Historical README](08-research/history/readme-through-v0.1.40.md)
+### 02-lua-api
 
-- [CtZ campaign identity/schema/reconciliation](04-game-systems/persistence/ctz-campaign-safety.md).
-- [PER-03 investigation](08-research/investigations/2026-10-11-PER-03-ctz-campaign-safety.md).
+- [binding-helper-declarations-oct11.csv](02-lua-api/alife/binding-helper-declarations-oct11.csv)
+- [catalog-statistics.json](02-lua-api/alife/catalog-statistics.json)
+- [native-lua-bindings-oct11.csv](02-lua-api/alife/native-lua-bindings-oct11.csv)
+- [native-lua-classes-oct11.csv](02-lua-api/alife/native-lua-classes-oct11.csv)
+- [script-interfaces-oct11.csv](02-lua-api/alife/script-interfaces-oct11.csv)
+- [exports-ui-2026-05-15.csv](02-lua-api/ui/exports-ui-2026-05-15.csv)
+- [ui-binding-inventory-oct11.csv](02-lua-api/ui/ui-binding-inventory-oct11.csv)
+- [ui06-followup-message-emitters.csv](02-lua-api/ui/ui06-followup-message-emitters.csv)
+- [ui06-followup-scoped-def-occurrences.csv](02-lua-api/ui/ui06-followup-scoped-def-occurrences.csv)
 
-- [Persistence development reference](04-game-systems/persistence/development-reference.md).
-- [Persistence source completion](04-game-systems/persistence/source-completion-status.md).
-- [PER-04 consolidation/audit](08-research/investigations/2026-10-11-PER-04-persistence-consolidation.md).
+### evidence
 
-- [ITEM-01 investigation](08-research/investigations/2026-10-11-ITEM-01-ownership-lifecycle.md).
-- [Inventory evidence](evidence/inventory/README.md).
+- [client-server-offline-evidence-oct11.csv](evidence/alife/client-server-offline-evidence-oct11.csv)
+- [configuration-controls-2026-10-11.csv](evidence/alife/configuration-controls-2026-10-11.csv)
+- [creation-release-evidence-oct11.csv](evidence/alife/creation-release-evidence-oct11.csv)
+- [graph-online-realization-evidence-oct11.csv](evidence/alife/graph-online-realization-evidence-oct11.csv)
+- [interface-evidence-oct11.csv](evidence/alife/interface-evidence-oct11.csv)
+- [lifecycle-callbacks-2026-10-11.csv](evidence/alife/lifecycle-callbacks-2026-10-11.csv)
+- [offline-scheduling-evidence-oct11.csv](evidence/alife/offline-scheduling-evidence-oct11.csv)
+- [save-load-evidence-oct11.csv](evidence/alife/save-load-evidence-oct11.csv)
+- [source-evidence-oct11.csv](evidence/alife/source-evidence-oct11.csv)
+- [switching-eligibility-evidence-oct11.csv](evidence/alife/switching-eligibility-evidence-oct11.csv)
+- [bounded-audit-2026-10-12.json](evidence/architecture/bounded-audit-2026-10-12.json)
+- [coverage-inventory-2026-10-12.csv](evidence/architecture/coverage-inventory-2026-10-12.csv)
+- [module-state-contracts-2026-10-12.csv](evidence/architecture/module-state-contracts-2026-10-12.csv)
+- [qualified-patterns-2026-10-12.csv](evidence/architecture/qualified-patterns-2026-10-12.csv)
+- [coverage-inventory-2026-10-12.csv](evidence/configuration/coverage-inventory-2026-10-12.csv)
+- [ltx-ini-dltx-2026-10-12.csv](evidence/configuration/ltx-ini-dltx-2026-10-12.csv)
+- [package-comparison-2026-10-12.csv](evidence/configuration/package-comparison-2026-10-12.csv)
+- [script-loading-callbacks-2026-10-12.csv](evidence/configuration/script-loading-callbacks-2026-10-12.csv)
+- [script-source-scope-2026-10-12.json](evidence/configuration/script-source-scope-2026-10-12.json)
+- [supplied-options-patches-2026-10-12.csv](evidence/configuration/supplied-options-patches-2026-10-12.csv)
+- [supplied-source-scope-2026-10-12.json](evidence/configuration/supplied-source-scope-2026-10-12.json)
+- [diagnostic-routes-2026-10-12.csv](evidence/debugging/diagnostic-routes-2026-10-12.csv)
+- [diagnostic-scope-2026-10-12.json](evidence/debugging/diagnostic-scope-2026-10-12.json)
+- [triage-references-2026-10-12.csv](evidence/debugging/triage-references-2026-10-12.csv)
+- [native-trade-2026-10-11.csv](evidence/economy/native-trade-2026-10-11.csv)
+- [supplied-source-scope-2026-10-12.json](evidence/economy/supplied-source-scope-2026-10-12.json)
+- [trader-configuration-2026-10-12.csv](evidence/economy/trader-configuration-2026-10-12.csv)
+- [action-goodwill-2026-10-11.csv](evidence/factions/action-goodwill-2026-10-11.csv)
+- [community-mutation-2026-10-11.csv](evidence/factions/community-mutation-2026-10-11.csv)
+- [native-relations-2026-10-11.csv](evidence/factions/native-relations-2026-10-11.csv)
+- [relation-persistence-2026-10-11.csv](evidence/factions/relation-persistence-2026-10-11.csv)
+- [warfare-consumers-2026-10-11.csv](evidence/factions/warfare-consumers-2026-10-11.csv)
+- [actor-effects-2026-10-12.csv](evidence/gameplay/actor-effects-2026-10-12.csv)
+- [death-restoration-2026-10-12.csv](evidence/gameplay/death-restoration-2026-10-12.csv)
+- [native-condition-2026-10-12.csv](evidence/gameplay/native-condition-2026-10-12.csv)
+- [consumption-destruction-2026-10-11.csv](evidence/inventory/consumption-destruction-2026-10-11.csv)
+- [ownership-lifecycle-2026-10-11.csv](evidence/inventory/ownership-lifecycle-2026-10-11.csv)
+- [persistence-reconstruction-2026-10-11.csv](evidence/inventory/persistence-reconstruction-2026-10-11.csv)
+- [placement-activation-2026-10-11.csv](evidence/inventory/placement-activation-2026-10-11.csv)
+- [ctz-campaign-safety-2026-10-11.csv](evidence/persistence/ctz-campaign-safety-2026-10-11.csv)
+- [lua-storage-2026-10-11.csv](evidence/persistence/lua-storage-2026-10-11.csv)
+- [native-pipeline-2026-10-11.csv](evidence/persistence/native-pipeline-2026-10-11.csv)
+- [audit-summary-2026-10-12.json](evidence/reference/audit-summary-2026-10-12.json)
+- [base-file-inventory-2026-10-12.csv](evidence/reference/base-file-inventory-2026-10-12.csv)
+- [corrections-2026-10-12.csv](evidence/reference/corrections-2026-10-12.csv)
+- [entry-contracts-2026-10-12.csv](evidence/reference/entry-contracts-2026-10-12.csv)
+- [ledger-integrity-2026-10-12.csv](evidence/reference/ledger-integrity-2026-10-12.csv)
+- [issue-review-source-2026-10-12.csv](evidence/runtime/issue-review-source-2026-10-12.csv)
+- [reported-observations-2026-10-12.csv](evidence/runtime/reported-observations-2026-10-12.csv)
+- [native-task-dialogue-info-2026-10-12.csv](evidence/tasks/native-task-dialogue-info-2026-10-12.csv)
+- [supplied-consumers-2026-10-12.csv](evidence/tasks/supplied-consumers-2026-10-12.csv)
+- [source-evidence.csv](evidence/templates/source-evidence.csv)
+- [archive-script-comparison-oct11.csv](evidence/warfare/archive-script-comparison-oct11.csv)
+- [configuration-controls-2026-10-11.csv](evidence/warfare/configuration-controls-2026-10-11.csv)
+- [source-evidence-war002-oct11.csv](evidence/warfare/source-evidence-war002-oct11.csv)
+- [coverage-inventory-2026-10-12.csv](evidence/world/coverage-inventory-2026-10-12.csv)
+- [interaction-transition-markers-2026-10-12.csv](evidence/world/interaction-transition-markers-2026-10-12.csv)
+- [package-comparison-2026-10-12.csv](evidence/world/package-comparison-2026-10-12.csv)
+- [spatial-contracts-2026-10-12.csv](evidence/world/spatial-contracts-2026-10-12.csv)
+- [supplied-consumers-2026-10-12.csv](evidence/world/supplied-consumers-2026-10-12.csv)
+- [supplied-scope-2026-10-12.json](evidence/world/supplied-scope-2026-10-12.json)
 
-- [Item placement/activation](04-game-systems/inventory/placement-activation.md).
-- [Placement Lua APIs](02-lua-api/inventory/placement-api.md).
-- [ITEM-02 investigation](08-research/investigations/2026-10-11-ITEM-02-placement-activation.md).
+### tools
 
-- [Item consumption/destruction](04-game-systems/inventory/consumption-destruction.md).
-- [Consumption APIs](02-lua-api/inventory/consumption-api.md).
-- [ITEM-03 investigation](08-research/investigations/2026-10-11-ITEM-03-consumption-destruction.md).
+- [audit_xml_lua_registrations.py](tools/audit_xml_lua_registrations.py)
+- [binding_patterns.py](tools/binding_patterns.py)
+- [build_alife_catalog.py](tools/build_alife_catalog.py)
+- [check_repository.py](tools/check_repository.py)
 
-- [Item persistence/reconstruction](04-game-systems/inventory/persistence-reconstruction.md), [ITEM-04](08-research/investigations/2026-10-11-ITEM-04-persistence-reconstruction.md), [ledger](evidence/inventory/persistence-reconstruction-2026-10-11.csv).
+### tests
 
-- [Inventory development reference](04-game-systems/inventory/development-reference.md), [completion status](04-game-systems/inventory/source-completion-status.md), [ITEM-05](08-research/investigations/2026-10-11-ITEM-05-inventory-consolidation.md).
+- [test_binding_patterns.py](tests/test_binding_patterns.py)
+- [test_repository_checks.py](tests/test_repository_checks.py)
 
-- [Trade/economy](04-game-systems/economy/README.md), [native trade](04-game-systems/economy/native-trade.md), [money/cost APIs](02-lua-api/economy/money-cost-api.md), [ECO-01](08-research/investigations/2026-10-11-ECO-01-native-trade.md).
-
-## 2026-10-12 external runtime review
-
-- [ENV-RT01 reported GAMMA baseline](00-environment/reported-gamma-runtime-2026-10-12.md).
-- [REV-01 confidence/disposition review](08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md).
-- [Source comparison](evidence/runtime/issue-review-source-2026-10-12.csv) and [external observations](evidence/runtime/reported-observations-2026-10-12.csv).
-- [v0.1.60 verification](08-research/verification-2026-10-12-v0.1.69.md).
-
-- [Trader configuration and supply consumers](04-game-systems/economy/trader-configuration.md), [policy/supply APIs](02-lua-api/economy/trader-policy-api.md), [ECO-02](08-research/investigations/2026-10-12-ECO-02-trader-configuration.md).
-
-- [Economy development reference](04-game-systems/economy/development-reference.md), [completion status](04-game-systems/economy/source-completion-status.md), [ECO-03](08-research/investigations/2026-10-12-ECO-03-economy-consolidation.md).
-
-- [Actor/NPC gameplay state](04-game-systems/gameplay/README.md), [native condition](04-game-systems/gameplay/native-condition.md), [condition APIs](02-lua-api/gameplay/condition-api.md), [GAME-01](08-research/investigations/2026-10-12-GAME-01-native-condition.md).
-
-- [Actor survival/boosters/equipment](04-game-systems/gameplay/actor-effects-equipment.md), [effect APIs](02-lua-api/gameplay/actor-effects-api.md), [GAME-02](08-research/investigations/2026-10-12-GAME-02-actor-effects.md).
-
-- [Derived death/condition restoration](04-game-systems/gameplay/death-restoration.md), [GAME-03](08-research/investigations/2026-10-12-GAME-03-death-restoration.md).
-
-- [Gameplay-state development reference](04-game-systems/gameplay/development-reference.md), [completion status](04-game-systems/gameplay/source-completion-status.md), [GAME-04](08-research/investigations/2026-10-12-GAME-04-gameplay-consolidation.md).
-
-## Standard subsystem entry points
-
-[Subsystem entry map](08-research/subsystem-map.md), [UI/PDA hub](03-ui-pda/README.md), [game-system hub](04-game-systems/README.md). Each researched behavior subsystem has a README, development reference and completion status; legacy detailed files retain their identity.
-
-- [Tasks/dialogue/info state](04-game-systems/tasks/README.md), [native foundation](04-game-systems/tasks/native-task-dialogue-info.md), [APIs](02-lua-api/tasks/native-task-info-api.md), [TASK-01](08-research/investigations/2026-10-12-TASK-01-native-task-dialogue-info.md).
-
-- [Supplied task/dialogue/reward/restoration consumers](04-game-systems/tasks/supplied-task-dialogue-consumers.md), [TASK-02](08-research/investigations/2026-10-12-TASK-02-supplied-task-dialogue-consumers.md), [TASK-03 consolidation](08-research/investigations/2026-10-12-TASK-03-task-state-consolidation.md).
-
-## Configuration/script integration
-
-- [Directory entry](04-game-systems/configuration/README.md), [development reference](04-game-systems/configuration/development-reference.md), [coverage inventory](04-game-systems/configuration/coverage-inventory.md), [completion status](04-game-systems/configuration/source-completion-status.md).
-- [CONFIG-01 investigation](08-research/investigations/2026-10-12-CONFIG-01-existing-coverage.md), [evidence](evidence/configuration/README.md), [inventory verification](08-research/verification-2026-10-12-v0.1.74.md).
-
-- CONFIG-02: [LTX/INI/DLTX behavior](04-game-systems/configuration/ltx-ini-dltx.md), [Lua INI contracts](02-lua-api/configuration/ini-api.md), [investigation](08-research/investigations/2026-10-12-CONFIG-02-ltx-ini-dltx.md), [verification](08-research/verification-2026-10-12-v0.1.75.md).
-
-- CONFIG-03: [loading/startup/shared callbacks](04-game-systems/configuration/script-loading-startup-callbacks.md), [lookup/callback API](02-lua-api/configuration/script-callback-api.md), [investigation](08-research/investigations/2026-10-12-CONFIG-03-script-loading-startup-callbacks.md), [verification](08-research/verification-2026-10-12-v0.1.76.md).
-
-- CONFIG-04: [supplied options/patch consumers](04-game-systems/configuration/supplied-options-patches.md), [helper API](02-lua-api/configuration/options-patch-api.md), [consolidated guide](04-game-systems/configuration/development-reference.md), [investigation](08-research/investigations/2026-10-12-CONFIG-04-consumers-consolidation-audit.md), [bounded audit](08-research/verification-2026-10-12-v0.1.77.md).
-
-## Practical architecture/debugging inventory
-
-- [ARCH-01 coverage inventory and bounded plan](05-mod-architecture/coverage-inventory.md), [architecture entry](05-mod-architecture/README.md), [debugging entry](06-debugging/README.md), [example policy](07-code-library/README.md).
-- [Investigation](08-research/investigations/2026-10-12-ARCH-01-existing-coverage.md), [22-row evidence](evidence/architecture/README.md), [verification](08-research/verification-2026-10-12-v0.1.78.md).
-
-## Practical module/state and compatibility contracts
-
-- [ARCH-02 ownership, interfaces and lifecycle](05-mod-architecture/module-state-contracts.md), [dependencies, versions and package/upgrade contracts](05-mod-architecture/compatibility-package-contracts.md).
-- [Investigation](08-research/investigations/2026-10-12-ARCH-02-module-state-compatibility.md), [26-row synthesis evidence](evidence/architecture/README.md), [verification](08-research/verification-2026-10-12-v0.1.79.md).
-
-## Selected diagnostic routes and triage
-
-- [DEBUG-01 native/Lua routes](06-debugging/diagnostic-routes.md), [triage and bounded probe guidance](06-debugging/triage.md), [four Lua diagnostic exports](02-lua-api/debugging/diagnostic-api.md).
-- [Investigation](08-research/investigations/2026-10-12-DEBUG-01-diagnostic-routes-triage.md), [evidence](evidence/debugging/README.md), [verification](08-research/verification-2026-10-12-v0.1.80.md).
-
-## Practical foundation consolidation and qualified patterns
-
-- [ARCH-03 central architecture/debugging guide](05-mod-architecture/development-reference.md), [four qualified protocol patterns and UI sketch limits](07-code-library/qualified-patterns.md), [test guidance](05-mod-architecture/test-guidance.md).
-- [Investigation](08-research/investigations/2026-10-12-ARCH-03-patterns-consolidation-audit.md), [evidence/audit](evidence/architecture/README.md), [bounded verification](08-research/verification-2026-10-12-v0.1.81.md). Selected foundation complete; effective integration partial and runtime deferred. Separate whole-ADR audit remains next.

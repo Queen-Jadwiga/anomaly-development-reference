@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.61
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 - Target ADR revision: v0.1.61, based on main 14c593d395a3d398be7a2f20e0b22c31948ace10
 - Changed scope: ECO-02 configuration/supplies, supplied consumers and effective-source gaps

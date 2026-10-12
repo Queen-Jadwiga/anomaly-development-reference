@@ -1,6 +1,6 @@
 # A-01 — Complete October 11 registration chain
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 **Status:** SOURCE RESEARCH COMPLETE — runtime validation pending.  **Date:** 2026-10-11.
 

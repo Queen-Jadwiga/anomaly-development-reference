@@ -1,6 +1,6 @@
 # Practical architecture and debugging development reference
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ARCH-03-GUIDE
 - Subsystem: cross-system practical architecture/debugging
@@ -53,3 +53,5 @@ Before claiming an installed integration, establish executable/build conditions,
 Runtime remains deferred. Existing externally observed UI/clock failures retain their recorded provenance and hypotheses. Ten ADR regression tests exercise documentation and registration tools; they do not execute the four proposed patterns or test the game. [Test guidance](test-guidance.md), [REV-01](../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md).
 
 The practical ARCH-01–03/DEBUG-01 foundation is complete within selected available-source/design scope. Next is the **separate cross-system final ADR consolidation/provenance/navigation/consistency audit**. It must retain subsystem audit scopes and effective/runtime gaps; this increment does not perform it. Broader renderer/VM/profiler/security, every addon/build and unrelated gameplay depth remain optional unless a concrete question requires them. [Roadmap](../ROADMAP.md), [ARCH-03 investigation](../08-research/investigations/2026-10-12-ARCH-03-patterns-consolidation-audit.md).
+
+Current whole-reference disposition: [ADR-01 audit](../08-research/reference-status.md) is now complete within scope. Earlier next-audit allocations remain tied to their research revision; remaining work is effective-source closure/targeted questions and deferred runtime.

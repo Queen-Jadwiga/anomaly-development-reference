@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.82 — 2026-10-12 — Whole-reference consolidation and audit
+
+- ADR-01 inventories every v0.1.81 file and dataset schema, checks eleven entry/guide/status triples and consolidates provenance, current completion and effective/runtime gaps. Recheck 938 available source/file rows/1,322 ranges/334 source paths and 102 prior reference rows; four September remote source rows retain explicit local-rehash limits.
+- Rebuild the full Markdown index, separate current API/evidence categories from historical starter material, restore configuration hub navigation, qualify original next allocations and CtZ source pin. Repair verification label drift and add a focused validator rule/two regression cases.
+- Whole-reference documentation audit complete within scope; no exhaustive native semantic, regenerated full catalog, installed compatibility or runtime certification. Original research/evidence/history retained; no CtZ gameplay or third-party source/assets. [Status](08-research/reference-status.md), [verification](08-research/verification-2026-10-12-v0.1.82.md).
 
 ## v0.1.81 — 2026-10-12 — Qualified patterns and practical foundation audit
 

@@ -1,11 +1,11 @@
 # Anomaly Development Reference (ADR)
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 **Source-backed modding research for S.T.A.L.K.E.R. Anomaly / X-Ray Monolith / Modded Exes**
 
 > **Work in progress — independent research, not official engine documentation.**
-> Current ADR revision: **v0.1.81** (12 October 2026). Primary research source: the
+> Current ADR revision: **v0.1.82** (12 October 2026). Primary research source: the
 > **2026.10.11** X-Ray Monolith source archive. Independent target-installation testing remains pending; selected **external runtime observations** are documented with build limits.
 
 ## Current runtime feedback
@@ -23,8 +23,7 @@ It is **not** the game mod itself, nor a replacement for the X-Ray source or off
 ## Capture the Zone mod
 
 The [Capture the Zone (CtZ) repository](https://github.com/Queen-Jadwiga/capture-the-zone)
-contains the mod files for **Alpha 0.0.5j — Revised Fixed Bars / Advantage Marker**,
-with its original build documentation and assets.
+is the separate gameplay project. ADR’s selected CtZ research is pinned to **Alpha 0.0.5j**, commit `eba6660db09353dcc42a195ae6e7e706f4762277`; this does not identify the current mod HEAD or installed copy. [Provenance register](00-environment/provenance-register.md).
 
 ## Recommended quick review
 
@@ -45,7 +44,8 @@ If you only have a few minutes, start here:
 | [Faction development reference](04-game-systems/factions/development-reference.md) | Practical query, mutation, storage and event boundaries |
 | [Native save/load pipeline](04-game-systems/persistence/native-save-load-pipeline.md) | File framing, reconstruction and Lua extension phases |
 | [Practical architecture/debugging guide](05-mod-architecture/development-reference.md) | Ownership, compatibility, diagnostics, qualified patterns and test limits |
-| [Current verification report](08-research/verification-2026-10-12-v0.1.81.md) | What was checked and what was not |
+| [Whole-reference status and provenance](08-research/reference-status.md) | Consolidated scope, audit outcomes and remaining effective/runtime work |
+| [Current verification report](08-research/verification-2026-10-12-v0.1.82.md) | What was checked and what was not |
 | [Full research index](INDEX.md) | Every investigated area and historic records |
 
 ## Research status
@@ -59,7 +59,7 @@ If you only have a few minutes, start here:
 - **Tasks/dialogue/info:** [native and supplied-source consolidation](04-game-systems/tasks/development-reference.md) and [bounded audit](08-research/verification-2026-10-12-v0.1.69.md) complete within scope; [effective integration remains partial](04-game-systems/tasks/source-completion-status.md). Runtime deferred.
 - **World interaction/navigation:** [WORLD-01–04 consolidation](04-game-systems/world/development-reference.md) and [bounded audit](08-research/verification-2026-10-12-v0.1.73.md) complete within selected available-source scope; [effective integration remains partial](04-game-systems/world/source-completion-status.md). Runtime deferred.
 - **Configuration/script integration:** [CONFIG-01 existing-coverage inventory](04-game-systems/configuration/coverage-inventory.md) complete within scope; [shared contracts/effective integration remain partial](04-game-systems/configuration/source-completion-status.md). [CONFIG-02 LTX/INI/DLTX and Lua contracts](04-game-systems/configuration/ltx-ini-dltx.md) complete within selected source scope; [CONFIG-01–04 practical consolidation](04-game-systems/configuration/development-reference.md) and [bounded audit](08-research/verification-2026-10-12-v0.1.77.md) complete within selected available-source scope; effective integration remains partial. Runtime deferred.
-- **Practical architecture/debugging:** [ARCH-02 module/state ownership](05-mod-architecture/module-state-contracts.md) and [compatibility/package contracts](05-mod-architecture/compatibility-package-contracts.md), plus [DEBUG-01 diagnostic routes and triage](06-debugging/README.md), are complete within selected scope. [ARCH-03 central guide](05-mod-architecture/development-reference.md), [patterns](07-code-library/qualified-patterns.md), [test guidance](05-mod-architecture/test-guidance.md) and [bounded practical audit](08-research/verification-2026-10-12-v0.1.81.md) complete the selected foundation. Next separate whole-ADR consolidation/provenance/navigation/consistency audit. Effective integration remains partial; runtime deferred.
+- **Practical architecture/debugging:** [ARCH-02 module/state ownership](05-mod-architecture/module-state-contracts.md) and [compatibility/package contracts](05-mod-architecture/compatibility-package-contracts.md), plus [DEBUG-01 diagnostic routes and triage](06-debugging/README.md), are complete within selected scope. [ARCH-03 central guide](05-mod-architecture/development-reference.md), [patterns](07-code-library/qualified-patterns.md), [test guidance](05-mod-architecture/test-guidance.md) and [bounded practical audit](08-research/verification-2026-10-12-v0.1.81.md) complete the selected foundation. [ADR-01 whole-reference audit](08-research/reference-status.md) now completes that documentation pass. Remaining work is effective-source closure, targeted questions and explicitly deferred runtime verification. Effective integration remains partial; runtime deferred.
 - **October 11 executable in GAMMA:** candidate target; runtime compatibility and behavior
   are unverified.
 - **Source-level limits:** some exhaustive export, indirect event, configuration, and

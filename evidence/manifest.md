@@ -1,6 +1,6 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
@@ -28,27 +28,7 @@
 
 The archive hashes pin the supplied bytes, not the active game profile. Existing dataset schemas/IDs remain preserved. File-level inventory ledgers and claim-oriented ledgers serve different purposes; exact citations live in their linked records. UI evidence includes historical commit/tag citations and scoped CSVs in [the UI catalog](../02-lua-api/ui/README.md).
 
-## Historical starter manifest — preserved
-
-### Original manifest
-
-## Runtime logs (user-provided in prior Anomaly project conversations)
-
-| ID | File | Supported facts | Limitations |
-|---|---|---|---|
-| LOG-001 | `xray_erik(20261008-031926).log` | Startup version header | Full font crash trace not yet reproduced in ADR |
-| LOG-002 | `xray_erik(20261009-005123).log` | Startup version header | Does not pin Git commit |
-| LOG-003 | `xray_erik(20261009-100733).log` | Startup version header | Does not pin Git commit |
-
-## Web sources
-
-| ID | URL | Supports |
-|---|---|---|
-| WEB-001 | https://github.com/themrdemonized/xray-monolith | Current project lineage, MT-TEST explanation, dated upstream change history |
-| WEB-002 | https://github.com/themrdemonized/xray-monolith/releases | Public release history (release-tag matching pending) |
-| WEB-003 | https://github.com/bergemon/xray-monolith-anomaly | Alternative fork, not assumed identical |
-
-All version-sensitive engine documentation must cite an exact revision once identified.
+## Additional current ledgers and audits
 
 - [Inventory ownership evidence](inventory/README.md): ENGINE1011; no new baseline introduced.
 
@@ -97,3 +77,30 @@ All version-sensitive engine documentation must cite an exact revision once iden
 [DEBUG-01 diagnostic evidence](debugging/README.md): ENGINE1011 selected native/Lua logger, writer, build, stack, assertion/error, Luabind/binder/panic and Windows filter/dump routes; 41 rows/67 ranges/21 files plus six immutable ADR v0.1.79 documentation pins. Four Lua exports/converter qualified; triage is recommended guidance. Unknown binary/profile correspondence, missing installed aliases and deferred runtime retained. No third-party source/assets.
 
 [ARCH-03 qualified patterns/practical audit](architecture/README.md): 16 immutable ADR v0.1.80 reference/test-source rows; recheck 54 earlier reference rows and 41 DEBUG-01 source rows/67 ranges/21 files. Four proposed protocols and two linked non-runnable UI sketches, implemented ADR test inventory and consolidated guidance. No new engine API, runnable framework/fixture, runtime result or whole-ADR audit.
+
+## Whole-reference audit and provenance
+
+[ADR-01 inventory/integrity/corrections](reference/README.md) covers every baseline file and dataset schema, rechecks available source/reference pins and records exceptions. [Provenance register](../00-environment/provenance-register.md) also distinguishes CTZ005J, UPSTREAM0912, the historical May UI pin, binary candidate and runtime/report identities. Original ledger schemas/IDs remain unchanged.
+
+## Historical starter manifest — preserved
+
+### Original manifest
+
+## Runtime logs (user-provided in prior Anomaly project conversations)
+
+| ID | File | Supported facts | Limitations |
+|---|---|---|---|
+| LOG-001 | `xray_erik(20261008-031926).log` | Startup version header | Full font crash trace not yet reproduced in ADR |
+| LOG-002 | `xray_erik(20261009-005123).log` | Startup version header | Does not pin Git commit |
+| LOG-003 | `xray_erik(20261009-100733).log` | Startup version header | Does not pin Git commit |
+
+## Web sources
+
+| ID | URL | Supports |
+|---|---|---|
+| WEB-001 | https://github.com/themrdemonized/xray-monolith | Current project lineage, MT-TEST explanation, dated upstream change history |
+| WEB-002 | https://github.com/themrdemonized/xray-monolith/releases | Public release history (release-tag matching pending) |
+| WEB-003 | https://github.com/bergemon/xray-monolith-anomaly | Alternative fork, not assumed identical |
+
+All version-sensitive engine documentation must cite an exact revision once identified.
+

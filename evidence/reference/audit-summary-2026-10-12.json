@@ -1,0 +1,30 @@
+{
+  "id": "ADR-01-WHOLE-REFERENCE-AUDIT",
+  "research_revision": "0.1.82",
+  "base_commit": "dc826c78041971cac96710b329b6ce85905e8e13",
+  "scope": "all baseline repository files/CSV schemas, current eleven subsystem entry contracts, central provenance/status/navigation; not every native interpretation",
+  "base_files": 378,
+  "base_markdown": 304,
+  "csv_datasets": 59,
+  "reference_rows_rechecked": 102,
+  "source_file_rows_rechecked": 938,
+  "source_range_groups_rechecked": 1322,
+  "distinct_available_source_paths": 334,
+  "retained_remote_source_rows": 4,
+  "classifications": {
+    "generated API inventory; original projection/provenance retained": 8,
+    "historical path migration ledger": 1,
+    "source/file pin integrity": 39,
+    "immutable ADR reference pin": 6,
+    "package comparison dataset; original reproduction retained": 3,
+    "external observation ledger": 1,
+    "empty schema template": 1
+  },
+  "exceptions": [
+    "Four UPSTREAM0912 rows retain their immutable commit/hash pins; local September source unavailable",
+    "Historical May UI and generated API inventories classified, not newly regenerated or source-semantic-audited",
+    "Package comparison/external report/migration/template rows inventoried with original scopes; not runtime tests"
+  ],
+  "json_datasets_parsed": 7,
+  "runtime_status": "independent game/profile verification deferred"
+}

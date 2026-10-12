@@ -1,6 +1,8 @@
 # SRC-001 — Official May 15, 2026 source baseline
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+
+**Historical intake/orientation:** original May research limitations below are retained. Later scoped UI extraction records the full May commit in the [API catalog](../02-lua-api/api-index.md); the [provenance register](provenance-register.md) distinguishes that source pin, the preferred October archive and unverified binary correspondence.
 
 **Finding:** Official GitHub release [`2026.5.15`](https://github.com/themrdemonized/xray-monolith/releases/tag/2026.5.15) exists. Its displayed target commit is [`6a08e09`](https://github.com/themrdemonized/xray-monolith/commit/6a08e09). Release published May 15, 2026, 05:37 (GitHub displayed timestamp; timezone not confirmed).
 

@@ -1,6 +1,6 @@
 # Research and documentation tools
 
-> ADR document set: **v0.1.81**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
 
 | Tool | Purpose | Requirements / scope |
 | --- | --- | --- |
@@ -15,3 +15,5 @@ Record actual checks in the increment's verification record. Generated output be
 The repository checker also validates `VERSION` against current Markdown banners, rejects forwarding pages and empty files, and checks CSV row widths. The A-Life generator writes LF line endings to reproduce the published catalogs byte for byte.
 
 [binding_patterns.py](binding_patterns.py) contains shared registration-form/category/origin recognition used by the catalog builder and its property regression tests. The catalog now indexes `.property` with preserved accessor expressions; it does not infer a method signature or generalized setter policy.
+
+ADR-01 also checks explicit local verification revision labels against report filenames. Source-version labels on other targets and historical research revisions remain distinct; this rule does not validate every descriptive link label. Two focused regression cases cover the new check. [Audit](../08-research/verification-2026-10-12-v0.1.82.md).
