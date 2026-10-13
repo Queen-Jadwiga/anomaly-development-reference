@@ -1,15 +1,17 @@
 # ADR provenance register
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ADR-01-PROVENANCE
 - Research revision: v0.1.82
 - Source status: audit of existing artifact/commit/report distinctions; no new binary equivalence claim
-- Runtime status: independent target-installation verification deferred
+- Runtime status: earlier audit deferred; October 12 user log observed, independent tests now authorized and untested
 - Baseline: ADR v0.1.81 `dc826c78041971cac96710b329b6ce85905e8e13`
 - Last reviewed: 2026-10-12
 
 Use this register to distinguish inspected source, runtime candidates and observations. It consolidates the existing records; it does not replace their file/line/guard evidence or establish that an addon wins in the installed profile. [Whole-reference status](../08-research/reference-status.md), [audit evidence](../evidence/reference/README.md).
+
+Current supplement: [October 12 profile intake](profile-source-2026-10-12.md) pins QJLOOSE1012/QJEXP1012/QJLOG1012/QJMODS1012, the reported executable hash, exact supplied campaign correspondence and reconstruction limits. [PROFILE-01](../08-research/investigations/2026-10-12-PROFILE-01-core-file-trace.md) traces selected core chains; this does not retroactively certify earlier package winners.
 
 | Identity | Existing pin/evidence | Role and limit |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 # WORLD-03 — Use touch actor transitions and marker lifecycle
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-03
 - Subsystem: world interaction/navigation

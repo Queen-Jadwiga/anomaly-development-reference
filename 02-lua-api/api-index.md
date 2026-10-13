@@ -1,6 +1,6 @@
 # Lua API catalogs
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 Choose a current catalog below. Each page retains its own source/build/registration/converter scope; none is a complete ABI or runtime certification. [Provenance register](../00-environment/provenance-register.md), [whole-reference status](../08-research/reference-status.md).
 

@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.82
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - Target ADR revision: v0.1.82, based on main `dc826c78041971cac96710b329b6ce85905e8e13`
 - Changed scope: ADR-01 whole-reference consolidation/provenance/navigation/consistency audit and focused report-label validation

@@ -1,6 +1,6 @@
 # ITEM-01 — Native inventory ownership and pickup/drop
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-01
 - Subsystem: inventory

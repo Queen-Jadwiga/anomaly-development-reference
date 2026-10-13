@@ -1,10 +1,10 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source status
 
-UI/PDA is development-reference ready within the documented source scope. A-Life/Warfare native foundations and the scoped interface catalog are complete; lifecycle/callback references are consolidated within their source scope. Native configuration and supplied-package policy controls are consolidated, and the bounded final consistency audit is complete. Effective script chains remain open. Independent in-game verification remains deferred; [selected external observations](08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md) are recorded separately.
+UI/PDA is development-reference ready within the documented source scope. A-Life/Warfare native foundations and the scoped interface catalog are complete; lifecycle/callback references are consolidated within their source scope. Native configuration and supplied-package policy controls are consolidated, and the bounded final consistency audit is complete. Effective script chains remain open. Independent in-game verification is now authorized and untested; [selected external observations](08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md) are recorded separately.
 
 ## Runtime feedback priorities — 2026-10-12
 
@@ -19,7 +19,14 @@ Documentation intake does not close the two crash investigations or independentl
 
 [ADR-01 whole-reference status](08-research/reference-status.md) closes the planned consolidation/provenance/navigation/consistency audit. The eleven behavior foundations and practical ARCH-01–03/DEBUG-01 pass remain complete/usable within their documented selected source/design scope. Each subsystem retains its own audit and effective/runtime limits.
 
-Next work is relevant effective-profile source closure when winning inputs are available, or a concrete targeted source question. Independent runtime verification remains deferred until explicitly resumed. Broader exhaustive engine/addon/build coverage is optional later depth. [Provenance register](00-environment/provenance-register.md), [subsystem map](08-research/subsystem-map.md), [current verification](08-research/verification-2026-10-12-v0.1.82.md).
+[PROFILE-01](08-research/investigations/2026-10-12-PROFILE-01-core-file-trace.md) completes selected uploaded core tracing: startup/callback wiring, actor binding, board/smart/squad ownership and actor/CtZ sidecar versus simulation packet persistence. Effective integration remains partial. The user resumed runtime authorization on October 12; no independent game test has yet been performed.
+
+- [x] Reconstruct uploaded core sources with six original loose overrides restored; pin campaign equality and trace selected core chains.
+- [ ] Confirm final MO2 origins/hashes and relevant addon/DLTX winners; collect five failed addon modules/providers.
+- [ ] Implement a bounded observational probe for declared-but-rejected callbacks; preserve normal registry behavior.
+- [ ] Record disposable-save load and transition observations, sidecar/native save pairing and squad/member/target reconstruction.
+
+Broader exhaustive engine/addon/build coverage remains optional depth. [Provenance register](00-environment/provenance-register.md), [subsystem map](08-research/subsystem-map.md), [current verification](08-research/verification-2026-10-12-v0.1.83.md).
 
 <a id="current-a-lifewarfare-remaining-scope--v0138"></a>
 ## Current A-Life/Warfare remaining scope
@@ -32,7 +39,7 @@ This is the current consolidated checklist for the earlier **CtZ-focused develop
 - [x] ALIFE-05/06/07: scheduling/brains, graph movement, online realization, client state return and offline teardown.
 - [x] ALIFE-08: native switching permissions, distance hysteresis, attachment/group/member gates and supplied forced-status boundary. See [report](08-research/investigations/2026-10-11-ALIFE-08-switching-eligibility.md).
 - [x] WAR-002 package pass: supplied variants, targeting/arrival boundaries, ownership/autocapture and offline combat call sites.
-- [ ] ALIFE-03 effective smart/board layer: assignment/unassignment, reach tests, member registration, jobs and native task/restriction handoff. Requires missing core/winning scripts.
+- [ ] ALIFE-03 effective smart/board layer: assignment/unassignment, reach tests, member registration, jobs and native task/restriction handoff. Selected uploaded core assignment/registration paths are now traced in PROFILE-01; complete winning overrides, reach/jobs/task handoff and runtime remain open.
 - [ ] Effective Warfare closure: active files, module/startup replacements and callback order; relevant spawning/strategy/configuration contracts for targeting, capture and combat. Selected supplied-package controls are documented; installed closure requires effective sources.
 - [ ] Death/safe-release closure: creature overrides, casualty notification, membership cleanup and queued release; establish online/offline convergence from effective scripts.
 - [ ] Persistence integration: effective save/load order and storage wrappers, restoration of strategic state, CtZ reconciliation and campaign/ID safety. The native/CtZ source pass is complete within its documented boundary.
@@ -42,7 +49,7 @@ This is the current consolidated checklist for the earlier **CtZ-focused develop
 - [x] ALIFE-11 / WAR-003: [native controls](04-game-systems/alife/configuration-controls.md), [Warfare controls](04-game-systems/warfare/policy-controls.md) and bounded final source-consistency audit; unresolved effective-script edges retained.
 - [ ] Runtime checks, deferred: switching positions and callbacks, assignment versus arrival, ownership changes, online/offline deaths and cleanup, save/load/CtZ restoration and level changes. Confirm target executable/profile correspondence.
 
-Effective source requirements are listed in [WAR-002a](08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md). Selected optional entity/AI internals and exhaustive unrelated API coverage are not prerequisites. Source-level stopping point: close the effective script chains, consolidate and audit, then mark this portion development-reference ready with runtime pending. No runtime test is required during the current source phase.
+Effective source requirements are listed in [WAR-002a](08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md). Selected optional entity/AI internals and exhaustive unrelated API coverage are not prerequisites. Source-level stopping point: close the effective script chains, consolidate and audit, then mark this portion development-reference ready with runtime pending. Runtime work is now authorized, but selected source tracing does not itself require or certify a game test.
 
 ## Factions / relations current scope
 

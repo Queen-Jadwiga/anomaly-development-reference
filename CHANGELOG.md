@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.83 — 2026-10-12 — Uploaded core profile trace
+
+- PROFILE-01 traces selected reconstructed global/startup/callback, actor binder, board/smart/squad and marshal/packet/CtZ restore chains with 36 raw-hash/range pins across 19 source files. Restore six overwritten original loose paths; supplied campaign is byte-identical to CTZ005J.
+- Record supplied log observations separately from source claims, reported executable hash and incomplete addon/configuration origins. Correct actor binder filename; preserve private uploaded sources/log/profile and avoid claiming a callback-failure cause.
+- Runtime work explicitly authorized by the user; independent game tests remain unperformed. Update current navigation/status and synchronized banners; historical evidence retained. [Core trace](08-research/investigations/2026-10-12-PROFILE-01-core-file-trace.md), [verification](08-research/verification-2026-10-12-v0.1.83.md).
 
 ## v0.1.82 — 2026-10-12 — Whole-reference consolidation and audit
 

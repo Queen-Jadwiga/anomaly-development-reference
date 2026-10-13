@@ -1,6 +1,6 @@
 # WORLD-01 — Existing world/navigation coverage and next scope
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-01
 - Subsystem: world interaction/navigation

@@ -1,6 +1,6 @@
 # ALIFE-08 — Switching eligibility, hysteresis and forced states
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.38 · 11 October 2026 · bounded source pass complete; effective profile and runtime pending.**
 

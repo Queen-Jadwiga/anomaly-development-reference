@@ -1,6 +1,6 @@
 # Evidence and verification policy
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 **Current policy from ADR v0.1.40.** Use the [workflow](workflow.md) and [layout conventions](repository-layout.md).
 
@@ -27,7 +27,7 @@ Existing ledgers retain their original schemas and bytes. The [manifest](../evid
 
 ## Verification limits
 
-Link/range/hash checks establish reference integrity. Reproducibility establishes extraction stability. Neither alone proves interpretation, complete export/converter coverage, module execution or installed behavior. Runtime work requires executable/profile identity, reproduction steps, observations and outcome recorded separately. It remains deferred in the current source phase.
+Link/range/hash checks establish reference integrity. Reproducibility establishes extraction stability. Neither alone proves interpretation, complete export/converter coverage, module execution or installed behavior. Runtime work requires executable/profile identity, reproduction steps, observations and outcome recorded separately. The user resumed runtime authorization on 2026-10-12; independent tests remain unperformed unless an explicit result is recorded. Earlier dated deferral is historical.
 
 ## Historical starter policy — superseded
 

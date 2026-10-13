@@ -1,12 +1,16 @@
 # Anomaly Development Reference (ADR)
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 **Source-backed modding research for S.T.A.L.K.E.R. Anomaly / X-Ray Monolith / Modded Exes**
 
 > **Work in progress — independent research, not official engine documentation.**
-> Current ADR revision: **v0.1.82** (12 October 2026). Primary research source: the
+> Current ADR revision: **v0.1.83** (12 October 2026). Primary research source: the
 > **2026.10.11** X-Ray Monolith source archive. Independent target-installation testing remains pending; selected **external runtime observations** are documented with build limits.
+
+## Current effective-profile work
+
+[PROFILE-01 core trace](08-research/investigations/2026-10-12-PROFILE-01-core-file-trace.md) pins the reconstructed GAMMA core inputs and supplied log observations. [Intake](00-environment/profile-source-2026-10-12.md) records restored loose overrides and exact CtZ campaign correspondence. Runtime work is now authorized; independent registration/save/load/transition tests remain pending. Complete profile/addon/DLTX winners remain unresolved.
 
 ## Current runtime feedback
 
@@ -23,7 +27,7 @@ It is **not** the game mod itself, nor a replacement for the X-Ray source or off
 ## Capture the Zone mod
 
 The [Capture the Zone (CtZ) repository](https://github.com/Queen-Jadwiga/capture-the-zone)
-is the separate gameplay project. ADR’s selected CtZ research is pinned to **Alpha 0.0.5j**, commit `eba6660db09353dcc42a195ae6e7e706f4762277`; this does not identify the current mod HEAD or installed copy. [Provenance register](00-environment/provenance-register.md).
+is the separate gameplay project. ADR’s selected CtZ research is pinned to **Alpha 0.0.5j**, commit `eba6660db09353dcc42a195ae6e7e706f4762277`; this does not identify the current mod HEAD. The campaign copy in the October 12 uploaded collection matches that pin exactly; final active-profile precedence remains unresolved. [Provenance register](00-environment/provenance-register.md).
 
 ## Recommended quick review
 

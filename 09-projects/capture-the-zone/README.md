@@ -1,6 +1,6 @@
 # Capture the Zone integration
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 [Capture the Zone](https://github.com/Queen-Jadwiga/capture-the-zone) contains the gameplay project separately. ADR contains source-qualified engine/interfaces/persistence/architecture findings and reproducible notes.
 

@@ -1,6 +1,6 @@
 # Action-driven goodwill, rank and reputation
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-04
 - Source status: source-confirmed within selected native action/caller paths

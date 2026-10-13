@@ -1,6 +1,6 @@
 # Selected world spatial restriction and patrol APIs
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-02-API
 - Subsystem: world interaction/navigation

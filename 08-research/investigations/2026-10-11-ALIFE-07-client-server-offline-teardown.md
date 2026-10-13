@@ -1,6 +1,6 @@
 # ALIFE-07 — Client-to-server position synchronization and offline teardown
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.37 · 11 October 2026 · bounded source investigation; runtime verification deferred.**
 

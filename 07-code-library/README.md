@@ -1,6 +1,6 @@
 # Qualified patterns and example policy
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 Start with [qualified mod patterns](qualified-patterns.md): four experimental, unimplemented/non-runnable protocols for subscriptions, wrappers, restoration/reconciliation and bounded probes. Each records dependencies, preconditions, ownership, failure/reentry, persistence, cleanup and proposed check limits.
 

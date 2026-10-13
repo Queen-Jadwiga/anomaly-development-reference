@@ -1,6 +1,6 @@
 # ARCH-03 — Qualified patterns, test guidance and bounded practical audit
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ARCH-03
 - Subsystem: practical architecture/debugging/examples

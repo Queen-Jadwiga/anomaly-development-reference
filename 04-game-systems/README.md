@@ -1,6 +1,6 @@
 # Game system references
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 Choose the [subsystem entry point map](../08-research/subsystem-map.md) for consistent central guides and completion status.
 

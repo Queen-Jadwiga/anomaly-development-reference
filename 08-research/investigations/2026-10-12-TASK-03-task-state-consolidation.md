@@ -1,6 +1,6 @@
 # TASK-03 — Tasks dialogue and info state consolidation and audit
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - ID: TASK-03
 - ADR/research revision: v0.1.69

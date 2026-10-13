@@ -1,6 +1,6 @@
 # CONFIG-03 — Native script loading, startup and shared callbacks
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-03
 - Subsystem: configuration/script integration

@@ -1,8 +1,10 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
+
+[Profile evidence](profile/README.md) adds 36 selected core claim rows and six loose/unpacked overlay comparisons; [intake](../00-environment/profile-source-2026-10-12.md) pins uploaded snapshots and private log observations. This supplements package/native baselines without claiming full installed compatibility.
 
 | Source ID | Artifact / immutable identity | Role |
 | --- | --- | --- |

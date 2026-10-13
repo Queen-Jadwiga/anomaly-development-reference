@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.81
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - Target ADR revision: v0.1.81, based on main `a9248aea46442c3cd520b7e33974827dbd810a95`
 - Changed scope: ARCH-03 qualified patterns/test guidance, practical consolidation and bounded audit

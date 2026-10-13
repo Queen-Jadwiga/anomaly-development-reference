@@ -1,6 +1,6 @@
 # Configuration/script integration coverage inventory
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-01
 - Subsystem: configuration/script integration

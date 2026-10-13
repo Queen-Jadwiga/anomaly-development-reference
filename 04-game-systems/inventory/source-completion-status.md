@@ -1,6 +1,6 @@
 # Inventory source completion and remaining work
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 **As of 11 October 2026:** selected ITEM-01–04 native/server/actor/box/eatable foundations, focused Lua contracts, practical consolidation and bounded final available-source audit are complete within scope. The [development reference](development-reference.md) is usable within those boundaries. Full effective installed inventory integration is **partial**; runtime is **untested** and deferred until explicitly resumed.
 

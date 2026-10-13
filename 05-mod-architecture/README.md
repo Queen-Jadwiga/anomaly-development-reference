@@ -1,6 +1,6 @@
 # Mod architecture and GAMMA compatibility
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 Start with the [practical architecture/debugging development reference](development-reference.md). **ARCH-01–03 and DEBUG-01 are complete within selected foundation scope**; effective installed integration remains partial and runtime verification deferred.
 

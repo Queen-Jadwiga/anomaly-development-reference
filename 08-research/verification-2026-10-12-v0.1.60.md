@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.60
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - Target ADR revision: v0.1.60, based on main `b72967058951166f33ad46eaac6fc9f92562f4de`
 - Changed scope: REV-01 external feedback intake; scoped property extraction; build/history and UI/callback/persistence guidance

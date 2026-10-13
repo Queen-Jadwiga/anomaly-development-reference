@@ -1,16 +1,16 @@
 # Whole-reference status and effective closure
 
-> ADR document set: **v0.1.82**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ADR-01-STATUS
 - Research revision: v0.1.82
 - Record status: whole-reference consolidation/provenance/navigation/consistency audit complete within declared scope
 - Source status: repository-wide structural/provenance inventory and integrity checks; semantic review of current entry/status contracts
-- Runtime status: independent game/profile verification deferred; external observations separately attributed
+- Runtime status: historical audit deferred; current user-log observations recorded in PROFILE-01; independent tests authorized and untested
 - Baseline: ADR v0.1.81 `dc826c78041971cac96710b329b6ce85905e8e13`
 - Last reviewed: 2026-10-12
 
-The selected available-source ADR foundations are consolidated and usable within their documented boundaries. This audit closes the planned cross-system documentation pass. **Effective installed integration remains partial, and runtime verification remains deferred.** No claim is made that every native API, engine path or sentence has been independently revalidated.
+The selected available-source ADR foundations are consolidated and usable within their documented boundaries. This audit closes the planned cross-system documentation pass. **Effective installed integration remains partial. Runtime verification is now authorized; independent tests remain unperformed.** The [PROFILE-01 supplement](investigations/2026-10-12-PROFILE-01-core-file-trace.md) traces selected reconstructed core inputs and records supplied log observations; earlier dated deferrals retain their original meaning. No claim is made that every native API, engine path or sentence has been independently revalidated.
 
 ## Current coverage and authoritative gaps
 
@@ -43,6 +43,6 @@ Review retains source versus executable/profile, source versus external/runtime,
 
 1. **Effective-source closure:** collect relevant virtual winning files, packed inputs, configuration, globals/dispatchers, installers/emitters, binders/storage, campaign identity and resource/teardown chains; trace them for a concrete integration question. The status pages above remain authoritative. A mod list, same filename or source date alone cannot close those edges.
 2. **Targeted source depth:** investigate a specific missing contract when a modding/debugging question needs it. Full renderer/VM/security/profiler/animation/physics, every AI/item/build/addon and unrelated multiplayer remain optional depth rather than silently included completion criteria.
-3. **Runtime verification:** remains deferred until explicitly resumed. It requires executable/profile/save identity, reproduction and actual observations/results. Existing ADR tests exercise documentation/source tools; proposed model fixtures and non-runnable sketches do not test the game.
+3. **Runtime verification:** explicitly resumed by the user on October 12; authorized and independently untested. It requires executable/profile/save identity, reproduction and actual observations/results. Existing ADR tests exercise documentation/source tools; proposed model fixtures and non-runnable sketches do not test the game.
 
 No CtZ gameplay changes, save edits, native compilation or third-party source/assets are part of this audit. The selected reference foundation and whole-reference audit are complete within scope; installation/runtime closure stays open. [Roadmap](../ROADMAP.md), [investigation](investigations/2026-10-12-ADR-01-whole-reference-audit.md).
