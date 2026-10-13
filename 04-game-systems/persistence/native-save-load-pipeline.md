@@ -1,13 +1,13 @@
 # Native save/load pipeline and Lua extension boundaries
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: PER-01
 - Source status: source-confirmed within selected single-player A-Life paths
 - Runtime status: untested; deferred until explicitly resumed by the user
 - Last reviewed: 2026-10-11
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` pins this source. Exact upstream commit, installed executable/build and effective scripts remain unknown. S01–S24 refer only to the [PER-01 ledger](../../evidence/persistence/native-pipeline-2026-10-11.csv). This maps the selected A-Life `.scop` path, not every engine save function or a binary compatibility specification.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint` pins this source. Exact upstream commit, installed executable/build and effective scripts remain unknown. S01–S24 refer only to the [PER-01 ledger](../../evidence/persistence/native-pipeline-2026-10-11.csv). This maps the selected A-Life `.scop` path, not every engine save function or a binary compatibility specification.
 
 Read with [ALIFE-04 identity/reconstruction](../../08-research/investigations/2026-10-11-ALIFE-04-save-load-identity.md), [A-Life callback phases](../alife/callback-phase-reference.md), [faction persistence](../factions/relation-persistence.md) and [extension contracts](../../02-lua-api/persistence/native-extension-contracts.md).
 

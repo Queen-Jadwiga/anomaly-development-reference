@@ -1,6 +1,6 @@
 # PER-01 — Native save/load pipeline and Lua extension boundaries
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: PER-01
 - Subsystem: persistence
@@ -19,7 +19,7 @@ Include selected server request/delegation and client quick-load boundary, live 
 
 ## Evidence and method
 
-ENGINE1011 archive hash `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; exact upstream commit/executable/build/effective script correspondence unknown. [Ledger S01–S24](../../evidence/persistence/native-pipeline-2026-10-11.csv) records selected paths, symbols, ranges, whole-file hashes and counts.
+ENGINE1011 archive hash `withheld-upload-fingerprint`; exact upstream commit/executable/build/effective script correspondence unknown. [Ledger S01–S24](../../evidence/persistence/native-pipeline-2026-10-11.csv) records selected paths, symbols, ranges, whole-file hashes and counts.
 
 Read native request/storage/packet/serializer/registration bodies. Distinguish message request from reconstruction, server state from custom client bytes, filename storage from binder load, native emission from installed listener. Reuse ALIFE-04/06/07 and FAC-02 identity/persistence boundaries rather than rewriting their conclusions.
 

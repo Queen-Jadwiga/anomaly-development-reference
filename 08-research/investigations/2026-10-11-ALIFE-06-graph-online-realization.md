@@ -1,12 +1,12 @@
 # ALIFE-06 — Graph location, online realization and spawn callbacks
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.36 · 11 October 2026 · bounded source investigation.** This follows game-graph location changes into online member spawns, distinguishes stored/client/map positions, and establishes the inspected callback phases. Effective GAMMA overrides and all runtime verification remain deferred.
 
 ## Evidence baseline
 
-References use archive-relative paths in the supplied `xray-monolith-2026.10.11` archive, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. Exact upstream commit and installed executable equivalence remain unverified. The [27-file evidence ledger](../../evidence/alife/graph-online-realization-evidence-oct11.csv) records full-file hashes and exact ranges G01–G27. Game-build, DEBUG and feature-macro branches are distinguished below; no installed build settings are inferred.
+References use archive-relative paths in the supplied `xray-monolith-2026.10.11` archive, SHA-256 `withheld-upload-fingerprint`. Exact upstream commit and installed executable equivalence remain unverified. The [27-file evidence ledger](../../evidence/alife/graph-online-realization-evidence-oct11.csv) records full-file hashes and exact ranges G01–G27. Game-build, DEBUG and feature-macro branches are distinguished below; no installed build settings are inferred.
 
 Previous context: [ALIFE-05 scheduling and brains](2026-10-11-ALIFE-05-offline-scheduling-brains.md), [ALIFE-04 load reconstruction](2026-10-11-ALIFE-04-save-load-identity.md), and [ALIFE-02 creation/release](2026-10-11-ALIFE-02-creation-registration-release.md). This pass does not audit every creature class, physics transform, transport path or map marker override.
 

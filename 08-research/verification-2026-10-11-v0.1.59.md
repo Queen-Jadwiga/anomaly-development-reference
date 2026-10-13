@@ -1,6 +1,6 @@
 # ECO-01 increment verification — v0.1.59
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: selected native money/pricing/actor-menu trade and Lua money/cost
@@ -9,7 +9,7 @@
 
 ## Source review
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream/binary/profile unknown. [Ledger](../evidence/economy/native-trade-2026-10-11.csv): 23 entries. Read money field/setter/event consumer and selected saved state; wrapper signatures/registrations/saturation and mixed signed arithmetic; virtual cost and GetItemPrice; local/default factors; selected UI preflight/batch/per-item payment/callback order. Prior inventory/faction/persistence coverage linked rather than retraced as newly closed work.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream/binary/profile unknown. [Ledger](../evidence/economy/native-trade-2026-10-11.csv): 23 entries. Read money field/setter/event consumer and selected saved state; wrapper signatures/registrations/saturation and mixed signed arithmetic; virtual cost and GetItemPrice; local/default factors; selected UI preflight/batch/per-item payment/callback order. Prior inventory/faction/persistence coverage linked rather than retraced as newly closed work.
 
 Price directions, required discounts, commented eligibility/deficit branches, unsigned payment arithmetic and callback phase limits reviewed. TransferMoney hazard is literal qualified source arithmetic, not runtime reproduction or a source fix. Effective scripts/NPC variants/configuration/supplies and comprehensive numeric robustness remain outside this increment.
 

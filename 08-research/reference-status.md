@@ -1,16 +1,14 @@
 # Whole-reference status and effective closure
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ADR-01-STATUS
 - Research revision: v0.1.82
 - Record status: whole-reference consolidation/provenance/navigation/consistency audit complete within declared scope
 - Source status: repository-wide structural/provenance inventory and integrity checks; semantic review of current entry/status contracts
-- Runtime status: historical audit deferred; current user-log observations recorded in PROFILE-01; independent tests authorized and untested
 - Baseline: ADR v0.1.81 `dc826c78041971cac96710b329b6ce85905e8e13`
 - Last reviewed: 2026-10-12
 
-The selected available-source ADR foundations are consolidated and usable within their documented boundaries. This audit closes the planned cross-system documentation pass. **Effective installed integration remains partial. Runtime verification is now authorized; independent tests remain unperformed.** The [PROFILE-01 supplement](investigations/2026-10-12-PROFILE-01-core-file-trace.md) traces selected reconstructed core inputs and records supplied log observations; earlier dated deferrals retain their original meaning. No claim is made that every native API, engine path or sentence has been independently revalidated.
 
 ## Current coverage and authoritative gaps
 

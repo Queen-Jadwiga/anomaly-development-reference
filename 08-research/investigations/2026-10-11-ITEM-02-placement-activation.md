@@ -1,6 +1,6 @@
 # ITEM-02 — Placement and active-item transitions
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-02
 - Subsystem: inventory
@@ -17,7 +17,7 @@ How do slot/belt/ruck eligibility and movement differ from ownership and activat
 
 ## Evidence and method
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit/binary/profile correspondence unknown. [P01–P19 ledger](../../evidence/inventory/placement-activation-2026-10-11.csv) records original-file hashes/counts/ranges/symbols. Read methods, declarations/defaults, predicates, callback sites/compile guards, event payload producers/actor consumers and current/next Update transitions. NPC applicability remains an explicit gap rather than inferred from game_object export names.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream commit/binary/profile correspondence unknown. [P01–P19 ledger](../../evidence/inventory/placement-activation-2026-10-11.csv) records original-file hashes/counts/ranges/symbols. Read methods, declarations/defaults, predicates, callback sites/compile guards, event payload producers/actor consumers and current/next Update transitions. NPC applicability remains an explicit gap rather than inferred from game_object export names.
 
 ## Findings
 

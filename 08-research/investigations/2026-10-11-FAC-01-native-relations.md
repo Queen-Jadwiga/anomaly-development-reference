@@ -1,6 +1,6 @@
 # FAC-01 — Native faction identity and relation queries
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-01
 - Subsystem: factions / relations
@@ -19,7 +19,7 @@ Include configured ID/index/team mapping and matrix loading, registry storage di
 
 ## Evidence and method
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit and installed executable/configuration correspondence unknown. [Ledger F01–F18](../../evidence/factions/native-relations-2026-10-11.csv) records 18 files, selected symbols/ranges, full-file hashes and line counts.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream commit and installed executable/configuration correspondence unknown. [Ledger F01–F18](../../evidence/factions/native-relations-2026-10-11.csv) records 18 files, selected symbols/ranges, full-file hashes and line counts.
 
 Read character-community and generic loader definitions; registry declarations/bodies/templates; game-object declarations/registrations/wrappers; registry module helpers; stalker/trader overrides and base monster path. Compare receiver/argument direction, aggregation, validation and selected writes. No public configuration substituted for the user's installed profile.
 

@@ -1,8 +1,7 @@
 # Practical architecture and debugging development reference
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
-Current installed-snapshot supplement: [PROFILE-01 core trace](../08-research/investigations/2026-10-12-PROFILE-01-core-file-trace.md) records selected reconstructed startup/callback, binder/simulation and persistence contracts. Runtime authorization resumed on October 12; independent tests remain pending. Earlier deferral statements below describe the original source/design pass.
 
 - ID: ARCH-03-GUIDE
 - Subsystem: cross-system practical architecture/debugging

@@ -1,6 +1,6 @@
 # DEBUG-01 — Diagnostic routes and triage
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: DEBUG-01
 - Subsystem: debugging / practical architecture
@@ -8,7 +8,7 @@
 - Record status: complete-within-scope for selected routes/triage; effective integration partial
 - Source status: source-confirmed selected definitions/registration/converter/callers; scoped build inspection and documentation synthesis
 - Runtime status: untested; deferred
-- Baseline IDs and provenance record: ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; six ADR v0.1.79 documentation pins at `2db0cc343662140d3670eec16ea247e75b00279b`; [manifest](../../evidence/manifest.md)
+- Baseline IDs and provenance record: ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; six ADR v0.1.79 documentation pins at `2db0cc343662140d3670eec16ea247e75b00279b`; [manifest](../../evidence/manifest.md)
 - Last reviewed: 2026-10-12
 
 ## Question and scope

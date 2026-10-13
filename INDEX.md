@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
-Start with [whole-reference status](08-research/reference-status.md), [subsystem map](08-research/subsystem-map.md), [provenance register](00-environment/provenance-register.md), [API catalogs](02-lua-api/api-index.md), [practical guide](05-mod-architecture/development-reference.md), [roadmap](ROADMAP.md) and [latest verification](08-research/verification-2026-10-12-v0.1.83.md).
+Start with [whole-reference status](08-research/reference-status.md), [subsystem map](08-research/subsystem-map.md), [provenance register](00-environment/provenance-register.md), [API catalogs](02-lua-api/api-index.md), [practical guide](05-mod-architecture/development-reference.md), [roadmap](ROADMAP.md) and [latest verification](08-research/verification-2026-10-12-v0.1.84.md).
 
 This complete Markdown file index groups current guides, detailed references, templates, dated investigations/verification and history by their actual canonical location. A title/revision is that record's scope, not current engine compatibility or a new runtime result. The current document-set banner is separate. Generated evidence/data and code are indexed through their category entries below; no source archives/assets are part of the ADR.
 
@@ -18,8 +18,8 @@ This complete Markdown file index groups current guides, detailed references, te
 ## 00-environment
 
 - [Installed engine baseline — ENV-001](00-environment/engine-version.md)
-- [GAMMA profile source intake — 12 October 2026](00-environment/profile-source-2026-10-12.md)
 - [ADR provenance register](00-environment/provenance-register.md)
+- [Public research content and privacy](00-environment/public-content-policy.md)
 - [ENV-RT01 — External GAMMA runtime report](00-environment/reported-gamma-runtime-2026-10-12.md)
 - [SRC-001 — Official May 15, 2026 source baseline](00-environment/source-baseline-2026-05-15.md)
 - [SRC-002 — October 11, 2026 Modded Exes source and runtime candidate](00-environment/source-baseline-2026-10-11.md)
@@ -270,7 +270,6 @@ This complete Markdown file index groups current guides, detailed references, te
 - [GAME-02 — Actor survival effects and equipment mitigation](08-research/investigations/2026-10-12-GAME-02-actor-effects.md)
 - [GAME-03 — Derived death and condition reconstruction](08-research/investigations/2026-10-12-GAME-03-death-restoration.md)
 - [GAME-04 — Gameplay state consolidation and bounded audit](08-research/investigations/2026-10-12-GAME-04-gameplay-consolidation.md)
-- [PROFILE-01 — Reconstructed core startup, simulation and persistence](08-research/investigations/2026-10-12-PROFILE-01-core-file-trace.md)
 - [REV-01 — External runtime issue review and catalog correction](08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md)
 - [STRUCT-01 — Subsystem entry point consistency](08-research/investigations/2026-10-12-STRUCT-01-subsystem-entry-points.md)
 - [TASK-01 — Native tasks dialogue and info state](08-research/investigations/2026-10-12-TASK-01-native-task-dialogue-info.md)
@@ -339,7 +338,7 @@ This complete Markdown file index groups current guides, detailed references, te
 - [Verification — 2026-10-12 — ADR v0.1.80](08-research/verification-2026-10-12-v0.1.80.md)
 - [Verification — 2026-10-12 — ADR v0.1.81](08-research/verification-2026-10-12-v0.1.81.md)
 - [Verification — 2026-10-12 — ADR v0.1.82](08-research/verification-2026-10-12-v0.1.82.md)
-- [Verification — 2026-10-12 — v0.1.83](08-research/verification-2026-10-12-v0.1.83.md)
+- [Verification — 2026-10-12 — v0.1.84](08-research/verification-2026-10-12-v0.1.84.md)
 
 ## 09-projects
 
@@ -357,7 +356,6 @@ This complete Markdown file index groups current guides, detailed references, te
 - [Inventory evidence](evidence/inventory/README.md)
 - [Evidence manifest](evidence/manifest.md)
 - [Persistence source evidence](evidence/persistence/README.md)
-- [Effective-profile evidence](evidence/profile/README.md)
 - [Whole-reference audit evidence](evidence/reference/README.md)
 - [Task dialogue and info evidence](evidence/tasks/README.md)
 - [Warfare source evidence](evidence/warfare/README.md)
@@ -430,8 +428,6 @@ This complete Markdown file index groups current guides, detailed references, te
 - [ctz-campaign-safety-2026-10-11.csv](evidence/persistence/ctz-campaign-safety-2026-10-11.csv)
 - [lua-storage-2026-10-11.csv](evidence/persistence/lua-storage-2026-10-11.csv)
 - [native-pipeline-2026-10-11.csv](evidence/persistence/native-pipeline-2026-10-11.csv)
-- [core-trace-2026-10-12.csv](evidence/profile/core-trace-2026-10-12.csv)
-- [overwritten-files-2026-10-12.csv](evidence/profile/overwritten-files-2026-10-12.csv)
 - [audit-summary-2026-10-12.json](evidence/reference/audit-summary-2026-10-12.json)
 - [base-file-inventory-2026-10-12.csv](evidence/reference/base-file-inventory-2026-10-12.csv)
 - [corrections-2026-10-12.csv](evidence/reference/corrections-2026-10-12.csv)
@@ -457,10 +453,12 @@ This complete Markdown file index groups current guides, detailed references, te
 - [audit_xml_lua_registrations.py](tools/audit_xml_lua_registrations.py)
 - [binding_patterns.py](tools/binding_patterns.py)
 - [build_alife_catalog.py](tools/build_alife_catalog.py)
+- [check_public_content.py](tools/check_public_content.py)
 - [check_repository.py](tools/check_repository.py)
 
 ### tests
 
 - [test_binding_patterns.py](tests/test_binding_patterns.py)
+- [test_public_content.py](tests/test_public_content.py)
 - [test_repository_checks.py](tests/test_repository_checks.py)
 

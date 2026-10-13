@@ -1,6 +1,6 @@
 # FAC-02 source and repository verification — v0.1.45
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: native relation persistence/reset/ID cleanup and navigation
@@ -10,7 +10,7 @@
 
 ## Source and semantic checks
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` pins the source snapshot. Exact upstream commit/executable and installed scripts/configuration remain unknown.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint` pins the source snapshot. Exact upstream commit/executable and installed scripts/configuration remain unknown.
 
 The [FAC-02 ledger](../evidence/factions/relation-persistence-2026-10-11.csv) records 18 files and 26 range groups. Read record/container/wrapper serializers and ownership; native save/load and callback gating; monster unregister and object-registry destruction; simulator unload/reload; character table reset/lazy reload and module detach. Scoped `src/` searches for reset/clear/matrix symbols support the selected trace, not an installed-wide negative assertion.
 

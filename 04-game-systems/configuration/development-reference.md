@@ -1,8 +1,7 @@
 # Configuration and script integration development reference
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
-Current installed-snapshot supplement: [PROFILE-01 core trace](../../08-research/investigations/2026-10-12-PROFILE-01-core-file-trace.md) records selected reconstructed startup/callback, binder/simulation and persistence contracts. Runtime authorization resumed on October 12; independent tests remain pending. Earlier deferral statements below describe the original source/design pass.
 
 **Current cross-system status:** [ADR-01 whole-reference audit](../../08-research/reference-status.md) is complete within scope. Original research allocations/baselines below remain dated; selected foundations are consolidated, effective installed integration stays partial and runtime verification deferred.
 

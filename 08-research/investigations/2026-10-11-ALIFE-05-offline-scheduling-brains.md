@@ -1,12 +1,12 @@
 # ALIFE-05 — Native scheduling, brains and offline movement
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.35 · 11 October 2026 · bounded source investigation.** This traces the native scheduled-update path, individual and group brains, and their supplied Lua task boundary. All runtime verification and installed GAMMA profile reconciliation remain deferred.
 
 ## Evidence and scope
 
-References are archive-relative paths in the supplied `xray-monolith-2026.10.11` source archive, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. Exact upstream commit and installed executable equivalence remain unverified. The [source evidence ledger](../../evidence/alife/offline-scheduling-evidence-oct11.csv) gives full-file hashes and exact ranges S01–S21. The group and monster implementations discussed below are the `XRGAME_EXPORTS` game branches where applicable.
+References are archive-relative paths in the supplied `xray-monolith-2026.10.11` source archive, SHA-256 `withheld-upload-fingerprint`. Exact upstream commit and installed executable equivalence remain unverified. The [source evidence ledger](../../evidence/alife/offline-scheduling-evidence-oct11.csv) gives full-file hashes and exact ranges S01–S21. The group and monster implementations discussed below are the `XRGAME_EXPORTS` game branches where applicable.
 
 This is not an exhaustive online AI/combat, scheduler-threading, patrol-navigation or graph-search audit. Missing effective board/smart/creature wrappers remain the same boundary as [WAR-002](2026-10-11-WAR-002b-policy-offline-combat.md).
 

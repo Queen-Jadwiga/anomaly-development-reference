@@ -1,6 +1,6 @@
 # ITEM-04 increment verification — v0.1.57
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: selected item persistence/reconstruction
@@ -9,7 +9,7 @@
 
 ## Source review
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream/binary/profile correspondence unknown. [Ledger](../evidence/inventory/persistence-reconstruction-2026-10-11.csv): 15 entries. Read paired serializers, registry/factory and parent packet, concrete item/physical inheritance, native/binder load, eatable initialization, actor strict take and owner pending activation. Compared active code to commented alternatives and identified later state writes. No runtime bug or exhaustive derived serialization coverage asserted.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream/binary/profile correspondence unknown. [Ledger](../evidence/inventory/persistence-reconstruction-2026-10-11.csv): 15 entries. Read paired serializers, registry/factory and parent packet, concrete item/physical inheritance, native/binder load, eatable initialization, actor strict take and owner pending activation. Compared active code to commented alternatives and identified later state writes. No runtime bug or exhaustive derived serialization coverage asserted.
 
 ## Checks and preservation
 

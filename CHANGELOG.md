@@ -1,12 +1,16 @@
 # ADR changelog
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
-## v0.1.83 — 2026-10-12 — Uploaded core profile trace
+## v0.1.84 — 2026-10-12 — Public-content privacy audit
 
-- PROFILE-01 traces selected reconstructed global/startup/callback, actor binder, board/smart/squad and marshal/packet/CtZ restore chains with 36 raw-hash/range pins across 19 source files. Restore six overwritten original loose paths; supplied campaign is byte-identical to CTZ005J.
-- Record supplied log observations separately from source claims, reported executable hash and incomplete addon/configuration origins. Correct actor binder filename; preserve private uploaded sources/log/profile and avoid claiming a callback-failure cause.
-- Runtime work explicitly authorized by the user; independent game tests remain unperformed. Update current navigation/status and synchronized banners; historical evidence retained. [Core trace](08-research/investigations/2026-10-12-PROFILE-01-core-file-trace.md), [verification](08-research/verification-2026-10-12-v0.1.83.md).
+- Remove personal log identifiers; withdraw the installation-derived supplement/evidence tables and obsolete verification page from the current public tree. Private working evidence stays private. Reusable upstream-source findings remain.
+- Add public-content policy and bounded guard with three regression tests; synchronize current banners/navigation and retain useful research/tools. Git history/author metadata require separate handling.
+- No new engine runtime or CtZ gameplay changes in ADR. [Privacy policy](00-environment/public-content-policy.md), [verification](08-research/verification-2026-10-12-v0.1.84.md).
+
+## v0.1.83 — 2026-10-12 — Withdrawn installation-derived supplement
+
+The installation-derived supplement and its public evidence tables are withdrawn from the current tree in v0.1.84 for privacy. No raw attachments were published. Earlier commits remain recoverable; current removal does not erase history. Reusable upstream-based ADR research is retained.
 
 ## v0.1.82 — 2026-10-12 — Whole-reference consolidation and audit
 

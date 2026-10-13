@@ -1,6 +1,6 @@
 # Use touch actor transitions and map-marker lifecycle
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-03
 - Subsystem: world interaction/navigation
@@ -9,7 +9,7 @@
 - Runtime status: untested; deferred
 - Last reviewed: 2026-10-12
 
-ENGINE1011 is the uploaded October 11 archive, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. Upstream commit/executable/profile correspondence remains unknown. [Ledger U01–U16, T01–T13, M01–M19](../../evidence/world/interaction-transition-markers-2026-10-12.csv) pins raw hashes, source paths, counts, symbols and ranges. IDs are ledger-local. [API contracts](../../02-lua-api/world/interaction-api.md), [investigation](../../08-research/investigations/2026-10-12-WORLD-03-interaction-transitions-markers.md).
+ENGINE1011 is the uploaded October 11 archive, SHA-256 `withheld-upload-fingerprint`. Upstream commit/executable/profile correspondence remains unknown. [Ledger U01–U16, T01–T13, M01–M19](../../evidence/world/interaction-transition-markers-2026-10-12.csv) pins raw hashes, source paths, counts, symbols and ranges. IDs are ledger-local. [API contracts](../../02-lua-api/world/interaction-api.md), [investigation](../../08-research/investigations/2026-10-12-WORLD-03-interaction-transitions-markers.md).
 
 ## Selected use routing and return limits
 

@@ -1,6 +1,6 @@
 # WORLD-03 — Use touch actor transitions and marker lifecycle
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-03
 - Subsystem: world interaction/navigation
@@ -8,7 +8,7 @@
 - Record status: complete-within-scope
 - Source status: source-confirmed selected native definitions/registrations/callers and bundled marker relay
 - Runtime status: untested; deferred
-- Baseline IDs/provenance: ENGINE1011 October 11 uploaded archive, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; [manifest](../../evidence/manifest.md)
+- Baseline IDs/provenance: ENGINE1011 October 11 uploaded archive, SHA-256 `withheld-upload-fingerprint`; [manifest](../../evidence/manifest.md)
 - Last reviewed: 2026-10-12
 
 ## Question and scope

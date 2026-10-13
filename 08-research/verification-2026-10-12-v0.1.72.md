@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.72
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.72, based on main `22903ecda029d5c23676009e394cb55af13e1ebd`
 - Scope: WORLD-03 selected use/touch, actor travel and ordinary-marker lifecycle

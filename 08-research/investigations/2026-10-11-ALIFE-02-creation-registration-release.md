@@ -1,6 +1,6 @@
 # ALIFE-02 — Native creation, registration, release and callback ordering
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.32 · 11 October 2026 · targeted source research complete; engine runtime verification deferred.**
 
@@ -8,7 +8,7 @@
 
 This follows [ALIFE-01](2026-10-11-ALIFE-01-identity-lifecycle.md) through the inspected native creation/release entry points and bundled squad callbacks. It is not an exhaustive audit of every entity subclass, creation producer, shutdown path or installed GAMMA override.
 
-Source: user-supplied `xray-monolith-2026.10.11.zip`, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. Exact upstream commit and binary equivalence remain unverified. The [ALIFE-02 evidence ledger](../../evidence/alife/creation-release-evidence-oct11.csv) records archive-relative paths, line ranges and file hashes. References R01–R16 below refer to that ledger, not remote source permalinks.
+Source: user-supplied `xray-monolith-2026.10.11.zip`, SHA-256 `withheld-upload-fingerprint`. Exact upstream commit and binary equivalence remain unverified. The [ALIFE-02 evidence ledger](../../evidence/alife/creation-release-evidence-oct11.csv) records archive-relative paths, line ranges and file hashes. References R01–R16 below refer to that ledger, not remote source permalinks.
 
 ## What “registered” means here
 

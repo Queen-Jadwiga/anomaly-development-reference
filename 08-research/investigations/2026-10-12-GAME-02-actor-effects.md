@@ -1,6 +1,6 @@
 # GAME-02 — Actor survival effects and equipment mitigation
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: GAME-02
 - Subsystem: actor/NPC gameplay state
@@ -17,7 +17,7 @@ Trace actor update gates, sleep/satiety/stamina, medicine/booster application/re
 
 ## Evidence and method
 
-[A01–A21 ledger](../../evidence/gameplay/actor-effects-2026-10-12.csv), original paths/hashes/ranges/symbols. Archive SHA-256 14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee; upstream/build/profile match unknown. Read update, effects, serializer and bindings together; compare actual actor Hit stages with base GAME-01. Search all src/xrGame C++ and bundled gamedata scripts for medicine record/current-time readers/writes; preserve snapshot-only scope.
+[A01–A21 ledger](../../evidence/gameplay/actor-effects-2026-10-12.csv), original paths/hashes/ranges/symbols. Archive SHA-256 withheld-upload-fingerprint; upstream/build/profile match unknown. Read update, effects, serializer and bindings together; compare actual actor Hit stages with base GAME-01. Search all src/xrGame C++ and bundled gamedata scripts for medicine record/current-time readers/writes; preserve snapshot-only scope.
 
 ## Findings
 

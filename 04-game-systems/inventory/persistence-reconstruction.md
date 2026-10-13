@@ -1,6 +1,6 @@
 # Item persistence and reconstruction
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-04
 - Research revision: v0.1.57
@@ -9,7 +9,7 @@
 - Baseline: ENGINE1011; [provenance](../../00-environment/source-baseline-2026-10-11.md)
 - Last reviewed: 2026-10-11
 
-Archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; unknown upstream commit, binary/profile correspondence and installed script winners. R01–R15 are local to the [evidence ledger](../../evidence/inventory/persistence-reconstruction-2026-10-11.csv), which supplies exact paths, symbols, ranges and hashes. [Investigation](../../08-research/investigations/2026-10-11-ITEM-04-persistence-reconstruction.md). Read alongside [native save/load](../persistence/native-save-load-pipeline.md), [ownership](ownership-lifecycle.md) and [placement/activation](placement-activation.md).
+Archive SHA-256 `withheld-upload-fingerprint`; unknown upstream commit, binary/profile correspondence and installed script winners. R01–R15 are local to the [evidence ledger](../../evidence/inventory/persistence-reconstruction-2026-10-11.csv), which supplies exact paths, symbols, ranges and hashes. [Investigation](../../08-research/investigations/2026-10-11-ITEM-04-persistence-reconstruction.md). Read alongside [native save/load](../persistence/native-save-load-pipeline.md), [ownership](ownership-lifecycle.md) and [placement/activation](placement-activation.md).
 
 ## Saved representations
 

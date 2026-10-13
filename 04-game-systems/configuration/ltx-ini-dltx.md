@@ -1,6 +1,6 @@
 # LTX/INI loading and selected DLTX contracts
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-02
 - Subsystem: configuration/script integration
@@ -8,7 +8,7 @@
 - Record status: complete-within-scope for selected native/parser/Lua contracts; effective integration partial
 - Source status: source-confirmed within selected ENGINE1011 paths
 - Runtime status: untested; deferred
-- Baseline: ENGINE1011 uploaded archive, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit/executable equivalence unknown
+- Baseline: ENGINE1011 uploaded archive, SHA-256 `withheld-upload-fingerprint`; upstream commit/executable equivalence unknown
 - Last reviewed: 2026-10-12
 
 [50-row ledger](../../evidence/configuration/ltx-ini-dltx-2026-10-12.csv) N01–N28/A01–A20/S01–S02 pins paths, raw hashes and inclusive ranges. IDs below belong only to that ledger. [Lua contracts](../../02-lua-api/configuration/ini-api.md), [investigation](../../08-research/investigations/2026-10-12-CONFIG-02-ltx-ini-dltx.md), [verification](../../08-research/verification-2026-10-12-v0.1.75.md).

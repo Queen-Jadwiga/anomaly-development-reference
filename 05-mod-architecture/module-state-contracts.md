@@ -1,6 +1,6 @@
 # Module and state ownership contracts
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ARCH-02-OWNERSHIP
 - Subsystem: practical mod architecture

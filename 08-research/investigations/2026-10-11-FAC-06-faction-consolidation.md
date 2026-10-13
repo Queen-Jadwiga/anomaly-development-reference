@@ -1,6 +1,6 @@
 # FAC-06 — Faction reference consolidation and final available-source audit
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-06
 - Subsystem: factions / relations
@@ -21,7 +21,7 @@ Include practical selection/phase/storage guidance, cross-reference review of th
 
 Existing five [faction ledgers](../../evidence/factions/README.md) retain their bytes, schemas and labels: F (identity), P (persistence), M (mutation), A (actions), R (BETA150 consumers). They contain 95 entries across 62 distinct source files and 148 range groups. No replacement or duplicate synthesis ledger is needed: the [development reference](../../04-game-systems/factions/development-reference.md) qualifies each label by its original ledger.
 
-ENGINE1011 archive hash `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` and BETA150 hash `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d` pin snapshots. Upstream engine commit/executable/profile correspondence and installed winners remain unknown.
+ENGINE1011 archive hash `withheld-upload-fingerprint` and BETA150 hash `withheld-upload-fingerprint` pin snapshots. Upstream engine commit/executable/profile correspondence and installed winners remain unknown.
 
 Review selected claim boundaries across FAC-01–05, their APIs and the adjacent A-Life/Warfare references. Re-read high-impact native/helper bodies, verify all faction-ledger hashes/counts/ranges/symbols within ranges, preserve earlier findings and explicitly retain missing effective edges. The [audit report](../verification-2026-10-11-v0.1.49.md) records scope/results, not exhaustive proof of every sentence or build.
 

@@ -1,6 +1,6 @@
 # Faction and relation development reference
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **Current cross-system status:** [ADR-01 whole-reference audit](../../08-research/reference-status.md) is complete within scope. Original research allocations/baselines below remain dated; selected foundations are consolidated, effective installed integration stays partial and runtime verification deferred.
 
@@ -15,8 +15,8 @@ This guide joins the completed native and supplied-package investigations for Ct
 
 | Baseline | Pin and scope | Ledger-local labels |
 | --- | --- | --- |
-| ENGINE1011 | Uploaded archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit/executable match unknown | [F: identity/queries](../../evidence/factions/native-relations-2026-10-11.csv), [P: persistence](../../evidence/factions/relation-persistence-2026-10-11.csv), [M: mutation](../../evidence/factions/community-mutation-2026-10-11.csv), [A: actions](../../evidence/factions/action-goodwill-2026-10-11.csv) |
-| BETA150 main | Supplied archive SHA-256 `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d`; main scripts only, installation unknown | [R: Warfare consumers](../../evidence/factions/warfare-consumers-2026-10-11.csv) |
+| ENGINE1011 | Uploaded archive SHA-256 `withheld-upload-fingerprint`; upstream commit/executable match unknown | [F: identity/queries](../../evidence/factions/native-relations-2026-10-11.csv), [P: persistence](../../evidence/factions/relation-persistence-2026-10-11.csv), [M: mutation](../../evidence/factions/community-mutation-2026-10-11.csv), [A: actions](../../evidence/factions/action-goodwill-2026-10-11.csv) |
+| BETA150 main | Supplied archive SHA-256 `withheld-upload-fingerprint`; main scripts only, installation unknown | [R: Warfare consumers](../../evidence/factions/warfare-consumers-2026-10-11.csv) |
 
 Labels below always refer to those respective ledgers. Each pins paths, symbols, ranges and whole-file hashes. No optional patch, historical package or installed configuration is silently substituted. Detailed source-order findings stay in the linked references and dated records.
 

@@ -1,6 +1,6 @@
 # ECO-01 — Native money, pricing and trade flow
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ECO-01
 - Subsystem: trade/economy
@@ -17,7 +17,7 @@ Which native state owns money, how is a selected trade price computed, and where
 
 ## Evidence and method
 
-[Ledger](../../evidence/economy/native-trade-2026-10-11.csv): E01–E23; original paths, full-file hashes and line/symbol ranges. ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream/binary/profile correspondence unknown. Inventory existing inventory/faction/persistence coverage first; read declarations, bindings, money sender/consumer, serializers and selected UI/native trade callers. Distinguish literal source arithmetic from runtime observations.
+[Ledger](../../evidence/economy/native-trade-2026-10-11.csv): E01–E23; original paths, full-file hashes and line/symbol ranges. ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream/binary/profile correspondence unknown. Inventory existing inventory/faction/persistence coverage first; read declarations, bindings, money sender/consumer, serializers and selected UI/native trade callers. Distinguish literal source arithmetic from runtime observations.
 
 ## Findings
 

@@ -1,6 +1,6 @@
 # Selected Lua diagnostic exports
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: DEBUG-01-API
 - Subsystem: debugging
@@ -9,7 +9,7 @@
 - Exact signatures: log(text), error_log(text), print_stack(), flush(); no receiver or registered variadic/optional overload in selected registration
 - Return/null/error/converter policy: void wrappers, no success result; selected LPCSTR matcher accepts a Lua string; error_log can terminate through assertion
 - Native versus registered Lua inheritance: not applicable to these global functions
-- Source baseline/provenance: ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit/executable equivalence unknown
+- Source baseline/provenance: ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream commit/executable equivalence unknown
 - Source status: source-confirmed selected definitions/registration/default converter
 - Runtime status: untested; deferred
 - Build/conditional scope: MASTER_GOLD, DEBUG, USE_DEBUGGER/USE_LUA_STUDIO, LUA_DEBUG_PRINT, game script-log guards and selected assertion projection

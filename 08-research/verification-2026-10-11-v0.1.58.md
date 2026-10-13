@@ -1,6 +1,6 @@
 # Inventory consolidation and bounded audit — v0.1.58
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Investigation: ITEM-05
@@ -10,7 +10,7 @@
 
 ## Baseline and audit boundary
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit, installed build/profile and winning scripts unknown. Reuse [inventory ledgers](../evidence/inventory/README.md), 72 rows. Semantic review reread selected risk-bearing implementations/callers; all row metadata received mechanical integrity checks. These are distinct checks; this is not a fresh exhaustive engine-wide trace or effective-script audit.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream commit, installed build/profile and winning scripts unknown. Reuse [inventory ledgers](../evidence/inventory/README.md), 72 rows. Semantic review reread selected risk-bearing implementations/callers; all row metadata received mechanical integrity checks. These are distinct checks; this is not a fresh exhaustive engine-wide trace or effective-script audit.
 
 ## Bounded semantic review
 

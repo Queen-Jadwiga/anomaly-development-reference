@@ -1,6 +1,6 @@
 # ALIFE-11 — Native configuration and control contracts
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ALIFE-11
 - Subsystem: A-Life
@@ -19,7 +19,7 @@ Include manager constructor/reload/setters, switching formulas, schedule count/t
 
 ## Evidence and method
 
-Archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; exact upstream commit and executable correspondence unknown. [Ledger N01–N18](../../evidence/alife/configuration-controls-2026-10-11.csv) follows the current claim-ledger schema and records 18 source files, symbols, ranges and hashes.
+Archive SHA-256 `withheld-upload-fingerprint`; exact upstream commit and executable correspondence unknown. [Ledger N01–N18](../../evidence/alife/configuration-controls-2026-10-11.csv) follows the current claim-ledger schema and records 18 source files, symbols, ranges and hashes.
 
 Read the selected functions and corresponding bindings, continuing the ALIFE-05/08/09 traces. For schedule cadence, trace the millisecond device clock and `CSheduler::ProcessStep`; for process budget, trace manager → graph → current-level registry → inherited iterator comparison. Check full-file hashes, line counts, range bounds and symbols against the extracted snapshot.
 

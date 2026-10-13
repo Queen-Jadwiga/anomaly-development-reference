@@ -1,6 +1,6 @@
 # ITEM-02 increment verification — v0.1.55
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: focused placement/active-slot transitions, Lua producers and selected actor consumers
@@ -9,7 +9,7 @@
 
 ## Source review
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit/executable/profile correspondence unknown. [New ledger](../evidence/inventory/placement-activation-2026-10-11.csv): 19 entries across 14 files, 24 range groups. Read native placement predicates/mutators/defaults, base/stalker owner predicate boundary, callbacks/compile guard, requested/current Activate/Update, minimal HUD activation/hidden producers, Lua declaration/registration/request payload, server routing and actor consumers.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream commit/executable/profile correspondence unknown. [New ledger](../evidence/inventory/placement-activation-2026-10-11.csv): 19 entries across 14 files, 24 range groups. Read native placement predicates/mutators/defaults, base/stalker owner predicate boundary, callbacks/compile guard, requested/current Activate/Update, minimal HUD activation/hidden producers, Lua declaration/registration/request payload, server routing and actor consumers.
 
 Compared placement pointers and metadata at callback time, activation request versus current slot, ordinary Update versus forced direct assignment, native defaults versus Lua arguments, active versus commented preflight and named hooks versus native enum callbacks. Selected actor consumer is not promoted to effective NPC loadout/readiness evidence. This is not exhaustive NPC event/AI, converter/reentrancy, animation/weapon, blocking restoration or runtime certification.
 

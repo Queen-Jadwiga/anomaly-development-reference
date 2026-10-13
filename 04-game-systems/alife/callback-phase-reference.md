@@ -1,6 +1,6 @@
 # A-Life callback phases and observation contracts
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ALIFE-10 — callback reference
 - Subsystem: A-Life / Warfare integration
@@ -9,7 +9,7 @@
 - Baseline: ENGINE1011, uploaded October 11 source snapshot
 - Last reviewed: 2026-10-11
 
-Read alongside the [lifecycle/state reference](lifecycle-state-reference.md). All L-labels below refer to the [lifecycle/callback evidence ledger](../../evidence/alife/lifecycle-callbacks-2026-10-11.csv). Its source paths, symbols, ranges and hashes pin the uploaded archive, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. Upstream commit, installed executable, winning Lua files and wrapper population remain unverified.
+Read alongside the [lifecycle/state reference](lifecycle-state-reference.md). All L-labels below refer to the [lifecycle/callback evidence ledger](../../evidence/alife/lifecycle-callbacks-2026-10-11.csv). Its source paths, symbols, ranges and hashes pin the uploaded archive, SHA-256 `withheld-upload-fingerprint`. Upstream commit, installed executable, winning Lua files and wrapper population remain unverified.
 
 **There is no single global “entity ready” callback in this reference.** Native virtual hooks, optional global functors, shared script dispatch and object-bound callbacks have distinct conditions. A source-defined emission is not proof that a listener is installed or that an effective override reaches it.
 

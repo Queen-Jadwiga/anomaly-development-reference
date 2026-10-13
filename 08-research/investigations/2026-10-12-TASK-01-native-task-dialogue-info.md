@@ -1,6 +1,6 @@
 # TASK-01 — Native tasks dialogue and info state
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: TASK-01
 - Subsystem: tasks/dialogue/info state
@@ -17,7 +17,7 @@ Trace selected task grant/state/predicate/action and save-load, actor/owner info
 
 ## Evidence and method
 
-[T01–T18 ledger](../../evidence/tasks/native-task-dialogue-info-2026-10-12.csv) pins files/ranges/symbols/full-file hashes. Archive SHA-256 14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee; installed/build correspondence unknown. Read bodies/declarations/registration and caller order; distinguish active CInfoPortion from commented legacy and task saved fields from live vectors.
+[T01–T18 ledger](../../evidence/tasks/native-task-dialogue-info-2026-10-12.csv) pins files/ranges/symbols/full-file hashes. Archive SHA-256 withheld-upload-fingerprint; installed/build correspondence unknown. Read bodies/declarations/registration and caller order; distinguish active CInfoPortion from commented legacy and task saved fields from live vectors.
 
 ## Findings
 

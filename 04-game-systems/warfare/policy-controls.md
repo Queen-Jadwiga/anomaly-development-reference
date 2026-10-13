@@ -1,13 +1,13 @@
 # Warfare configuration and policy controls
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WAR-003
 - Source status: source-confirmed for the selected supplied-package paths; scoped negative searches
 - Runtime status: untested; deferred until the user resumes verification
 - Last reviewed: 2026-10-11
 
-Baseline: BETA150 archive SHA-256 `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d`. Main scripts and the optional GAMMA patch are distinct variants, not an assumed combined installation. W01–W18 below refer only to the [Warfare control ledger](../../evidence/warfare/configuration-controls-2026-10-11.csv). The exact MO2 winners, preset selection, saved UI values and later replacements remain unknown. [Package provenance](../../08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md).
+Baseline: BETA150 archive SHA-256 `withheld-upload-fingerprint`. Main scripts and the optional GAMMA patch are distinct variants, not an assumed combined installation. W01–W18 below refer only to the [Warfare control ledger](../../evidence/warfare/configuration-controls-2026-10-11.csv). The exact MO2 winners, preset selection, saved UI values and later replacements remain unknown. [Package provenance](../../08-research/investigations/2026-10-11-WAR-002a-source-packages-effective-profile.md).
 
 ## Producers, aliases and refresh boundaries
 

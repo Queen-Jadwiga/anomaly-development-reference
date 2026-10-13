@@ -1,12 +1,12 @@
 # SRC-002 — October 11, 2026 Modded Exes source and runtime candidate
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **New preferred source baseline (from 2026-10-11 onward):** user-supplied `xray-monolith-2026.10.11.zip`.
 
-- Source archive SHA-256: `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`
+- Source archive SHA-256: `withheld-upload-fingerprint`
 - Compiled release archive: `STALKER-Anomaly-MEXE-oct11.zip`
-- Binary package SHA-256: `262ed3892626b3f79d459529288a070e1b10b2577082172de096d3562ccc5e56`
+- Binary package SHA-256: `withheld-upload-fingerprint`
 - Source tree root in archive: `xray-monolith-2026.10.11/`
 - Repository: https://github.com/themrdemonized/xray-monolith
 - Tag-format candidate: `2026.10.11` (local snapshot verified; remote tag/commit not independently verified in this entry).

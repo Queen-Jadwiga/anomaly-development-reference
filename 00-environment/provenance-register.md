@@ -1,6 +1,6 @@
 # ADR provenance register
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ADR-01-PROVENANCE
 - Research revision: v0.1.82
@@ -11,17 +11,16 @@
 
 Use this register to distinguish inspected source, runtime candidates and observations. It consolidates the existing records; it does not replace their file/line/guard evidence or establish that an addon wins in the installed profile. [Whole-reference status](../08-research/reference-status.md), [audit evidence](../evidence/reference/README.md).
 
-Current supplement: [October 12 profile intake](profile-source-2026-10-12.md) pins QJLOOSE1012/QJEXP1012/QJLOG1012/QJMODS1012, the reported executable hash, exact supplied campaign correspondence and reconstruction limits. [PROFILE-01](../08-research/investigations/2026-10-12-PROFILE-01-core-file-trace.md) traces selected core chains; this does not retroactively certify earlier package winners.
 
 | Identity | Existing pin/evidence | Role and limit |
 | --- | --- | --- |
-| ENGINE1011 | Uploaded source archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` | Preferred selected native/bundled source; upstream commit and exact executable correspondence unknown |
-| BETA150 | Uploaded archive SHA-256 `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d` | Main and explicitly identified optional Warfare variants; no installed winner inferred |
-| ZIP142 | Uploaded archive SHA-256 `566739c68b4597ab417e98ee9e3ce11858f3d42ed29a39d7e3c39ed2d76443a8` | Alternative supplied Warfare package; equal files/slices do not certify profile equivalence |
+| ENGINE1011 | Uploaded source archive SHA-256 `withheld-upload-fingerprint` | Preferred selected native/bundled source; upstream commit and exact executable correspondence unknown |
+| BETA150 | Uploaded archive SHA-256 `withheld-upload-fingerprint` | Main and explicitly identified optional Warfare variants; no installed winner inferred |
+| ZIP142 | Uploaded archive SHA-256 `withheld-upload-fingerprint` | Alternative supplied Warfare package; equal files/slices do not certify profile equivalence |
 | CTZ005J | Commit `eba6660db09353dcc42a195ae6e7e706f4762277`, Alpha 0.0.5j | Selected campaign source pin; internal VERSION/SAVE_VERSION are separate; not a claim about current mod HEAD |
 | Historical May UI source | Commit `6a08e0905ce34748ee2904a5e0809f8afd141137`, tag 2026.5.15 | Existing scoped UI extraction/declaration research; original short-pin intake record is historical, binary match unknown |
 | UPSTREAM0912 | Commit `9b491ffbfe5d529e817ceffed70214d0f03f62c5`, tag 2026.9.12 | Four selected September comparison files; retained remote hashes, no local September rehash in ADR-01 |
-| October binary archive | SHA-256 `262ed3892626b3f79d459529288a070e1b10b2577082172de096d3562ccc5e56` | Uploaded runtime adoption candidate; archive identity does not prove installed executable identity/testing |
+| October binary archive | SHA-256 `withheld-upload-fingerprint` | Uploaded runtime adoption candidate; archive identity does not prove installed executable identity/testing |
 | ENV-001 user logs | Historical May 15 MT-TEST/xrCore 9959 startup observations | User's recorded installation at that time; no executable hash or proof of later adoption |
 | ENV-RT01 external reports | Issue/reporter/timestamp/body hashes and reported September setup | External UI/clock/string/header observations; neither the user's installation nor independent ADR reproduction |
 | ADR reference pins | Immutable repository revisions in documentation inventories | Pin documentation/test-source bytes; not engine builds, feature-introduction versions or game schemas |

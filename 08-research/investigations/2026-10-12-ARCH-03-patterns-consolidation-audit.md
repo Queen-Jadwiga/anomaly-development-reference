@@ -1,6 +1,6 @@
 # ARCH-03 — Qualified patterns, test guidance and bounded practical audit
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ARCH-03
 - Subsystem: practical architecture/debugging/examples
@@ -8,7 +8,7 @@
 - Record status: complete-within-scope for selected patterns/test guidance/consolidation/audit; effective integration partial
 - Source status: scoped-source-audit and pinned reference/test-source synthesis; proposed patterns distinguished
 - Runtime status: untested; deferred
-- Baseline IDs and provenance record: ADR v0.1.80 `a9248aea46442c3cd520b7e33974827dbd810a95`; original ARCH-01/02 and DEBUG-01 pins plus ENGINE1011 archive `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` through [manifest](../../evidence/manifest.md)
+- Baseline IDs and provenance record: ADR v0.1.80 `a9248aea46442c3cd520b7e33974827dbd810a95`; original ARCH-01/02 and DEBUG-01 pins plus ENGINE1011 archive `withheld-upload-fingerprint` through [manifest](../../evidence/manifest.md)
 - Last reviewed: 2026-10-12
 
 ## Question and scope

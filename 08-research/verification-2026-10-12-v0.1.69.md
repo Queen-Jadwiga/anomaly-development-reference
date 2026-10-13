@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.69
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.69, based on main fcc8650fa53e8c86affae33bdd8b72ab6686bb9f
 - Scope: TASK-02 supplied consumers and TASK-03 consolidation/bounded audit

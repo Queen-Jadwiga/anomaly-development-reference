@@ -1,6 +1,6 @@
 # Script loading, startup and shared callbacks
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-03
 - Subsystem: configuration/script integration
@@ -8,7 +8,7 @@
 - Record status: complete-within-scope for selected available-source contracts; effective integration partial
 - Source status: source-confirmed selected ENGINE1011 native/bundled-script paths
 - Runtime status: untested; deferred
-- Baseline: ENGINE1011 uploaded archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit/executable equivalence unknown
+- Baseline: ENGINE1011 uploaded archive SHA-256 `withheld-upload-fingerprint`; upstream commit/executable equivalence unknown
 - Last reviewed: 2026-10-12
 
 [35-row ledger](../../evidence/configuration/script-loading-callbacks-2026-10-12.csv) N01–N22/S01–S13 pins 14 files and 47 range groups; evidence IDs below belong to that ledger. [API contracts](../../02-lua-api/configuration/script-callback-api.md), [scope record](../../evidence/configuration/script-source-scope-2026-10-12.json), [investigation](../../08-research/investigations/2026-10-12-CONFIG-03-script-loading-startup-callbacks.md), [verification](../../08-research/verification-2026-10-12-v0.1.76.md).

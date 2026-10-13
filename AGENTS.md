@@ -1,6 +1,6 @@
 # ADR maintenance
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Read `08-research/workflow.md`, `08-research/repository-layout.md` and `08-research/evidence-policy.md` before research or structural edits.
 - Use `02-lua-api/<subsystem>/` for current API catalogs, `04-game-systems/<subsystem>/` for subsystem references, `08-research/investigations/` for research records, `evidence/<subsystem>/` for ledgers and `tools/` for generators/checkers.
@@ -12,3 +12,5 @@
 - Runtime authorization resumed on 2026-10-12: the user now permits runtime verification. Authorization is not a test result; preserve historical deferral and label new tests/observations accurately. Keep ADR and CtZ gameplay changes separate; do not add a license or publish third-party source/assets. Raw uploaded profile/log/source data remain private.
 - Respect the user's existing authorization to commit ADR research directly. No extra permission is needed for routine reversible documentation maintenance within that scope.
 - Publishing authorization (2026-10-12): the user explicitly authorized all future ADR publishing to `Queen-Jadwiga/anomaly-development-reference`, including synchronized revision banners across existing pages. Carry this authorization forward for subsequent ADR increments; do not request renewed publication approval for that scope.
+
+- Public content: follow `00-environment/public-content-policy.md`; keep personal intake metadata/private upload fingerprints out of public files. Run `python tools/check_public_content.py` before publication. Privacy redaction may amend historical identifiers without changing technical findings.

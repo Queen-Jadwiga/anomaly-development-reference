@@ -1,6 +1,6 @@
 # ITEM-04 — Item persistence and reconstruction
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-04
 - Subsystem: inventory/item lifecycle
@@ -17,7 +17,7 @@ How do selected items retain server/client fields, reconstruct ownership/placeme
 
 ## Evidence and method
 
-[Ledger](../../evidence/inventory/persistence-reconstruction-2026-10-11.csv): R01–R15, full-file hashes and line/symbol ranges against ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. Read paired writers/readers, inheritance/callers and active versus commented code. Upstream commit and installed executable/script correspondence unknown.
+[Ledger](../../evidence/inventory/persistence-reconstruction-2026-10-11.csv): R01–R15, full-file hashes and line/symbol ranges against ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`. Read paired writers/readers, inheritance/callers and active versus commented code. Upstream commit and installed executable/script correspondence unknown.
 
 ## Findings
 

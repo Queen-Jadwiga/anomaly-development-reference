@@ -1,6 +1,6 @@
 # ALIFE-01 — Server identity, squad membership and online/offline lifecycle
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.31 · 11 October 2026 · source research complete within this first-pass scope; runtime deferred.**
 
@@ -10,7 +10,7 @@ What persists when NPCs and squads switch online/offline, what identifies their 
 
 This is a targeted inspection of the user-supplied October 11 source snapshot and its bundled `sim_squad_scripted.script`. It does not establish the effective behavior of the installed GAMMA profile or close the entire A-Life/Warfare subsystem.
 
-**Source archive SHA-256:** `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` — verified before extraction; matches [SRC-002](../../00-environment/source-baseline-2026-10-11.md). The archive's exact upstream commit and binary equivalence remain unverified. Evidence IDs below refer to the [source-location and file-hash ledger](../../evidence/alife/source-evidence-oct11.csv); line numbers belong to the extracted archive, not a claimed remote permalink.
+**Source archive SHA-256:** `withheld-upload-fingerprint` — verified before extraction; matches [SRC-002](../../00-environment/source-baseline-2026-10-11.md). The archive's exact upstream commit and binary equivalence remain unverified. Evidence IDs below refer to the [source-location and file-hash ledger](../../evidence/alife/source-evidence-oct11.csv); line numbers belong to the extracted archive, not a claimed remote permalink.
 
 ## Plain-language model
 

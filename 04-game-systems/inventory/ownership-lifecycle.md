@@ -1,12 +1,12 @@
 # Inventory ownership, containment and pickup/drop
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-01
 - Research revision: v0.1.54
 - Source status: source-confirmed selected native/server/actor/box paths
 - Runtime status: untested; deferred until explicitly resumed by the user
-- Baseline: ENGINE1011, archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`
+- Baseline: ENGINE1011, archive SHA-256 `withheld-upload-fingerprint`
 - Last reviewed: 2026-10-11
 
 I01–I20 refer to the [ownership ledger](../../evidence/inventory/ownership-lifecycle-2026-10-11.csv). Unknown upstream commit, executable correspondence and effective installed scripts remain unknown. [Investigation](../../08-research/investigations/2026-10-11-ITEM-01-ownership-lifecycle.md), [Lua contracts](../../02-lua-api/inventory/ownership-api.md).

@@ -1,6 +1,6 @@
 # Persistence final available-source audit — v0.1.53
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: PER-01–03 consolidation and bounded source/reference consistency audit

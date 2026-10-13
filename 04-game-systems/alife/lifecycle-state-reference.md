@@ -1,6 +1,6 @@
 # A-Life lifecycle and state reference
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ALIFE-10 — lifecycle reference
 - Subsystem: A-Life / Warfare integration
@@ -9,7 +9,7 @@
 - Baseline: ENGINE1011, uploaded October 11 source snapshot; installed GAMMA correspondence unknown
 - Last reviewed: 2026-10-11
 
-Use this page to identify the representation and state you need before using an API. The companion [callback reference](callback-phase-reference.md) explains observation timing. Evidence labels L01–L47 refer exclusively to the [lifecycle/callback ledger](../../evidence/alife/lifecycle-callbacks-2026-10-11.csv), which names files, symbols, one-based ranges and full-file hashes. The engine archive SHA-256 is `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; its upstream commit and executable equivalence remain unknown.
+Use this page to identify the representation and state you need before using an API. The companion [callback reference](callback-phase-reference.md) explains observation timing. Evidence labels L01–L47 refer exclusively to the [lifecycle/callback ledger](../../evidence/alife/lifecycle-callbacks-2026-10-11.csv), which names files, symbols, one-based ranges and full-file hashes. The engine archive SHA-256 is `withheld-upload-fingerprint`; its upstream commit and executable equivalence remain unknown.
 
 ## Representations and authorities
 

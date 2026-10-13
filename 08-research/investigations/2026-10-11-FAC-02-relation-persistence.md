@@ -1,6 +1,6 @@
 # FAC-02 — Native relation persistence, reset and ID cleanup
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-02
 - Subsystem: factions / relations
@@ -19,7 +19,7 @@ Include relation-data and A-Life registry ownership/serialization, selected load
 
 ## Evidence and method
 
-Archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; exact upstream commit/executable/profile correspondence unknown. [Ledger P01–P18](../../evidence/factions/relation-persistence-2026-10-11.csv) records 18 source files, hashes, ranges and symbols. P-labels are local to this ledger.
+Archive SHA-256 `withheld-upload-fingerprint`; exact upstream commit/executable/profile correspondence unknown. [Ledger P01–P18](../../evidence/factions/relation-persistence-2026-10-11.csv) records 18 source files, hashes, ranges and symbols. P-labels are local to this ledger.
 
 Read serializers, owner/container/wrapper definitions, load/save and unregister/destruction call sites. Search `src/` for `ClearRelations`, `clear_relation_registry`, `CHARACTER_COMMUNITY::Reset` and matrix references; interpret the selected implementations rather than treating search results as universal installed behavior. Review default map-loader clearing/acceptance and preserve ALIFE-04/07 lifecycle boundaries.
 

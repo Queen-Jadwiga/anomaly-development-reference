@@ -1,6 +1,6 @@
 # ITEM-01 — Native inventory ownership and pickup/drop
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-01
 - Subsystem: inventory
@@ -17,7 +17,7 @@ How do server attachment, live parenting and inventory membership change through
 
 ## Evidence and method
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit/installed executable correspondence unknown. [I01–I20 ledger](../../evidence/inventory/ownership-lifecycle-2026-10-11.csv) records paths, original-byte hashes, counts and line/symbol ranges. Read native definitions, receiver routing, callers, actor overrides and Lua registrations/signatures; compare callback sites with following mutations rather than treating their names as completion signals.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream commit/installed executable correspondence unknown. [I01–I20 ledger](../../evidence/inventory/ownership-lifecycle-2026-10-11.csv) records paths, original-byte hashes, counts and line/symbol ranges. Read native definitions, receiver routing, callers, actor overrides and Lua registrations/signatures; compare callback sites with following mutations rather than treating their names as completion signals.
 
 ## Findings
 

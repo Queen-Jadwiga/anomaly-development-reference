@@ -1,6 +1,6 @@
 # Selected native and Lua diagnostic routes
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: DEBUG-01-ROUTES
 - Subsystem: debugging / native-Lua integration
@@ -8,7 +8,7 @@
 - Record status: complete-within-scope for selected diagnostic chains; effective executable/profile partial
 - Source status: source-confirmed selected ENGINE1011 paths; scoped build projection
 - Runtime status: untested; deferred
-- Baseline: ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit/executable equivalence unknown
+- Baseline: ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream commit/executable equivalence unknown
 - Last reviewed: 2026-10-12
 
 Read this before interpreting a crash log or adding a diagnostic call. [Lua API contracts](../02-lua-api/debugging/diagnostic-api.md), [triage guidance](triage.md), [investigation](../08-research/investigations/2026-10-12-DEBUG-01-diagnostic-routes-triage.md). Evidence IDs below belong to the [41-row source ledger](../evidence/debugging/diagnostic-routes-2026-10-12.csv), pinning 67 range groups across 21 files. Source paths/ranges and conditions remain authoritative; no compiled engine or game was run.

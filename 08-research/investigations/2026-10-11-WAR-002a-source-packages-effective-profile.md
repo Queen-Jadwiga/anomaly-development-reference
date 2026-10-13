@@ -1,6 +1,6 @@
 # WAR-002a — Warfare source packages and effective-profile boundary
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.33 · 11 October 2026 · package-source inspection; installed-profile reconciliation pending; runtime deferred.**
 
@@ -10,9 +10,9 @@ The Library search located two previously supplied archives. Both were extracted
 
 | Source ID | Artifact | SHA-256 | Meaning |
 | --- | --- | --- | --- |
-| ZIP142 | `warfare a-life overhaul gamma.zip` | `566739c68b4597ab417e98ee9e3ce11858f3d42ed29a39d7e3c39ed2d76443a8` | Root folder contains a GAMMA-labelled package; meta.ini and installation notes identify 1.4.2 |
-| BETA150 | `WarfareALifeOverhaul_1_5_0_beta3_1.7z` | `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d` | Installation notes identify 1.5.0; main files and separately selectable GAMMA patch are distinct folders |
-| ENGINE1011 | `xray-monolith-2026.10.11.zip` | `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` | Native engine source; exact upstream commit and executable equivalence remain unverified |
+| ZIP142 | `warfare a-life overhaul gamma.zip` | `withheld-upload-fingerprint` | Root folder contains a GAMMA-labelled package; meta.ini and installation notes identify 1.4.2 |
+| BETA150 | `WarfareALifeOverhaul_1_5_0_beta3_1.7z` | `withheld-upload-fingerprint` | Installation notes identify 1.5.0; main files and separately selectable GAMMA patch are distinct folders |
+| ENGINE1011 | `xray-monolith-2026.10.11.zip` | `withheld-upload-fingerprint` | Native engine source; exact upstream commit and executable equivalence remain unverified |
 | GAMMA-UPSTREAM | `Grokitach/Stalker_GAMMA` commit `ab0f743af42a3b3b0b0ee853b3676f5189f7f0d0` | Git commit pinned below | Public repository reference; not the user's active MO2 installation |
 
 The [16-file evidence ledger](../../evidence/warfare/source-evidence-war002-oct11.csv) records exact archive-relative paths, hashes and line windows. The [17-script byte-comparison ledger](../../evidence/warfare/archive-script-comparison-oct11.csv) compares ZIP142 against the BETA150 main folder and records BETA150 GAMMA-patch variants. It inventories main-folder scripts, not every resource or optional patch.

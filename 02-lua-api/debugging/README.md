@@ -1,6 +1,6 @@
 # Debugging Lua API
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 [Selected diagnostic exports](diagnostic-api.md): exact source-qualified `log`, `error_log`, `print_stack` and `flush` wrappers/registration/default string converter. Native helpers, console commands and unresolved installed script aliases remain distinct.
 

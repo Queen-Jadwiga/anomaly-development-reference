@@ -1,6 +1,6 @@
 # WORLD-02 — Spatial queries relocation and selected restriction/patrol contracts
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-02
 - Subsystem: world interaction/navigation
@@ -8,7 +8,7 @@
 - Record status: complete-within-scope
 - Source status: source-confirmed selected registrations/implementations/native and bundled callers
 - Runtime status: untested; deferred
-- Baseline IDs and provenance: ENGINE1011 uploaded archive, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; [manifest](../../evidence/manifest.md)
+- Baseline IDs and provenance: ENGINE1011 uploaded archive, SHA-256 `withheld-upload-fingerprint`; [manifest](../../evidence/manifest.md)
 - Last reviewed: 2026-10-12
 
 ## Question and scope

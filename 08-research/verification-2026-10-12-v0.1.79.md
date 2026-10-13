@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.79
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.79, based on main `b187f8707ae4276c442284a25359baa8b3cf538f`
 - Scope: ARCH-02 module/state ownership and compatibility contracts

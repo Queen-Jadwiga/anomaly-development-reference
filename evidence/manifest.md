@@ -1,16 +1,15 @@
 # Evidence manifest
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 ## Current source baselines and ledgers
 
-[Profile evidence](profile/README.md) adds 36 selected core claim rows and six loose/unpacked overlay comparisons; [intake](../00-environment/profile-source-2026-10-12.md) pins uploaded snapshots and private log observations. This supplements package/native baselines without claiming full installed compatibility.
 
 | Source ID | Artifact / immutable identity | Role |
 | --- | --- | --- |
-| ENGINE1011 | `xray-monolith-2026.10.11.zip`, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` | Current native/bundled source snapshot; upstream commit/executable match unknown |
-| BETA150 | `WarfareALifeOverhaul_1_5_0_beta3_1.7z`, SHA-256 `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d` | Supplied Warfare main/optional patch sources; installation unknown |
-| ZIP142 | `warfare a-life overhaul gamma.zip`, SHA-256 `566739c68b4597ab417e98ee9e3ce11858f3d42ed29a39d7e3c39ed2d76443a8` | Earlier supplied package comparison |
+| ENGINE1011 | `xray-monolith-2026.10.11.zip`, SHA-256 `withheld-upload-fingerprint` | Current native/bundled source snapshot; upstream commit/executable match unknown |
+| BETA150 | `WarfareALifeOverhaul_1_5_0_beta3_1.7z`, SHA-256 `withheld-upload-fingerprint` | Supplied Warfare main/optional patch sources; installation unknown |
+| ZIP142 | `warfare a-life overhaul gamma.zip`, SHA-256 `withheld-upload-fingerprint` | Earlier supplied package comparison |
 
 - [October 11 baseline record](../00-environment/source-baseline-2026-10-11.md).
 - [ALIFE-10 lifecycle/callback synthesis ledger](alife/lifecycle-callbacks-2026-10-11.csv): ENGINE1011; 47 entries, 39 source files; original ledger provenance retained.
@@ -92,9 +91,9 @@ The archive hashes pin the supplied bytes, not the active game profile. Existing
 
 | ID | File | Supported facts | Limitations |
 |---|---|---|---|
-| LOG-001 | `xray_erik(20261008-031926).log` | Startup version header | Full font crash trace not yet reproduced in ADR |
-| LOG-002 | `xray_erik(20261009-005123).log` | Startup version header | Does not pin Git commit |
-| LOG-003 | `xray_erik(20261009-100733).log` | Startup version header | Does not pin Git commit |
+| LOG-001 | `anonymized historical startup observation` | Startup version header | Full font crash trace not yet reproduced in ADR |
+| LOG-002 | `anonymized historical startup observation` | Startup version header | Does not pin Git commit |
+| LOG-003 | `anonymized historical startup observation` | Startup version header | Does not pin Git commit |
 
 ## Web sources
 

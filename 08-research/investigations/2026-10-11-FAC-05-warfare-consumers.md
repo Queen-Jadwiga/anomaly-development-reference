@@ -1,6 +1,6 @@
 # FAC-05 — Supplied Warfare faction/relation consumers
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-05
 - Subsystem: factions / Warfare integration
@@ -19,7 +19,7 @@ Include BETA150 main `game_relations` helpers and selected save/reapply/death ad
 
 ## Evidence and method
 
-BETA150 archive SHA-256 `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d`. [Ledger R01–R20](../../evidence/factions/warfare-consumers-2026-10-11.csv): 20 claim entries across nine main-package files, with paths, symbols, ranges and hashes. Optional variants are not silently combined with main.
+BETA150 archive SHA-256 `withheld-upload-fingerprint`. [Ledger R01–R20](../../evidence/factions/warfare-consumers-2026-10-11.csv): 20 claim entries across nine main-package files, with paths, symbols, ranges and hashes. Optional variants are not silently combined with main.
 
 Search main scripts for `game_relations`, `relation_registry`, community getters and selected identity/mutation producers; read helper implementations and surrounding call gates. Follow selected dynamic save/reapply, death and contested-target paths. Distinguish active code from comments, local captured aliases from exported helper names, native attitude from matrix cells and strategic state. No installed script order or effective configuration inferred.
 

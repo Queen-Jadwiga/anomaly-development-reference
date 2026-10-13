@@ -1,6 +1,6 @@
 # Inventory and item lifecycle development reference
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **Current cross-system status:** [ADR-01 whole-reference audit](../../08-research/reference-status.md) is complete within scope. Original research allocations/baselines below remain dated; selected foundations are consolidated, effective installed integration stays partial and runtime verification deferred.
 
@@ -12,7 +12,7 @@
 - Baseline: ENGINE1011; [source record](../../00-environment/source-baseline-2026-10-11.md)
 - Last reviewed: 2026-10-11
 
-Available-source first-edition work is complete within the selected ITEM-01–04 boundaries. Effective installed inventory integration remains partial under the [completion rule](source-completion-status.md). This is practical guidance for those contracts, not a certified NPC loadout recipe. Archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit, executable/build/profile correspondence and winning scripts remain unknown.
+Available-source first-edition work is complete within the selected ITEM-01–04 boundaries. Effective installed inventory integration remains partial under the [completion rule](source-completion-status.md). This is practical guidance for those contracts, not a certified NPC loadout recipe. Archive SHA-256 `withheld-upload-fingerprint`; upstream commit, executable/build/profile correspondence and winning scripts remain unknown.
 
 Evidence IDs below are ledger-local: [ownership I01–I20](../../evidence/inventory/ownership-lifecycle-2026-10-11.csv), [placement P01–P19](../../evidence/inventory/placement-activation-2026-10-11.csv), [consumption D01–D18](../../evidence/inventory/consumption-destruction-2026-10-11.csv), [persistence R01–R15](../../evidence/inventory/persistence-reconstruction-2026-10-11.csv). Each ledger pins paths, symbols, ranges and full-file hashes. [Audit/investigation](../../08-research/investigations/2026-10-11-ITEM-05-inventory-consolidation.md).
 

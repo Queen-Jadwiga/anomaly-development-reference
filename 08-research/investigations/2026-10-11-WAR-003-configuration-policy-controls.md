@@ -1,6 +1,6 @@
 # WAR-003 — Supplied Warfare configuration and policy controls
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WAR-003
 - Subsystem: Warfare / A-Life integration
@@ -19,7 +19,7 @@ Include BETA150 main options/Warfare/smart/offline-combat consumers, selected ma
 
 ## Evidence and method
 
-Archive SHA-256 `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d`. [Ledger W01–W18](../../evidence/warfare/configuration-controls-2026-10-11.csv) names each main or optional-patch path; 18 entries over nine files use the current evidence schema. Labels are local and do not refer to WAR-002's older W-ledger.
+Archive SHA-256 `withheld-upload-fingerprint`. [Ledger W01–W18](../../evidence/warfare/configuration-controls-2026-10-11.csv) names each main or optional-patch path; 18 entries over nine files use the current evidence schema. Labels are local and do not refer to WAR-002's older W-ledger.
 
 Read settings producer, startup/option subscription, coordinator, distance/power consumers, capture methods, selected defense timers, target scoring, owner policy and optional UI/default/preset declarations. Search the complete main `sim_offline_combat.script` for `COMBAT_DISTANCE_WARFARE` and `offline_health`; trace active `init_settings` sections and retain the prior scoped `override_functions` caller limitation. Verify paths/hashes/ranges/symbols against the supplied package.
 

@@ -1,6 +1,6 @@
 # FAC-03 source and repository verification — v0.1.46
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: character-community mutation, live team/group effects and selected server transfer/reconstruction
@@ -10,7 +10,7 @@
 
 ## Source and semantic review
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` pins the retained snapshot; upstream commit, actual executable/build and effective script/configuration correspondence remain unknown.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint` pins the retained snapshot; upstream commit, actual executable/build and effective script/configuration correspondence remain unknown.
 
 The [FAC-03 ledger](../evidence/factions/community-mutation-2026-10-11.csv) covers 19 files and 34 range groups. Read signatures/registrations, configured community lookup, Lua setter and inventory-owner bridge, character-info mutation/hydration, entity migration, hierarchy member/shared memory/agent helpers, selected stalker/base-monster overrides, tuple exports/imports and server receipt, guarded trader community state/getter, actor display side effect.
 

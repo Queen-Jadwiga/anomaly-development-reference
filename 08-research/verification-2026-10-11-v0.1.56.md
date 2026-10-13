@@ -1,6 +1,6 @@
 # ITEM-03 increment verification — v0.1.56
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: selected consumption/destruction/owner cleanup source paths
@@ -9,7 +9,7 @@
 
 ## Source review
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit/binary/profile correspondence unknown. [New ledger](../evidence/inventory/consumption-destruction-2026-10-11.csv): 18 entries across 16 files, 24 range groups. Read Eat/ClientEat, eatable config/UseBy/independent hooks and u8 declarations, actor named gate, manual drop producer, server destroy child/reject packing, client flag/queue/teardown, owner Clear/selective requests and Lua wrappers/registrations.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream commit/binary/profile correspondence unknown. [New ledger](../evidence/inventory/consumption-destruction-2026-10-11.csv): 18 entries across 16 files, 24 range groups. Read Eat/ClientEat, eatable config/UseBy/independent hooks and u8 declarations, actor named gate, manual drop producer, server destroy child/reject packing, client flag/queue/teardown, owner Clear/selective requests and Lua wrappers/registrations.
 
 Compared effect/return/callback/removal order, direct native call versus event gate, active versus commented code, declared counter type versus infinite-use comment, request versus server/live removal and owner container reset versus per-item mutation. No runtime bug or working NPC recipe is asserted. Full effect/weapon/death policy, release graph robustness, every derived teardown and effective addon behavior remain outside scope.
 

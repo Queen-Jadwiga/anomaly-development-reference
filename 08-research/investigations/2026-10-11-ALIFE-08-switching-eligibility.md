@@ -1,6 +1,6 @@
 # ALIFE-08 — Switching eligibility, hysteresis and forced states
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.38 · 11 October 2026 · bounded source pass complete; effective profile and runtime pending.**
 
@@ -8,7 +8,7 @@ Native switching uses two virtual permissions and two distance thresholds. Permi
 
 ## Baseline
 
-Native and bundled Lua evidence uses the supplied `xray-monolith-2026.10.11` archive, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. Exact upstream commit and installed executable correspondence are unverified. The Warfare comparison uses BETA150 main from archive SHA-256 `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d`, not an assumed installed winner. See [WAR-002a](2026-10-11-WAR-002a-source-packages-effective-profile.md).
+Native and bundled Lua evidence uses the supplied `xray-monolith-2026.10.11` archive, SHA-256 `withheld-upload-fingerprint`. Exact upstream commit and installed executable correspondence are unverified. The Warfare comparison uses BETA150 main from archive SHA-256 `withheld-upload-fingerprint`, not an assumed installed winner. See [WAR-002a](2026-10-11-WAR-002a-source-packages-effective-profile.md).
 
 [Evidence ledger](../../evidence/alife/switching-eligibility-evidence-oct11.csv): E01–E18 identify engine-archive files; W01 identifies the Warfare main file. Paths below are archive-relative; all line numbers are one-based. Full-file hashes identify the inspected bytes.
 

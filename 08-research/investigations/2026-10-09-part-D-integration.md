@@ -1,6 +1,6 @@
 # INV-013 — Part D integration and post-audit review
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **Date:** 2026-10-09. **Target:** historical X-Ray Monolith `2026.5.15`. **Status:** Integration complete; outstanding questions retained. **Runtime:** deferred.
 

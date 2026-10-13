@@ -1,8 +1,8 @@
 # Selected debugging evidence
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
-DEBUG-01 uses ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. Source paths are relative to its `xray-monolith-2026.10.11/` tree. Unknown upstream commit, exact executable equivalence and active profile remain explicit. [Environment](../../00-environment/source-baseline-2026-10-11.md), [manifest](../manifest.md).
+DEBUG-01 uses ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`. Source paths are relative to its `xray-monolith-2026.10.11/` tree. Unknown upstream commit, exact executable equivalence and active profile remain explicit. [Environment](../../00-environment/source-baseline-2026-10-11.md), [manifest](../manifest.md).
 
 - [diagnostic-routes-2026-10-12.csv](diagnostic-routes-2026-10-12.csv): **41 source rows, 67 inclusive range groups, 21 distinct files**, standard source-evidence schema. IDs L01–L07/B01–B06/N01–N06/A01–A04/S01–S15/P01–P02/I01 are ledger-local. Rows connect selected logger/writer/lifecycle, project/header guards, native handlers/stack/dump, four Lua exports/default converter, loader/storage/Luabind/binder/panic and supplied helper/rejection boundaries.
 - [diagnostic-scope-2026-10-12.json](diagnostic-scope-2026-10-12.json): artifact pin, file hashes/line counts, method and exclusions. Selected definitions/registrations/callers/conditionals; not exhaustive native diagnostics or whole-tree search.

@@ -1,13 +1,13 @@
 # Selected world spatial restriction and patrol APIs
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-02-API
 - Subsystem: world interaction/navigation
 - Research revision: v0.1.71
 - C++ / Lua owners: CLevel → level; CGameGraph → game_graph()/CGameGraph; CScriptGameObject → game_object; CPatrolPathParams → patrol; CALifeSimulator → alife()
 - Interface kind: selected native Lua exports and native/script callers
-- Source baseline: ENGINE1011, [manifest](../../evidence/manifest.md); archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`
+- Source baseline: ENGINE1011, [manifest](../../evidence/manifest.md); archive SHA-256 `withheld-upload-fingerprint`
 - Source status: source-confirmed selected registration/definition/consumer paths
 - Runtime status: untested; deferred
 - Build scope: inspected game registrars; DEBUG assertions/duplicate guards explicitly qualified; executable macro/compiler/settings correspondence unknown

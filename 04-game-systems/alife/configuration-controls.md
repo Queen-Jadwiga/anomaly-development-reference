@@ -1,13 +1,13 @@
 # A-Life configuration and control reference
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ALIFE-11
 - Source status: source-confirmed within the selected ENGINE1011 paths
 - Runtime status: untested; deferred until the user resumes verification
 - Last reviewed: 2026-10-11
 
-This maps control producers to consumers. It does not prescribe tuning values. ENGINE1011 is the uploaded October 11 archive, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; exact upstream commit and installed executable/configuration correspondence remain unknown. N01–N18 below refer only to the [native control ledger](../../evidence/alife/configuration-controls-2026-10-11.csv), with file paths, symbols, line ranges and full-file hashes.
+This maps control producers to consumers. It does not prescribe tuning values. ENGINE1011 is the uploaded October 11 archive, SHA-256 `withheld-upload-fingerprint`; exact upstream commit and installed executable/configuration correspondence remain unknown. N01–N18 below refer only to the [native control ledger](../../evidence/alife/configuration-controls-2026-10-11.csv), with file paths, symbols, line ranges and full-file hashes.
 
 Read with the [lifecycle/state map](lifecycle-state-reference.md), [callback phases](callback-phase-reference.md), [simulator API](../../02-lua-api/alife/simulator-api.md) and [Warfare policy controls](../warfare/policy-controls.md).
 

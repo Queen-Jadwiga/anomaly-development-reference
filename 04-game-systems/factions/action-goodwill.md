@@ -1,13 +1,13 @@
 # Action-driven goodwill, rank and reputation
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-04
 - Source status: source-confirmed within selected native action/caller paths
 - Runtime status: untested; deferred until explicitly resumed by the user
 - Last reviewed: 2026-10-11
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` pins the source; upstream commit/executable and effective GAMMA policy/configuration remain unknown. A01–A20 refer to the [FAC-04 ledger](../../evidence/factions/action-goodwill-2026-10-11.csv), separate from earlier F/P/M labels. Read with [native relation queries](native-relations.md), [community mutation](community-mutation.md), [persistence](relation-persistence.md) and [rank/reputation Lua contracts](../../02-lua-api/factions/action-values-api.md).
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint` pins the source; upstream commit/executable and effective GAMMA policy/configuration remain unknown. A01–A20 refer to the [FAC-04 ledger](../../evidence/factions/action-goodwill-2026-10-11.csv), separate from earlier F/P/M labels. Read with [native relation queries](native-relations.md), [community mutation](community-mutation.md), [persistence](relation-persistence.md) and [rank/reputation Lua contracts](../../02-lua-api/factions/action-values-api.md).
 
 ## Selected online entry paths
 

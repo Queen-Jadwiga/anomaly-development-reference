@@ -1,6 +1,6 @@
 # Native money, pricing and trade flow
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ECO-01
 - Subsystem: trade/economy
@@ -10,7 +10,7 @@
 - Baseline: ENGINE1011; [source record](../../00-environment/source-baseline-2026-10-11.md)
 - Last reviewed: 2026-10-11
 
-Archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit, binary/profile and winning script correspondence unknown. E01–E23 are local to the [ledger](../../evidence/economy/native-trade-2026-10-11.csv). [Investigation](../../08-research/investigations/2026-10-11-ECO-01-native-trade.md), [Lua money/cost contracts](../../02-lua-api/economy/money-cost-api.md).
+Archive SHA-256 `withheld-upload-fingerprint`; upstream commit, binary/profile and winning script correspondence unknown. E01–E23 are local to the [ledger](../../evidence/economy/native-trade-2026-10-11.csv). [Investigation](../../08-research/investigations/2026-10-11-ECO-01-native-trade.md), [Lua money/cost contracts](../../02-lua-api/economy/money-cost-api.md).
 
 ## Existing coverage and first-pass boundary
 

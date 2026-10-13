@@ -1,12 +1,12 @@
 # ALIFE-04 — Native persistence and CtZ identity reconstruction
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.34 · 11 October 2026 · bounded source investigation.** Native save/load ordering and the supplied CtZ persistence/reconciliation code are traced below. Effective GAMMA serialization wrappers, installed overrides and all engine runtime verification remain deferred.
 
 ## Baselines and evidence
 
-Native references use archive-relative paths in the supplied `xray-monolith-2026.10.11` archive (SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`). Its exact upstream commit and equivalence to the installed executable remain unverified. The [evidence ledger](../../evidence/alife/save-load-evidence-oct11.csv) gives complete-file hashes and line ranges, labeled P01–P15.
+Native references use archive-relative paths in the supplied `xray-monolith-2026.10.11` archive (SHA-256 `withheld-upload-fingerprint`). Its exact upstream commit and equivalence to the installed executable remain unverified. The [evidence ledger](../../evidence/alife/save-load-evidence-oct11.csv) gives complete-file hashes and line ranges, labeled P01–P15.
 
 CtZ references use `gamedata/scripts/ctz_campaign.script` at repository commit [eba6660db09353dcc42a195ae6e7e706f4762277](https://github.com/Queen-Jadwiga/capture-the-zone/tree/eba6660db09353dcc42a195ae6e7e706f4762277), the published Alpha 0.0.5j package. Its internal `VERSION = "0.0.3b"` and `SAVE_VERSION = 9` are separate code/schema labels; they do not change the package identity (P12). No mod code was changed.
 

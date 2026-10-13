@@ -1,6 +1,6 @@
 # World interaction and navigation
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 Start with the [development reference](development-reference.md). WORLD-01–04 planned available-source work is **complete within selected scope**; effective installed integration remains **partial** and runtime deferred.
 

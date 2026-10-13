@@ -1,6 +1,6 @@
 # ITEM-05 — Inventory consolidation and bounded audit
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-05
 - Subsystem: inventory/item lifecycle
@@ -17,7 +17,7 @@ Can ITEM-01–04 be used as a coherent general-modding inventory reference witho
 
 ## Evidence and method
 
-Reuse four immutable inventory ledgers: [I01–I20](../../evidence/inventory/ownership-lifecycle-2026-10-11.csv), [P01–P19](../../evidence/inventory/placement-activation-2026-10-11.csv), [D01–D18](../../evidence/inventory/consumption-destruction-2026-10-11.csv), [R01–R15](../../evidence/inventory/persistence-reconstruction-2026-10-11.csv). Archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; unknown upstream commit and executable/profile correspondence remain unknown. No copied/renumbered evidence ledger is introduced.
+Reuse four immutable inventory ledgers: [I01–I20](../../evidence/inventory/ownership-lifecycle-2026-10-11.csv), [P01–P19](../../evidence/inventory/placement-activation-2026-10-11.csv), [D01–D18](../../evidence/inventory/consumption-destruction-2026-10-11.csv), [R01–R15](../../evidence/inventory/persistence-reconstruction-2026-10-11.csv). Archive SHA-256 `withheld-upload-fingerprint`; unknown upstream commit and executable/profile correspondence remain unknown. No copied/renumbered evidence ledger is introduced.
 
 Compare reference/API claims with declarations, registrations, wrappers, selected server/actor/base-owner consumers and persistence inheritance order. Reread risk-bearing source bodies; separate scoped semantic review from mechanical verification of all ledger rows. Detailed matrix and outcomes are in [verification](../verification-2026-10-11-v0.1.58.md).
 

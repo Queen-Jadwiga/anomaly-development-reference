@@ -1,6 +1,6 @@
 # GAME-01 — Native condition fields and live hit phases
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: GAME-01
 - Subsystem: actor/NPC gameplay state
@@ -17,7 +17,7 @@ Identify live condition fields, direct setters versus pending changes, update/ti
 
 ## Evidence and method
 
-[Ledger G01–G21](../../evidence/gameplay/native-condition-2026-10-12.csv) pins archive-relative files, ranges/symbols and full-file hashes. Archive SHA-256 14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee; upstream/executable/profile correspondence unknown. Read state declarations, macros/registration, base condition routines and live caller/death-event chain, plus supplied callback relay. Preserve existing investigation and evidence bytes.
+[Ledger G01–G21](../../evidence/gameplay/native-condition-2026-10-12.csv) pins archive-relative files, ranges/symbols and full-file hashes. Archive SHA-256 withheld-upload-fingerprint; upstream/executable/profile correspondence unknown. Read state declarations, macros/registration, base condition routines and live caller/death-event chain, plus supplied callback relay. Preserve existing investigation and evidence bytes.
 
 ## Findings
 

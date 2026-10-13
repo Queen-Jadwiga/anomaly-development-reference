@@ -1,6 +1,6 @@
 # FAC-03 — Character-community mutation and team/group effects
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-03
 - Subsystem: factions / relations
@@ -19,7 +19,7 @@ Include declarations/registrations, client inventory-owner bridge, character ind
 
 ## Evidence and method
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit/executable/effective configuration remain unknown. [Ledger M01–M19](../../evidence/factions/community-mutation-2026-10-11.csv) records 19 files with hashes, symbols and ranges.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream commit/executable/effective configuration remain unknown. [Ledger M01–M19](../../evidence/factions/community-mutation-2026-10-11.csv) records 19 files with hashes, symbols and ranges.
 
 Read setter/wrapper bodies in source order, follow virtual `ChangeTeam` and group register/unregister helpers, compare server community/creature fields and tuple packet bodies/receipt, then inspect reconstruction and the actor display function. Preserve previously traced A-Life lifetime/persistence and relation-storage boundaries. No generic installed policy substituted for missing effective scripts.
 

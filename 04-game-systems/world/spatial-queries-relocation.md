@@ -1,6 +1,6 @@
 # Spatial queries relocation and selected restriction/patrol contracts
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-02
 - Subsystem: world interaction/navigation
@@ -9,7 +9,7 @@
 - Runtime status: untested; deferred
 - Last reviewed: 2026-10-12
 
-Baseline ENGINE1011 is the uploaded October 11 source archive, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. Upstream commit and installed executable/profile correspondence remain unknown. [Ledger P01–P40](../../evidence/world/spatial-contracts-2026-10-12.csv) records archive-relative paths, raw hashes, line counts, symbols and ranges. IDs below are local to this ledger. [Focused API contracts](../../02-lua-api/world/spatial-api.md), [investigation](../../08-research/investigations/2026-10-12-WORLD-02-spatial-contracts.md).
+Baseline ENGINE1011 is the uploaded October 11 source archive, SHA-256 `withheld-upload-fingerprint`. Upstream commit and installed executable/profile correspondence remain unknown. [Ledger P01–P40](../../evidence/world/spatial-contracts-2026-10-12.csv) records archive-relative paths, raw hashes, line counts, symbols and ranges. IDs below are local to this ledger. [Focused API contracts](../../02-lua-api/world/spatial-api.md), [investigation](../../08-research/investigations/2026-10-12-WORLD-02-spatial-contracts.md).
 
 ## Lookup and location namespaces
 

@@ -1,6 +1,6 @@
 # PER-01 increment verification — v0.1.50
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: selected native single-player A-Life save/load architecture and Lua extension phases
@@ -10,7 +10,7 @@
 
 ## Source review
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` pins the snapshot. Exact upstream commit/executable/build and effective script correspondence remain unknown.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint` pins the snapshot. Exact upstream commit/executable/build and effective script correspondence remain unknown.
 
 [PER-01 ledger](../evidence/persistence/native-pipeline-2026-10-11.csv): 24 entries across 24 files, 33 range groups. Read request/delegation, live packet preparation/receipt, compressed writer/validator/reconstruction, selected chunk serializers, group repair, named storage functors, binder default/registration/virtual/error/relevance path, opaque custom data, client quick-load decision and simulator replacement.
 

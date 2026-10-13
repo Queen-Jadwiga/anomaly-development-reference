@@ -1,6 +1,6 @@
 # Faction consolidation and final available-source audit — v0.1.49
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: FAC-01–05 practical consolidation, bounded semantic consistency and repository integrity
@@ -12,7 +12,7 @@
 
 FAC-06 completes the planned available-source faction consolidation and final bounded audit, now authorized after FAC-05. [Practical reference](../04-game-systems/factions/development-reference.md) and [completion status](../04-game-systems/factions/source-completion-status.md) keep effective GAMMA/CtZ integration partial.
 
-ENGINE1011 archive hash `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` and BETA150 archive hash `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d` pin the native/supplied inputs. Engine upstream commit/executable and installed winners/settings remain unknown. BETA150 findings select main-package paths, not an assumed optional-patch combination.
+ENGINE1011 archive hash `withheld-upload-fingerprint` and BETA150 archive hash `withheld-upload-fingerprint` pin the native/supplied inputs. Engine upstream commit/executable and installed winners/settings remain unknown. BETA150 findings select main-package paths, not an assumed optional-patch combination.
 
 ## Bounded source-consistency review
 

@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.80
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Target ADR revision: v0.1.80, based on main `2db0cc343662140d3670eec16ea247e75b00279b`
 - Changed scope: DEBUG-01 selected native/Lua diagnostic routes and triage

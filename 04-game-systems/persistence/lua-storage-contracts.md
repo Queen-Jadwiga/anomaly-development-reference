@@ -1,13 +1,13 @@
 # Supplied Lua storage contracts and effective-profile gaps
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: PER-02
 - Source status: source-confirmed for selected codec/callers; scoped-source-audit for missing implementations
 - Runtime status: untested; deferred until explicitly resumed by the user
 - Last reviewed: 2026-10-11
 
-L01–L13 refer to the [Lua storage ledger](../../evidence/persistence/lua-storage-2026-10-11.csv). Inputs are ENGINE1011 (archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`), BETA150 main (archive SHA-256 `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d`) and CTZ005J (CtZ Alpha 0.0.5j, commit `eba6660db09353dcc42a195ae6e7e706f4762277`). These are supplied-source pins, not an installed profile. No third-party source is distributed.
+L01–L13 refer to the [Lua storage ledger](../../evidence/persistence/lua-storage-2026-10-11.csv). Inputs are ENGINE1011 (archive SHA-256 `withheld-upload-fingerprint`), BETA150 main (archive SHA-256 `withheld-upload-fingerprint`) and CTZ005J (CtZ Alpha 0.0.5j, commit `eba6660db09353dcc42a195ae6e7e706f4762277`). These are supplied-source pins, not an installed profile. No third-party source is distributed.
 
 Read with [native save/load phases](native-save-load-pipeline.md), [focused codec/caller contracts](../../02-lua-api/persistence/lua-storage-api.md), [FAC-02 storage boundaries](../factions/relation-persistence.md) and [ALIFE-04 CtZ reconstruction](../../08-research/investigations/2026-10-11-ALIFE-04-save-load-identity.md).
 

@@ -1,6 +1,10 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+
+## Privacy and development continuation
+
+Current files are sanitized under the [public-content policy](00-environment/public-content-policy.md). Earlier commits/author metadata remain recoverable; a separate coordinated history rewrite is not performed. CtZ Experimental is the separate dev build; branch cleanup and core fixes belong in that repository. ADR retains its indexed research evidence/tools except the redundant private-input comparison CSV removed for privacy.
 
 ## Current source status
 
@@ -17,16 +21,13 @@ Documentation intake does not close the two crash investigations or independentl
 
 ## Current completion and next work
 
-[ADR-01 whole-reference status](08-research/reference-status.md) closes the planned consolidation/provenance/navigation/consistency audit. The eleven behavior foundations and practical ARCH-01–03/DEBUG-01 pass remain complete/usable within their documented selected source/design scope. Each subsystem retains its own audit and effective/runtime limits.
+The selected upstream-source foundations and whole-reference audit remain complete within their declared scope. Installation-derived research is kept private. Runtime verification is authorized and remains independently untested. CtZ Experimental is the separate dev branch; public source tests and implementation review are recorded in that project.
 
-[PROFILE-01](08-research/investigations/2026-10-12-PROFILE-01-core-file-trace.md) completes selected uploaded core tracing: startup/callback wiring, actor binding, board/smart/squad ownership and actor/CtZ sidecar versus simulation packet persistence. Effective integration remains partial. The user resumed runtime authorization on October 12; no independent game test has yet been performed.
+- [ ] Run the Experimental dev build in-game and review sanitized outcomes.
+- [ ] Investigate missing effective contracts privately; publish only reusable findings supported by public upstream code or explicitly sanitized observations.
+- [ ] Decide separately whether historical Git attribution/content needs a coordinated rewrite.
 
-- [x] Reconstruct uploaded core sources with six original loose overrides restored; pin campaign equality and trace selected core chains.
-- [ ] Confirm final MO2 origins/hashes and relevant addon/DLTX winners; collect five failed addon modules/providers.
-- [ ] Implement a bounded observational probe for declared-but-rejected callbacks; preserve normal registry behavior.
-- [ ] Record disposable-save load and transition observations, sidecar/native save pairing and squad/member/target reconstruction.
-
-Broader exhaustive engine/addon/build coverage remains optional depth. [Provenance register](00-environment/provenance-register.md), [subsystem map](08-research/subsystem-map.md), [current verification](08-research/verification-2026-10-12-v0.1.83.md).
+Broader exhaustive engine/addon coverage remains optional. [Privacy policy](00-environment/public-content-policy.md), [provenance](00-environment/provenance-register.md), [current verification](08-research/verification-2026-10-12-v0.1.84.md).
 
 <a id="current-a-lifewarfare-remaining-scope--v0138"></a>
 ## Current A-Life/Warfare remaining scope
@@ -35,11 +36,11 @@ Broader exhaustive engine/addon/build coverage remains optional depth. [Provenan
 This is the current consolidated checklist for the earlier **CtZ-focused development reference**, now incorporated into the broader general-modding foundation. Older plans are preserved in the [historical roadmap](08-research/history/roadmap-through-v0.1.40.md). Source readiness and runtime verification remain separate.
 
 - [x] ALIFE-01/02: identity, membership, native creation/registration/release and callback boundaries.
+- [ ] ALIFE-03 effective smart/board layer: winning assignment, reach/jobs/task handoff and runtime remain open; installed inputs are investigated privately.
 - [x] ALIFE-04: bounded native save/load and supplied CtZ identity reconstruction.
 - [x] ALIFE-05/06/07: scheduling/brains, graph movement, online realization, client state return and offline teardown.
 - [x] ALIFE-08: native switching permissions, distance hysteresis, attachment/group/member gates and supplied forced-status boundary. See [report](08-research/investigations/2026-10-11-ALIFE-08-switching-eligibility.md).
 - [x] WAR-002 package pass: supplied variants, targeting/arrival boundaries, ownership/autocapture and offline combat call sites.
-- [ ] ALIFE-03 effective smart/board layer: assignment/unassignment, reach tests, member registration, jobs and native task/restriction handoff. Selected uploaded core assignment/registration paths are now traced in PROFILE-01; complete winning overrides, reach/jobs/task handoff and runtime remain open.
 - [ ] Effective Warfare closure: active files, module/startup replacements and callback order; relevant spawning/strategy/configuration contracts for targeting, capture and combat. Selected supplied-package controls are documented; installed closure requires effective sources.
 - [ ] Death/safe-release closure: creature overrides, casualty notification, membership cleanup and queued release; establish online/offline convergence from effective scripts.
 - [ ] Persistence integration: effective save/load order and storage wrappers, restoration of strategic state, CtZ reconciliation and campaign/ID safety. The native/CtZ source pass is complete within its documented boundary.

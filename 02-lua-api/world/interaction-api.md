@@ -1,13 +1,13 @@
 # Selected use zone level-changer and marker APIs
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: WORLD-03-API
 - Subsystem: world interaction/navigation
 - Research revision: v0.1.72
 - C++/Lua owners: CScriptGameObject → game_object; CLevel → level; native use/zone/changer/map managers are distinct owners
 - Interface kind: selected Lua exports, native callbacks and native/bundled callers
-- Baseline/provenance: ENGINE1011 [manifest](../../evidence/manifest.md); archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`
+- Baseline/provenance: ENGINE1011 [manifest](../../evidence/manifest.md); archive SHA-256 `withheld-upload-fingerprint`
 - Source status: source-confirmed selected definitions/registrations/callers
 - Runtime status: untested; deferred
 - Build scope: inspected game registrars; INPUT_CALLBACKS/ENGINE_LUA_ALIFE_UPDAGE_MANAGER_CALLBACKS and singleplayer branches qualified; executable/compiler/profile correspondence unknown

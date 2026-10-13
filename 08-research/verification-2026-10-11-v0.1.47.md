@@ -1,6 +1,6 @@
 # FAC-04 source and repository verification — v0.1.47
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: selected native action-driven goodwill, rank/reputation contributions and Lua value/flag contracts
@@ -10,7 +10,7 @@
 
 ## Source and semantic review
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` pins the snapshot; upstream commit/executable/build and effective settings/scripts remain unknown.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint` pins the snapshot; upstream commit/executable/build and effective settings/scripts remain unknown.
 
 [New ledger](../evidence/factions/action-goodwill-2026-10-11.csv): 20 entries across 19 files and 24 range groups. Read Hit/Die callers, fight memory/first-match/expiry, action settings and eligibility, attack/kill/help outcomes, numerical bands/tables/setters, Lua declarations/registrations/receiver checks, relation flags and mask implementation, actor display side effects and device clock.
 

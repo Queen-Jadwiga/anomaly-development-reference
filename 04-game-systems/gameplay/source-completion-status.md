@@ -1,6 +1,6 @@
 # Gameplay state source completion and remaining work
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **As of 12 October 2026:** GAME-01 base condition/live hits, GAME-02 actor effects/equipment, GAME-03 selected derived death/restoration, and GAME-04 practical consolidation/bounded audit are complete within their available-source boundaries. [Development reference](development-reference.md). Full effective installed integration remains **partial**; runtime **untested** and deferred.
 

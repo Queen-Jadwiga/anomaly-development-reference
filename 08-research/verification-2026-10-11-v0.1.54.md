@@ -1,6 +1,6 @@
 # ITEM-01 increment verification — v0.1.54
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: selected native inventory/server/actor/box ownership and Lua request contracts
@@ -9,7 +9,7 @@
 
 ## Source review
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; unknown upstream commit/installed executable correspondence. [New ledger](../evidence/inventory/ownership-lifecycle-2026-10-11.csv): 20 entries across 16 files, 25 range groups. Read selected native Take/DropItem/CanTakeItem, owner and actor overrides, actor and box events, server take/reject/routing and single-player graph-helper callers, live parent/item hooks, Lua methods/registration/declarations/SAFE_WRAP and available-item enumeration/filtering.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; unknown upstream commit/installed executable correspondence. [New ledger](../evidence/inventory/ownership-lifecycle-2026-10-11.csv): 20 entries across 16 files, 25 range groups. Read selected native Take/DropItem/CanTakeItem, owner and actor overrides, actor and box events, server take/reject/routing and single-player graph-helper callers, live parent/item hooks, Lua methods/registration/declarations/SAFE_WRAP and available-item enumeration/filtering.
 
 Semantic comparison separates server ID containment, live parenting and inventory membership/place; server graph calls versus their deeper effects; event requests versus completion/atomicity; callback point versus subsequent weight/attachment/UI updates; active code versus commented cleanup; available-item list versus raw all-item membership. Native callback exports are not conflated with effective shared-script callbacks. Broader NPC consumers, converter/reentrancy/lifetime certification, equipment internals, consumption/destruction and item reconstruction are outside this pass.
 

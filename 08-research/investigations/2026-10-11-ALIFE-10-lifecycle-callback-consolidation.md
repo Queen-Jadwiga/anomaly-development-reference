@@ -1,6 +1,6 @@
 # ALIFE-10 — Lifecycle and callback reference consolidation
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ALIFE-10
 - Subsystem: A-Life / Warfare integration
@@ -21,7 +21,7 @@ Excluded: new effective GAMMA file discovery, all entity subclasses/AI, every ca
 
 ## Evidence and method
 
-Source snapshot: `xray-monolith-2026.10.11.zip`, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. Exact upstream commit and installed executable equivalence are unknown.
+Source snapshot: `xray-monolith-2026.10.11.zip`, SHA-256 `withheld-upload-fingerprint`. Exact upstream commit and installed executable equivalence are unknown.
 
 The [new synthesis ledger](../../evidence/alife/lifecycle-callbacks-2026-10-11.csv) follows the current eight-column evidence schema. Its 47 entries over 39 unique source files retain the original source hashes and selected ranges, name relevant symbols, and identify the originating investigation ledger/ID in `subject`. Labels L01–L47 are local to this ledger. The existing ledgers remain unchanged.
 

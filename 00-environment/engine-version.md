@@ -1,6 +1,6 @@
 # Installed engine baseline — ENV-001
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **Status:** Runtime-observed from user's X-Ray startup logs. **Baseline:** 2026-10-09.
 
@@ -14,7 +14,7 @@
 
 ### Raw evidence
 
-Three supplied log headers: `xray_erik(20261008-031926).log`, `xray_erik(20261009-005123).log`, `xray_erik(20261009-100733).log` all contain:
+Three supplied log headers: `anonymized historical startup observation`, `anonymized historical startup observation`, `anonymized historical startup observation` all contain:
 
 ```text
 'xrCore' build 9959, May 15 2026

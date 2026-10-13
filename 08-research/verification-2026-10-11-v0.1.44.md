@@ -1,6 +1,6 @@
 # FAC-01 source and repository verification — v0.1.44
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: native faction identity/query foundations and selected Lua contracts
@@ -10,7 +10,7 @@
 
 ## Inputs and claim review
 
-ENGINE1011 is pinned by archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit, installed executable/configuration and effective GAMMA overrides remain unknown. No third-party source/configuration assets are published.
+ENGINE1011 is pinned by archive SHA-256 `withheld-upload-fingerprint`; upstream commit, installed executable/configuration and effective GAMMA overrides remain unknown. No third-party source/configuration assets are published.
 
 FAC-01's [18-file ledger](../evidence/factions/native-relations-2026-10-11.csv) covers community/INI loaders, relation registry, selected client declarations/wrappers/registrations, module helpers and stalker/trader/base virtual paths. Reviewed direction, storage, fallback, threshold boundaries, aggregation terms, selected mutation/limit paths, type requirements and argument order. The [reference](../04-game-systems/factions/native-relations.md) and [API](../02-lua-api/factions/relations-api.md) distinguish character identity, directed contributions, derived attitude, monster fallback and strategic owner state.
 

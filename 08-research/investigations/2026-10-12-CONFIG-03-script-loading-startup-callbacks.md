@@ -1,6 +1,6 @@
 # CONFIG-03 — Native script loading, startup and shared callbacks
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-03
 - Subsystem: configuration/script integration
@@ -8,7 +8,7 @@
 - Record status: complete-within-scope; effective installed integration partial
 - Source status: source-confirmed selected ENGINE1011 native/bundled contracts; scoped-source-audit for filename availability
 - Runtime status: untested; deferred
-- Baseline IDs and provenance: ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; [baseline](../../00-environment/source-baseline-2026-10-11.md), [manifest](../../evidence/manifest.md)
+- Baseline IDs and provenance: ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; [baseline](../../00-environment/source-baseline-2026-10-11.md), [manifest](../../evidence/manifest.md)
 - Last reviewed: 2026-10-12
 
 ## Question and scope

@@ -1,6 +1,6 @@
 # ALIFE-07 — Client-to-server position synchronization and offline teardown
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **ADR v0.1.37 · 11 October 2026 · bounded source investigation; runtime verification deferred.**
 
@@ -8,7 +8,7 @@ Online creature position returns to the server through `M_UPDATE`. Offline switc
 
 ## Baseline and evidence
 
-This report uses the supplied `xray-monolith-2026.10.11` archive, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. Its exact upstream commit and equivalence to the installed executable are unverified. Paths and one-based lines below refer to the extracted archive, not an inferred upstream revision. [The evidence ledger](../../evidence/alife/client-server-offline-evidence-oct11.csv) records full-file hashes and inspected ranges. Evidence labels S01–S25 refer to that ledger.
+This report uses the supplied `xray-monolith-2026.10.11` archive, SHA-256 `withheld-upload-fingerprint`. Its exact upstream commit and equivalence to the installed executable are unverified. Paths and one-based lines below refer to the extracted archive, not an inferred upstream revision. [The evidence ledger](../../evidence/alife/client-server-offline-evidence-oct11.csv) records full-file hashes and inspected ranges. Evidence labels S01–S25 refer to that ledger.
 
 This extends [ALIFE-06](2026-10-11-ALIFE-06-graph-online-realization.md), [ALIFE-05](2026-10-11-ALIFE-05-offline-scheduling-brains.md), and [ALIFE-04](2026-10-11-ALIFE-04-save-load-identity.md). Effective GAMMA scripts, startup wrappers and build settings remain unverified.
 

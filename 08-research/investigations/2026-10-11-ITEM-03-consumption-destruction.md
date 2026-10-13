@@ -1,6 +1,6 @@
 # ITEM-03 — Consumption, destruction and owner cleanup
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-03
 - Subsystem: inventory
@@ -17,7 +17,7 @@ What separates use effects, exhaustion/drop, destruction requests, server/client
 
 ## Evidence and method
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit/binary/profile unknown. [D01–D18 ledger](../../evidence/inventory/consumption-destruction-2026-10-11.csv) pins original paths/bytes/counts/ranges. Read definitions/callers/registration and active-versus-commented gates; compare u8 declaration with literal infinite-use comment and effect/return order. Interpretation does not substitute for runtime.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream commit/binary/profile unknown. [D01–D18 ledger](../../evidence/inventory/consumption-destruction-2026-10-11.csv) pins original paths/bytes/counts/ranges. Read definitions/callers/registration and active-versus-commented gates; compare u8 declaration with literal infinite-use comment and effect/return order. Interpretation does not substitute for runtime.
 
 ## Findings
 

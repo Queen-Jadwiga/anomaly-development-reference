@@ -1,6 +1,6 @@
 # ECO-02 — Trader configuration and supplied economy consumers
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ECO-02
 - Subsystem: trade/economy
@@ -17,7 +17,7 @@ Trace native action parsing, default policy, supply requests, selected Lua bindi
 
 ## Evidence and method
 
-[Ledger](../../evidence/economy/trader-configuration-2026-10-12.csv): T01–T21, file hashes, archive-relative paths and line/symbol ranges. [Supplied source scope](../../evidence/economy/supplied-source-scope-2026-10-12.json) records package inventory counts, manifest digest and absent core inputs. Archive pins: ENGINE1011 14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee; BETA150 9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d; ZIP142 566739c68b4597ab417e98ee9e3ce11858f3d42ed29a39d7e3c39ed2d76443a8. Upstream/installed winners and binary correspondence unknown. Read definitions, declarations, registrations and callers; compare comments to literal predicates and loop bounds.
+[Ledger](../../evidence/economy/trader-configuration-2026-10-12.csv): T01–T21, file hashes, archive-relative paths and line/symbol ranges. [Supplied source scope](../../evidence/economy/supplied-source-scope-2026-10-12.json) records package inventory counts, manifest digest and absent core inputs. Archive pins: ENGINE1011 withheld-upload-fingerprint; BETA150 withheld-upload-fingerprint; ZIP142 withheld-upload-fingerprint. Upstream/installed winners and binary correspondence unknown. Read definitions, declarations, registrations and callers; compare comments to literal predicates and loop bounds.
 
 ## Findings
 

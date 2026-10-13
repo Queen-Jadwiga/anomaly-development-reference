@@ -1,6 +1,6 @@
 # Persistence source completion and remaining work
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 **As of 11 October 2026:** planned selected native, supplied Lua and CtZ persistence research, practical consolidation and bounded final available-source audit are complete within scope. The [development reference](development-reference.md) is usable within those documented source boundaries. Full effective GAMMA/CtZ persistence is **partial**; runtime is **untested** and deferred until the user explicitly resumes it.
 

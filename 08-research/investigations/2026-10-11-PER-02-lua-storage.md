@@ -1,6 +1,6 @@
 # PER-02 — Supplied Lua storage contracts and effective-profile gaps
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: PER-02
 - Subsystem: persistence
@@ -19,7 +19,7 @@ Include native Marshal value/reference/type/error/registration mechanics, shared
 
 ## Provenance and method
 
-ENGINE1011 archive hash `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; BETA150 archive hash `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d`. CTZ005J is Alpha 0.0.5j at commit `eba6660db09353dcc42a195ae6e7e706f4762277`; local campaign-script blob matches committed `25638cc5ae5ed81ceddacf6c16f39f53a5f4d791`. Engine executable/winning profile correspondence remains unknown.
+ENGINE1011 archive hash `withheld-upload-fingerprint`; BETA150 archive hash `withheld-upload-fingerprint`. CTZ005J is Alpha 0.0.5j at commit `eba6660db09353dcc42a195ae6e7e706f4762277`; local campaign-script blob matches committed `25638cc5ae5ed81ceddacf6c16f39f53a5f4d791`. Engine executable/winning profile correspondence remains unknown.
 
 [Ledger L01–L13](../../evidence/persistence/lua-storage-2026-10-11.csv) records 13 entries across ten source files. Read codec encode/decode/types/refs, extension startup, callback forwarding, binder branches, pstor tagged fields, selected namespace aliasing/consume-clear and helper calls.
 

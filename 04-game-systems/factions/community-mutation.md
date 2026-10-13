@@ -1,13 +1,13 @@
 # Character-community mutation and team/group effects
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-03
 - Source status: source-confirmed within selected native setters, registrations and packet consumers
 - Runtime status: untested; deferred until explicitly resumed by the user
 - Last reviewed: 2026-10-11
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee` pins this source. Upstream commit, executable/build and installed script/configuration correspondence remain unknown. M01–M19 refer to the [community-mutation ledger](../../evidence/factions/community-mutation-2026-10-11.csv), with file/line/symbol/hash pins. Read with [identity and relation queries](native-relations.md), [persistence/reset](relation-persistence.md), and [focused setter contracts](../../02-lua-api/factions/community-mutation-api.md).
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint` pins this source. Upstream commit, executable/build and installed script/configuration correspondence remain unknown. M01–M19 refer to the [community-mutation ledger](../../evidence/factions/community-mutation-2026-10-11.csv), with file/line/symbol/hash pins. Read with [identity and relation queries](native-relations.md), [persistence/reset](relation-persistence.md), and [focused setter contracts](../../02-lua-api/factions/community-mutation-api.md).
 
 ## Distinct identities and memberships
 

@@ -1,12 +1,12 @@
 # Item placement and active-slot transitions
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ITEM-02
 - Research revision: v0.1.55
 - Source status: source-confirmed selected native and actor event paths
 - Runtime status: untested; deferred until explicitly resumed by the user
-- Baseline: ENGINE1011, archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`
+- Baseline: ENGINE1011, archive SHA-256 `withheld-upload-fingerprint`
 - Last reviewed: 2026-10-11
 
 P01–P19 refer to the [placement ledger](../../evidence/inventory/placement-activation-2026-10-11.csv). Unknown upstream commit/executable/profile correspondence remains unknown. [Investigation](../../08-research/investigations/2026-10-11-ITEM-02-placement-activation.md), [Lua contracts](../../02-lua-api/inventory/placement-api.md), [ownership foundation](ownership-lifecycle.md).

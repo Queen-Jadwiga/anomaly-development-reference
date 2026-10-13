@@ -1,6 +1,6 @@
 # FAC-05 increment verification — v0.1.48
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - Date: 2026-10-11
 - Scope: selected BETA150 main-package Warfare faction/relation consumers
@@ -12,7 +12,7 @@
 
 This verifies FAC-05's evidence and repository changes. **Faction consolidation and the final available-source consistency audit remain separate later work**, as requested; neither is completed by this report.
 
-BETA150 archive SHA-256 `9f71999bb44cb6d3e41c431feaf5be4714159522df1fa8d71599ac039946315d` pins the supplied snapshot. Only main-package paths are selected; installed winners, optional variant equivalence, settings/helpers and callback order remain unknown.
+BETA150 archive SHA-256 `withheld-upload-fingerprint` pins the supplied snapshot. Only main-package paths are selected; installed winners, optional variant equivalence, settings/helpers and callback order remain unknown.
 
 ## Source checks
 

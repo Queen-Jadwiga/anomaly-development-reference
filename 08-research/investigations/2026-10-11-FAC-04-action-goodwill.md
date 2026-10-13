@@ -1,6 +1,6 @@
 # FAC-04 — Action-driven goodwill and rank/reputation contributions
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-04
 - Subsystem: factions / relations
@@ -19,7 +19,7 @@ Include native Hit/Die entry gates, fight registry/throttle/help inference, acti
 
 ## Evidence and method
 
-ENGINE1011 archive SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`; upstream commit/executable/profile correspondence unknown. [Ledger A01–A20](../../evidence/factions/action-goodwill-2026-10-11.csv): 20 entries across 19 files, with selected symbols/ranges and full-file hashes.
+ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`; upstream commit/executable/profile correspondence unknown. [Ledger A01–A20](../../evidence/factions/action-goodwill-2026-10-11.csv): 20 entries across 19 files, with selected symbols/ranges and full-file hashes.
 
 Read native entry/caller and outcome bodies, fight first-match/expiry logic, settings read points, rank/reputation loaders/tables, setters, declarations/registrations, flag implementation and object-bound death phase. Compare conditions against comments, distinguishing directed target-to-source relation from symmetric/strategic state. Follow previously pinned Warfare offline boundaries without importing installed script behavior.
 

@@ -1,13 +1,13 @@
 # Native faction identity, goodwill and relation resolution
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-01
 - Source status: source-confirmed within selected native definitions and Lua registrations
 - Runtime status: untested; deferred until explicitly resumed by the user
 - Last reviewed: 2026-10-11
 
-Baseline ENGINE1011 is the uploaded October 11 source archive, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. Upstream commit, installed executable, configuration tables and GAMMA overrides remain unknown. F01–F18 below are local to the [native relation ledger](../../evidence/factions/native-relations-2026-10-11.csv), which records paths, symbols, ranges and hashes. Read with the [focused Lua contracts](../../02-lua-api/factions/relations-api.md) and [investigation](../../08-research/investigations/2026-10-11-FAC-01-native-relations.md).
+Baseline ENGINE1011 is the uploaded October 11 source archive, SHA-256 `withheld-upload-fingerprint`. Upstream commit, installed executable, configuration tables and GAMMA overrides remain unknown. F01–F18 below are local to the [native relation ledger](../../evidence/factions/native-relations-2026-10-11.csv), which records paths, symbols, ranges and hashes. Read with the [focused Lua contracts](../../02-lua-api/factions/relations-api.md) and [investigation](../../08-research/investigations/2026-10-11-FAC-01-native-relations.md).
 
 ## Identity is not attitude or ownership
 

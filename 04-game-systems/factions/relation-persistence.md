@@ -1,13 +1,13 @@
 # Native relation persistence, reset and ID cleanup
 
-> ADR document set: **v0.1.83**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
 
 - ID: FAC-02
 - Source status: source-confirmed within the selected native paths; cleanup/serializer negative findings are scoped
 - Runtime status: untested; deferred until explicitly resumed by the user
 - Last reviewed: 2026-10-11
 
-ENGINE1011 is the uploaded October 11 archive, SHA-256 `14d82b26f0e2579898e912c87224ee87a4c9daafc0c5950d5a322406d15e6aee`. Upstream commit and executable/effective profile correspondence remain unknown. P01–P18 refer to the [FAC-02 ledger](../../evidence/factions/relation-persistence-2026-10-11.csv), independently of earlier F-labels. Read with [native relation queries](native-relations.md), [Lua contracts](../../02-lua-api/factions/relations-api.md) and [ALIFE-04](../../08-research/investigations/2026-10-11-ALIFE-04-save-load-identity.md).
+ENGINE1011 is the uploaded October 11 archive, SHA-256 `withheld-upload-fingerprint`. Upstream commit and executable/effective profile correspondence remain unknown. P01–P18 refer to the [FAC-02 ledger](../../evidence/factions/relation-persistence-2026-10-11.csv), independently of earlier F-labels. Read with [native relation queries](native-relations.md), [Lua contracts](../../02-lua-api/factions/relations-api.md) and [ALIFE-04](../../08-research/investigations/2026-10-11-ALIFE-04-save-load-identity.md).
 
 ## Two storage domains
 
