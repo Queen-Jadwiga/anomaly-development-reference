@@ -1,6 +1,6 @@
 # UI and PDA
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 Start with the [development reference](development-reference.md) and [source completion/remaining work](source-completion-status.md). The documented source foundation is usable within its selected scope; independent runtime and effective addon integration remain open, with attributed external reports retained separately.
 
@@ -12,3 +12,7 @@ Start with the [development reference](development-reference.md) and [source com
 - [Scoped supplementary audit](ui06-supplementary-registration-emission-build-modal-oct11.md), [external runtime review](../08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md).
 
 Older starter/dataset baselines remain historical or scope-specific; this hub does not promote them to a different source version. [Subsystem map](../08-research/subsystem-map.md).
+
+## Observed button-contract failure
+
+[UI-07](../08-research/investigations/2026-10-13-UI-07-button-checkbox-contract.md) distinguishes Init3tButton from InitCheck, subclass-only Lua exports and over-permissive fixtures. The failure is observed; the corrected native path awaits game retesting.

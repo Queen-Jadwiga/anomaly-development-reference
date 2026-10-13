@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.75
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.75, based on main `ee4c077bd9f4c6e3b20b0cb4c79d67e01c6430a6`
 - Changed scope: CONFIG-02 selected LTX/INI/DLTX native and Lua contracts

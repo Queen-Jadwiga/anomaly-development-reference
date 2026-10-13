@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — v0.1.84
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 - Target ADR revision: v0.1.84; parent v0.1.83
 - Changed scope: public-content privacy, withdrawal of installation-derived records, navigation and bounded privacy guard

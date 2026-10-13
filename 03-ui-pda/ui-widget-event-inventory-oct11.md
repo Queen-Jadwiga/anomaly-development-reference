@@ -1,6 +1,6 @@
 # UI-06 — October 11 Lua widget and event binding inventory
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 **Status:** Source-catalogued, runtime validation deferred. This is a lexical inventory of the scoped UI registration sources, *not* proof that all names are callable in every context.
 
@@ -269,3 +269,7 @@ For `CUIWindow::AttachChild`, `adopt<2>()` remains distinct from native AutoDele
 ## CtZ usage constraint
 
 Use the class table to locate candidate native functionality; verify method signature, instance construction, ownership, and routing in the source before adopting it in production. This inventory is an index for follow-up, not a blanket compatibility guarantee.
+
+## Button and checkbox contract warning
+
+`Init3tButton` returns a `CUI3tButton`; `SetCheck` belongs to `CUICheckButton` (and separately CUITrackBar), not the button base. XML styling does not change that export contract. The Command-tab failure exposed a permissive mock, not an incorrect catalog row. [UI-07 source/runtime review](../08-research/investigations/2026-10-13-UI-07-button-checkbox-contract.md).

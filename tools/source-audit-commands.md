@@ -1,6 +1,6 @@
 # Reproducible pinned checkout and audit
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 ```bash
 git clone https://github.com/themrdemonized/xray-monolith.git

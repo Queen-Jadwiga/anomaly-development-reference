@@ -1,6 +1,6 @@
 # Public research content and privacy
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 ADR publishes reusable technical findings, source/build versions, source-file hashes, contract evidence and aggregate test outcomes. A private intake is not permission to publish every fact in the attached file.
 

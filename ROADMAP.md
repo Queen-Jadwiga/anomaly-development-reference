@@ -1,6 +1,6 @@
 # ADR roadmap
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 ## Privacy and development continuation
 
@@ -124,3 +124,7 @@ See [completion requirements](04-game-systems/tasks/source-completion-status.md)
 ## World effective integration backlog
 
 Winning source/configuration/helper/dispatcher/binder/storage requirements remain in [world completion status](04-game-systems/world/source-completion-status.md). Reconcile bookmark and graph/member state, contacts versus zone tables, accepted versus completed use/travel, marker manager versus Lua caches/loaded state and option-path discrepancies. Runtime observations remain deferred; the completed available-source pass does not close these inputs.
+
+## UI-07 targeted game retest
+
+Retest corrected Command entry, repeated officer/target collapse and tab switching in CtZ Experimental 0.1.10. The button/checkbox contract is source-confirmed and the prior failure observed; native correction success remains pending. [Investigation](08-research/investigations/2026-10-13-UI-07-button-checkbox-contract.md).

@@ -1,6 +1,6 @@
 # ADR v0.1.5 — text/UI declaration audit
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 Pinned version: May 15 2026 / `6a08e0905ce34748ee2904a5e0809f8afd141137`.
 

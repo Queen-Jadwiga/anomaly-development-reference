@@ -1,6 +1,6 @@
 # B-02 — client UI font manager lifecycle and device-reset handling
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 **Baseline:** user-supplied X-Ray Monolith source `2026.10.11`. **Status:** source research complete; runtime checks deferred. **Scope:** construction, destruction, device reset; not all engine font subsystems or precise cause of CtZ's prior crash.
 

@@ -1,6 +1,6 @@
 # Debugging reference
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 
 Start with [selected native/Lua diagnostic routes](diagnostic-routes.md), then [provenance-aware triage](triage.md). **DEBUG-01 is complete within selected source scope**; effective executable/profile chains remain partial. Runtime verification stays deferred.

@@ -1,6 +1,6 @@
 # Provenance-aware diagnostic triage
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 - ID: DEBUG-01-TRIAGE
 - Subsystem: practical debugging

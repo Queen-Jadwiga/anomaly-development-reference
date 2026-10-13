@@ -1,0 +1,5 @@
+evidence_id,source_id,source_path,symbol,line_ranges,file_sha256,line_count,subject
+S01,UPSTREAM-UI07-c57fe5b9fab4fe0506659db03137c52d2500eb2f,src/xrGame/ui/UIButton_script.cpp,CUIButton::script_register,17-30;44-48,2792885bf2bab39cd6139a1cbf2130cb94e851027bdc38302dc4ff11556b377d,59,Button hierarchy; subclass-only SetCheck exports
+S02,UPSTREAM-UI07-c57fe5b9fab4fe0506659db03137c52d2500eb2f,src/xrGame/ScriptXMLInit.cpp,CScriptXmlInit::InitCheck / Init3tButton,228-234;268-274,6b4729bc3c7987ec374f64706dd1cd44e6a0a70cdb954713d808d66ff9fcc509,407,Exact factory allocation and return classes
+S03,UPSTREAM-UI07-c57fe5b9fab4fe0506659db03137c52d2500eb2f,src/xrGame/ui/UIXmlInit.cpp,CUIXmlInit::Init3tButton,362-428,a39e4f0746535bbba4a564722b878177682263f65be7826c8a0c76c40a45dbab,1380,Scoped initializer has no check_mode read
+S04,UPSTREAM-UI07-c57fe5b9fab4fe0506659db03137c52d2500eb2f,src/xrGame/ui/UIStatic_script.cpp,CUIStatic::script_register,13-29,4b0a4fcee361fb975aed3eeb6cd08c1b89679f0415f4795f77af42e4d11524d2,71,Inherited TextControl and CUILines text/color exports

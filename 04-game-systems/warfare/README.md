@@ -1,6 +1,6 @@
 # Warfare
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 Start with the [development reference](development-reference.md) and [completion status](source-completion-status.md). Selected available-source package/policy work is complete within scope; effective installed policy remains partial and runtime untested/deferred.
 

@@ -1,6 +1,6 @@
 # CONFIG-04 — Supplied consumers, consolidation and bounded audit
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 - ID: CONFIG-04
 - Subsystem: configuration/script integration

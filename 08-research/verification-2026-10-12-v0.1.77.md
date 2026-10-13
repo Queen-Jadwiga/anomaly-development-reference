@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.77
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.77, based on main `55fccbc64f9fcdaae41e00c5e714408c3231a146`
 - Scope: CONFIG-04 consumers, practical consolidation and bounded CONFIG-01–04 audit

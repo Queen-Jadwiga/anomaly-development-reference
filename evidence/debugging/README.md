@@ -1,6 +1,6 @@
 # Selected debugging evidence
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 DEBUG-01 uses ENGINE1011 archive SHA-256 `withheld-upload-fingerprint`. Source paths are relative to its `xray-monolith-2026.10.11/` tree. Unknown upstream commit, exact executable equivalence and active profile remain explicit. [Environment](../../00-environment/source-baseline-2026-10-11.md), [manifest](../manifest.md).
 

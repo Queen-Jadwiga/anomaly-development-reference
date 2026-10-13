@@ -1,6 +1,12 @@
 # ADR changelog
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
+
+## v0.1.85 — 2026-10-13 — Button/checkbox contract and fixture lesson
+
+- UI-07 traces Init3tButton versus InitCheck, subclass-only SetCheck exports, scoped XML initialization and supported inherited text APIs at an immutable public source commit.
+- Record the private observed CtZ 0.1.9 Command failure without publishing raw logs or installation metadata; explain how a permissive shared-widget fixture masked the invalid call and require negative capability checks.
+- Existing binding catalogs remain correct and unchanged. Corrected local CtZ 0.1.10 behavior is pending game retest; no gameplay code or third-party assets published in ADR. [Investigation](08-research/investigations/2026-10-13-UI-07-button-checkbox-contract.md), [verification](08-research/verification-2026-10-13-v0.1.85.md).
 
 ## v0.1.84 — 2026-10-12 — Public-content privacy audit
 

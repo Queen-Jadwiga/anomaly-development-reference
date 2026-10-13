@@ -1,6 +1,6 @@
 # Verification — 2026-10-12 — ADR v0.1.76
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 - Target revision: v0.1.76, based on main `dbdacad1c79d7f41826483c18a727d8d56a40262`
 - Changed scope: CONFIG-03 native loading/startup/shared callback contracts and explicit prior event-count correction

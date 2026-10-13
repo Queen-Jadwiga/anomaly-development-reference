@@ -1,6 +1,6 @@
 # Test guidance for qualified mod patterns
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ARCH-03-TESTS
 - Subsystem: practical architecture / verification
@@ -70,3 +70,7 @@ Runtime remains deferred under the user's standing instruction. Document-only ch
 A promotion record states exactly which checks passed, which dependencies remain unknown, what failures/cleanup/repeats were covered, and the runtime status. Pure model tests can justify a model-level claim while integration remains partial. Keep the label experimental until its stated integration contract is supported; reserve runtime-tested for recorded executable/profile outcomes. Q02/Q05/Q07/Q12–Q16.
 
 ARCH-03 completes this selected guidance and the [bounded practical audit](../08-research/verification-2026-10-12-v0.1.81.md). No new test implementation, runnable pattern or runtime result is added. The later whole-ADR audit remains separate. [Central reference](development-reference.md), [roadmap](../ROADMAP.md).
+
+## Runtime lesson: negative widget capabilities
+
+The observed CtZ Experimental 0.1.9 Command failure passed earlier fixtures because a shared fake window exposed checkbox-only SetCheck on ordinary buttons. Use per-class capability contracts with an independently checked factory/export owner, assert important methods are absent on the wrong classes, and execute feature entry plus repeated refresh/toggle paths. The corrected local fixtures are bounded implementation evidence; game retesting remains pending. [UI-07](../08-research/investigations/2026-10-13-UI-07-button-checkbox-contract.md).

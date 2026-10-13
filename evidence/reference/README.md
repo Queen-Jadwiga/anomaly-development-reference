@@ -1,6 +1,6 @@
 # Whole-reference audit evidence
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 ADR-01 audits baseline v0.1.81 commit `dc826c78041971cac96710b329b6ce85905e8e13`. The scope is every baseline file/dataset structure and current provenance/navigation/completion contracts, not every native interpretation or installed profile. [Status](../../08-research/reference-status.md), [provenance](../../00-environment/provenance-register.md), [investigation](../../08-research/investigations/2026-10-12-ADR-01-whole-reference-audit.md).
 

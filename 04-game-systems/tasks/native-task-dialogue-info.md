@@ -1,6 +1,6 @@
 # Native task dialogue and info state
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 - ID: TASK-01
 - Subsystem: tasks/dialogue/info state

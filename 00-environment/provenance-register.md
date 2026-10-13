@@ -1,6 +1,6 @@
 # ADR provenance register
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 - ID: ADR-01-PROVENANCE
 - Research revision: v0.1.82

@@ -1,6 +1,6 @@
 # Actor and NPC gameplay state
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 
 - [Practical development reference](development-reference.md).

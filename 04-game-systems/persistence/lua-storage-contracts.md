@@ -1,6 +1,6 @@
 # Supplied Lua storage contracts and effective-profile gaps
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 - ID: PER-02
 - Source status: source-confirmed for selected codec/callers; scoped-source-audit for missing implementations

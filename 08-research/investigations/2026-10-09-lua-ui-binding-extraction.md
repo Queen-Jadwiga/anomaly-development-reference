@@ -1,6 +1,6 @@
 # Investigation: UI Lua binding extraction
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 ## Source and scope
 - Pin: `6a08e0905ce34748ee2904a5e0809f8afd141137`.

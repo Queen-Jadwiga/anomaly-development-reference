@@ -1,6 +1,6 @@
 # Source repositories — SRC-001
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 **Historical intake/orientation:** original May research limitations below are retained. Later scoped UI extraction records the full May commit in the [API catalog](../02-lua-api/api-index.md); the [provenance register](provenance-register.md) distinguishes that source pin, the preferred October archive and unverified binary correspondence.
 

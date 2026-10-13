@@ -1,8 +1,8 @@
 # ADR index
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
-Start with [whole-reference status](08-research/reference-status.md), [subsystem map](08-research/subsystem-map.md), [provenance register](00-environment/provenance-register.md), [API catalogs](02-lua-api/api-index.md), [practical guide](05-mod-architecture/development-reference.md), [roadmap](ROADMAP.md) and [latest verification](08-research/verification-2026-10-12-v0.1.84.md).
+Start with [whole-reference status](08-research/reference-status.md), [subsystem map](08-research/subsystem-map.md), [provenance register](00-environment/provenance-register.md), [API catalogs](02-lua-api/api-index.md), [practical guide](05-mod-architecture/development-reference.md), [roadmap](ROADMAP.md) and [latest verification](08-research/verification-2026-10-13-v0.1.85.md).
 
 This complete Markdown file index groups current guides, detailed references, templates, dated investigations/verification and history by their actual canonical location. A title/revision is that record's scope, not current engine compatibility or a new runtime result. The current document-set banner is separate. Generated evidence/data and code are indexed through their category entries below; no source archives/assets are part of the ADR.
 
@@ -462,3 +462,9 @@ This complete Markdown file index groups current guides, detailed references, te
 - [test_public_content.py](tests/test_public_content.py)
 - [test_repository_checks.py](tests/test_repository_checks.py)
 
+
+## UI-07 latest evidence
+
+- [Button/checkbox Lua contracts and over-permissive fixtures](08-research/investigations/2026-10-13-UI-07-button-checkbox-contract.md)
+- [Verification — v0.1.85](08-research/verification-2026-10-13-v0.1.85.md)
+- [Source ledger](evidence/runtime/button-checkbox-contract-2026-10-13.csv)

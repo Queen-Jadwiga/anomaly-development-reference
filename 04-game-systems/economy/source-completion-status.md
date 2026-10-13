@@ -1,6 +1,6 @@
 # Economy source completion and remaining work
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 **As of 12 October 2026:** ECO-01 native money/pricing/selected UI trade, ECO-02 trader policy/supplies/selected supplied consumers, and ECO-03 practical consolidation/bounded audit are complete within their available-source scope. The [development reference](development-reference.md) is usable within those boundaries. Full effective installed integration is **partial**; runtime is **untested** and deferred.
 

@@ -1,11 +1,11 @@
 # Anomaly Development Reference (ADR)
 
-> ADR document set: **v0.1.84**. Research revisions and source/build versions below describe their original scope.
+> ADR document set: **v0.1.85**. Research revisions and source/build versions below describe their original scope.
 
 **Source-backed modding research for S.T.A.L.K.E.R. Anomaly / X-Ray Monolith / Modded Exes**
 
 > **Work in progress — independent research, not official engine documentation.**
-> Current ADR revision: **v0.1.84** (12 October 2026). Primary research source: the
+> Current ADR revision: **v0.1.85** (13 October 2026). Primary research source: the
 > **2026.10.11** X-Ray Monolith source archive. Independent target-installation testing remains pending; selected **external runtime observations** are documented with build limits.
 
 ## Public-content privacy
@@ -14,6 +14,8 @@
 
 
 ## Current runtime feedback
+
+[UI-07](08-research/investigations/2026-10-13-UI-07-button-checkbox-contract.md) records the observed CtZ Command-tab failure: SetCheck is a checkbox-subclass export, and a permissive fixture masked its absence on buttons. The native correction remains pending retest.
 
 [REV-01](08-research/investigations/2026-10-12-REV-01-external-runtime-issues.md) incorporates colleague reports without equating them to universal engine verification. UI quickload teardown and live-tab registration during loading remain open hazards. The confirmed property-catalog omission and build-history/dispatcher clarifications are corrected.
 
